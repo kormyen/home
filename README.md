@@ -1,12 +1,12 @@
 <img src='https://media.githubusercontent.com/media/kormyen/home/master/site/media/2019-07-09_21-13.jpg'/>
 
-[**Live web version here**](http://kor.nz)
+[**Live web version here**](https://kor.nz)
 
 # Home
 
 Home is a portfolio, time tracker and exocortex.
-
-No-JS by JS from JS - a no-JS static html/css website compiled by a nodejs server from a single-page JS webapp.
+- No-JS by JS from JS
+- No-JS static html/css website compiled by a nodejs server from a single-page JS webapp.
 
 Current benefits (compared to a static single-page client-side webapp)
 - Fully indexable by search engines
@@ -43,7 +43,7 @@ node home/server/build.js
 
 **Run**
 ```
-open home/docs/index.html
+open home/docs/index.html in a browser
 ```
 
 ## Dependencies
