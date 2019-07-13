@@ -62,7 +62,7 @@ fs.copyFile(path.join(__dirname, `CNAME`), path.join(directoryOutput,`CNAME`), (
 async function convertLinksToRoot(html)
 {
   html = html.split(`asset/`).join('/asset/');
-  html = html.split(`media/`).join('https://media.githubusercontent.com/media/kormyen/home/master/site/media/');
+  html = html.split(`src="media/`).join('src="https://media.githubusercontent.com/media/kormyen/home/master/site/media/');
   return html;
 }
 
