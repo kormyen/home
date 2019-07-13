@@ -4,7 +4,7 @@ function Pages()
 {
   this.db = null;
 
-  this.install = function(data, runelike)
+  this.install = function(data, runelike, inline)
   {
     this.db = new Indental(data).parse();
 
@@ -20,6 +20,17 @@ function Pages()
 			element.HtmlSidebar += `<div class='sidebar fontSizeSmall colorSecondary'>`;
       element.HtmlSidebar += `${element.DESC}<br><br>`;
       element.HtmlSidebar += `${element.DATE}<br><br>`;
+
+      // LINKS
+      if (element.LINK)
+      {
+        for (let l = 0; l < element.LINK.length; l++)
+        {
+          element.HtmlSidebar += inline.parse(element.LINK[l].substr(2));
+          element.HtmlSidebar += `<br><br>`;
+        }
+      }
+
 			element.HtmlSidebar += `</div>`;
 
       // Body HTML

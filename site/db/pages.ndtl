@@ -45,6 +45,8 @@ LOG
     p {tracker sector percentages}
     p The graph below is of productive hours per week over time.
     p {tracker week graph}
+  LINK
+    - {link ext logData}
 
 PROJECTS
   HEAD : 2011-11-25_12-00

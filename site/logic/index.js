@@ -33,7 +33,7 @@ function Index()
 		this.inline.install(this.media, this.links, this.log, this.projects);
 		this.runelike.install(this.media, this.inline);
 	    this.projects.install(PROJECTS, this.media, this.log, this.runelike, this.inline);
-		this.pages.install(PAGES, this.runelike);
+		this.pages.install(PAGES, this.runelike, this.inline);
 
 		this.main = document.querySelector('main');
 		this.header = new Header();
