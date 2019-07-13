@@ -1,0 +1,639 @@
+/*
+DATE = Gregorian day
+
+S = Sector (work type/category)
+H = Focus hour (day time % decimal)
+P = Percent (subjective concrete (or feeling of) progress toward this project/task/entry)
+
+K = Knowledge gained (feeling of wisdom increase, higher for more things learned or more value)
+I = Interest
+D = Difficulty
+E = Efficiency
+
+Sectors (task types)
+0 = misc
+1 = physical
+2 = electronics
+3 = code
+4 = design
+5 = audio
+6 = carpentry
+7 = research
+8 = boat
+9 = writing
+*/
+
+var SHELL = `
+DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-07-13 31- 6555 web        home            Repo clean up. Content fixes.
+2019-07-13 32- 5453 web        home            Repo clean up.
+2019-07-12 47- 5564 contract   sylo            QR code scan error. Wallet portfolio lock screen.
+2019-07-12 32- 6556 web        home            Add content.
+2019-07-11 32- 6556 web        home            Add content.
+2019-07-11 48- 6664 contract   sylo            Iterate payments.
+2019-07-10 33- 7666 web        home            Fix links! Set up domain name. Tweak content. Nav slash. Misc tweaks.
+2019-07-10 47- 6664 contract   sylo            Iterate payments. Make long press menu design.
+2019-07-09 32- 6664 web        home            Test and fix public site. Fix mobile. Fix linking.
+2019-07-09 32- 5655 web        home            Add new footer.
+2019-07-09 48- 6566 contract   sylo            Finalize payments. Spacing on address share. Sort devs with add contact. 
+2019-07-09 92- 6656 web        home            Add content. Add small photos. Add improved photo article layouts.
+2019-07-08 95- 6555 web        home            Add content.
+2019-07-07 91- 5655 web        home            Add content.
+2019-07-07 32- 6656 web        home            Improve photo lens pick. Add missing small photos.
+2019-07-07 33- 5654 web        home            Minor improvements fixing images etc. Add content.
+2019-07-07 31- 5554 web        home            Improve build structure. Fix media/links etc.
+2019-07-06 33- 6564 web        home            Fix build images, links, css etc.
+2019-07-06 31- 6565 web        home            Got link switching working for builds and not builds.
+2019-07-06 31- 5556 web        home            Fix about bug. Head img def to db. Proj inline links. New build struct.
+2019-07-05 33- 6565 web        home            Refactor runelike. Refactor inline. Inline for sidebars and log stats.
+2019-07-05 33- 6555 web        home            Refactor runelike links. Add external links db setup for runelike.
+2019-07-04 33- 7555 web        home            Set up new runelink project, page, ext linking.
+2019-07-04 41- 6456 contract   sylo            Iterate on new payment design.
+2019-07-03 33- 6455 web        home            Fix focus only two projs. Fix log proj not showing. Add content.
+2019-07-03 31- 6756 web        home            Add details to DBs. Fix focus only two projs. Fix log proj not showing.
+2019-07-03 48- 6675 contract   sylo            Redesign payments.
+2019-07-02 31- 5556 web        home            Add projects, misc pages, project and photo lists to build.
+2019-07-02 41- 5556 misc       ecohamlet       Map overlay first pass.
+2019-07-02 48- 6565 contract   sylo            Finalize design spacing.
+2019-07-01 12- 6465 van        maintenance     Fix driver side mirror.
+2019-07-01 48- 6475 contract   sylo            Finalize new payment designs.
+2019-06-30 16- 6566 boat       reno            Sanding lounge. Planning.
+2019-06-29 31- 5655 web        home            Add links to sidebar for project pages.
+2019-06-28 48- 6454 contract   sylo            Clean final designs in component library. Started on payment finals.
+2019-06-27 48- 6577 contract   sylo            Hackathon.
+2019-06-26 31- 6555 web        home            Fix text overlaying images.
+2019-06-26 47- 6555 contract   sylo            Clean up of designs. Discuss hackathon.
+2019-06-25 31- 6655 web        home            Debugging text overlaying images.
+2019-06-25 47- 6555 contract   sylo            Component clean up. Create demo dapp screens.
+2019-06-24 48- 7667 contract   sylo            Notification badge sign off with Jerry. Demo additions. 
+2019-06-23 31- 6655 web        home            Set up basic hour sector stats. Add content.
+2019-06-21 46- 7667 contract   sylo            Finish add user flow. Create demo for card dapp.
+2019-06-20 43- 6565 contract   sylo            Discuss tasks and handling.
+2019-06-20 46- 6565 contract   sylo            Final pixel perfect invision user flow for add user.
+2019-06-19 84- 7665 boat       maintenance     Oil, oil filter, fuel filter with Kevin Aureo.
+2019-06-19 47- 6565 contract   sylo            
+2019-06-19 31- 6655 web        home            Set up basic hour project stats.
+2019-06-18 94- 5665 web        home            Adding content for sailing page, about page, other projects.
+2019-06-18 31- 5656 web        home            Add support for header image object-position.
+2019-06-18 31- 6555 web        home            Add links to full image for runelike images.
+2019-06-18 31- 6665 web        home            Fix bug with focus panel trying to display project with no info.
+2019-06-17 32- 6654 web        home            About change clean up and adjustments. Misc page sidebars.
+2019-06-17 33- 6654 web        home            Add text content. Add tracker graph to inline runelike.
+2019-06-17 48- 7665 contract   sylo            Test sylo web, design recovery with Alice, finish airdrop app.
+2019-06-16 88- 7575 boat       motoring        Motor to Stanley bay, tow Quest to Panmure.
+2019-06-16 31- 6674 web        home            Work on youtube embed support for runelike.
+2019-06-13 48- 6666 contract   sylo            Design meeting regarding user problem solutions. Design backup flow.
+2019-06-12 31- 6766 web        home            Add sailing project content.
+2019-06-12 32- 6766 web        home            Project page sidebar setup.
+2019-06-12 47- 5464 contract   sylo            Design minor improvements. Better setup for Alice's chat payment.
+2019-06-11 33- 6655 web        home            Sidebar/details setup. Visual fixes.
+2019-06-11 48- 7666 contract   sylo            Design DApp UX.
+2019-06-10 31- 6655 web        home            Article sidebar.
+2019-06-10 48- 6555 contract   sylo            Invision setup, merge new design and Greta's ideas, finalize add contact
+2019-06-09 33- 6655 web        home            Full width header image. Add content adjustments. Projects list link.
+2019-06-09 14- 7566 boat       maintenance     Replace mooring ropes. General clean up of Horizon.
+2019-06-08 32- 6665 web        home            Projects details column.
+2019-06-07 32- 6766 web        home            Fix bug with index proj. Add setup for about and log pages. Db content.
+2019-06-07 46- 6565 contract   sylo            Improve add contact handling.
+2019-06-07 31- 7575 web        home            Fix runelike parsing first paragraphs failure. Add content.
+2019-06-06 33- 6664 web        home            Improved project list layout. Fix back no proj bug.
+2019-06-06 46- 6768 contract   sylo            Neil designs for demo pitch.
+2019-06-06 46- 6667 contract   sylo            Finish add contact improvement designs.
+2019-06-06 72- 6656 contract   sylo            Meet to discuss priorities.
+2019-06-05 33- 6665 web        home            Project handling refactor. Setting up visual list of projects.
+2019-06-05 78- 6465 contract   sylo            Processing task results into graph and spreadsheet.
+2019-06-05 32- 6656 web        home            Improved css / design.
+2019-06-04 34- 5655 web        home            Image formatting. Adding content.
+2019-06-04 32- 6766 web        home            Add improved page image formatting. Runelike stash.
+2019-06-04 78- 6465 contract   sylo            Brainstorming / discussing solutions.
+2019-06-04 31- 6766 web        home            Add runelike inline image parsing.
+2019-06-03 31- 6766 web        home            Add runelike inline link parsing.
+2019-06-03 32- 6666 web        home            CSS / formatting for runelike page. Text for 'home' page.
+2019-06-02 32- 6666 web        home            Custom runic basics all working, no css.
+2019-06-02 09- 6466 misc       chromacon       Volunteer work at Chromacon Art Festival.
+2019-06-01 02- 6466 misc       chromacon       Volunteer work at Chromacon Awards night.
+2019-06-01 09- 6466 misc       chromacon       Volunteer work at Chromacon Art Festival.
+2019-05-31 32- 7575 web        home            Setting up runic / page rendering.
+2019-05-31 78- 7676 contract   sylo            Brainstorming / discussing solutions. Discuss viable. Est difficulty.
+2019-05-30 32- 7766 web        home            Improve/clean up css. Improve scaling css.
+2019-05-30 77- 8676 contract   sylo            Processing UX test data.
+2019-05-30 32- 6765 web        home            Improve text scaling css. Improve footer text scaling and alignment.
+2019-05-29 77- 8676 contract   sylo            Processing UX test data.
+2019-05-29 31- 7766 web        home            Improve text scaling css.
+2019-05-28 77- 8575 contract   sylo            Processing UX test data.
+2019-05-28 31- 6666 web        home            Improve flexbox scaling and link/hover css.
+2019-05-27 74- 7775 contract   sylo            User testing results discussion and actioning.
+2019-05-27 74- 7576 contract   sylo            KYC research.
+2019-05-26 84- 4746 boat       motoring        Back to Panmure with Christo, Sasha and Connie. No wind.
+2019-05-25 84- 4746 boat       motoring        To Otata with Christo, Sasha and Connie. No wind.
+2019-05-25 31- 6666 web        home            Basic page handling.
+2019-05-24 31- 6666 web        home            Index clean up. Prep for page handling.
+2019-05-24 31- 6756 web        home            Page setup. Index clean.
+2019-05-24 47- 7565 contract   sylo            Single Source KYC continued.
+2019-05-24 31- 7566 web        home            Format and merge 2018 logs.
+2019-05-23 32- 7566 web        home            Convert 2018 logs.
+2019-05-23 47- 7574 contract   sylo            Single Source KYC.
+2019-05-22 47- 6665 contract   sylo            Browser QR login flow. PoS token Aaron talk.
+2019-05-21 47- 6665 contract   sylo            Pay card expand. Tx details error. Tx more info. Single Source brief.
+2019-05-21 31- 7875 web        home            Josip helped fix build timer. README update. Bigger small images.
+2019-05-21 41- 7856 web        home            Index page rework.
+2019-05-21 31- 6655 web        home            Start pages setup.
+2019-05-20 32- 7675 web        home            Build, async await clean ups, learning and testing. Fix photo exif.
+2019-05-20 48- 7665 contract   sylo            Browser logoudt, single decrypt warning. Wallet unlocking. Address book.
+2019-05-20 31- 6856 web        home            Build clean ups.
+2019-05-19 33- 7666 web        home            Setup basic working build system with Puppeteer. Sticky footer.
+2019-05-18 13- 6665 misc                       Strawberry costume.
+2019-05-17 41- 7566 contract   sylo            Additional browser designs. 
+2019-05-16 48- 6555 contract   sylo            Browser designs. 
+2019-05-15 47- 5455 contract   sylo            Browser designs. UX test recording setup. Tx details minor things.
+2019-05-14 48- 6656 contract   sylo            Browser designs. Contact typing designs. Additional tx details designs.
+2019-05-13 72- 7655 contract   sylo            Start browser research.
+2019-05-13 45- 5555 contract   sylo            Tx details designs. Finish tx confirming anim prototype. Discuss.
+2019-05-12 158 5476 misc       crucifix        Last support beam. Nailed all available planks. Nearly done.
+2019-05-11 148 6476 misc       crucifix        Second to last support beam - warped wood so was difficult.
+2019-05-10 12- 6336 contract   sylo            Testing builds.
+2019-05-10 45- 6564 contract   sylo            Design misc tasks. Transaction confirming anim.
+2019-05-09 43- 6656 contract   sylo            Design misc tasks requested.
+2019-05-09 12- 4446 contract   sylo            Testing builds.
+2019-05-09 33- 7674 contract   sylo            Tweaking app layouts.
+2019-05-09 71- 7675 web        home            Trying to setup hash from local file with JSDom. Clean up.
+2019-05-09 71- 7655 web        home            Looking into build lightbox with local file and location hash.
+2019-05-08 37- 8665 contract   sylo            Setup mobile build env. Learning proj and tweaking app layouts.
+2019-05-08 31- 7775 web        home            Static lightbox setup. Build clean up.
+2019-05-07 47- 6565 contract   sylo            Vending assets. Transaction confirming complete.
+2019-05-06 31- 6856 web        home            Static lightbox setup.
+2019-05-06 48- 6565 contract   sylo            Vending assets. Create connection. Confirming messages continued. 
+2019-05-05 34- 8666 web        home            Static build setup. Static lightbox progress.
+2019-05-04 33- 8666 web        home            Static build research and basic version done.
+2019-05-03 44- 6565 contract   sylo            Confirming payment designs continued.
+2019-05-03 43- 6566 contract   sylo            Vending machine demo continued.
+2019-05-02 46- 6575 contract   sylo            Vending machine demo designs.
+2019-05-02 32- 6665 contract   sylo            Improve media setup with website.
+2019-05-02 01- 5756 misc       cacao           Show Sarah cacao progress. Set up Sarah's Shopify.
+2019-05-02 41- 7685 misc       cacao           Lunch time logo sketches and name thinking.
+2019-05-01 33- 7756 misc       cacao           Setup utter minimal MVP.
+2019-05-01 71- 8766 misc       cacao           Research shop options.
+2019-05-01 38- 6665 contract   sylo            Website changes and improvements secondary tasks.
+2019-04-30 71- 8766 misc       cacao           Research shop options.
+2019-04-30 11- 6665 contract   sylo            Demo setup help.
+2019-04-30 39- 6665 contract   sylo            Website changes and improvements priority tasks.
+2019-04-29 32- 6558 contract   sylo            Website tweaks.
+2019-04-29 46- 7675 contract   sylo            Transaction details page.
+2019-04-28 34- 6866 web        home            Bug fixes. Minor tweaks. Footer social icons. Small images.
+2019-04-28 118 6577 misc       crucifix        Cut notch in another support beam. Dig.
+2019-04-28 31- 6566 web        home            Fix footer day diff. Fix weekcount error. Improve footer positioning.
+2019-04-27 138 6577 misc       crucifix        Add another support beam.
+2019-04-27 82- 5555 boat       motoring        Motor from Motuehu anchor to Panmure mooring.
+2019-04-26 81- 5555 boat       motoring        Motor from near Waiheke to Motuehu anchorage.
+2019-04-26 88- 7856 boat       sailing         Sailing from near Coromandel to near Waiheke. Phosphorescent Dolpins. 
+2019-04-26 84- 7666 boat       motoring        Motor from Great Barrier to near Coromandel to Auckland. Rough weather.
+2019-04-25 82- 7776 boat       sailing         Sail from Rangiahua Island to very near Wairahi Bay anchorage. 
+2019-04-25 83- 6866 boat       sailing         Sail from Whangaparapara to Rangiahua Island.
+2019-04-24 32- 6866 web        home            Footer setup. Head setup.
+2019-04-24 82- 5666 boat       motoring        Motor to Whangaparapara.
+2019-04-23 33- 7866 web        home            CSS improve. Footer initial.
+2019-04-22 31- 6756 web        home             
+2019-04-22 82- 4546 boat       motoring        Motor to Tryphena ferry wharf for Alisa and John.
+2019-04-22 81- 5655 boat       sailing         Sail toward Port Fitzroy (John's wrong direction).
+2019-04-22 81- 4546 boat       motoring        Motor back to Blind Bay for Sasha's crayfish trap and Lu's lift.
+2019-04-21 81- 4536 boat       motoring        Motor to Whangaparapara.
+2019-04-21 31- 5756 web        home            Set up lightbox for photos section.
+2019-04-20 89- 7656 boat       sailing         Drifting whale watching to Blind Bay, Great Barrier to meet Dominic. 
+2019-04-19 82- 5756 boat       sailing         
+2019-04-19 89- 5756 boat       sailing         Panmure toward Great Barrier via Otata with John, Alisa, Lu, Sasha.
+2019-04-18 48- 7776 contract   sylo            Design confirming payment, transaction list, transaction details.
+2019-04-17 38- 6465 contract   sylo            Improve website link css and footer.
+2019-04-16 31- 5756 web        home            Setting up responsive sections. Minor clean ups.
+2019-04-16 84- ---- boat       sailing         
+2019-04-16 89- 6566 boat       sailing         Sailing back to Panmure with Lu, Yotta and Sasha.
+2019-04-15 81- 7968 boat       sailing         Collect trap. Racing Dominic's Cleo from Smokehouse Bay to Fitzroy Bay.
+2019-04-14 84- 8776 boat       sailing         Wairahi Bay to Port Fitzroy, fish Port Abercromblie, then Smokehouse Bay.
+2019-04-13 82- ---- boat       sailing         
+2019-04-13 89- 9887 boat       sailing         Motutapu to Wairahi Bay to meet Dominic, Lu and Yotta.
+2019-04-12 82- 6757 boat       motoring        Motored to Motutapu with Sasha, on way to Great Barrier.
+2019-04-12 37- 7676 contract   sylo            Culled list of website tasks - footer, japanese, anims, links.
+2019-04-12 31- 6865 web        home            Continued setting up responsive sections.
+2019-04-11 31- 6967 web        home            Setting up responsive sections.
+2019-04-11 37- 6774 contract   sylo            Website minor tasks, wave bg etc.
+2019-04-10 22- 7666 misc       Horizon         Testing auto pilot wiring. Wire Bilge pump. Clean. Refuel.
+2019-04-10 38- 6555 contract   sylo            Website clean up, unused language cull. Testing beta app.
+2019-04-09 33- 6866 web        home            Db populated focus section working.
+2019-04-09 38- 7665 contract   sylo            Website improvements - language.
+2019-04-08 11- 7356 web        citrus          Anthony meeting.
+2019-04-08 32- 6475 web        home            Setting up db populated focus section.
+2019-04-08 38- 8674 contract   sylo            Website improvements, additions, fixes.
+2019-04-07 88- 8776 boat       sailing         Motutapu to Motuhoropapa Island to Panmure Alexey and Sasha.
+2019-04-06 85- 7855 boat       sailing         Sailed to Motutapu Island with Alexey and Sasha.
+2019-04-05 32- 7776 web        home            Media handling refactor, dynamic background image setting.
+2019-04-05 47- 6565 contract   sylo            Website tweaks, design clean up. 
+2019-04-04 33- 8776 web        home            Tracker graph labels and legend.
+2019-04-04 48- 6465 contract   sylo            Website tweaks, group payment redesign. 
+2019-04-03 31- 7755 web        home            Tracker graph labels.
+2019-04-03 41- 2446 web        citrus          Minor website tweaks.
+2019-04-03 48- 5454 contract   sylo            Website tweaks, support site, bug reports, few app designs. 
+2019-04-02 11- 4262 web        citrus          Meetup.
+2019-04-02 47- 6474 contract   sylo            Website updates, start on support site. 
+2019-04-01 41- 5665 web        home            Improve graph, re-arrange.
+2019-04-01 42- 5446 web        citrus          Rip and first passes css, wording, thinking.
+2019-04-01 48- 7655 contract   sylo            Main website wording and page/nav updates. 
+2019-03-30 86- 7876 boat       sailing         Motuihe Island and back to Panmure with Sarah and Hollis.
+2019-03-29 48- 3546 contract   sylo            Ben demo. 
+2019-03-28 41- 6775 web        home            Design legend and layout for productivity graph.
+2019-03-28 31- 6665 web        home            Improve photo implementation. Fix main bg css.
+2019-03-28 48- 7656 contract   sylo            Dark mode. 
+2019-03-27 32- 6864 web        home            Basic media db loading and sorted by quality.
+2019-03-27 48- 6454 contract   sylo            Message reactions. Onboarding re-design. 
+2019-03-26 31- 5655 web        home            Implement new design - photos. Fix main container css.
+2019-03-26 11- 6475 misc       Quest           Re-attach gardening part of Quest engine, clean with Sasha.
+2019-03-26 48- 7665 contract   sylo            Group account permissions. Misc screens. Minor demo changes.
+2019-03-25 429 6655 misc       video           Horizon Otata video editing.
+2019-03-25 485 7464 contract   sylo            UX feedback, public groups
+2019-03-24 42- 6855 misc       video           Horizon Otata video editing.
+2019-03-24 85- 7866 boat       sailing         Sailed back to Panmure with Sasha and Alisa.
+2019-03-23 87- 6866 boat       sailing         Sailed to Otata with Sasha and Alisa.
+2019-03-23 31- 5655 web        home            Implement new design. THIS LINE IS CAUSING ERROR
+2019-03-22 32- 6765 web        home            Implement new design.
+2019-03-22 117 7666 misc       Horizon         Create hooks for pile mooring bridal rope.
+2019-03-22 47- 6363 contract   sylo            Message reply/quote.
+2019-03-21 32- 6867 web        home            Implement new design.
+2019-03-21 48- 6666 contract   sylo            Message reaction continued.
+2019-03-20 43- 6867 web        home            Figma design mockups.
+2019-03-20 48- 5355 contract   sylo            Public group. Testing PRs. Message reaction design.
+2019-03-19 48- 3444 contract   sylo            Clean notes. Public group. FAB destruction.
+2019-03-19 31- 5655 web        home            Tracker graph continued, gradient.
+2019-03-18 33- 6864 web        home            Tracker graph continued, title.
+2019-03-18 48- 6445 contract   sylo            Reporting bugs, misc screens, research reactions, clean notes.
+2019-03-17 88- 8867 boat       sailing         Waiheke Channel to Pakotoa to Panmure.
+2019-03-16 88- 8867 boat       sailing         Panmure to Waiheke Channel with Sasha, Joran and Dominic.
+2019-03-15 48- 6466 contract   sylo            Demo fixes, screen export, discussion/decisions. Build test.
+2019-03-14 48- 7668 contract   sylo            JPM SS demo for Ben. Component clean up.
+2019-03-13 47- 5445 contract   sylo            Component clean up.
+2019-03-12 47- 6344 contract   sylo            Message component clean up. System and error message screens.
+2019-03-11 48- 7645 contract   sylo            SingleSource integration design, fix up new UX designs
+2019-03-10 86- 7886 boat       sailing         Horizon Panmure to Waiheke with Sasha, Aaya, Anton and wife
+2019-03-09 86- 8866 boat       sailing         Horizon from Weiti to Panmure with Sasha and Alex Marshal
+2019-03-08 48- 4345 contract   sylo            Clean up files and components. Finalizing new UX for Jerry
+2019-03-07 31- 6555 web        home            Viz dev
+2019-03-07 47- 7454 contract   sylo            iOS iPhone X safe margins, component and project clean up
+2019-03-06 32- 5454 web        home            Viz dev  
+2019-03-06 48- 6565 contract   sylo            Update Alisa, Alisa clean ups, input finalisation
+2019-03-05 48- 6344 contract   sylo            Group account beta release version
+2019-03-04 48- 5555 contract   sylo            Group account tabs continued, change account thinking
+2019-03-03 87- 8776 boat       sailing         Rakino Island walk, sail to Stanley Bay with Alexey and Sasha
+2019-03-02 89- 8777 boat       sailing         Jamieson Bay to Rakino Island with Alexey and Sasha
+2019-03-01 47- 7767 contract   sylo            New UX (group account) meeting showing to team, continued dev
+2019-02-28 48- 6666 contract   sylo            Group account UX continued
+2019-02-27 48- 6666 contract   sylo            Group account with Alisa
+2019-02-26 48- 6666 contract   sylo            Group account introducing Alisa
+2019-02-25 48- 6666 contract   sylo            Group account, create asset Alisa UX discussions
+2019-02-25 31- 5645 web        home            homecatch up
+2019-02-23 89- 8887 boat       sailing         Quest sail from Jamieson Bay to near Rangitoto return
+2019-02-22 47- 6644 contract   sylo            Group account changes for demo, modal components for mobile
+2019-02-21 48- 6646 contract   sylo            Group account userflow finish up and mobile conversion
+2019-02-19 31- 5454 web        home            Catch up  
+2019-02-19 82- 8865 boat       sailing         Quest test drive around Jamieson Bay
+2019-02-18 48- 6456 contract   sylo            Group account userflow with feedback, tablet meeting
+2019-02-15 48- 7767 contract   sylo            Group calling continued, group account userflow 
+2019-02-14 48- 6646 contract   sylo            New concept tweaks, clean up, group calling, AGM
+2019-02-13 48-      contract   sylo
+2019-02-12 48-      contract   sylo           
+2019-02-11 48- 5364 contract   sylo
+2019-02-10 31- 4546 web        home            2019 version started  
+2019-02-05 47- 6564 contract   sylo            Work with Alisa on group calling
+2019-02-04 48- 7555 contract   sylo            Catch up, work with Alisa on Group calling research and design
+2019-02-03 148 5465 misc       crucifix        Finalized half framing, worked out plan, set one frame with mom
+2019-02-03 11- 5245 van        maintenance     Put van back together, clean up
+2019-02-02 137 5466 misc       crucifix        Framing for half of final deck with Scott and Mom
+2019-02-02 11- 5245 van        maintenance     Remove ants and cleaning
+2019-02-02 238 5563 van        reversecam      Switch wiring
+2019-02-01 286 6665 van        reversecam      Wiring, fuses, creating dash mount switches 
+2019-01-31 123 6565 van        reversecam      Physical mounting of camera
+2019-01-30 32- 5554 web        memex           Fix minor bug, data updates
+2019-01-30 31- 6655 web        home            homecatch up
+2019-01-26 13- 5666 misc       solarsails      Ignition festival pizza chef
+2019-01-25 11- 4544 misc       solarsails      Ignition festival solar workshop helper
+2019-01-24 24- 4465 misc       solarsails      Ignition festival lighting
+2019-01-23 22- 6364 misc       solarsails      Ignition festival lighting
+2019-01-22 17- 7766 misc       solarsails      Ignition festival build
+2019-01-21 17- 7767 misc       solarsails      Ignition festival build
+2019-01-20 14- 6765 misc       solarsails      Pack and drive to Ignition festival, start build setup 
+2019-01-20 86- 7888 boat       sailing         Lesson Waiheke to Auckland with Dominic and Sasha
+2019-01-19 86- 8876 boat       sailing         Lesson with Dominic, Sasha to Brown's island, then Waiheke
+2019-01-18 48- 4544 contract   sylo            Hand over before holiday
+2019-01-18 11- 7655 van        maintenance     Aquire and try new relay
+2019-01-17 12- 7655 van        maintenance     Try Joran and Helena's relays in my van to fix starting issue
+2019-01-17 48- 8865 contract   sylo            Ben chat, James chat, final bits on tablet
+2019-01-16 72- 7675 van        maintenance     Figuring out possible engine start problems and options     
+2019-01-16 12- 8867 misc       Lucinda         Help Jason move boat Lucinda to Stanley Bay mooring
+2019-01-16 46- 5555 contract   sylo            Scrum! Tablet work
+2019-01-15 11- 5465 van        maintenance     Look at van relays trying to solve engine start problem
+2019-01-15 13- 7675 misc       solarsails      Cooking pizza test
+2019-01-15 46- 6555 contract   sylo            Chat media user flow
+2019-01-14 11- 6666 misc       gardening       Helping move giant compost pile at Giblehurst Hub
+2019-01-14 46- 5555 contract   sylo            Tablet work
+2019-01-13 13- 7656 misc       solarsails      Drive to mom's and store bamboo      
+2019-01-12 15- 8856 misc       solarsails      Drive to 1631 Port Charles and collect bamboo      
+2019-01-11 47- 6567 contract   sylo            Rush for tablet screens for meeting with Scott
+2019-01-10 48- 6465 contract   sylo            More tablet post meeting. Figure out chat/group settings
+2019-01-09 48- 6465 contract   sylo            Working on tablet designs based on meeting feedback
+2019-01-08 22- 6655 van        electronics     Wire USB power for Pi and Power Arduino, quick wall for shelf
+2019-01-08 48- 7665 contract   sylo            Finishing up, then design meeting for tablet designs
+2019-01-07 48- 6555 contract   sylo            Finishing up tablet designs for passover
+2019-01-06 11- 3436 van        misc            Wash van, sound deadening on wheel well, clean up etc
+2019-01-06 12- 6686 van        solar           Rewiring solar panel MC4 connectors, add fuses
+2019-01-05 11- 3675 van        solar           Rewiring solar panel output MC4 into charge controller
+2019-01-05 13- 3675 van        bench           Plumbing for waste water, clean water pump and facet
+2019-01-05 31- 6656 misc                       Quick code of Neauoire's chorded keyboard
+2019-01-04 34- 5636 web        home            Meat portion as binary, review, refactor
+2019-01-04 02- 6666 van        bench           Parts research for waste water and gas hose
+2019-01-04 02- 6375 misc                       Steam Frogshark W8, Alexey director remove, server fix etc
+2019-01-02 31- 6765 web        home            homecatch up
+2019-01-01 21- 5636 van        electronics     Wire USB fast charger to battery and rear bed cupboar
+2018-12-20 48- 6676 contract   sylo            Tablet screen design meeting complete! Start clean up post meeting.
+2018-12-19 47- 6485 contract   sylo            Tablet screen prep, forcing design team to have tablet meeting, pizza
+2018-12-19 73- 8675 solarsails lightunnel      Researching setup and shopping list
+2018-12-18 71- 8675 solarsails lightunnel      Researching setup and shopping list
+2018-12-18 42- 6755 contract   sylo            Tablet screen prep
+2018-12-18 48- 7667 contract   sylo            Tablet screen prep and clean up with Greta continued
+2018-12-17 71- ---- solarsails lightunnel      Researching setup and shopping list
+2018-12-17 12- ---- solarsails meet            Emergency meeting for theme camp info submission
+2018-12-17 48- 7667 contract   sylo            Tablet screen prep and clean up with Greta
+2018-12-16 28- 8775 van        solar           Finished basic setup for fuse panel, fridge and lights working!
+2018-12-15 27- 8774 van        solar           Building, rebuilding, research, planning fuse panel
+2018-12-14 48- 6376 contract   sylo            Tablet screen clean up with Greta
+2018-12-13 47- 6576 contract   sylo            Pay/Request modal tabs, payment display setup, payment input setup
+2018-12-11 42- 7576 contract   sylo            Figma tablet screens and library clean up
+2018-12-11 49- 7576 contract   sylo            Figma tablet screens and library clean up
+2018-12-11 41- 8667 contract   sylo            Principle vert menu interactive ux prototype
+2018-12-10 41- 8667 contract   sylo            UX interaction tool research
+2018-12-10 49- 6476 contract   sylo            Figma tablet clean up with team library
+2018-12-10 41- 6566 contract   sylo            Sketches for Blackbird logo
+2018-12-09 15- 6476 misc                       Visit mom, Scott. Clean van, fix roof leaks and finish pv mounting
+2018-12-07 48- ---- contract   sylo            tablet meeting, tablet clean up.
+2018-12-06 48- ---- contract   sylo            group chats, payment spacing fix, greta's contact invite fix
+2018-12-05 48- ---- contract   sylo            group chats, ipad redesign
+2018-12-04 41- ---- contract   sylo            group chat continued at night
+2018-12-04 49- ---- contract   sylo            figma lib continued, group chats started
+2018-12-03 49- ---- contract   sylo            figma lib continued
+2018-11-30 45- 7565 contract   sylo            figma library, minor design missing bits and improvements
+2018-11-30 13- 6493 van        solar           continue and complete mounting solar panels to roof
+2018-11-29 13- 6493 van        solar           mount solar panels to roof
+2018-11-29 48- 5555 contract   sylo            figma library
+2018-11-28 41- 6364 contract   sylo            figma clean up, payment/contact req design
+2018-11-28 49- 6364 contract   sylo            figma clean up, payment/contact req design
+2018-11-28 41- 4647 contract   sylo            freedom power truth concepting at hackland
+2018-11-27 41- 4647 contract   sylo            freedom power truth concepting at hackland
+2018-11-27 11- 6747 solarsails meet            unsuccessful marina raid
+2018-11-27 48- 6454 contract   sylo            further figma clean up
+2018-11-26 13- 5666 van        solar           pv connected into mega solars
+2018-11-26 49- 6446 contract   sylo            figma component, text/colour style setup continued
+2018-11-25 14- 5354 van        solar           prepping pv mounting rails, painting bolts with anti-corrosion
+2018-11-24 14- 5562 van        solar           pv positioning, prepping pv mounting rails
+2018-11-24 71- 7573 van        solar           auckland engineering supplies research and parts gathering
+2018-11-24 42- 6647 contract   sylo            figma clean up continued
+2018-11-23 48- 7665 contract   sylo            tablet meeting continued, Di Mare parnell design lunch, figma
+2018-11-22 48- 7574 contract   sylo            text style setup, figma research
+2018-11-21 13- 6646 solarsails meet            dome help, pc turbo fan fix, PV advice get, inverter fix annoying
+2018-11-21 48- 6466 contract   sylo            
+2018-11-20 47- 6466 contract   sylo            
+2018-11-19 49- 7464 contract   sylo            help Alisa, breif James, setup symbols
+2018-11-16 12- 6664 van        solar           screw in roof vent
+2018-11-16 48- 6465 contract   sylo            
+2018-11-15 48- 7675 contract   sylo            master style guide (shared style), sketch cloud, setup Greta
+2018-11-15 42- 6755 contract   sylo            midnight continue setting up master style guide (settings card)
+2018-11-14 12- 3655 van        solar           drill holes for one vent, POR15 treat drill holes
+2018-11-14 47- 8674 contract   sylo            continue setting up / learning master style guide
+2018-11-13 41- 7756 contract   sylo            setting up master style guide
+2018-11-13 71- 7756 contract   sylo            figuring out master style guide setup
+2018-11-13 12- 7564 van        solar           create plates for inside of roof vent mounting
+2018-11-13 42- 7764 contract   sylo            setting up master style guide
+2018-11-13 72- 9764 contract   sylo            figuring out master style guide setup
+2018-11-13 73- 7575 contract   sylo            with Greta and Alisa, working out plans and group chat req
+2018-11-12 48- 7676 contract   sylo            setup, learning app, design thinking/chats, research, tutorial
+2018-11-11 13- 6486 van        solar           finish sanding, priming, paint, clean up etc
+2018-11-11 19- 6486 van        solar           finish sanding, priming, paint, clean up etc
+2018-11-10 33- 5736 solarsails lightunnel      prototype code, repo setup, images etc
+2018-11-09 13- 7586 van        solar           sanding rust on roof
+2018-11-08 03- 7965 solarsails meeting         Solarsails meeting at Hackland
+2018-11-08 21- 5746 solarsails lightunnel      prototype wiring
+2018-11-08 126 7677 van        solar           cut second and third vent hole
+2018-11-08 22- 6664 solarsails lightunnel      prototype
+2018-11-07 22- 6664 solarsails lightunnel      prototype
+2018-11-07 116 6666 van        solar           first vent hole cut, wrap peeled
+2018-11-07 31- 4555 web        memex           add load anim trigger threshold, setup, close 'slow load' issue
+2018-11-07 116 6575 van        solar           second junction box installed
+2018-11-07 32- 5673 web        memex           promise removal, refactor
+2018-11-06 32- 4745 web        memex           create seer (benchmarking), continue promise clean/setup
+2018-11-06 31- 4667 web        memex           promise clean up
+2018-11-06 145 6793 van        solar           second junction box, decide on pos, cut hole, clean, paint
+2018-11-06 32- 6462 web        memex           attempting to implement promise
+2018-11-06 72- 8465 web        memex           research/notes on js promise setup
+2018-11-05 12- 7654 web        solar           finish installing PV junction on roof
+2018-11-05 31- 4667 web        memex           finished fixing image article height, bug (padding etc) fixes, clean
+2018-11-04 31- 6576 web        memex           continued fixing image article height
+2018-11-04 135 6873 van        solar           Cut hole for rear PV panels, paint one coat
+2018-11-04 71- 2827 web        memex           port inspirations
+2018-11-04 31- 6673 web        memex           fixing image article height
+2018-11-04 32- 4545 web        memex           refactoring: view into grid, nav, util, add done/todo icons
+2018-11-03 33- 6365 web        memex           refactoring: view clean up
+2018-11-03 31- 3536 web        home            refactor log and journal, add lightbox to journal
+2018-11-03 32- 6445 web        memex           refactoring: html5 elements, tool tips, error handler, promise start
+2018-11-02 31- 6444 web        memex           refactoring: html5 elements, tool tips, error handler
+2018-11-02 125 3632 van        solar           preparing, planning, gathering parts, removed garage driver wall
+2018-11-02 349 5644 web        lightbox        copy from memex, clean up, create examples, repo, readme etc
+2018-11-01 31- 7665 web        memex           update Phil James's memex
+2018-11-01 625 4444 van        garage          fuse and switch panel wiring - batteries hooked up
+2018-11-01 33- 8755 web        memex           loader anim, startup faster, refactor
+2018-10-31 71- 8566 web        memex           research: js promises, js progressive enhancement, js script loading
+2018-10-31 625 5454 van        garage          fuse and switch panel switch setup, wiring
+2018-10-31 33- 5636 web        memex           fix tag stats, settings (seperate, done, fix), readme, Chrome fix
+2018-10-31 33- 5446 web        memex           image display for non-image-type, add lightbox feature
+2018-10-30 33- 6565 web        memex           improve readme, add term icon, fix merge issues, refactoring
+2018-10-30 31- 6565 web        memex           improve loading speed, merge joshavanier pull request, data fixing
+2018-10-30 625 5555 van        garage          fuse and switch panel planes and switches installed
+2018-10-30 32- 4446 web        memex           multi type support, project support, file link support, refactoring
+2018-10-29 625 6455 van        garage          fuse and switch panels for electrical system
+2018-10-29 31- 4445 web        memex           multi link support, db formatting
+2018-10-28 635 4455 van        garage          charge controller mounting and wiring
+2018-10-27 675 4566 van        garage          battery box
+2018-10-26 624 6656 van        garage          garage and battery bank walls
+2018-10-26 154 7383 van        garage          routing conduit and cables for PV
+2018-10-25 13- 2356 van        insulation      garage walls insulation, driver side complete, driver wheel well
+2018-10-25 643 5574 van        garage          garage driver side wall, battery box wall, routing conduit and cable
+2018-10-24 11- 2356 van        insulation      garage walls insulation, driver wheel well
+2018-10-24 652 5664 van        garage          shower/toilet walls, battery box base
+2018-10-23 652 5663 van        garage          continued fridge, toilet, wheel cover box/walls
+2018-10-22 661 5663 van        garage          planning and started battery, fridge, toilet, wheel cover box/walls
+2018-10-21 212 5745 van        solar           create wires and connect solar panel
+2018-10-21 212 6865 van        solar           wiring batteries and charge controller
+2018-10-21 73- 7674 van        solar           research electrical circuit layout and requirements
+2018-10-21 212 7655 van        solar           modifying and making ring terminal/cables for big power switch
+2018-10-20 72- 8654 van        solar           research electrical circuit layout and requirements
+2018-10-20 232 4665 van        solar           finish all of battery bank 25mm2 ring terminal cables
+2018-10-19 232 6664 van        solar           create half of battery bank 25mm2 ring terminal cables
+2018-10-19 73- 8674 van        solar           research van electrical wire and fuse sizing, plan shopping list
+2018-10-18 312 5645 web        home            formatting fixes and improvements, adding missing photos etc
+2018-10-18 715 4635 vns        fan             repo clean up / notes, ordered parts
+2018-10-17 73- 8765 van                        research battery / PV / CC setup
+2018-10-17 31- 7765 vns        core            add handling of control panel input
+2018-10-16 225 7665 vns        fan             create second version of hatch door
+2018-10-16 616 3445 misc       crucifix        move wood, general clean up, planning
+2018-10-16 32- 6543 vns        core            clean up and setting up for control panel input
+2018-10-15 116 4476 van        bench           finish drilling drain hole in sink, test setup drain pipe
+2018-10-15 215 5556 vns        fan             setup and test servo controlled hinge door
+2018-10-15 235 6575 vns        fan             proto circuit board complete
+2018-10-14 646 6566 misc       crucifix        finished pegs for rails and planks for sections 3 and 4 (landing)
+2018-10-14 244 6562 vns        fan             making proto circuit board
+2018-10-13 625 5375 misc       crucifix        leveling all rails with blocks for section 3 and 4 (landing)
+2018-10-13 616 6584 van        bench           drilling drain hole in sink
+2018-10-12 123 6482 vns        fan             trying to figure out door hinge and servo to door mount
+2018-10-12 333 5766 vns        fan             add mosfet for power toggle, add servo door test, add notes
+2018-10-11 212 5766 vns        fan             test 12v to 5v relay idea for PC fan
+2018-10-11 614 3366 misc       crucifix        bases for section 3 and 4 gathered, pins for one rail done
+2018-10-11 73- 8863 misc       gardening       research, potting plant
+2018-10-10 634 4365 misc       crucifix        finish landing rail holes, cut all rails for section 3 and landing
+2018-10-10 711 4555 swordy     megamex         formatting data
+2018-10-09 614 4354 misc       crucifix        dig holes for lower landing rails
+2018-10-09 629 5456 misc       tower           finish install of grow bed edging
+2018-10-09 731 6455 swordy     megamex         collecting data/media
+2018-10-08 221 7454 van        fan             fan box test, variable voltage fix found
+2018-10-08 617 5356 misc       tower           help plan/install grow bed edging
+2018-10-08 221 6443 van        fan             pwm whine testing
+2018-10-07 231 6443 van        fan             roof fan test
+2018-10-06 113 4435 van        fan             clean up, pwm noise research, roof fan planning
+2018-10-05 626 6465 van        bench           top
+2018-10-05 721 7545 swordy     megamex         collecting/formatting data
+2018-10-05 311 3534 web        home            stats improve
+2018-10-04 331 4634 web        home            hero stat percentages view, visual fixes
+2018-10-04 644 2366 misc       crucifix        section two rails complete, planks nailed
+2018-10-04 331 5545 web        home            setup binary value usage
+2018-10-03 633 3366 misc       crucifix        section two rails
+2018-10-03 311 5354 web        home            fixed sector percentage graph
+2018-10-02 633 5466 misc       crucifix        section one door extention rail, nailed section one planks
+2018-10-02 311 6645 web        home            restructure
+2018-10-01 311 6645 web        home            general clean up, restructure
+2018-10-01 642 5475 misc       crucifix        section one middle rail, section one planks cut
+2018-09-30 621 4455 misc       crucifix        section one left and right rails
+2018-09-30 639 4445 misc       coffin          complete
+2018-09-30 741 7655 swordy     megamex         megalith research
+2018-09-29 741 8855 swordy     megamex         megalith research
+2018-09-29 741 ---- swordy     megamex         megalith and occult research
+2018-09-28 711 ---- van        electronics     research general electrical engineering basics
+2018-09-28 731 ---- swordy     megamex         megalith and occult research
+2018-09-27 34- 5745 web        home            journal formatting, css, image support
+2018-09-27 03- 6745 gardening                  trailer drop off, potting supplies, plant cacti
+2018-09-26 31- 5535 web        home            planning, repo setup, journal start
+2018-09-26 63- 5556 van        bench           lower drawer front face, face for pump kick, planning
+2018-09-25 63- 5556 van        bench           mid drawer front face, various faces
+2018-09-24 64- 5565 van        bench           top drawer front face, various faces
+2018-09-19 64- 5555 van        bench           bench continued
+2018-09-18 63- 5667 van        bench           big drawer slides, base, trim frame
+2018-09-18 69- 5667 van        bench           mid drawer base, walls, mount gas box
+2018-09-16 64- 6565 van        bench           gas box latch plate modifications
+2018-09-16 34- 5364 web        memex           CSS clean up
+2018-09-15 61- 6534 van        garage          bike drawer base cut
+2018-09-15 39- 6363 web        memex           CSS clean up
+2018-09-14 34- 7534 web        memex           added Hundredrabbits theme support
+2018-09-14 31- 6636 web        home            to do list
+2018-09-13 32- 6876 swordy     language        runes
+2018-09-12 65- 6465 van        bench           gas box
+2018-09-12 35- 4655 web        home            CSS, visual improved, graph key
+2018-09-11 36- 7766 web        home            custom graphing functionality
+2018-09-10 33- 8665 web        home            custom graphing functionality
+2018-09-10 62- 7555 van        bench           under drawer slides
+2018-09-10 34- 5554 web        home            graphing functionality using chart.js
+2018-09-09 32- 7655 web        home            graphing functionality using chart.js
+2018-09-09 62- 3365 van        bench           middle drawer base, under drawer slides
+2018-09-08 61- 2475 van        bench           middle drawer slides
+2018-09-08 36- 3767 web        home            reformat, improve layout, css
+2018-09-08 31- 6665 web        home            reformat, project/task stats
+2018-09-07 34- 7665 web        home            reformat, project/task stats
+2018-09-07 32- 7867 web        home            basic stats display
+2018-09-06 32- 8868 web        home            basic setup
+2018-09-06 32- 7977 swordy     language        leital inspired beginnings
+2018-09-06 22- 5588 vns        control         wire arduino nano connection
+2018-09-06 22- 7347 vns        control         rewire and code rotary encoder
+2018-09-06 22- 4663 vns        control         test key switch, debug potentiometer
+2018-09-05 63- 2357 van        bench           lower drawer walls
+2018-09-05 23- 1788 vns        control         wired control panel
+2018-09-04 61- 0537 van        bench           lower drawer base
+2018-09-04 31- 3356 vns        control         debounce key switch sketch
+2018-09-03 61- 2456 van        bench           slide for lower drawer
+2018-09-03 21- 6872 vns        control         worked out switches and nano
+2018-09-02 21- 2675 vns        control         wired control panel test board
+2018-09-02 62- 0637 van        bench           2nd, 3rd drawer bases
+2018-09-02 22- 3781 vns        control         started wiring control panel
+2018-09-01 22- 3737 vns        stereo          setup AirPlay Pi, update vns docs
+2018-08-30 14- 2267 misc       shed            finish walls, build roof
+2018-08-30 61- 6579 van        bench           cut all drawer slides to length
+2018-08-29 66- 7768 van        bench           top drawer complete
+2018-08-29 31- 3344 web        memex           add esc improve, refactor
+2018-08-28 63- 8765 van        bench           drawer slide test/setup
+2018-08-28 62- 5665 van        bench           top drawer
+2018-08-27 66- 3565 van        bench           widen, oven base
+2018-08-27 22- 1725 van        electronics     setup for sill power plugs
+2018-08-27 21- 2637 van        electronics     cut and install sill plug plate
+2018-08-26 12- 5274 misc       shed            base framing, leveling, pavers
+2018-08-26 61- 4455 van        bench           
+2018-08-26 32- 8775 vns        core            linux service setup
+2018-08-26 31- 7557 van        memex           runic media/quote order fix
+2018-08-25 63- 5555 van        bench           
+2018-08-25 31- 7367 van        memex           runic media/quote order debug
+2018-08-24 33- 2478 vns        core            SD card swap, slider button fix
+2018-08-24 62- 5455 van        bench           
+2018-08-23 27- 7867 vns        core            pi setup, wifi
+2018-08-23 21- 0336 van        electronics     wire clean up
+2018-08-22 21- 4628 vns        core            soldering Pi + DAC pins
+2018-08-21 21- 0746 van        electronics     wire main lights new position
+2018-08-21 32- 3746 vns        core            fixes
+2018-08-21 31- 3767 vns        core            CSS
+2018-08-20 36- 5766 vns        core            PDU ready, no ignore, state sync, CSS
+2018-08-19 35- 7764 vns        core            pi setup, slider
+2018-08-18 34- 9765 vns        core            nodejs webserver with arduino
+2018-08-17 12- 0154 van        insulation      
+2018-08-17 21- 0343 van        electronics     lights above sliding door
+2018-08-16 14- 0254 van        insulation      
+2018-08-15 14- 0154 van        insulation      
+2018-08-14 33- 0647 web        memex           add author, add done/not done
+2018-08-13 33- 0336 web        memex           improve term
+2018-08-12 32- 3377 web        memex           fix db load, improve quote/note
+2018-08-11 13- 0154 van        insulation      
+2018-08-10 13- 0154 van        insulation      
+2018-08-10 34- 4626 web        memex           fixes by Changbai, clean up
+2018-08-09 14- 0254 van        insulation      
+2018-08-09 34- 7365 web        memex           write
+2018-08-08 14- 0254 van        insulation      
+2018-08-08 11- 3255 van        painting        POR15 roof rear wiring access
+2018-08-07 12- 0276 van        painting        sanding roof rear wiring access
+2018-08-07 11- 0154 van        insulation      
+2018-08-07 32- 7364 web        memex           write
+2018-08-06 34- 7464 web        memex           write
+2018-08-05 15- 0554 van        insulation      
+2018-08-05 31- 7463 web        memex           write
+2018-08-04 21- 4446 van        electronics     
+2018-08-03 16- 4654 van        insulation      
+2018-08-01 15- 6654 van        insulation      
+2018-07-31 23- 5735 vns        control         research switch panel components
+2018-07-28 68- 5556 van        bench           
+2018-07-27 66- 5556 van        bench           
+2018-07-26 65- 3564 van        bench           
+2018-07-26 32- 3436 web        memex           add data, enter button
+2018-07-25 62- 4654 van        bench           
+2018-07-25 34- 3566 web        memex           add data, open/close add
+2018-07-24 35- 2766 web        memex           refactor, Add item
+2018-07-23 34- 2555 web        memex           
+2018-07-22 34- 6674 web        memex           fix Masonry
+2018-07-21 32- 7877 web        memex           Electron
+2018-07-20 34- 7632 web        memex           research app builder
+2018-07-19 31- 7757 web        memex           settings, file save/load, standalone
+2018-07-18 39- 3977 web        memex           image support
+2018-07-17 39- 3937 web        memex           released on Github
+2018-07-16 62- 6554 van        bench           
+2018-07-16 37- 5755 web        memex           
+2018-07-15 63- 5655 van        bench           
+2018-07-15 36- 5855 web        memex           
+2018-07-14 64- 5655 van        bench           
+2018-07-14 35- 5755 web        memex           
+2018-07-13 35- 5755 web        memex           
+2018-07-12 34- 5855 web        memex           started logging
+`

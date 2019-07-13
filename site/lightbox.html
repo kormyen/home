@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>kor</title>
+  <meta name="author" content="Hamish MacDonald">
+  <link rel="stylesheet" href="asset/style.css">
+</head>
+<body>
+  <section class="lightbox" id="lightbox"></section>
+<!-- JS -->
+  <script src="logic/lib/tablatal.js"></script>
+  <script src="logic/lib/indental.js"></script>
+
+  <script src="db/media.tbtl"></script>
+
+  <script src="logic/lightbox.js"></script>
+  <script src="logic/image.js"></script>
+  <script src="logic/media.js"></script>
+  <script src="logic/photos.js"></script>
+  
+  <script>
+    var lightbox = new Lightbox();
+    lightbox.install();
+    lightbox.start();
+  </script>
+<!-- JS -->
+</body>
+</html>

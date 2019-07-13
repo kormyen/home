@@ -1,0 +1,51 @@
+var LINKS = `
+NAME               LABEL                                                     URL                                                                                             END
+neauoire           Neauoire                                                  https://wiki.xxiivv.com
+pino               Pino                                                      https://100r.co/pages/pino.html
+dominic            Dominic Tarr                                              https://dominictarr.com
+techDegrades       technology degrades                                       https://www.youtube.com/watch?v=pW-SOdj4Kkk
+phil               Phil James                                                https://shinestrength.xyz
+homeHomepage       Homepage                                                  http://kor.nz
+homeSource         Source                                                    https://github.com/kormyen/home
+memexLive          Live web version                                          https://kormyen.github.io/memex/
+memexSource        Source                                                    https://github.com/kormyen/memex
+100rThemes         Hundredrabbits Themes                                     https://github.com/hundredrabbits/Themes
+ardusamberSource   Source                                                    https://github.com/kormyen/ardusamber
+syloHomepage       Homepage                                                  https://sylo.io
+gwernLongSite      Gwern                                                     https://www.gwern.net/About#long-site
+logData            Database                                                  https://github.com/kormyen/home/site/content/shell.tbtl
+marbles            Jars of Marbles                                           http://www.johnmaxwell.com/blog/dont-lose-your-marbles
+studioSailboat     studio on a sailboat                                      https://www.youtube.com/channel/UCzdg4pZb-viC3EdA1zxRl4A/playlists?view=50&sort=dd&shelf_id=7
+magicians          becoming a magician                                       https://autotranslucence.wordpress.com/2018/03/30/becoming-a-magician/
+longSite           Long Site                                                 https://www.gwern.net/About#long-site
+gwern              Gwern                                                     https://www.gwern.net/
+destructingPaper   Self destructing paper                                    http://web.archive.org/web/20071020051936/http://iq.org/
+piezoele           Piezoelectricity - why hitting crystals makes electricity https://www.youtube.com/watch?v=wcJXA8IqYl8
+capitalismProblem  George Monbiot                                            https://www.monbiot.com/2019/04/30/the-problem-is-capitalism/ 
+whoBusinessEnv     Daniel Quinn                                              http://www.ishmael.org/Education/Writings/rice_u_2_98.cfm
+masterOurselves    Rachel Carson                                             https://sunbeam.city/@RadioAngel/102278534260627592
+survivalPath       Ursula K. Le Guin                                         https://twitter.com/vectorpoem/status/1137377242600710147
+recycleDontCare    Mary Annaise Heglar                                       https://www.vox.com/the-highlight/2019/5/28/18629833/climate-change-2019-green-new-deal
+brutalQuestion     Adam Curtis                                               https://soundcloud.com/chapo-trap-house/episode-65-teaser-the-brutal-question
+animsent           Animal Sentience Journals                                 https://animalstudiesrepository.org/animsent/
+syloDesigners      The design magicians                                      https://medium.com/sylo-io/the-design-magicians-8fdc355ac3f9
+dastimeSource      Source                                                    https://github.com/kormyen/dastime
+philosophizeThis   Philosophize This                                         http://philosophizethis.org/
+philosophizeDasein Episode 100 – Heidegger pt. 1                             http://philosophizethis.org/heidegger-dasein/
+eleanorNgai        Eleanor Ngai                                              https://www.eleanorngai.com/
+joranKikke         Joran Kikke                                               https://twitter.com/donkeyscience
+webring            Webring                                                   https://webring.xxiivv.com/
+merveillesTown     Merveilles Town                                           https://merveilles.town/@kor
+twitter            Twitter                                                   https://twitter.com/kormyen
+keybase            Keybase                                                   https://keybase.io/kormyen
+github             Github                                                    https://github.com/kormyen
+steam              Steam                                                     https://steamcommunity.com/id/kormyen/
+alexey             Alexey Botkov                                             https://nomand.co
+christo            Christo Blaesche                                          https://christianblaesche.de/
+lightboxSource     Source                                                    https://github.com/kormyen/lightbox
+swordyHomepage     Homepage                                                  http://swordygame.com/
+frogshark          Frogshark                                                 http://swordygame.com/
+swordySteam        Steam                                                     https://store.steampowered.com/app/467900/SWORDY/
+swordyDevAlbum     Swordy Gamedev                                            https://imgur.com/a/Ous6E
+gretaGotlieb       Greta Gotlieb                                             http://gretagotlieb.com/
+`

@@ -1,0 +1,4 @@
+site/media/** filter=lfs diff=lfs merge=lfs -text
+site/media/**/* filter=lfs diff=lfs merge=lfs -text
+docs/media/** filter=lfs diff=lfs merge=lfs -text
+docs/media/**/* filter=lfs diff=lfs merge=lfs -text

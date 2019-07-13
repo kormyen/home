@@ -1,0 +1,19 @@
+{
+  "name": "home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://kormyen.github.com/home"
+  },
+  "author": "kormyen",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "puppeteer": "^1.16.0"
+  }
+}

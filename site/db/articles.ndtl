@@ -1,0 +1,161 @@
+var ARTICLES = `
+SOUL FOOD
+  TAGS : art, why
+  BREF : importance of values
+  BODY
+    p "Soul Food and the importance of values for creative survival" was a presentation by Raymond McGrath at Chromacon (a New Zealand arts festival) in 2019.
+    p Wow ok. That talk was amazing. An illustrator talking about doing work for love, work that makes you happy.
+    p Was working crazy hours 5am until late for years so wasn't seeing his daughters at all for weeks, so he started drawing them letters each, once a week for two years. Beautiful faries, and bugs, and flowers, and advice, or hints refering to what is going on in their life or future.
+    p Some epiiiic literally simple but conceptually deep illustrations and writing for children's books. About a bee, one word per page. About a rock, but more actually about your relationship with the world, and others, and perspective.
+    p About rejection from publishers, going out of your comfort zone, pushing to make things work, looking at things differently... aaaand still being rejected... but loving the work, and learning, and having that work regardless.
+    p Gifts with meaning.
+    p Values.
+    p "Creativity is a JOURNEY" :D
+    p "Stick to what matters"
+    p Generic advice I guess, but felt very genuine.
+
+THOUGHTS ON LOGGING 2019
+  TAGS : home
+  DATE : 2019-01-04
+  BREF : log in review
+  BODY
+    p Between 2018-07-12 and 2018-12-31 I logged 937 hours, tracked over 181 days, meaning 5.2 hours of output per day on average.
+    p 76% of days were vegetarian.
+    p 7% of days were in nature.
+    p 28% of days we social.
+    p 15% of days included exercise.
+    p Sector split: code (244h), visual (242h), carpentry (179h), physical (133h), electronics (80h), research (53h) and misc (6h).
+    p The majority of work dedicated to Van (32%), Contract (26%) and Web (23%).
+    p The biggest projects were Sylo (248h), Memex (154h), Bench (105h), Solar (85h), Log (51h), Garage (46h), Insulation (45h), Core (34h), Crucifix (28h), Fan (25h) and Megamex (21h).
+    p Benefits
+    p The gamified mental nagging to keep or improve desired statistics over time helped me to keep work hours higher and meat consumption lower.
+    p A benefit of entering logs regularly is the recognition of passing time. As opposed to the feeling of blurred days, weeks, months.
+    p Viewing the dashboard statistics is satisfying. Like quantification, acknowledgment of long-term desirable time use.
+    p Improvements
+    p Simplification
+    p Too many statistics tracked means adding logs takes more effort than needed, and thus is more likely to procrastinate. The 'Flow' field ("Did I enter a flow state?") is not all that useful and will be removed. More stats should be removed...
+    p Vege gaming
+    p I am finding that binary vegetarian/omnivore logging encourages increased meat consumption during a non-vegetarian-day since there is no log difference between a single portion vs gluttony. I will change the binary switch to a meat-portion-count per entry.
+    p Feelings
+    p I have a nagging feeling that percentage values for 'mood', 'health' and 'energy' do not feel they adequately represent 'feeling', but I am not sure how useful that is to track long term. I could add a word each day for feeling but not sure that the added effort it would add for logs match the benefit. Even a word obviously won't be adequate for representing contradictory or multiplistic feelings.
+    p Better vis and insights
+    p Need visualization for social, exercise days and better visualization for sectors, difficulty, efficiency, interest, learned, mood, health, energy. Probably an averaged line graph with scatter points. Adding combined stats (like Neauoire) as comparisons between sectors, categories and or projects could lead to insights.
+    p Phone log access
+    p Since I have been working in Auckland and living in van I have not been using my laptop everyday, which is currently the sole logging station. I've ended up not logging for several days, then having to catch up - the longest stretch being 11 days. I did not miss any important data but this is not a good habit. Would be nice to have a simple way to append to log from my phone.
+    p Date system change
+    p I much prefer Neauoire's Desamber date system but it makes things take a step extra for working things out. In an effort to reduce complexity I will change to a more standard date format. Eg: "19-01-01". I still intend to use Desamber display on the front end.
+    p Image tags
+    p Change image inclusion to format like Megamex with separate file for images with tags. Add names of people in photo etc.
+    p Split
+    p It could make sense for this logging system to be split into two systems for example 'output' (concrete work) and 'input' (social activities, intake and self improvement).
+    p Considerations:
+    p Track takeout meals
+    p Track alcohol
+    p Track fruit/vege portions
+    p Track gym visits
+    p Track meditation
+
+GOALS 
+  TAGS : home
+  DATE : 2019-01-04
+  BREF : Life, web, 2019
+  BODY
+    p Goals for life:
+    p Art for liberation
+    p Incrementalism of self (position and trajectory)
+    p Reduction of harm
+    p Goals for this website:
+    p Digital memory palace
+    p Exocortex
+    p Portfolio
+    p Goals for 2019:
+    p Cook
+    p Read
+    p Save
+    p Muscle
+    p Meditate
+
+CRYSTALS
+  BODY
+    p Quartz clock and Piezoelectricity
+    p ref {link ext piezoele}
+    p microphone, speaker, timing device, electrical generation
+
+CHANGE MINDS
+  TAGS : env
+  DATE : 2019-06-18
+  BREF : Why pollute?
+  BODY
+    p How to stop the problem of polution?
+    p Whos job is it to protect the environment?
+    p "As far as I'm concerned, protecting the environment is a conceptually equivalent to regulating EVERYTHING. And whose business is it to regulate everything?" - {link ext whoBusinessEnv}
+    p Government! ...but the question is wrong... Pollution is a symptom.
+    p If you have a hose spraying water everywhere getting things undesirably wet, do you try to catch every drop of water or turn the hose off?
+    p WHY do we want to pollute?
+    p 'Our task (if we hope to avoid extinction on this planet) is not to "protect the environment" but rather to change minds.' - {link ext whoBusinessEnv}
+    p "Saving the world surely doesn't mean freezing it as it is right now -- or returning it to some supposedly ideal evolutionary state (equally impossible). What it does mean is learning to live harmlessly in the world -- as harmlessly as sharks and tarantulas and rattlesnakes." - {link ext whoBusinessEnv}
+    p "perpetual growth on a finite planet leads inexorably to environmental calamity" - {link ext capitalismProblem "Source"}
+    p "The human race is challenged more than ever before to demonstrate our mastery, not over nature but of ourselves." - {link ext masterOurselves}
+    p "What you need is a powerful vision of the future, with all it's dangers... To do that you've got to engage with the giant forces of power that now run the world at the moment. The key thing is that in confronting those powers, and trying to transform the world you might loose a lot. This is a sort of forgotten idea. It is that actually you surrender yourself up to a big idea, and the in the process you might loose something, but you'd actually gain in a bigger sense. Because you change the world for the better. I know it sounds soppy but... this is the forgotten thing about politics... that you give up some of your individualism to something bigger than yourself. You surrender yourself. It's a lost idea. You can spot real change happening when you see people from the liberal middle classes beginning to give themselves up to something, surrender themselves for something for something bigger than themselves. At the moment there is nothing like that in the liberal imagination." - {link ext brutalQuestion}
+    p "We live in capitalism. It's power seems inescapable. So did the divine right of kings. Any human power can be resisted and changed by human beings." - {link ext survivalPath}
+    p "Stop obsessing over your environmental 'sins.' Fight the oil and gas industry instead." - {link ext recycleDontCare}
+
+PLASTIC OCEAN
+  TAGS : env
+  DATE : 2019-06-08
+  BREF : 
+  BODY
+    p The Plastic Ocean documentary screening was good. I liked the sustainable building it was showed in even more though haha. Had some cool non-toxic-plastic (ironic?) double layered roof with pressured gas in between as insulation etc.
+    p The plastic thing to me is a government/regulation problem (ban all non-compostable packaging ("bio-degradable-plastic" is bullshit - it doesn't ever "break down" it just "breaks apart")) but I guess education needs to permeate far enough into societies first in order for that to happen.
+    p There were terribly sad shots of the amounts of plastic in birds and sea life stomachs, and the usual foodchain plastic in humans spiel.
+    p "We live in capitalism. It's power seems inescapable. So did the divine right of kings. Any human power can be resisted and changed by human beings." - {link ext survivalPath}
+    p "Stop obsessing over your environmental 'sins.' Fight the oil and gas industry instead."  {link ext recycleDontCare}
+    p If you have a hose spraying water everywhere getting things undesirably wet, do you try to catch every drop of water or turn the hose off?
+
+VEGETABLES
+  TAGS : life
+  DATE : 2019
+  BREF : 
+  BODY
+    p {link ext animsent}
+
+THOUGHTS ON FLOATING
+  TAGS : life
+  BODY
+    p To call it "awesome" is the wrong word. Its relaxing, weightless, nothingness, surreal.
+    p It was funny going in, at the counter were two mid 20s Russian dudes and a trainee lady. Seemed like the whole time there was an unspoken joke in the room. "How did you hear about isolation tanks?", "The internet..." "Joe Rogan?" "Probably".
+    p They said they owe of lot of business to him. 
+    p The explanation of instructions was also funny as I had already watched quite a few isolation tank guides / do / don'ts. He covered every remaining question I had left, so didn't ask anything.
+    p He explained three floats are better as most people spend the first one just getting used to it. Beyond just up-selling he was probably correct. I'd recommend any "introduction package" of three or so too.
+    p Everything was spa / new age / massage parlor relaxation center-eske in the room. "You don't need to bring anything. Everything you need is here." Completely private room with the giant alien space pod tank, a shower, toilet, basin, cleaning products, towel. Needed to shower, wash hair, cover cuts, and wear ear plugs.
+    p Getting in was uncomfortable. Voluntary naked bathing in claustrophobic alien womb. 
+    p The water was salty. Very salty. 
+    p I turned off the light.
+    p It took a while to find a comfortable position. It took a while for the air to heat up and disappear between the surface and salt.
+    p It was a good place to think. I know the intention, or at least mine was to "be here now", to be silent but the nothingness was peaceful. I reflected, meditated as such. Thought about about life, about the last weeks, months years. How things are going with me, and the others around me.
+    p It was easy to imagine and visualize.
+    p There were visuals if you wanted them, the waves of closed eyes. Inner and intentional it felt like, but perhaps not.
+    p I counted breaths and played in this space of waves and silence for what felt like not enough time.
+    p I'd love to have a tank at home to meditate and relax in for longer periods of time.
+    p Too soon the bird-song-wave-breeze-music vibrated through the water to signal the time is up. 
+    p The experience was slightly disappointing but amazing, uncomfortable but incredibly relaxing.
+    p I want to do it again soon.
+
+HUMANE CALM
+  TAGS : design, ux
+  BREF : importance of values
+  BODY
+    p “The real problem of humanity is the following: we have paleolithic emotions; medieval institutions; and god-like technology. And it is terrifically dangerous, and it is now approaching a point of crisis overall.” Until we understand ourselves “until we answer those huge questions of philosophy that the philosophers abandoned a couple of generations ago—Where do we come from? Who are we? Where are we going?—rationally,” we’re on very thin ground. Edward Osborne Wilson
+    p "An interface is humane if it is responsive to human needs and considerate of human frailties." - Jef Raskin
+    p https://vimeo.com/332532972 "Humane: A New Agenda for Tech"
+    p 
+    p https://calmtech.com/ 
+    p Technology should require the smallest possible amount of attention
+    p Technology should inform and create calm
+    p Technology should make use of the periphery
+    p Technology should amplify the best of technology and the best of humanity
+    p Technology can communicate, but doesn’t need to speak
+    p Technology should work even when it fails
+    p The right amount of technology is the minimum needed to solve the problem
+    p Technology should respect social norms
+`

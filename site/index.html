@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>kor</title>
+  <meta name="author" content="Hamish MacDonald">
+  <link rel="stylesheet" href="asset/style.css">
+</head>
+<body>
+  <header></header>
+  <div class="wrapper">
+    <main></main>
+  </div>
+  <footer>
+  </footer>
+<!-- JS -->
+  <script src="logic/lib/tablatal.js"></script>
+  <script src="logic/lib/indental.js"></script>
+  <script src="db/shell.tbtl"></script>
+  <script src="db/media.tbtl"></script>
+  <script src="db/links.tbtl"></script>
+  <script src="db/pages.ndtl"></script>
+  <script src="db/projects.ndtl"></script>
+  <script src="build.js"></script>
+  <script src="logic/index.js"></script>
+  <script src="logic/inline.js"></script>
+  <script src="logic/runelike.js"></script>
+  <script src="logic/image.js"></script>
+  <script src="logic/media.js"></script>
+  <script src="logic/links.js"></script>
+  <script src="logic/log.js"></script>
+  <script src="logic/log-viz.js"></script>
+  <script src="logic/log-entry.js"></script>
+  <script src="logic/header.js"></script>
+  <script src="logic/pages.js"></script>
+  <script src="logic/projects.js"></script>
+  <script src="logic/focus.js"></script>
+  <script src="logic/photos.js"></script>
+  <script src="logic/footer.js"></script>
+  <script>
+    var index = new Index();
+    index.install();
+    index.start();
+    window.addEventListener("hashchange", function() { index.load(); });
+  </script>
+<!-- JS -->
+</body>
+</html>

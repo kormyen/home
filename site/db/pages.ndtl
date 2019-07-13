@@ -1,0 +1,54 @@
+var PAGES = `
+INDEX
+  HEAD : 2019-04-15_15-35
+  BODY
+    p {link page hamish "Hamish MacDonald"} is an Experience Designer
+    p Recent {link page projects}
+    p {lens focus}
+    p Recent {link page photos}
+    p {lens photos}
+
+HAMISH
+  BREF : Who?
+  DESC : Hamish MacDonald is an Experience Designer
+  DATE : 1988 - 2019
+  HEAD : 2019-03-03_15-00
+  BODY
+    i 2017-05-12_12-01
+    t Kormyen
+    b Literal: "kor" tr.(Tau) Air (pilot). "M'yen" tr.(Tau) unforseen.
+    b Misinterpreted: Ghost, spirit, soul~
+    t Goals
+    b Art for liberation
+    b Incrementalism of self
+    b Reduction of harm
+    t Research
+    b Dasein
+    b {link page log 'Productivity'}
+    b Solarpunk
+    t Links
+    b {link ext webring}
+    b {link ext merveillesTown}
+    b {link ext github}
+    b {link ext twitter}
+    b {link ext keybase}
+    i 2015-09-03_12-00
+
+LOG
+  BREF : time tracker
+  DESC : Log is a time tracker
+  DATE : 2018-07-12 onward
+  HEAD : 2018-07-05_12-00
+  BODY
+    p "What gets measured gets done."
+    p {tracker project percentages}
+    p {tracker sector percentages}
+    p The graph below is of productive hours per week over time.
+    p {tracker week graph}
+
+PROJECTS
+  HEAD : 2011-11-25_12-00
+
+PHOTOS
+  HEAD : 2018-05-03_12-00
+`

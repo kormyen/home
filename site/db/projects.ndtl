@@ -1,0 +1,362 @@
+var PROJECTS = `
+SYLO
+  BREF : distributed comms
+  TISA : a decentralized privacy focused communication and payments tool
+  DESC : My focus on this project was design - UX and UI. My responsibilities included design systems, mobile app, browser app and marketing website.
+  TAGS : ux, ui
+  SECT : 4
+  BODY
+    p Sylo has a focus on ease of use, while keeping a user in control of their data.
+    p It is built as a decentralized application platform, crypto-currency wallet and encrypted voice, video and text chat app.
+    p It's like Telegram (or WhatApp) with payments (or like WeChat) but not exploiting everything you put into it because it's actually private.
+    i 2019-07-08_00-17
+    p My role at Sylo is as a designer, focusing on UX and UI - making cryptocurrency and decentralization things easy to understand.
+    p The design team was interviewed on 2019-06-14 explaining our work and thoughts: "{link ext syloDesigners}". I had no help in picking the title for this article but like it as an unintended reference to "{link ext magicians}".
+    i 2019-06-14_11-00
+    p About the design team: myself, Alice, James and {link ext gretaGotlieb 'Greta'}.
+  LINK
+    - {link ext syloHomepage}
+
+SAILING
+  BREF : wind adventures
+  TISA : the most stressful way to travel
+  SECT : 1, 8
+  BODY
+    p {image 2017-01-12_17-40 ir} My first sailing experience was with my Aunt Karen, Uncle Peter, my Dad and two crazy cousins Lara and Chloe in Australia for a week around 1999. 
+    p I don't recall specifically where we went, but I cherish the memories of adventuring:
+    p over waves sitting at the bow 
+    p to what seemed like an island of endless sand mountains
+    p a beach of beautiful clear water
+    p receiving creatively insulting poem readings by Chloe
+    p a strange enacted prison island with prison guards who made me (try to) yell in fake pain from a torture demonstration...
+    t Hundred Rabbits' Pino
+    p {image 2017-11-05_17-53 il} Sailing myself was not really even a consideration until I started watching the Hundred Rabbits {link ext studioSailboat} vlogs where they seemed to go quickly from zero sailing experience to international travel.
+    p I met Devine and Rekka and their boat Pino in Whangarei after they sailed to New Zealand from California. 
+    p {link ext pino} is a 10 meter Yamaha33 1982 masthead sloop fiberglass sailboat.
+    p Devine introduced me to a shared workshop and tool library called "Hackland" in Auckland and thus to it's expanding Ephemeral Yacht Club including Joran, Helena, Dominic, Courtney and Lu.
+    i 2018-05-20_16-01
+    p Around this time the same Aunt Karen asked me if I plan to sail, I said "no, the ocean is scary" or something similarly dismissive in response but her question stayed with me.
+    p My vanlife experiences let me see that tiny homes are perfectly acceptable. A sense of adventure and becoming a "sum of those closest to you" nudged me toward actually deciding to "learn how to sail in the future"... "I'll buy a boat in five years".
+    p While working on {link project sylo} I became good friends with Sasha who was very keen to learn sailing. I introduced him to Joran and {link ext dominic 'Dominic'}.
+    t Sensei Dominic
+    p {link ext dominic} offered to give Sasha and I a sailing lesson, him knowing his track record of sailing students converting to sailboat owners is a high percentage... I agreed to a day sail.
+    p {link ext dominic 'Dominic'} describes himself as a "cyberhobo" and is probably the most interesting person I know. He very much {link ext magicians 'looks like a magician'} to me. I very much appreciate his teaching, patience and stories.
+    p {image 2019-01-19_11-59 il} {image 2019-01-19_12-12 ir} 
+    p In saying that his self built folding dinghy is an experience in which if you can bail faster than the water flows then in everything will be fine. It is the first test to see if you are ready to board Cleo.
+    p {image 2019-01-19_12-13 il} {image 2019-01-19_15-53 ir} 
+    p We slowly sailed to Browns Island from Mission Bay. We swam ashore and hiked the small Windows XP landscape, enjoying the 360 degree view of Auckland city, Rangitoto Island and the Hauraki Gulf. It's feels as if it is very literally a picnic island.
+    i 2019-01-19_15-46
+    i 2019-01-19_15-56
+    i 2019-01-19_16-28
+    p We decided that instead of sailing back, we would sail to Waiheke Island stay a night and sail home in the morning.
+    p The two day lesson gave Sasha and I a good all round taste from low wind sailing, sunny windy sailing, and strong wind rainy sailing.
+    i 2019-01-20_12-00
+    p Sasha eventually convinced me over several weeks "why wait, sail now" - to split the costs of a yacht and learn together.
+    p I do not regret learning to sail what so ever.
+    p It sounds cliché but once I started sailing around Auckland's Gulf Harbour I finally understood Auckland's "City of Sails" motto. 
+    p It is stunningly beautiful.
+    t Boat search
+    p Sasha and I looked at 10 boats within a week. Eventually getting a feel for what prices boats seem to be selling for in Auckland.
+    p We also viewed a boat 'Horizon' which was on auction which we never thought we would be able to afford, we were just curious what the next class of boats was like.
+    i 2019-07-08-18-13
+    t Quest
+    p We eventually settled on buying Quest with the help of {link ext joranKikke} who gave her an inspection and us the go ahead.
+    p Sailing her to Auckland from Jamieson Bay was our first mission. An eight hour sail.
+    i 2019-03-02_07-34
+    p We did a couple of small test sails on days prior, to build our confidence and be able to quickly turn back if anything went wrong.
+    p On our first attempt we got all the way into the Hauraki Gulf over half way before the waves and wind picked up more than we were comfortable dealing with. Being blown around (too much sail), with fairly large waves.
+    i 2019-02-23_12-40
+    p Below is the unedited sunset view on the way back. By this point (though defeated) we were calm, drinking tea and enjoying the surreal setting light.
+    i 2019-02-23_19-43
+    p On our second attempt we brought along my friend {link ext alexey}, and did the trip over two days, stopping off at Rakino Island.
+    i 2019-03-03_10-13
+    i 2019-03-02_08-41
+    i 2019-03-03_15-00
+    p {link ext alexey 'Alexey'} took some amazing photos and also made a video.
+    y AThaJHPu1xc
+    i 2019-03-03_19-17
+    i 2019-07-08_23-31
+    p We kept Quest on a mooring in Stanley bay which we thought was an amazing location. It turns out to be a terrible place for boats, rocky with harbour waves and ferry wakes. Completely unsuitable for doing anything other than leaving immediately. We have since moved Quest to a calm pile mooring in Panmure.
+    t Horizon
+    p We actually only owned Quest around a week before Horizon's auction ended and we purchased her for a cheap price.
+    p The photo below is the first and what we thought the last time we saw Horizon. We expected her to be much more expensive.
+    i 2019-02-17_12-00
+    i 2019-04-14_16-43
+    i 2019-04-07_13-59
+    i 2019-03-16_19-02
+    i 2019-03-17_16-08
+    p Had awesome adventures with some awesome people.
+    i 2019-04-13_15-00
+    p {image 2019-03-10_13-14 il} {image 2019-03-16_19-10 ir}
+    p {image 2019-04-16_18-19 ir} {image 2019-03-16_19-06 il}
+    p {image 2019-04-07_18-47 ir} {image 2019-05-25_16-42 il}
+    p {image 2019-04-16_06-59 ir} {image 2019-04-14_10-47 il}
+    p {image 2019-05-25_16-38 ir}
+    i 2019-04-15_15-01
+    i 2019-04-16_08-03
+    i 2019-05-25_16-37
+    i 2019-03-23_13-03
+    p {link ext alexey 'Alexey'} also made a video of a trip on Horizon. 
+    y Yf6xADq_nQw
+
+HOME
+  BREF : this website
+  TISA : a portfolio, time tracker and exocortex
+  BORN : 2006
+  SECT : 3, 4, 7
+  TAGS : ux, ui
+  BODY
+    p Since I was young I have chipped away at an unfinishable amorphous website that has reborn every few years.
+    p "...our small digital fires we keep alight at night." {link ext phil}
+    t Current
+    p The 2019 version was inspired by {link ext neauoire} with a focus on simplicity and minimalism in structure it is hopefully some form of foundational base to build upon into time.
+    p At the very least with it's use of a human-readable data database; it's content should be portable between future website versions and long term. Simple to archive. 
+    p An attempt at simplicity to help survive as {link ext techDegrades}.
+    p I found this quote and term {link ext longSite} on {link ext gwern} an inspiration in this regard:
+    p "The Internet is self destructing paper. A place where anything written is soon destroyed by rapacious competition and the only preservation is to forever copy writing from sheet to sheet faster than they can burn..." Julian Assange  ({link ext destructingPaper}, 5 December 2006)
+    t 2018
+    p {image 2018-10-15_12-00 il} {image 2018-10-15_12-01 ir} 
+    p Visualising my experiements with time tracking for self productivity gamification.
+    p It had two pages, one an overview of all data with a graph and statistics, the other being a day by day journal of tasks.
+    t 2014
+    i 2017-02-01_12-00
+    p Basically a placeholder business card as a website while I worked on other things. 
+    p I added written articles, thoughts and notes for a while, then removed them.
+    t 2010
+    i 2010-01-01_12-00
+    p {image 2010-01-01_12-01 il} Portfolio site for university work. I still really like this version.
+    p This site was interactive via Adobe Flash
+    p The top section is a mystery menu in Japanese for some reason with subtitles in English on hover. The {link project mort 'Mort TV'} header background was of a class 'art worm' project for fun, where each person paints the next square after only seeing the directly previous square.
+    p The first image below displays Fontana Dam a Half Life 2 map built for uni
+    p 2nd displays a cliche M.C. Escher optical illusion inspired Counter-Strike map for University Game Design class
+    p 3rd is a Counter-Strike multiplayer map for University Game Design class
+    p 4th is a simple university interactive project of a flying airship inside a birdcage built in Unity3D
+    t 2009
+    p Portfolio site for university work.
+    i 2009-10-01_12-00
+    t 2007
+    p Basically just playing around with goth aesthetic design and learning php, html, css, javascript in the background.
+    i 2007-12-27_12-00
+    t 2006
+    p This was a massively overscopped portfolio, blog, article website with a chat box, featured art and an interactive flash based interior exploration mini-game barely started (just below the header), it was going to show a character for each user currently viewing the website at the same time as you or something.
+    p I created everything in the screenshot except the heart with the grey shell and the banner adverts at the bottom of the page.
+    i 2007-01-24_12-00
+  LINK
+    - {link ext homeHomepage}
+
+MORT
+  BREF : rar
+  TISA : a MONSTER!!!
+  SECT : 4
+  BORN : 2010-07-30
+  TAGS : character
+  BODY
+    p {image 2007-09-04_12-00 ir} I created Mort for a character design asignment for university. 
+    p I referenced and borrowed from the styles of 'Johnny the Homicidal Maniac', 'Invader Zim', 'Lazy Muffin (Yotam Perel)' and 'Domo-Kun'.
+    p {image 2007-09-04_12-01 il}
+    p There was also a 3D model component of this assignment but that turned out terribly. See below for {link ext eleanorNgai}'s amazing 3D Mort fan art.
+    i 2009-09-15_12-18
+    p Above: The class voluntarily started an 'art worm' project where each person would draw the next sequence square in a horizontal painting after only seeing the previous square. This was my contribution.
+    i 2010-09-19_18-30
+    p {image 2009-06-15_10-48 il} Above: Mortzilla sketch for fun
+    p Left: Mortcat pixel art sketch for fun
+    p Below: Mort Halloween jack-o-lantern
+    i 2011-10-30_20-53
+    p Below: {link ext eleanorNgai}'s amazing 3D Mort fan art.
+    i 2010-07-30_12-01
+    p At some point I made a t-shirt Mort version, but surprisingly not many sold :D
+    i 2008-02-02_12-00
+    i 2019-07-08_12-00
+
+SKUL
+  BREF : monument
+  TISA : a monument
+  SECT : 4
+  BORN : 2015-08-12
+  BODY
+    p One of several medium scale Minecraft things.
+    p This was made on a public but unlisted vanilla multiplayer Minecraft server running on a home PC.
+    i 2015-08-12_12-00
+    p The eyes appear to follow you as you walk past or fly around it due to an illusion with depth, there are no moving parts.
+    p It has a hidden entrance inside it's mouth with an interior space within the skull.
+
+SSS
+  BREF : steampunk theme
+  TISA : an iOS theme
+  SECT : 4
+  TAGS : ux, ui
+  BORN : 2009-09-07
+  BODY
+    p I created this theme using a jail broken iPhone 3GS by ripping existing 'Cydia' (3rd party app store) downloaded themes and manually replacing the image parts/text files from slices of my steampunk theme design.
+    p The theme entirely worked and the four screenshots below are screenshots from the device itself.
+    i 2009-09-07_12-00
+    p I made the white pixel art icons for my chosen quick access apps (2nd screen). They were weirdly positioned tiny icons at the top of a normal sized app icon.
+    p The other nine app icons were created by someone else.
+
+MEMEX
+  BREF : note archive
+  TISA : a personal knowledge base
+  DESC : A bookmarks and notes tool to help with storage and overview
+  SECT : 3, 4, 7
+  TAGS : ux, ui
+  BORN : 2018-07-14
+  UNDR : Home
+  LINK
+    - {link ext memexLive}
+    - {link ext memexSource}
+  BODY
+    p Memex is a bookmarks and notes cataloging and filtering tool.
+    p "Have you tried writing down everything you know about everything?" - {link ext neauoire}
+    p I created this while experimenting with {link ext neauoire}'s human readable database libraries.
+    p Being a 'sever-less' app makes it easy to setup, share and edit.
+    p Memex works with {link ext 100rThemes}. Just drag a theme file onto the page to change the colours.
+    p I use memex as a personal knowledge base or "exocortex"... basically a digital notebook.
+    p An artist friend {link ext phil} uses Memex for his portfolio.
+    i 2019-06-18_21-42
+    p Below are pics of Memex in order as it developed
+    i 2018-07-17_12-00
+    i 2018-07-18_12-00
+    i 2018-09-14_12-00
+    i 2018-11-07_12-00
+
+MEGAMEX
+  BREF : catalog megaliths
+  TISA : a lens for overviewing megaliths
+  DESC : A tool for overviewing similarities and beauty of megalithic sites
+  SECT : 7
+  BORN : 2018-09-30
+  BODY
+    p I started a project of cataloging all the megalithic sites hoping to add tags of similar construction techniques, themes and details but I very quickly realised that there are many many many more amazing ancient megalithic sites than I imagined.
+    p Did you know there are 44 large pyramids in Egypt for starters?
+    p I plan to come back to this at some point - visualize it something like {link project memex}, make it open source and make it easy for people to add new sites and media.
+    p I cannot finish this by myself.
+
+ARDUSAMBER
+  BREF : neralie & arvelie
+  TISA : a neralie & arvelie Arduino clock
+  DESC : Arduino experiements with Neauoire's time format Neralie
+  SECT : 3
+  BORN : 2018-05-15
+  EDIT
+    - 2019-07-03 Created project page
+  BODY
+    p This project for me was playing with and learning Arduino basics and thinking about time.
+    p Building this lead me toward designing {link project dastime}.
+    p The time formats are {link ext neauoire}'s 'Neralie' and 'Arvelie'.
+    i 2018-06-04_12-00
+    t Time (Neralie)
+    p 'The clock has two groups of 3 digits, called the beat and the pulse. For example, Noon is 500:000, 6AM is 250:000 and 6PM is 750:000.'
+    p 'The needles are ratios of each other. They animate horizontaly and vertically to draw each digit of the current time.'
+    p What I love about Neralie is it's simplistic uniformality. 
+    p Decimal time makes a lot of sense with our human decimal numeral system and ten fingers. 
+    p 10 even hours per day, each with 100 minutes, each with 100 seconds. Opposed to 12 hours, of 60 minutes with 60 seconds of 1000 milliseconds.
+    t Date (Arvelie)
+    p 'The date format is a code ranging from 00A01, or Jan 1st '00 — to 99+02, or Dec 31st '99.'
+    p 'The Arvelie Calendar has 26 months of 14 days each.'
+    p 'Each month has 2 weeks of 7 days, and each month's name is one of the 26 letters of the alphabet. The 365th day of the year is the Year Day(+01), preceded by the Leap Day(+02) on leap years.'
+    p What I love about Arvelie is also it's simple uniformity. 
+    p 26 even months, each evenly 14 days. Leap days are still required and handled due to Earth's orbit (solar years) unsurprisingly not perfectly matching its spin rate (solar days).
+    p What this means is that from a given date it is easy to get a quick understanding of exactly how far through the year, month and week it is.
+    i 2018-06-03_12-00
+  LINK
+    - {link ext ardusamberSource}
+
+DASTIME
+  BREF : dasein time
+  TISA : a clock design
+  DESC : 
+  SECT : 3, 4
+  BORN : 
+  BODY
+    p I started this after being inspired by {link ext neauoire}'s time formats and my experimenting with them in {link project ardusamber}.
+    i 2018-07-05_12-03
+    p I wanted to design my own clock face that was ideally entirely visual.
+    p I wanted something organic in contrast to {link ext neauoire}'s very digital Neralie. Being mostly nocturnal during this time a thing that bothered me about Neralie was that the fidelity of readability decreased as time approached midnight.
+    p This lead me to wanting Dastime being circular, spherical or somehow even through it's revolutions.
+    i 2018-07-05_12-01
+    p During this time I was listening through the whole backlog of the {link ext philosophizeThis} podcast and arrived at {link ext philosophizeDasein} which talks about Phenomenology and Dasein...
+    p Dasein "is a form of being that is aware of and must confront such issues as personhood, mortality and the dilemma or paradox of living in relationship with other humans while being ultimately alone with oneself."
+    p "Dasein for Heidegger can be a way of being involved with and caring for the immediate world in which one lives, while always remaining aware of the contingent element of that involvement, of the priority of the world to the self, and of the evolving nature of the self itself."
+    p "...turning away from the collective world of Them, to face Dasein, one's individuality, one's own limited life-span, one's own being."
+    p Those explanations are difficult to parse but to me Dasein means having an understanding of the social, cultural and historic context, origin and byproducts of the things you live under, affect and drive you... then choosing which you want to allow to drive you toward your goals.
+    p In this regard I wanted the clock face to reference to the origins of time, or rather how we beings from planets measure it - the rotation of our home planet producing periods of light and dark in direct view and shade of our home star.
+    i 2018-07-05_12-02
+    p The letters and numbers are there for debugging.
+    p It is a top down view of Earth and the moon looking at the north pole, through to the south pole.
+    p The triangle is your latitude which rotates mimicing Earth's rotation.
+    p The white light on Earth shows the direction of the Sun which tells you roughly how far through the year you are (the Earth orbiting Sol). In the photo above it is 45% of the way through the year.
+    p The position of the triangle as it rotates tells you the time of the day in reference to the direction of the sun light. Directly pointing toward the sun would be noon. In the photo it is nearly midnight.
+    p The light on Earth fills to show the time of month. In the photo it is 53% the way through the month.
+    p The other circle is the moon. The position of it as it orbits Earth tells you the current moon phase. The white light on the moon fills as it approaches the direction of the sun to reflect this (full white would be full moon).
+    p I got this all displaying on Arduino but not animating.
+    p I am happy with the time of day and lunation representations, but I think I can improve the day of month and month of year indications.
+    p I'd consider adding an indication for the day of the week, moon types (blood, blue, super etc), seasons, solstice, and presession.
+    p I would like to return to this project but will probably iterate the design with javascript before completing the Arduino version.
+    i 2019-07-10_15-07
+    p Still figuring things out...
+  LINK
+    - {link ext dastimeSource}
+
+FPVMOD
+  BREF : display++
+  TISA : a modified fpv drove display
+  DESC : Modified FPV drone display (Eachine VR006) with recording and larger swappable battery.
+  SECT : 1
+  BORN : 2018-03-20
+  BODY
+    p I added a recording module using tutorials online. Also replaced the internal battery with a external battery slot so that it is swappable and larger.  
+    i 2018-03-20_12-00
+
+CONTROL
+  BREF : control panel
+  TISA : a custom control panel with switches and dimmer
+  DESC : 
+  SECT : 1, 2, 3, 4
+  BODY
+    p Made a custom control panel for a tiny house IoT system with switches and a dimmer for lights and fans.
+    i 2018-08-19-12-00
+    i 2018-10-18-12-00
+    
+PDU
+  BREF : power unit
+  TISA : a power distribution unit for an IoT system
+  SECT : 1, 2, 3
+  BODY
+    i 2018-08-19_12-01
+
+CRUCIFIX
+  BREF : boardwalk
+  TISA : a boardwalk deck/pathway
+  SECT : 1
+  BODY
+    i 2018-10-14_12-00
+    i 2018-10-14_12-01
+    p Project complete but don't have final photos yet.
+
+LIGHTBOX
+  BREF : image zoom
+  TISA : a minimal vanilla JS lightbox lib
+  SECT : 3, 4
+  BODY
+    i 2018-11-02_12-01
+  LINK
+    - {link ext lightboxSource}
+
+SWORDY
+  BREF : physics brawler
+  TISA : a physics based local-multiplayer fighting game
+  SECT : 3, 4, 7
+  BODY
+    p GIFs and images of development: {link ext swordyDevAlbum}
+  LINK
+    > {link ext swordyHomepage}
+    > {link ext swordySteam}
+    > {link ext frogshark}
+
+VAN
+  BREF : tiny house
+  TISA : mobile stealth tiny house
+  SECT : 1, 2, 3, 4, 6, 7
+  BODY
+    i 2018-01-20_12-00
+`
