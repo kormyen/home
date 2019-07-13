@@ -79,8 +79,9 @@ async function doBuild()
   let html = await page.content();
   let htmlSplit = html.split(`<!-- JS -->`);
   
+  htmlSplit[0] = await convertLinksToRoot(htmlSplit[0]);
   await fsp.writeFile(path.join(directoryOutput, `index.html`), htmlSplit[0] + htmlSplit[2], (err) => {  
-      if (err) { throw err; }
+    if (err) { throw err; }
   });
 
   for (let m = 0; m < miscPages.length; m++)
