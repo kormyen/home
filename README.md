@@ -1,4 +1,4 @@
-<img src='https://raw.githubusercontent.com/kormyen/home/master/site/media/2019-07-09_21-13.jpg'/>
+<img src='https://media.githubusercontent.com/media/kormyen/home/master/site/media/2019-07-09_21-13.jpg'/>
 
 [**Live web version here**](http://kor.nz)
 
