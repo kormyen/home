@@ -505,3 +505,12 @@ footer {
 .trackergraph-labelGap {
   fill: var(--color-secondary);
 }
+
+
+
+/* LIGHTBOX */
+.lightbox {
+  object-position: center;
+  height: 100% !important;
+  width: 100%;
+}
