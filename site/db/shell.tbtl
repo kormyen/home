@@ -25,7 +25,8 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
-2019-07-13 31- 6555 web        home            Repo clean up. Content fixes.
+2019-07-14 34- 6555 web        home            New repo setup. Fix lfs issues.
+2019-07-13 32- 6555 web        home            Repo clean up. Content fixes.
 2019-07-13 32- 5453 web        home            Repo clean up.
 2019-07-12 47- 5564 contract   sylo            QR code scan error. Wallet portfolio lock screen.
 2019-07-12 32- 6556 web        home            Add content.
