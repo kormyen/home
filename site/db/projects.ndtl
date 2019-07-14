@@ -362,6 +362,9 @@ LIGHTBOX
   TISA : a minimal vanilla JS lightbox lib
   SECT : 3, 4
   BODY
+    p Extremely minimal (barely worth it) {link ext vanillaJs} library for making very simple full-sized image viewer "lightbox" views for images on a website.  
+    p I mostly seperated it as a library as a test of what is involved. 
+    p Intending to use it in {link project memex}, {link project megamex} and on {link project home 'this site'} (as "progressive enhancement").
     i 2018-11-02_12-01
   LINK
     - {link ext lightboxSource}
