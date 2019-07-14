@@ -2,6 +2,7 @@ var ARTICLES = `
 SOUL FOOD
   TAGS : art, why
   BREF : importance of values
+  TYPE : notes
   BODY
     p "Soul Food and the importance of values for creative survival" was a presentation by Raymond McGrath at Chromacon (a New Zealand arts festival) in 2019.
     p Wow ok. That talk was amazing. An illustrator talking about doing work for love, work that makes you happy.
@@ -14,10 +15,12 @@ SOUL FOOD
     p "Stick to what matters"
     p Generic advice I guess, but felt very genuine.
 
-THOUGHTS ON LOGGING 2019
+LOGGING 2019
   TAGS : home
   DATE : 2019-01-04
   BREF : log in review
+  PUBL : true
+  TYPE : thoughts
   BODY
     p Between 2018-07-12 and 2018-12-31 I logged 937 hours, tracked over 181 days, meaning 5.2 hours of output per day on average.
     p 76% of days were vegetarian.
@@ -55,10 +58,12 @@ THOUGHTS ON LOGGING 2019
     p Track gym visits
     p Track meditation
 
-GOALS 
+GOALS 2019
   TAGS : home
   DATE : 2019-01-04
   BREF : Life, web, 2019
+  PUBL : true
+  TYPE : thoughts
   BODY
     p Goals for life:
     p Art for liberation
@@ -122,6 +127,7 @@ VEGETABLES
 THOUGHTS ON FLOATING
   TAGS : life
   HEAD : 2014-11-19_19-00
+  PUBL : true
   BODY
     p To call it "awesome" is the wrong word. Its relaxing, weightless, nothingness, surreal.
     p It was funny going in, at the counter were two mid 20s Russian dudes and a trainee lady. Seemed like the whole time there was an unspoken joke in the room. "How did you hear about isolation tanks?", "The internet..." "Joe Rogan?" "Probably".

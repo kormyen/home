@@ -25,6 +25,7 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-07-14 32- 5555 web        home            Add db content and media.
 2019-07-14 35- 7665 web        home            New repo setup. Fix lfs issues. Fix new repo issues.
 2019-07-13 32- 6555 web        home            Repo clean up. Content fixes.
 2019-07-13 32- 5453 web        home            Repo clean up.
