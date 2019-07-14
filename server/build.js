@@ -40,7 +40,7 @@ const pagesKeys = Object.keys(pages);
 // Wipe build directory so we start from scratch incase something is removed - no diff!
 fs.emptyDirSync(directoryOutput);
 
-// Copy all static files/folders.
+// Copy all static files/folders
 staticFolders.forEach(folderName =>
 {
   fs.copy(path.join(directorySource, folderName), path.join(directoryOutput, folderName), function (err)
@@ -64,11 +64,11 @@ fs.copyFile(path.join(__dirname, `CNAME`), path.join(directoryOutput,`CNAME`), (
 
 async function convertLinksToRoot(html)
 {
-  // Convert media and asset look up hyperlinks to root-relative. Relative stepping back directories is possible by annoying.
+  // Convert media and asset look up hyperlinks to root-relative. Relative stepping back directories is possible... but annoying to setup and I don't need it
   html = html.split(`asset/`).join('/asset/');
   html = html.split(`href="media/`).join('href="/media/');
 
-  // Convert image and video file look up hyperlinks to absolute hyperlinks to media.githubusercontent urls as they are in Git-LFS and not accessable via their expected url location.
+  // Convert image and video file look up hyperlinks to absolute hyperlinks to media.githubusercontent urls as they are in Git-LFS and not accessable via their expected url location
   html = html.split(`src="media/`).join('src="https://media.githubusercontent.com/media/kormyen/home/master/site/media/');
   return html;
 }
