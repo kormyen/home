@@ -141,9 +141,9 @@ DATE             EXT PBW MOQF PROJ          TAGS               AUTHOR           
 2019-07-04_12-55 jpg ++- --6C van                              Hamish                                                   Stealth mode upgrade
 2017-08-18_12-00 jpg +-- --6C misc                             Maya
 2017-06-14_12-00 jpg ++- --8C misc          cat                Hamish           Tui
-2018-08-19-12-00 jpg +-- -+75 control                          Hamish                                                   Custom control panel with switches and dimmer for lights and fans
-2018-10-18-12-00 jpg +-- --8C control                          Hamish                                                   Internals of control panel
-2018-08-19_12-01 jpg +-- -+54 pdu                              Hamish                                                   Overview of power distribution board for tiny house iot system
+2018-08-19-12-00 jpg +-- -+75 control       vns                Hamish                                                   Custom control panel with switches and dimmer for lights and fans
+2018-10-18-12-00 jpg +-- --8C control       vns                Hamish                                                   Internals of control panel
+2018-08-19_12-01 jpg +-- -+54 power         vns                Hamish                                                   Overview of power distribution board for tiny house iot system
 2018-10-14_12-00 jpg +-- -+6T crucifix                         Hamish
 2018-10-14_12-01 jpg +-- --6T crucifix                         Hamish
 2019-07-12_01-48 jpg --- -+6C lightbox                         Hamish 
@@ -151,4 +151,7 @@ DATE             EXT PBW MOQF PROJ          TAGS               AUTHOR           
 2018-11-02_12-01 gif --- --7C lightbox                         Hamish 
 2019-07-12_01-57 jpg --- -+7C swordy                           Danny
 2018-01-20_12-00 jpg +-- -+8C van                              Hamish
+2015-07-17_12-00 jpg -+- --7C skul                             Hamish                                                   Minecraft server team photo
+2014-11-19_19-00 jpg +-- --6C misc                             Hamish                                                   First float/isolation tank experience
+2018-08-23_12-00 jpg +-- -+7C core          vns                Hamish                                                   Overview of core computer for VNS Tiny House IoT
 `

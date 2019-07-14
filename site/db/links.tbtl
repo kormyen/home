@@ -48,4 +48,8 @@ frogshark          Frogshark                                                 htt
 swordySteam        Steam                                                     https://store.steampowered.com/app/467900/SWORDY/
 swordyDevAlbum     Swordy Gamedev                                            https://imgur.com/a/Ous6E
 gretaGotlieb       Greta Gotlieb                                             http://gretagotlieb.com/
+vnsControlSource   Source                                                    https://github.com/kormyen/vns/tree/master/CONTROL
+vnsCoreSource      Source                                                    https://github.com/kormyen/vns/tree/master/CORE
+vnsPowerSource     Source                                                    https://github.com/kormyen/vns/tree/master/POWER
+vanillaJs          Vanilla JS                                                http://vanilla-js.com/
 `

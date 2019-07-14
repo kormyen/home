@@ -180,6 +180,8 @@ SKUL
     i 2015-08-12_12-00
     p The eyes appear to follow you as you walk past or fly around it due to an illusion with depth, there are no moving parts.
     p It has a hidden entrance inside it's mouth with an interior space within the skull.
+    i 2015-07-17_12-00
+    p Server group photo
 
 SSS
   BREF : steampunk theme
@@ -308,22 +310,43 @@ FPVMOD
     p I added a recording module using tutorials online. Also replaced the internal battery with a external battery slot so that it is swappable and larger.  
     i 2018-03-20_12-00
 
+CORE
+  BREF : power core
+  TISA : input receiver and output commander for the VNS Tiny House IoT power system
+  UNDR : VNS
+  SECT : 3
+  BODY
+    p Node.js app running on Raspberry Pi Zero W
+    p Receives input from web UI and/or {link project control} panel(s), sends commands to {link project power}
+    i 2018-08-23_12-00
+  LINK
+    - {link ext vnsCoreSource}
+
 CONTROL
   BREF : control panel
   TISA : a custom control panel with switches and dimmer
-  DESC : 
   SECT : 1, 2, 3, 4
+  UNDR : VNS
   BODY
     p Made a custom control panel for a tiny house IoT system with switches and a dimmer for lights and fans.
+    p Arduino Nano connected to {link project core} via USB
+    p Sends button and potentiometer inputs to {link project core}
     i 2018-08-19-12-00
     i 2018-10-18-12-00
+  LINK
+    - {link ext vnsControlSource}
     
-PDU
+POWER
   BREF : power unit
   TISA : a power distribution unit for an IoT system
+  UNDR : VNS
   SECT : 1, 2, 3
   BODY
+    p Arduino Mega 2560 connected to {link project core} via USB
+    p Receives input from {link project core} and controls power sent to lights, fans etc
     i 2018-08-19_12-01
+  LINK
+    - {link ext vnsPowerSource}
 
 CRUCIFIX
   BREF : boardwalk
@@ -360,4 +383,23 @@ VAN
   SECT : 1, 2, 3, 4, 6, 7
   BODY
     i 2018-01-20_12-00
+    t Sub-projects
+    p Rust repair and paint (forever)
+    p Maintenance (forever)
+    p Insulation (95%)
+    p Solar system (100%)
+    p Bed (100%)
+    p Cabinetry (60%)
+    p Electronics and power system (60%)
+    p Cooling and ventilation (50%)
+    p Heating (0%)
+    p Flooring (100%)
+    p Wall and ceiling finish (0%)
+    p Kitchen bench (60%)
+    p Office (80%)
+    p Shower and toilet (0%)
+    p Garage (60%)
+    p Sound system (70%)
+    p The latest addition is "5%" (maximum) tinted window for ultimate stealth mode
+    i 2019-07-04_12-55
 `
