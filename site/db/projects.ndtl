@@ -405,4 +405,23 @@ VAN
     p Sound system (70%)
     p The latest addition is "5%" (maximum) tinted window for ultimate stealth mode
     i 2019-07-04_12-55
+
+WHALEBUS
+  BREF : spam toy
+  TISA : 48 hour game jam "what do we do now?" themed toy
+  SECT : 3, 4
+  BODY
+    p 48 hour game jam "what do we do now?" themed toy.
+    i 2015-01-26_12-01
+    p We came up with a game where two players control a creature generated from random parts.
+    p "The idea came up over dinner that players should be able to work together as well as against each other, where an encounter with something new gives them some figuring out to do."
+    i 2015-01-26_12-04
+    p {link ext alexey} and Danny Lawrie worked on the art, design and sound. I did the the programming, a bit of design and ideas.
+    i 2015-01-26_12-00
+    y VaOpTmiQf4c
+    p The game was hosted by {link ext popUpArcade} for a "First Thursday" (public art night) event on K road.
+    p {link ext alexey 'Alexey'} created a video of the event
+    y SRT7m2pXA44
+  LINK
+    - {link ext whalebusDownload}
 `
