@@ -43,6 +43,7 @@ LOG
     p "What gets measured gets done."
     p {tracker project percentages}
     p {tracker sector percentages}
+    p {tracker lastUpdateText}
     p The graph below is of productive hours per week over time.
     p {tracker week graph}
   LINK

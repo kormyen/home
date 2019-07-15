@@ -169,6 +169,10 @@ function Inline()
                         {
                             lineResult += parent.log.sectPercStats();
                         }
+                        else if (chunk == "lastUpdateText")
+                        {
+                            lineResult += parent.log.getLastUpdateText();
+                        }
                     }
                     else
                     {
