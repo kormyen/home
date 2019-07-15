@@ -25,12 +25,13 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
-2019-07-14 32- 5555 web        home            Add db content and media.
-2019-07-14 35- 7665 web        home            New repo setup. Fix lfs issues. Fix new repo issues.
+2019-07-15 47- 5564 contract   sylo            Wallet dashboard continued. Payments finalize.
+2019-07-14 32- 5555 web        home            Add db content and media. Fix https. 
+2019-07-14 35- 7665 web        home            New repo setup. Fix lfs issues. Fix new repo issues. RELEASE source.
 2019-07-13 32- 6555 web        home            Repo clean up. Content fixes.
 2019-07-13 32- 5453 web        home            Repo clean up.
 2019-07-12 47- 5564 contract   sylo            QR code scan error. Wallet portfolio lock screen.
-2019-07-12 32- 6556 web        home            Add content.
+2019-07-12 32- 6556 web        home            Add content. RELEASE http://kor.nz
 2019-07-11 32- 6556 web        home            Add content.
 2019-07-11 48- 6664 contract   sylo            Iterate payments.
 2019-07-10 33- 7666 web        home            Fix links! Set up domain name. Tweak content. Nav slash. Misc tweaks.
@@ -72,7 +73,7 @@ DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                      
 2019-06-21 46- 7667 contract   sylo            Finish add user flow. Create demo for card dapp.
 2019-06-20 43- 6565 contract   sylo            Discuss tasks and handling.
 2019-06-20 46- 6565 contract   sylo            Final pixel perfect invision user flow for add user.
-2019-06-19 84- 7665 boat       maintenance     Oil, oil filter, fuel filter with Kevin Aureo.
+2019-06-19 84- 7665 boat       maintenance     Oil change, oil filter, fuel filter with Kevin Aureo.
 2019-06-19 47- 6565 contract   sylo            
 2019-06-19 31- 6655 web        home            Set up basic hour project stats.
 2019-06-18 94- 5665 web        home            Adding content for sailing page, about page, other projects.
@@ -288,7 +289,7 @@ DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                      
 2019-02-27 48- 6666 contract   sylo            Group account with Alisa
 2019-02-26 48- 6666 contract   sylo            Group account introducing Alisa
 2019-02-25 48- 6666 contract   sylo            Group account, create asset Alisa UX discussions
-2019-02-25 31- 5645 web        home            homecatch up
+2019-02-25 31- 5645 web        home            Catch up
 2019-02-23 89- 8887 boat       sailing         Quest sail from Jamieson Bay to near Rangitoto return
 2019-02-22 47- 6644 contract   sylo            Group account changes for demo, modal components for mobile
 2019-02-21 48- 6646 contract   sylo            Group account userflow finish up and mobile conversion
@@ -349,7 +350,7 @@ DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                      
 2019-01-04 34- 5636 web        home            Meat portion as binary, review, refactor
 2019-01-04 02- 6666 van        bench           Parts research for waste water and gas hose
 2019-01-04 02- 6375 misc                       Steam Frogshark W8, Alexey director remove, server fix etc
-2019-01-02 31- 6765 web        home            homecatch up
+2019-01-02 31- 6765 web        home            Catch up
 2019-01-01 21- 5636 van        electronics     Wire USB fast charger to battery and rear bed cupboar
 2018-12-20 48- 6676 contract   sylo            Tablet screen design meeting complete! Start clean up post meeting.
 2018-12-19 47- 6485 contract   sylo            Tablet screen prep, forcing design team to have tablet meeting, pizza
