@@ -15,6 +15,12 @@ SOUL FOOD
     p "Stick to what matters"
     p Generic advice I guess, but felt very genuine.
 
+TIME
+  BREF : importance of values
+  TYPE : notes
+  BODY
+    p Test
+
 LOGGING 2019
   TAGS : home
   DATE : 2019-01-04
@@ -152,7 +158,7 @@ HUMANE CALM
   TAGS : design, ux
   BREF : importance of values
   BODY
-    p “The real problem of humanity is the following: we have paleolithic emotions; medieval institutions; and god-like technology. And it is terrifically dangerous, and it is now approaching a point of crisis overall.” Until we understand ourselves “until we answer those huge questions of philosophy that the philosophers abandoned a couple of generations ago—Where do we come from? Who are we? Where are we going?—rationally,” we’re on very thin ground. Edward Osborne Wilson
+    p “The real problem of humanity is the following: we have paleolithic emotions; medieval institutions; and god-like technology. And it is terrifically dangerous, and it is now approaching a point of crisis overall.” Until we understand ourselves, “until we answer those huge questions of philosophy that the philosophers abandoned a couple of generations ago — Where do we come from? Who are we? Where are we going?—rationally,” we’re on very thin ground. Edward Osborne Wilson
     p "An interface is humane if it is responsive to human needs and considerate of human frailties." - Jef Raskin
     p https://vimeo.com/332532972 "Humane: A New Agenda for Tech"
     p 

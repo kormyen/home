@@ -25,6 +25,10 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-07-18 43- 5576 contract   sylo            Asset card. Payment flow. Invision flow.
+2019-07-17 42- 5574 contract   sylo            Asset card. Payment flow.
+2019-07-17 47- 5576 contract   sylo            Asset card. Payment flow. Browser success.
+2019-07-16 47- 5564 contract   sylo            QR scan error final. Web login load. Style guide. 
 2019-07-15 47- 5564 contract   sylo            Wallet dashboard continued. Payments finalize.
 2019-07-14 32- 5555 web        home            Add db content and media. Fix https. 
 2019-07-14 35- 7665 web        home            New repo setup. Fix lfs issues. Fix new repo issues. RELEASE source.
