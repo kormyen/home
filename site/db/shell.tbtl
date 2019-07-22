@@ -25,6 +25,7 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-07-22 47- 6665 contract   sylo            Payment final. Planning.
 2019-07-21 13- 6656 misc                       Help cooking Lunches club.
 2019-07-20 15- 5466 misc                       Help Sasha and Coni move house.
 2019-07-19 47- 6565 contract   sylo            Payment flow iteration. Dashboard.
