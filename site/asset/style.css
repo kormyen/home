@@ -46,7 +46,7 @@ html {
 }
 main {
   max-width: var(--size-mainWidth);
-  padding: var(--size-columnPaddingNormal) 5vw var(--size-mainPadding) 5vw;
+  padding: var(--size-columnPaddingNormal) 5vw calc(2 * var(--size-mainPadding)) 5vw;
   margin: 0 auto 0 auto;
   box-sizing: border-box;
   display: flex;
@@ -82,28 +82,6 @@ header {
 
 .wrapper { /* Setup for forcing the footer to sticky to the bottom of page even if page content is short */
   min-height: 100%;
-}
-
-footer {
-  height: var(--size-mainPadding);
-  padding: 0 8vw 0 8vw;
-  margin-top: calc(-1 * var(--size-mainPadding));
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  justify-content: center; /* horizontal */
-  align-items: center; /* vertical */
-}
-.footerItemMargins {
-  margin-left: var(--size-columnPaddingMedium);
-  margin-right: var(--size-columnPaddingMedium);
-}
-@media only screen and (max-width: 50em) /* MIN WIDTH REACHED */
-{
-  .footerItemMargins {
-    margin-left: var(--size-columnPaddingNormal);
-    margin-right: var(--size-columnPaddingNormal);
-  }
 }
 
 .subtleLink {
@@ -519,4 +497,64 @@ footer {
   max-width: 100vw;
   transform: translateY(-50%) translateX(-50%);
   vertical-align: middle;
+}
+
+
+
+/* SOCIAL ICON */
+.socialIcon {
+  height: 3.8vw;
+  width: 3.8vw;
+  opacity: 0.7;
+}
+.socialIcon:hover {
+  opacity: 1;
+}
+@media screen and (min-width: 80em) { /* MAX WIDTH REACHED */
+  .socialIcon {
+    height: 3.2em;
+    width: 3.2em;
+  }
+}
+@media only screen and (max-width: 50em) { /* MIN WIDTH REACHED */
+  .socialIcon {
+    height: 2em;
+    width: 2em;
+  }
+}
+
+
+
+/* FOOTER */
+footer {
+  height: calc(2 * var(--size-mainPadding));
+  padding: 0 8vw 0 8vw;
+  margin-top: calc(-1 * 2 * var(--size-mainPadding));
+  overflow: hidden;
+}
+.footerItemMargins {
+  margin-left: var(--size-columnPaddingMedium);
+  margin-right: var(--size-columnPaddingMedium);
+}
+@media only screen and (max-width: 50em) /* MIN WIDTH REACHED */
+{
+  .footerItemMargins {
+    margin-left: var(--size-columnPaddingNormal);
+    margin-right: var(--size-columnPaddingNormal);
+  }
+}
+#footerContent {
+  height: var(--size-mainPadding);
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+  margin-top: var(--size-columnPaddingMedium);
+  width: 100%;
+  vertical-align: middle;
+}
+#footerSocial {
+  width: 100%;
+  text-align: center;
+  height: var(--size-mainPadding);
 }

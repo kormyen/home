@@ -49,7 +49,7 @@ function Index()
 
 	this.start = function()
 	{
-		document.querySelector('footer').innerHTML = this.footer.getContent();
+		document.querySelector('#footerContent').innerHTML = this.footer.getContent();
 		this.load();
 	}
 
