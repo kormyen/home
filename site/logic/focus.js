@@ -19,7 +19,7 @@ function Focus()
     // Limit to recent logs
     let recentLogs = [];
     let refDate = new Date;
-    refDate.setDate(refDate.getDate()-90);
+    refDate.setDate(refDate.getDate()-120);
     let refDateString = refDate.getTime();
 
 
