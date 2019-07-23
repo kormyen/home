@@ -137,5 +137,5 @@ function Image(data)
   const daysOld      = this.roughDatediff(dateNorm,dateToday);
   // const oldPerc   = 1 - Math.min(daysOld / 3650, 1);
   // const ageScore  = Math.round(oldPerc * 9);
-  this.score         = (this.quality * 1000) - daysOld;
+  this.score         = (this.quality * 70) - daysOld;
 }

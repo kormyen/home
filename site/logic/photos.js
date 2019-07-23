@@ -16,7 +16,8 @@ function Photos()
     // let sorted = this.media.sortByQuality(filtered);
 
     const filtered = this.media.filterNotHeaders(this.media.db);
-    const sorted = this.media.sortByScore(filtered);
+    const photosOnly = this.media.filterPhotos(filtered);
+    const sorted = this.media.sortByScore(photosOnly);
     
     // let sorted = this.media.sortByQuality(this.media.db);
     let limited = sorted.slice(0, 3);
