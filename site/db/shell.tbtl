@@ -25,7 +25,8 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
-2019-02-23 73- 7765 van                        Playing with and researching diesel heater install.
+2019-07-24 31- 6655 web        home            Project lens tweak. Photo lens tweak. Minor adjustments.
+2019-07-23 73- 7765 van                        Playing with and researching diesel heater install.
 2019-07-23 48- 6454 contract   sylo            Info modals. Payment tweaks.
 2019-07-22 31- 6655 web        home            Add footer ext links again. Add research project links.
 2019-07-22 47- 6665 contract   sylo            Payment final. Planning.

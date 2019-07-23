@@ -329,7 +329,7 @@ function Log()
     let dayDiff = Math.round((new Date() - this.lastestDate) / SECONDS_IN_DAY);
     if (dayDiff == 0)
     {
-      result += 'today';
+      result += 'today.';
     }
     else if (dayDiff == 1)
     {
