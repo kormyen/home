@@ -25,6 +25,9 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-02-23 73- 7765 van                        Playing with and researching diesel heater install.
+2019-07-23 48- 6454 contract   sylo            Info modals. Payment tweaks.
+2019-07-22 31- 6655 web        home            Add footer ext links again. Add research project links.
 2019-07-22 47- 6665 contract   sylo            Payment final. Planning.
 2019-07-21 13- 6656 misc                       Help cooking Lunches club.
 2019-07-20 15- 5466 misc                       Help Sasha and Coni move house.
@@ -40,7 +43,7 @@ DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                      
 2019-07-13 32- 6555 web        home            Repo clean up. Content fixes.
 2019-07-13 32- 5453 web        home            Repo clean up.
 2019-07-12 47- 5564 contract   sylo            QR code scan error. Wallet portfolio lock screen.
-2019-07-12 32- 6556 web        home            Add content. RELEASE http://kor.nz
+2019-07-12 32- 6556 web        home            Add content. RELEASED http://kor.nz
 2019-07-11 32- 6556 web        home            Add content.
 2019-07-11 48- 6664 contract   sylo            Iterate payments.
 2019-07-10 33- 7666 web        home            Fix links! Set up domain name. Tweak content. Nav slash. Misc tweaks.
