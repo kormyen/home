@@ -13,7 +13,7 @@ SYLO
     p My role at Sylo is as a designer, focusing on UX and UI - making cryptocurrency and decentralization things easy to understand.
     p The design team was interviewed on 2019-06-14 explaining our work and thoughts: "{link ext syloDesigners}". I had no help in picking the title for this article but like it as an unintended reference to "{link ext magicians}".
     i 2019-06-14_11-00
-    p About the design team: myself, Alice, James and {link ext gretaGotlieb 'Greta'}.
+    p The design team (left to right): myself, Alice, James and {link ext gretaGotlieb 'Greta'}.
   LINK
     - {link ext syloHomepage}
 
@@ -33,13 +33,13 @@ SAILING
     p {image 2017-11-05_17-53 il} Sailing myself was not really even a consideration until I started watching the Hundred Rabbits {link ext studioSailboat} vlogs where they seemed to go quickly from zero sailing experience to international travel.
     p I met Devine and Rekka and their boat Pino in Whangarei after they sailed to New Zealand from California. 
     p {link ext pino} is a 10 meter Yamaha33 1982 masthead sloop fiberglass sailboat.
-    p Devine introduced me to a shared workshop and tool library called "Hackland" in Auckland and thus to it's expanding Ephemeral Yacht Club including Joran, Helena, Dominic, Courtney and Lu.
+    p Devine introduced me to a shared workshop and tool library called "Hackland" in Auckland and thus to it's expanding Ephemeral Yacht Club including {link ext joranKikke}, Helena, {link ext dominic}, Courtney and Lu.
     i 2018-05-20_16-01
     p Around this time the same Aunt Karen asked me if I plan to sail, I said "no, the ocean is scary" or something similarly dismissive in response but her question stayed with me.
     p My vanlife experiences let me see that tiny homes are perfectly acceptable. A sense of adventure and becoming a "sum of those closest to you" nudged me toward actually deciding to "learn how to sail in the future"... "I'll buy a boat in five years".
-    p While working on {link project sylo} I became good friends with Sasha who was very keen to learn sailing. I introduced him to Joran and {link ext dominic 'Dominic'}.
+    p While working on {link project sylo} I became good friends with Sasha who was very keen to learn sailing. I introduced him to {link ext joranKikke 'Joran'} and {link ext dominic 'Dominic'}.
     t Sensei Dominic
-    p {link ext dominic} offered to give Sasha and I a sailing lesson, him knowing his track record of sailing students converting to sailboat owners is a high percentage... I agreed to a day sail.
+    p {link ext dominic 'Dominic'} offered to give Sasha and I a sailing lesson, him knowing his track record of sailing students converting to sailboat owners is a high percentage... I agreed to a day sail.
     p {link ext dominic 'Dominic'} describes himself as a "cyberhobo" and is probably the most interesting person I know. He very much {link ext magicians 'looks like a magician'} to me. I very much appreciate his teaching, patience and stories.
     p {image 2019-01-19_11-59 il} {image 2019-01-19_12-12 ir} 
     p In saying that his self built folding dinghy is an experience in which if you can bail faster than the water flows then in everything will be fine. It is the first test to see if you are ready to board Cleo.
@@ -60,7 +60,7 @@ SAILING
     p We also viewed a boat 'Horizon' which was on auction which we never thought we would be able to afford, we were just curious what the next class of boats was like.
     i 2019-07-08-18-13
     t Quest
-    p We eventually settled on buying Quest with the help of {link ext joranKikke} who gave her an inspection and us the go ahead.
+    p We eventually settled on buying Quest with the help of {link ext joranKikke 'Joran'} who gave her an inspection and us the go ahead.
     p Sailing her to Auckland from Jamieson Bay was our first mission. An eight hour sail.
     i 2019-03-02_07-34
     p We did a couple of small test sails on days prior, to build our confidence and be able to quickly turn back if anything went wrong.
@@ -76,7 +76,7 @@ SAILING
     y AThaJHPu1xc
     i 2019-03-03_19-17
     i 2019-07-08_23-31
-    p We kept Quest on a mooring in Stanley bay which we thought was an amazing location. It turns out to be a terrible place for boats, rocky with harbour waves and ferry wakes. Completely unsuitable for doing anything other than leaving immediately. We have since moved Quest to a calm pile mooring in Panmure.
+    p We kept Quest on a mooring in Stanley bay which we thought was an amazing location. It turns out to be a terrible location. Rocky with harbour waves and constant passing boat wakes. Completely unsuitable for doing anything other than leaving immediately. We have since moved Quest to a calm pile mooring in Panmure.
     t Horizon
     p We actually only owned Quest around a week before Horizon's auction ended and we purchased her for a cheap price.
     p The photo below is the first and what we thought the last time we saw Horizon. We expected her to be much more expensive.
@@ -125,12 +125,12 @@ HOME
     t 2010
     i 2010-01-01_12-00
     p {image 2010-01-01_12-01 il} Portfolio site for university work. I still really like this version.
-    p This site was interactive via Adobe Flash
+    p This site was built with Adobe Flash.
     p The top section is a mystery menu in Japanese for some reason with subtitles in English on hover. The {link project mort 'Mort TV'} header background was of a class 'art worm' project for fun, where each person paints the next square after only seeing the directly previous square.
-    p The first image below displays Fontana Dam a Half Life 2 map built for uni
-    p 2nd displays a cliche M.C. Escher optical illusion inspired Counter-Strike map for University Game Design class
-    p 3rd is a Counter-Strike multiplayer map for University Game Design class
-    p 4th is a simple university interactive project of a flying airship inside a birdcage built in Unity3D
+    p The first image below displays Fontana Dam a Half Life 2 map built for University.
+    p 2nd displays a cliche M.C. Escher optical illusion inspired Counter-Strike map for University Game Design class.
+    p 3rd is a Counter-Strike multiplayer map for University Game Design class.
+    p 4th is a simple university interactive project of a flying airship inside a birdcage built in Unity3D.
     t 2009
     p Portfolio site for university work.
     i 2009-10-01_12-00
@@ -139,7 +139,7 @@ HOME
     i 2007-12-27_12-00
     t 2006
     p This was a massively overscopped portfolio, blog, article website with a chat box, featured art and an interactive flash based interior exploration mini-game barely started (just below the header), it was going to show a character for each user currently viewing the website at the same time as you or something.
-    p I created everything in the screenshot except the heart with the grey shell and the banner adverts at the bottom of the page.
+    p I created everything in the screenshot except the heart with the grey shell, the fonts and the banner adverts at the bottom of the page.
     i 2007-01-24_12-00
   LINK
     - {link ext homeHomepage}
