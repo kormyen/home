@@ -48,8 +48,18 @@ staticFolders.forEach(folderName =>
     if (err) 
     {
       console.error(`error copying folderName: ${err}`);
-    } 
+    }
   });
+});
+
+// Copy Webring shared files
+let webringSource = path.join(directorySource, `db`);
+let webringOutput = path.join(directoryOutput, `db`);
+if (!fs.existsSync(webringOutput)){
+  fs.mkdirSync(webringOutput);
+}
+fs.copyFile(path.join(webringSource, `glossary.ndtl`), path.join(webringOutput, `glossary.ndtl`), (err) => {
+  if (err) throw err;
 });
 
 // Copy file that declares 'BUILD = true' in webapp which is used by inline.js to change how internal links work (not hash linking for webapp but root-relative url changes)
