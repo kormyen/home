@@ -1,9 +1,9 @@
 /*
 DATE = Gregorian day
 
-S = Sector (work type/category)
-H = Focus hour (day time % decimal)
-P = Percent (subjective concrete (or feeling of) progress toward this project/task/entry)
+S = Sector (work type/category - see below)
+H = Hours
+P = Progress (progress toward this project/task)
 
 K = Knowledge gained (feeling of wisdom increase, higher for more things learned or more value)
 I = Interest
