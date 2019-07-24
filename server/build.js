@@ -61,6 +61,9 @@ if (!fs.existsSync(webringOutput)){
 fs.copyFile(path.join(webringSource, `glossary.ndtl`), path.join(webringOutput, `glossary.ndtl`), (err) => {
   if (err) throw err;
 });
+fs.copyFile(path.join(directorySource, `twtxt.txt`), path.join(directoryOutput, `twtxt.txt`), (err) => {
+  if (err) throw err;
+});
 
 // Copy file that declares 'BUILD = true' in webapp which is used by inline.js to change how internal links work (not hash linking for webapp but root-relative url changes)
 fs.copyFile(path.join(__dirname, `true-build.js`), path.join(__dirname, `../site/build.js`), (err) => {
