@@ -25,6 +25,7 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-07-24 47- 8865 contract   sylo            Design tracker. Ben discuss. Meet Mark. 
 2019-07-24 31- 6655 web        home            Add twtxt site and webring.
 2019-07-24 47- 6675 contract   sylo            Discuss backlog, planning, processes.
 2019-07-24 43- 6675 contract   sylo            Update payment flow with modals.
