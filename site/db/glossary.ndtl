@@ -6,7 +6,7 @@ TIME
   Decimal Time : Base 10 time measuring. Various formats of decimal time are used today in Astronomy, Science, Aviation and Accounting / Time logging.
   Duodecimal Time : Base 12 time measuring. "There are twelve signs of the zodiac, twelve months in a year, and the Babylonians had twelve hours in a day (although at some point this was changed to 24.) Traditional Chinese calendars, clocks, and compasses are based on the twelve Earthly Branches."
   Prime Meridian : Arbitrarily defined point on the geographic coordinate system at which longitude is defined to be at 0. For Earth the Royal Observatory in Greenwich, England was agreed as this universal reference point at the 1884 International Meridian Conference. "This location was chosen because by 1884 two-thirds of all nautical charts and maps already used it as their prime meridian."
-  Greenwich Mean Time (GMT) : (1884 - 1960) Deprecated global standard (1884 - 1960). Solar time at the Royal Observatory in Greenwich, England. Created to aid time synchronization between trains in England.
+  Greenwich Mean Time (GMT) : (1884 - 1960) Deprecated global standard. Solar time at the Royal Observatory in Greenwich, England. Created to aid time synchronization between trains in England.
   Universal Time (UT) : (1928 - now) Current global standard. Mean solar time at Greenwich with the day starting at midnight.
   (UT0) : Obsolete. Determined by observing stars, extragalactic radio sources, the Moon and artificial Earth satellites. Includes no correction for polar motion.
   (UT1) : Conceptually it is the mean solar time at 0° longitude (prime meridian). Determined by observing "distant quasars using long baseline interferometry, laser ranging of the Moon and artificial satellites, as well as the determination of GPS satellite orbits".
@@ -61,4 +61,7 @@ TIME
   Hunter’s moon : The full moon following the Harvest moon.
   Sidereal month : The time it takes for the Moon to orbit around Earth (27 d 7 h 43 min 11.6 s valid for the epoch J2000.0). Used in the past in the Middle East, India, and China by “dividing the sky into 27 or 28 lunar mansions, one for each day of the month, identified by the prominent star(s) in them.”
   Synodic month (lunar phases) : The time it takes for the Moon to pass an imaginary the line connecting Sol and Earth. “Since Earth's orbit around the Sun is elliptical and not circular, the speed of Earth's progression around the Sun varies during the year. Thus, the angular rate is faster nearer periapsis and slower near apoapsis. The same is so for the Moon's orbit around the Earth. Because of these variations in angular rate, the actual time between lunations may vary from about 29.18 to about 29.93 days. The long-term average duration is 29.530587981 days (29 d 12 h 44 min 2.8016 s). The synodic month is used to calculate eclipse cycles.”
+READING LIST 2019
+  Leviathan Wakes : James S. A. Corey
+  Self Sufficient Sailor : Lin Pardey, Larry Pardey
 `
