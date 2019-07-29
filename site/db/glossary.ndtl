@@ -2,7 +2,7 @@ DATABASE.glossary = `
 TIME
   Solar Time : Time measured by the position of the Sun in the sky.
   Precession : A change (wobble) in the orientation of the rotational axis of a rotating body.
-  Equinox : A momement during precession of an astronomical body's rotation where an imaginary plan extending from the equator aligns with the center of the sun. This happens twice a year for Earth.
+  Equinox : A momement during precession of an astronomical body's rotation where an imaginary plane extending from the equator aligns with the center of the sun. This happens twice a year for Earth.
   Sidereal Time : Time measured by the rotation of planet Earth in relation to the 'fixed stars' (“background of astronomical objects that appear to not move relative to each other in the night sky“). “A sidereal day is approximately 23 hours, 56 minutes, 4.0905 SI seconds.”
   Decimal Time : Base 10 time measuring. Various formats of decimal time are used today in Astronomy, Science, Aviation and Accounting / Time logging.
   Duodecimal Time : Base 12 time measuring. "There are twelve signs of the zodiac, twelve months in a year, and the Babylonians had twelve hours in a day (although at some point this was changed to 24.) Traditional Chinese calendars, clocks, and compasses are based on the twelve Earthly Branches."
