@@ -25,6 +25,7 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-08-06 41- 7775 web        dastime         Thinking about day of week / month visualization.
 2019-08-06 31- 6655 web        dastime         Luncation calc porting.
 2019-08-05 48- 6656 contract   sylo            Wallet onboarding finals. Testing. Tracker ideas.
 2019-08-04 33- 7765 web        dastime         Figuring out basics of html canvas rendering.

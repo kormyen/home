@@ -103,6 +103,7 @@ function Projects()
           stringAge = `${stringAgeBorn} - ${dateLast.getFullYear()} ${monthNames[dateLast.getMonth()]}`
         }
       }
+      
       if (stringAge != ``)
       {
         element.HtmlSidebar += `${stringAge}<br>`

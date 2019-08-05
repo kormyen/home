@@ -270,7 +270,7 @@ DASTIME
   TISA : a clock design
   DESC : 
   SECT : 3, 4
-  BORN : 
+  BORN : 2018-07-05
   BODY
     p I started this after being inspired by {link ext neauoire}'s time formats and my experimenting with them in {link project ardusamber}.
     i 2018-07-05_12-03
@@ -298,6 +298,11 @@ DASTIME
     p I would like to return to this project but will probably iterate the design with javascript before completing the Arduino version.
     i 2019-07-10_15-07
     p Still figuring things out...
+    p Note: Keep Earth light percentage fixed at 50% (true to life), have Saturday, Sunday shade fill bg, have current day full fill bg. Might need day seperation lines, will see. The plus for this setup is the large central space of the clock face is dedicated to day of week and day of month - normal human useful things to know. Logical / banal metaphoric placement - this is important info "on Earth".
+    p Alternately day would be on clock edge from direction of sun. Marker lines from month start to month end showing where sun direction changes. The negative of this option is fitting it in with the moon, and away from the time of day notches/marker. The positive is that it is more true to what the day of week / month is counted via.
+    p Day of the week is Earth spins. Day changes at midnight. Day of week indicator could be within the dark side of Earth.
+    p Percentage of month is Earth orbiting Sol arbirary markers of degrees. Notches at edge of screen.
+    p Put gregorian standard time and date on screen instead of YMDL. Have switch for Neralie/Arvelie.
   LINK
     - {link ext dastimeSource}
 
