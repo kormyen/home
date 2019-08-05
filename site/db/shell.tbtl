@@ -25,6 +25,12 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-08-06 31- 6655 web        dastime         Luncation calc porting.
+2019-08-05 48- 6656 contract   sylo            Wallet onboarding finals. Testing. Tracker ideas.
+2019-08-04 33- 7765 web        dastime         Figuring out basics of html canvas rendering.
+2019-07-30 43- 6566 contract   sylo            Wallet.
+2019-07-30 75- 6556 contract   sylo            Notion planning. Discuss app improvements. Watch Great Hack.
+2019-07-29 48- 7565 contract   sylo            Add contact permissions iteration.
 2019-07-26 72- 7755 contract   sylo            UX SV etc.
 2019-07-26 46- 6555 contract   sylo            Tablet designs. New contact review, fixes, dicussion.
 2019-07-25 47- 8865 contract   sylo            Design tracker. Ben discuss. Meet Mark. 
