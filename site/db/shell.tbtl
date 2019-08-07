@@ -25,6 +25,8 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-08-07 46- 6766 contract   sylo            Finish pay rec. Wallet recent tx. Icons with Greta. Wallet onboard mod.
+2019-08-06 48- 6474 contract   sylo            Iterate wallet onboarding with Jerry. Meeting about FAB. Start pay rec.
 2019-08-06 41- 7775 web        dastime         Thinking about day of week / month visualization.
 2019-08-06 31- 6655 web        dastime         Luncation calc porting.
 2019-08-05 48- 6656 contract   sylo            Wallet onboarding finals. Testing. Tracker ideas.
