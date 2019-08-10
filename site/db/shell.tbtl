@@ -25,6 +25,9 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-08-10 13- 7565 van        heater          Bench test. Test fit and planning.
+2019-08-09 47- 6776 contract   sylo            Wallet graph.
+2019-08-08 46- 6676 contract   sylo            Wallet graph.
 2019-08-07 46- 6766 contract   sylo            Finish pay rec. Wallet recent tx. Icons with Greta. Wallet onboard mod.
 2019-08-06 48- 6474 contract   sylo            Iterate wallet onboarding with Jerry. Meeting about FAB. Start pay rec.
 2019-08-06 41- 7775 web        dastime         Thinking about day of week / month visualization.
