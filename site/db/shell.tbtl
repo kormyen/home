@@ -25,6 +25,7 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-08-11 14- 6665 van        heater          Build mount. Test mount.
 2019-08-10 13- 7565 van        heater          Bench test. Test fit and planning.
 2019-08-09 47- 6776 contract   sylo            Wallet graph.
 2019-08-08 46- 6676 contract   sylo            Wallet graph.
