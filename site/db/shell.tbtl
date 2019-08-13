@@ -25,6 +25,7 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-08-13 42- 6463 contract   sylo            Power.
 2019-08-13 49- 6464 contract   sylo            Power. Paul chat. Comp > Design clean up.
 2019-08-12 47- 6455 contract   sylo            Power.
 2019-08-11 14- 6665 van        heater          Build mount. Test mount.
