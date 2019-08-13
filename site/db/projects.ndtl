@@ -8,12 +8,13 @@ SYLO
   BODY
     p Sylo has a focus on ease of use, while keeping a user in control of their data.
     p It is built as a decentralized application platform, crypto-currency wallet and encrypted voice, video and text chat app.
-    p It's like Telegram (or WhatApp) with payments (or like WeChat) but not exploiting everything you put into it because it's actually private.
+    p It's like Telegram (or WhatsApp) with payments (or like WeChat) but not exploiting everything you put into it because it's actually private and decentralized.
     i 2019-07-08_00-17
     p My role at Sylo is as a designer, focusing on UX and UI - making cryptocurrency and decentralization things easy to understand.
     p The design team was interviewed on 2019-06-14 explaining our work and thoughts: "{link ext syloDesigners}". I had no help in picking the title for this article but like it as an unintended reference to "{link ext magicians}".
     i 2019-06-14_11-00
     p The design team (left to right): myself, Alice, James and {link ext gretaGotlieb 'Greta'}.
+    p I hate photos.
   LINK
     - {link ext syloHomepage}
 
