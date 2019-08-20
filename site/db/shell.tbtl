@@ -25,6 +25,16 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-08-20 11- 5266 boat       maintenance     Fix broken mooring ropes
+2019-08-20 72- 8656 van        maintenance     Researching electrical problem
+2019-08-20 22- 6655 van        maintenance     Testing electrical problem
+2019-08-20 12- 6674 van        maintenance     Remove alternator
+2019-08-19 48- 6663 contract   sylo            Power finalize. 
+2019-08-18 22- 6264 van        maintenance     Temp fix alternator / battery issue. 
+2019-08-16 73- 6647 contract   sylo            Quick power tweaks. App improvements meeting. Notion walk through.
+2019-08-15 48- 6665 contract   sylo            Power flow.
+2019-08-14 42- 6353 contract   sylo            Power pay.
+2019-08-14 49- 6665 contract   sylo            Power pay.
 2019-08-13 42- 6463 contract   sylo            Power.
 2019-08-13 49- 6464 contract   sylo            Power. Paul chat. Comp > Design clean up.
 2019-08-12 47- 6455 contract   sylo            Power.
