@@ -18,9 +18,9 @@ function Focus()
   {
     // Limit to recent logs
     let recentLogs = [];
-    let refDate = new Date;
-    refDate.setDate(refDate.getDate()-120);
-    let refDateString = refDate.getTime();
+    // let refDate = new Date;
+    // refDate.setDate(refDate.getDate()-120);
+    // let refDateString = refDate.getTime();
 
 
     let logs = this.log.external;
@@ -28,10 +28,10 @@ function Focus()
     let index = 0;
     while(index < logs.length)
     {
-      if (logs[index].dateObj.getTime() > refDateString)
-      {
+      // if (logs[index].dateObj.getTime() > refDateString)
+      // {
         recentLogs.push(this.log.external[index]);
-      }
+      // }
       index++;
     }
 
