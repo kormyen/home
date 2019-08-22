@@ -25,6 +25,9 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-08-22 12- 4456 van        maintenance     Refit batteries and fuses.
+2019-08-22 72- 6755 contract   sylo            Planning.
+2019-08-22 96- 6674 contract   sylo            Wiring article.
 2019-08-21 72- 8765 contract   sylo            Catch up with Dorian.
 2019-08-21 45- 6666 contract   sylo            Payment fiat/crypto think. Fiat defend. Asset app nav thoughts.
 2019-08-20 11- 5266 boat       maintenance     Fix broken mooring ropes
