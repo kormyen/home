@@ -25,6 +25,13 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-08-26 47- 7666 contact    sylo            Ben talk. Task priority sorting.
+2019-08-26 46- 6555 contact    sylo            Address font fixes. Dark new wallet. Swipe wallet tests. Structure.
+2019-08-25 14- 6655 van        heater          Redo mounting heater. Attach and extend framing. Mount diesel tank.
+2019-08-24 41- 5454 contract   sylo            Structure.
+2019-08-24 13- 6566 misc                       Help Sasha check, test, clean new car.
+2019-08-24 41- 6765 contract   sylo            Structure.
+2019-08-23 97- 7664 contract   sylo            Article.
 2019-08-22 12- 4456 van        maintenance     Refit batteries and fuses.
 2019-08-22 72- 6755 contract   sylo            Planning.
 2019-08-22 96- 6674 contract   sylo            Wiring article.
