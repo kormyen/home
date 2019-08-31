@@ -25,6 +25,15 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-09-01 21- 5646 misc       skatelight      Soldering components to test board.
+2019-08-31 21- 5646 misc       skatelight      Soldering components to test board.
+2019-08-31 15- 7664 van        heater          Installing fuel line proper. Mount pump. Test wire.
+2019-08-31 12- 5366 misc                       Help Alexey moving house.
+2019-08-30 48- 6775 contract   sylo            Wallet send/req. 
+2019-08-29 48- 6655 contract   sylo            Color update. Scott discuss. Jerry pending. Payment long text.
+2019-08-28 48- 6676 contract   sylo            Wallet send/req.
+2019-08-27 22- 6665 misc       skatelight      Re-figure out basic wiring. Build test circuit.
+2019-08-27 47- 7466 contract   sylo            Smart wallet gather. Task sort. Colour sort.
 2019-08-26 47- 7666 contact    sylo            Ben talk. Task priority sorting.
 2019-08-26 46- 6555 contact    sylo            Address font fixes. Dark new wallet. Swipe wallet tests. Structure.
 2019-08-25 14- 6655 van        heater          Redo mounting heater. Attach and extend framing. Mount diesel tank.
