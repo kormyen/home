@@ -25,6 +25,11 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-09-02 42- 7675 contract   sylo            Wallet send/req.
+2019-09-02 49- 7675 contract   sylo            Wallet send/req.
+2019-09-01 47- 6475 contract   sylo            Wallet send/req.
+2019-09-01 43- 6666 misc                       BHN drawing.
+2019-09-01 21- 6746 misc       heater          Testing.
 2019-09-01 21- 5646 misc       skatelight      Soldering components to test board.
 2019-08-31 21- 5646 misc       skatelight      Soldering components to test board.
 2019-08-31 15- 7664 van        heater          Installing fuel line proper. Mount pump. Test wire.
