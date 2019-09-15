@@ -25,9 +25,25 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
-2019-09-02 42- 7675 contract   sylo            Wallet send/req.
-2019-09-02 49- 7675 contract   sylo            Wallet send/req.
-2019-09-01 47- 6475 contract   sylo            Wallet send/req.
+2019-09-15 13- 5657 misc                       Lunch club cooking.
+2019-09-15 12- 6656 misc       totebag         Sew and screenprint a totebag.
+2019-09-14 13- 6766 misc                       Helping Lu and Christo with pizza truck.
+2019-09-14 11- 7664 misc       keyboard        Figuring out steps. Test fitting keys and wiring.
+2019-09-14 11- 4464 van        maintenance     Fix driver pillar.
+2019-09-13 48- 6454 contract   sylo            Full flow.
+2019-09-12 48- 6565 contract   sylo            Wallet onboarding.
+2019-09-11 11- 6566 misc       scooter         Replace rear solid tyre.
+2019-09-11 49- 7665 contract   sylo            Transfer/address/wallet setup. Minor payment adjusts.
+2019-09-10 12- 6574 misc       scooter         Remove rear tyre, attempt to replace with solid tyre.
+2019-09-10 48- 6465 contract   sylo            Transfer, error screens for payment, presentation adjust.
+2019-09-09 48- 6655 contract   sylo            Transfer, tracker.
+2019-09-08 12- 7666 misc       skatelight      Attach components to solid frame.
+2019-09-06 47- 6465 contract   sylo            
+2019-09-05 48- 6465 contract   sylo            Tracker. Blockchain meetup user test.
+2019-09-04 48- 6565 contract   sylo            Planning. Misc tasks. Transfer.
+2019-09-03 42- 7675 contract   sylo            Wallet send/req.
+2019-09-03 49- 7675 contract   sylo            Wallet send/req.
+2019-09-02 47- 6475 contract   sylo            Wallet send/req.
 2019-09-01 43- 6666 misc                       BHN drawing.
 2019-09-01 21- 6746 misc       heater          Testing.
 2019-09-01 21- 5646 misc       skatelight      Soldering components to test board.
