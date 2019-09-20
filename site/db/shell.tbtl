@@ -25,6 +25,13 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-09-19 11- 5466 misc       keyboard        Filling base to fit switches.
+2019-09-19 46- 5464 contract   sylo            Wallet tweaks, wording updates, discuss wallet onboarding, full wallet.
+2019-09-19 72- 7656 contract   sylo            UX crypto research.
+2019-09-18 12- 6765 misc       solarsails      kiwiburn themecamp application in progress
+2019-09-18 48- 6465 contract   sylo            Onboarding flow. Misc for josip, jerry, james.
+2019-09-17 48- 6465 contract   sylo            Greta tx review. Onboarding flow.
+2019-09-16 47- 6465 contract   sylo            Full flow - onboarding settings.
 2019-09-15 13- 5657 misc                       Lunch club cooking.
 2019-09-15 12- 6656 misc       totebag         Sew and screenprint a totebag.
 2019-09-14 13- 6766 misc                       Helping Lu and Christo with pizza truck.
