@@ -25,6 +25,8 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-09-20 01- 5655 web        home            Add photos.
+2019-09-20 48- 5565 contract   sylo            Full wallet. New group accounts.
 2019-09-19 11- 5466 misc       keyboard        Filling base to fit switches.
 2019-09-19 46- 5464 contract   sylo            Wallet tweaks, wording updates, discuss wallet onboarding, full wallet.
 2019-09-19 72- 7656 contract   sylo            UX crypto research.
