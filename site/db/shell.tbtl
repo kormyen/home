@@ -25,6 +25,30 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-10-10 48- 7666 contract   sylo            Design team app overview. Design team meet. Group account feedback.
+2019-10-09 48- 6555 contract   sylo            App review. Design zero vend pay request. Improve asset/account/group. 
+2019-10-08 48- 6565 contract   sylo            Asset info page improve. Request improve. Group pay review.
+2019-10-07 47- 4455 contract   sylo            Scan button. Transfer. Clean up.
+2019-10-06 12- 7665 misc                       Misc helping at Hackland - Dominic boat.
+2019-10-06 12- 6464 misc       Toilet          Materials cleaning - break apart stairs with Joran.
+2019-10-04 47- 4344 contract   sylo            
+2019-10-03 48- 4344 contract   sylo            
+2019-10-02 48- 4344 contract   sylo            
+2019-10-01 48- 4344 contract   sylo            Chat payment. Group payment.
+2019-09-30 48- 4353 contract   sylo            Chat payment. Uniswap stuff.
+2019-09-28 12- 7645 boat       maintenance     Helping remove junk from Alchemist.
+2019-09-28 13- 6456 boat       maintenance     Helping Sasha paint Horizon lounge.
+2019-09-27 47- 7665 contract   sylo            
+2019-09-26 48- 6465 contract   sylo            Inputs. Chat payment flow. Dominic meeting.
+2019-09-25 41- 6565 misc       cacao           Basic research and first pass.
+2019-09-25 11- 6555 misc                       Set up server.
+2019-09-25 48- 4455 sylo       contract        Dark tracker. Specify bull sticker. Transfer kb. Request redo. Chat pay.
+2019-09-24 32- 6473 misc                       Test set up server. Trying to improve Hackland router setup.
+2019-09-24 48- 6374 contract   sylo            Import wallet flow. Full wallet. 
+2019-09-23 11- 4545 misc                       Help set up new hackland pc.
+2019-09-23 48- 6374 contract   sylo            Planning. Retrospective. Label discuss. Typography research.
+2019-09-22 12- 6666 misc       solarsails      Helping build test build round house.
+2019-09-21 12- 6466 boat       maintenance     Helping Sasha varnish Horizon lounge.
 2019-09-20 01- 5655 web        home            Add photos.
 2019-09-20 48- 5565 contract   sylo            Full wallet. New group accounts.
 2019-09-19 11- 5466 misc       keyboard        Filling base to fit switches.
