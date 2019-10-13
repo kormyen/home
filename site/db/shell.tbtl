@@ -25,6 +25,10 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-10-13 12- 6465 misc                       Help move Dominic's motor from Cleo to Hackland.
+2019-10-12 42- 6776 contract   sylo            Asset/group asset/account/group account UI redesign.
+2019-10-11 48- 7666 contract   sylo            Sprint review. Asset/group asset/account/group account UI redesign.
+2019-10-10 32- 6656 misc       portfolio       First pass sarah portfolio. 
 2019-10-10 48- 7666 contract   sylo            Design team app overview. Design team meet. Group account feedback.
 2019-10-09 48- 6555 contract   sylo            App review. Design zero vend pay request. Improve asset/account/group. 
 2019-10-08 48- 6565 contract   sylo            Asset info page improve. Request improve. Group pay review.
