@@ -41,9 +41,9 @@ open home/site/index.html in a browser
 node home/server/build.js
 ```
 
-**Upload**
+**Publish**
 ```
-now
+now --prod
 ```
 
 ## Dependencies
