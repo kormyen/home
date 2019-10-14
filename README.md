@@ -41,9 +41,9 @@ open home/site/index.html in a browser
 node home/server/build.js
 ```
 
-**Run**
+**Upload**
 ```
-open home/public/index.html in a browser
+now
 ```
 
 ## Dependencies
