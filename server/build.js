@@ -8,7 +8,7 @@ const puppeteer = require('puppeteer');
 
 const timeStart = new Date();
 const directorySource = path.join(__dirname, `../site`);
-const directoryOutput = path.join(__dirname, `../docs`);
+const directoryOutput = path.join(__dirname, `../public`);
 const miscPages = ['projects', 'photos'];
 const staticFolders = ['asset', 'media', 'c'];
 
@@ -80,9 +80,7 @@ async function convertLinksToRoot(html)
   // Convert media and asset look up hyperlinks to root-relative. Relative stepping back directories is possible... but annoying to setup and I don't need it
   html = html.split(`asset/`).join('/asset/');
   html = html.split(`href="media/`).join('href="/media/');
-
-  // Convert image and video file look up hyperlinks to absolute hyperlinks to media.githubusercontent urls as they are in Git-LFS and not accessable via their expected url location
-  html = html.split(`src="media/`).join('src="https://media.githubusercontent.com/media/kormyen/home/master/site/media/');
+  html = html.split(`src="media/`).join('src="/media/');
   return html;
 }
 
