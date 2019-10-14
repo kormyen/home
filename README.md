@@ -18,9 +18,9 @@ This setup would allow for a simple private nodejs frontend to do database addit
 
 ## Structure
 
-- `server` folder is the nodejs server.
+- `server` folder is the build script.
 - `site` folder is the JS webapp (source).
-- `docs` folder is the no-JS website (output). Using the folder name `docs` in order to work with Github Pages hosting restrictions.
+- `public` folder will be created after building and will contain the static website.
 
 ## Dev
 
@@ -43,7 +43,7 @@ node home/server/build.js
 
 **Run**
 ```
-open home/docs/index.html in a browser
+open home/public/index.html in a browser
 ```
 
 ## Dependencies
