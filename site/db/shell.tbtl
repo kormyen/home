@@ -25,6 +25,9 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-10-13 32- 6656 misc       portfolio       Second pass sarah portfolio. 
+2019-10-13 11- 7645 misc                       Clean, measure, plan compost toilet.
+2019-10-13 12- 8656 van        maintenance     Spring clean, rearrange.
 2019-10-13 12- 6465 misc                       Help move Dominic's motor from Cleo to Hackland.
 2019-10-12 42- 6776 contract   sylo            Asset/group asset/account/group account UI redesign.
 2019-10-11 48- 7666 contract   sylo            Sprint review. Asset/group asset/account/group account UI redesign.
