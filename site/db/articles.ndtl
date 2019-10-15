@@ -1,4 +1,14 @@
 var ARTICLES = `
+WHY HOME
+  TAGS : why
+  TYPE : thoughts
+  BODY
+    p https://www.jvt.me/posts/2019/07/22/why-website/
+    p https://www.onebigfluke.com/2012/07/focusing-on-positives-why-i-have-my-own.html 
+    p https://snarfed.org/2012-07-25_why_i_have_my_own_web_site
+    p https://indieweb.org/why
+    p https://www.gwern.net/About#long-site
+
 SOUL FOOD
   TAGS : art, why
   BREF : importance of values
