@@ -6,7 +6,9 @@
 
 Home is a portfolio, time tracker and exocortex.
 - No-JS by JS from JS
-- No-JS static html/css website compiled by a nodejs server from a single-page JS webapp.
+- (No-JS static html/css website compiled by a nodejs server from a single-page JS webapp)
+
+Static page generation is done with puppeteer headless chrome.
 
 Current benefits (compared to a static single-page client-side webapp)
 - Fully indexable by search engines
@@ -50,7 +52,7 @@ now --prod
 
 - The human-readable data structures [Indental](https://wiki.xxiivv.com/#indental) and [Tablatal](https://wiki.xxiivv.com/#tablatal) created by [Neauoire](http://wiki.xxiivv.com).
 - Headless Chrome Node API [Puppeteer](https://pptr.dev) for server side rendering.
-- [fs-extra](https://www.npmjs.com/package/fs-extra) for 'emptyDirSync'. I'd like to remove this.
+- [fs-extra](https://www.npmjs.com/package/fs-extra) for 'emptyDirSync'.
 
 ## Inspirations
 
