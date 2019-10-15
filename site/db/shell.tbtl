@@ -25,7 +25,9 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
-2019-10-14 32- 6564 web        home            Setup Zeit Now build and hosting.
+2019-10-15 31- 6747 misc       portfolio       Third pass sarah portfolio. Lightbox. Menu. Small screen css.
+2019-10-15 71- 7564 web        home            Setup Zeit nameserver stuff.
+2019-10-14 33- 6564 web        home            Setup Zeit Now build and hosting.
 2019-10-14 47- 6474 contract   sylo            group asset/account UI redesign.
 2019-10-13 32- 6656 misc       portfolio       Second pass sarah portfolio. 
 2019-10-13 11- 7645 misc                       Clean, measure, plan compost toilet.
