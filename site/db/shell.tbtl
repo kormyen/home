@@ -25,7 +25,10 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
-2019-10-15 31- 6747 misc       portfolio       Third pass sarah portfolio. Lightbox. Menu. Small screen css.
+2019-10-16 31- 4646 misc       portfolio       Add new media. Media formatting.
+2019-10-16 48- 7474 contract   sylo            Payment flow redesign with Alice.
+2019-10-15 31- 6747 misc       portfolio       Lightbox. Menu. Small screen css. Lightbox scroll fix.
+2019-10-15 47- 6474 contract   sylo            group asset/account UI redesign.
 2019-10-15 71- 7564 web        home            Setup Zeit nameserver stuff.
 2019-10-14 33- 6564 web        home            Setup Zeit Now build and hosting.
 2019-10-14 47- 6474 contract   sylo            group asset/account UI redesign.
