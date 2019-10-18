@@ -25,6 +25,12 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-10-19 31- 5646 misc       portfolio       Basic code setup. Quality sort images.
+2019-10-18 48- 5565 contract   sylo            Asset card improvements. Payment flow improvements.
+2019-10-17 31- 6644 misc       portfolio       Started in js. 
+2019-10-17 21- 5565 van        heater          Improve deisel heater wiring 
+2019-10-17 12- 7664 van        toilet          Planning, shopping and gathering required parts.
+2019-10-17 11- 6646 van        maintenance     Fix sink drain
 2019-10-16 31- 4646 misc       portfolio       Add new media. Media formatting.
 2019-10-16 48- 7474 contract   sylo            Payment flow redesign with Alice.
 2019-10-15 31- 6747 misc       portfolio       Lightbox. Menu. Small screen css. Lightbox scroll fix.
@@ -33,7 +39,7 @@ DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                      
 2019-10-14 33- 6564 web        home            Setup Zeit Now build and hosting.
 2019-10-14 47- 6474 contract   sylo            group asset/account UI redesign.
 2019-10-13 32- 6656 misc       portfolio       Second pass sarah portfolio. 
-2019-10-13 11- 7645 misc                       Clean, measure, plan compost toilet.
+2019-10-13 11- 7645 van        toilet          Clean, measure, plan compost toilet.
 2019-10-13 12- 8656 van        maintenance     Spring clean, rearrange.
 2019-10-13 12- 6465 misc                       Help move Dominic's motor from Cleo to Hackland.
 2019-10-12 42- 6776 contract   sylo            Asset/group asset/account/group account UI redesign.
@@ -44,7 +50,7 @@ DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                      
 2019-10-08 48- 6565 contract   sylo            Asset info page improve. Request improve. Group pay review.
 2019-10-07 47- 4455 contract   sylo            Scan button. Transfer. Clean up.
 2019-10-06 12- 7665 misc                       Misc helping at Hackland - Dominic boat.
-2019-10-06 12- 6464 misc       Toilet          Materials cleaning - break apart stairs with Joran.
+2019-10-06 12- 6464 van        toilet          Materials cleaning - break apart stairs with Joran.
 2019-10-04 47- 4344 contract   sylo            
 2019-10-03 48- 4344 contract   sylo            
 2019-10-02 48- 4344 contract   sylo            
