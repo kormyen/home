@@ -25,6 +25,8 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2019-10-20 19- 7666 van        toilet          Build. One coat of paint.
+2019-10-19 13- 7664 van        toilet          Cut all main wood sheets.
 2019-10-19 31- 5646 misc       portfolio       Basic code setup. Quality sort images.
 2019-10-18 48- 5565 contract   sylo            Asset card improvements. Payment flow improvements.
 2019-10-17 31- 6644 misc       portfolio       Started in js. 
