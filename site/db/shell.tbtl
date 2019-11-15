@@ -25,31 +25,67 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
-2019-10-22 31- 6655 misc       portfolio       Add simple project and category filtering.
+2019-11-13 47- 6566 contact    sylo            KYC.
+2019-11-14 32- 5555 contract   portfolio       Feedback changes. Hover description started. Repo swap. Deploy setup.
+2019-11-13 48- 6474 contact    sylo            KYC.
+2019-11-12 32- 5555 contract   portfolio       Black logos. 
+2019-11-12 48- 6474 contact    sylo            KYC.
+2019-11-11 48- 6474 contact    sylo            KYC.
+2019-11-10 33- 6656 contract   portfolio       Quick pass on requested changes - photo split, contact, about, clients.
+2019-11-10 11- 6656 contract   portfolio       Breakfast meeting.
+2019-11-10 11- 6476 misc                       Replace scooter front tyre.
+2019-11-09 13- 7655 misc       solarsails      Camp planning meeting.
+2019-11-08 47- 6455 contact    sylo            KYC.
+2019-11-07 11- 7664 misc                       Sewing, gift wrapping.
+2019-11-07 11- 5456 boat       maintenance     Add tape to Horizon to protect from rain. Dry wet spots.
+2019-11-07 48- 7555 contact    sylo            Wallet update flow and missing screens.
+2019-11-06 48- 7465 contact    sylo            Wallet clean up. Persona/marketing meeting.
+2019-11-05 02- 6455 misc       solarsails      Kiwiburn themecamp conference call.
+2019-11-05 48- 6565 contact    sylo            Clean ups of feedback. Tracker update. Asset card complete. Wallet flow.
+2019-11-04 47- 7576 contact    sylo            Solution to tx details requirements.
+2019-11-03 14- 6567 boat       maintenance     Grind back more. Drying. Meet Ceri.
+2019-11-02 17- 6576 boat       maintenance     Exploration. Sanding as per Ceri.
+2019-11-01 48- 6576 contract   sylo            Tx details.
+2019-10-31 18- 6475 boat       maintenance     Get equipment. Grind back. Meet Ceri.
+2019-10-30 43- 4464 contract   sylo            Tx details.
+2019-10-30 18- 7487 boat       maintenance     Sanding back Horion hull to fix leak.
+2019-10-29 48- 4464 contract   sylo            Tx details.
+2019-10-28 84- 6654 boat       sailing         Near Coromandel to near Motuihe.
+2019-10-28 86- 5446 boat       motoring        Great Barrier to Panmure.
+2019-10-27 12- 7666 boat       maintenance     Tighten rigging. Look for leak.
+2019-10-26 88- 6446 boat       sailing         Rakino to Smokehouse Bay, Great Barrier.
+2019-10-25 83- 6266 boat       motoring        Panmure to Rakino.
+2019-10-24 42- 5474 contract   sylo            Tx details.
+2019-10-23 11- 5645 van        toilet          Put all together.
+2019-10-23 48- 6665 contract   sylo            Cola scan.
+2019-10-22 42- 5655 contract   portfolio       Visual improvements.
+2019-10-22 11- 5445 van        toilet          Final coats of paint.
+2019-10-22 48- 6565 contract   sylo            Wallet. Asset distribution. Group account clean up.
+2019-10-22 31- 6655 contract   portfolio       Add simple project and category filtering.
 2019-10-21 11- 5456 van        toilet          One coat of paint.
 2019-10-21 48- 6555 contract   sylo            Wallet wraping up asset card stuff.
 2019-10-20 19- 7666 van        toilet          Build. One coat of paint.
 2019-10-19 13- 7664 van        toilet          Cut all main wood sheets.
-2019-10-19 31- 5646 misc       portfolio       Basic code setup. Quality sort images.
+2019-10-19 31- 5646 contract   portfolio       Basic code setup. Quality sort images.
 2019-10-18 48- 5565 contract   sylo            Asset card improvements. Payment flow improvements.
-2019-10-17 31- 6644 misc       portfolio       Started in js. 
+2019-10-17 31- 6644 contract   portfolio       Started in js. 
 2019-10-17 21- 5565 van        heater          Improve deisel heater wiring 
 2019-10-17 12- 7664 van        toilet          Planning, shopping and gathering required parts.
 2019-10-17 11- 6646 van        maintenance     Fix sink drain
-2019-10-16 31- 4646 misc       portfolio       Add new media. Media formatting.
+2019-10-16 31- 4646 contract   portfolio       Add new media. Media formatting.
 2019-10-16 48- 7474 contract   sylo            Payment flow redesign with Alice.
-2019-10-15 31- 6747 misc       portfolio       Lightbox. Menu. Small screen css. Lightbox scroll fix.
+2019-10-15 31- 6747 contract   portfolio       Lightbox. Menu. Small screen css. Lightbox scroll fix.
 2019-10-15 47- 6474 contract   sylo            group asset/account UI redesign.
 2019-10-15 71- 7564 web        home            Setup Zeit nameserver stuff.
 2019-10-14 33- 6564 web        home            Setup Zeit Now build and hosting.
 2019-10-14 47- 6474 contract   sylo            group asset/account UI redesign.
-2019-10-13 32- 6656 misc       portfolio       Second pass sarah portfolio. 
+2019-10-13 32- 6656 contract   portfolio       Second pass sarah portfolio. 
 2019-10-13 11- 7645 van        toilet          Clean, measure, plan compost toilet.
 2019-10-13 12- 8656 van        maintenance     Spring clean, rearrange.
 2019-10-13 12- 6465 misc                       Help move Dominic's motor from Cleo to Hackland.
 2019-10-12 42- 6776 contract   sylo            Asset/group asset/account/group account UI redesign.
 2019-10-11 48- 7666 contract   sylo            Sprint review. Asset/group asset/account/group account UI redesign.
-2019-10-10 32- 6656 misc       portfolio       First pass sarah portfolio. 
+2019-10-10 32- 6656 contract   portfolio       First pass sarah portfolio. 
 2019-10-10 48- 7666 contract   sylo            Design team app overview. Design team meet. Group account feedback.
 2019-10-09 48- 6555 contract   sylo            App review. Design zero vend pay request. Improve asset/account/group. 
 2019-10-08 48- 6565 contract   sylo            Asset info page improve. Request improve. Group pay review.
