@@ -25,7 +25,143 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
-2019-11-13 47- 6566 contact    sylo            KYC.
+2020-03-10 31- 6555 contract   portfolio       Build working.
+2020-03-10 74- 8665 swordy                     Learning Unity DOTS, ECS.
+2020-03-09 48- 6464 contract   sylo            dApp exchange value. Site review. Try setup site build.
+2020-03-07 12- 6565 misc                       Help Hackland working bee. Mount dust extract. Buy bits.
+2020-03-06 31- 6555 contract   portfolio       Set up basic build script.
+2020-03-06 46- 4655 contract   sylo            Final website tweaks. Discuss purpose/strategic vision. Web deplayed.
+2020-03-05 48- 6456 contract   sylo            Animator feedback. Illustration style. Documentation home. Social assets.
+2020-03-04 49- 7666 contract   sylo            Mothership site.
+2020-03-03 49- 6465 contract   sylo            Mothership site.
+2020-03-02 48- 6465 contract   sylo            Mothership site.
+2020-03-01 42- 5364 contract   sylo            Mothership anim. Tidy up. 
+2020-02-29 31- 6654 contract   portfolio       Fix mobile alignment.
+2020-02-28 42- 6356 contract   sylo            Mothership site.
+2020-02-27 48- 6364 contract   sylo            Mothership site.
+2020-02-26 42- 6646 contract   portfolio       Hooked up links, improved link visuals, spacing.
+2020-02-26 48- 6364 contract   sylo            Mothership site.
+2020-02-25 42- 6646 contract   portfolio       Improved css design and layout.
+2020-02-25 44- 6364 contract   sylo            Mothership icons, design remaining pages continued.
+2020-02-25 44- 6364 contract   sylo            Sylo app banners, modals, interaction research.
+2020-02-24 12- 6576 boat       maintenance     Collect steering wheel. Make missing washer replacement at Hackland.
+2020-02-24 48- 5575 contract   sylo            Order new web icons. Design in-app banner.
+2020-02-23 14- 6664 van        electronics     Mounted version two lights and leds.
+2020-02-23 11- 6664 van        vents           Planning vents interior.
+2020-02-21 41- 6646 contract   sylo            Presentation.
+2020-02-20 49- 6466 contract   sylo            Mothership design other pages.
+2020-02-19 41- 6466 contract   sylo            Mothership website implementation.
+2020-02-19 49- 6466 contract   sylo            Mothership website implementation.
+2020-02-18 41- 6575 contract   sylo            Mothership website design, start implementation.
+2020-02-18 49- 6575 contract   sylo            Mothership website design, start implementation.
+2020-02-17 42- 6575 contract   sylo            Mothership website design.
+2020-02-17 49- 6575 contract   sylo            Mothership website design.
+2020-02-15 83- 7665 boat       motoring        Motor in and out of Panmure, back from Motuihe.         
+2020-02-15 83- 7665 boat       sailing         Sailed to Motuihe with Edith, Phil, Alexey and Kevin.
+2020-02-14 48- 7586 contract   sylo            Smart wallet main anim.
+2020-02-13 47- 7676 contract   sylo            Delete imported wallet. Mothership animation play.
+2020-02-12 31- 6565 web        home            Log catch up.
+2020-02-12 48- 6464 contract   sylo            Smart wallet site clean up and finalization.
+2020-02-11 22- 7766 van        electronics     Wiring second bedroom power socket panel at Hackland.
+2020-02-11 47- 6465 contract   sylo            Wallet design finals. Invite reward designs. Smart wallet site redesign.
+2020-02-10 22- 6665 van        electronics     Wiring a bedroom power socket panel at Hackland.
+2020-02-10 43- 5557 contract   sylo            App invite banner, opt, progress
+2020-02-10 45- 6666 contract   sylo            Smart wallet website other pages
+2020-02-09 19- 7776 van        electronics     Finish heating pipe. Add bedroom walls. Wire heater controller.
+2020-02-08 14- 7676 van        electronics     Routing conduit and heating pipe, reroute pv and arc wiring.
+2020-02-07 48- 7677 contract   sylo            Mothership web cards, smart wallet web redo design.
+2020-02-06 12- 4645 van        electronics     Mount bedroom power socket panels.
+2020-02-06 14- 6666 misc                       Help mom sort storage, filter my boxes.
+2020-02-05 48- 6666 contract   sylo            Mothership web
+2020-02-04 48- 6666 contract   sylo            Mothership web
+2020-02-03 48- 6666 contract   sylo            Mothership web
+2020-02-02 16- 6465 boat       maintenance     Help Sasha, Connie, Alice, John, Eva clean Horizon. Motor. Leak.
+2020-01-30 --- ---- contract   sylo  
+2020-01-29 --- ---- contract   sylo  
+2020-01-28 --- ---- contract   sylo  
+2020-01-27 15- 6766 misc       solarsails      Pack down.
+2020-01-26 kiwiburn
+2020-01-25 kiwiburn
+2020-01-24 kiwiburn
+2020-01-23 kiwiburn
+2020-01-22 kiwiburn
+2020-01-21 kiwiburn build
+2020-01-20 kiwiburn build
+2020-01-19 kiwiburn prep
+2020-01-18 kiwiburn prep
+2020-01-17 f --- ---- contract   sylo  
+2020-01-16 t --- ---- contract   sylo  
+MORE SOLAR SAILS PREP IN EVENINGS
+2020-01-15 w solarsails prep
+2020-01-15 w --- ---- contract   sylo  
+2020-01-14 t --- ---- contract   sylo  
+2020-01-13 m --- ---- contract   sylo  
+2020-01-12 s
+2020-01-11 s
+2020-01-10 f --- ---- contract   sylo
+2020-01-09 t --- ---- contract   sylo
+2020-01-08 w Sail home
+2020-01-07 t Great barrier drive around and hike Mount hobson
+2020-01-06 m Great barrier 
+2020-01-05 s Great barrier 
+2020-01-04 s Great barrier 
+2019-01-03 84- 7676 boat       motoring        Motor to Waiheke with Sarah, Sarah, Greta, Ben, Kim.
+2019-12-28 15- 7664 van        garage          Build battery box roof and mount interver.
+2019-12-27 81- 5446 boat       motoring        Motor to Panmure
+2019-12-27 88- 6746 boat       sailing         Sailed around waiheke with Joran
+2019-12-26 82- 5446 boat       sailing         Sail to Waiheke
+2019-12-26 82- 5446 boat       motoring        Motor from Panmure
+2019-12-24 21- 6666 van        garage          Test inverter.
+2019-12-20 48- 5555 contract   sylo  
+2019-12-19 48- 5555 contract   sylo            
+2019-12-18 48- 5555 contract   sylo
+2019-12-17 48- 5555 contract   sylo
+2019-12-16 48- 5555 contract   sylo
+2019-12-13 11- 6555 boat       maintenance     Cut bed missing piece for Quest
+2019-12-13 47- 7645 contract   sylo            Persona meeting 2. Dapp modals 2.
+2019-12-12 47- 5545 contract   sylo            
+2019-12-12 12- 8764 boat       maintenance     Put Horizon into water
+2019-12-12 46- 6555 contract   sylo            Persona meeting. Dapp modals.
+2019-12-11 48- 5555 contract   sylo            
+2019-12-10 12- 7666 boat       maintenance     Antifoul under keel.
+2019-12-10 11- 7666 boat       maintenance     Paint under keel.
+2019-12-10 48- 5555 contract   sylo            
+2019-12-09 11- 7666 boat       maintenance     Antifoul.
+2019-12-09 48- 6454 contract   sylo            Sylo level.
+2019-12-09 12- 7666 boat       maintenance     Sand fibreglass. Paint undercoat.
+2019-12-08 12- 6546 misc                       Help chopping foods for Jeremy's lunches at mansion.
+2019-12-08 12- 7465 boat       maintenance     Sand fibreglass. Redo fibreglass again.
+2019-12-07 12- 7465 boat       maintenance     Sand fibreglass. Redo fibreglass.
+2019-12-06 12- 6565 boat       maintenance     Fibreglass again agin.
+2019-12-05 12- 6565 boat       maintenance     Fibreglass again.
+2019-12-05 12- 6565 boat       maintenance     Fibreglass.
+2019-12-04 48- 6454 contract   sylo            Sylo level.
+2019-12-03 48- 6454 contract   sylo            Swag setup for cennz designer. Library clean up. Earn dapp.
+2019-12-02 48- 7555 contract   sylo            Wrap up tx details. Earn dapp research/discuss.
+2019-12-01 31- 5564 contract   portfolio       Implementing project link in image 
+2019-12-01 16- 6565 van        insulation      Finishing off missing roof insulation
+2019-11-30 11- 7666 boat       maintenance     Horizon fibreglassing other side with Sasha, Ceri and Sarah.
+2019-11-30 11- 7666 boat       maintenance     Horizon fibreglassing with Sasha and Ceri.
+2019-11-29 47- 6455 contact    sylo            
+2019-11-28 47- 5555 contract   sylo            
+2019-11-27 33- 6564 contract   portfolio       Image descriptions in lightbox fullview.
+2019-11-27 48- 6665 contract   sylo            KYC finish. Future meeting.
+2019-11-26 31- 5445 misc       solarsails      Enter spreadsheet data notes from last meeting.
+2019-11-26 11- 7445 boat       maintenance     Boat fixing with Ceri and Sasha.
+2019-11-26 47- 6564 contract   sylo            UTXO proposal 2. Unconfirmed UTXO spend. BTC soon.
+2019-11-25 48- 7666 contract   sylo            UTXO proposal.
+2019-11-24 11- 6445 van        maintenance     Wire USB charger by bed.
+2019-11-24 11- 6666 misc       gardening       Replant sal.
+2019-11-23 11- 6666 misc       gardening       Plant cacti.
+2019-11-23 12- 5445 van        maintenance     Clean.
+2019-11-23 13- 6466 misc                       Debugging/researching scooter battery problem.
+2019-11-22 48- 7665 contract   sylo            UTXO proposal.
+2019-11-21 48- 7465 contract   sylo            Buy SYLO improve.
+2019-11-20 47- 6364 contract   sylo            Buy SYLO flow.
+2019-11-19 47- 6364 contract   sylo            KYC.
+2019-11-17 15- 6466 misc       solarsails      Pack up, drive to Emma's, storage.
+2019-11-16 17- 7567 misc       solarsails      Drive to Moehau, gather and test build bamboo.
+2019-11-15 47- 6566 contact    sylo            KYC.
 2019-11-14 32- 5555 contract   portfolio       Feedback changes. Hover description started. Repo swap. Deploy setup.
 2019-11-13 48- 6474 contact    sylo            KYC.
 2019-11-12 32- 5555 contract   portfolio       Black logos. 
@@ -582,15 +718,15 @@ DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                      
 2018-11-21 48- 6466 contract   sylo            
 2018-11-20 47- 6466 contract   sylo            
 2018-11-19 49- 7464 contract   sylo            help Alisa, breif James, setup symbols
-2018-11-16 12- 6664 van        solar           screw in roof vent
+2018-11-16 12- 6664 van        vents           screw in roof vent
 2018-11-16 48- 6465 contract   sylo            
 2018-11-15 48- 7675 contract   sylo            master style guide (shared style), sketch cloud, setup Greta
 2018-11-15 42- 6755 contract   sylo            midnight continue setting up master style guide (settings card)
-2018-11-14 12- 3655 van        solar           drill holes for one vent, POR15 treat drill holes
+2018-11-14 12- 3655 van        vents           drill holes for one vent, POR15 treat drill holes
 2018-11-14 47- 8674 contract   sylo            continue setting up / learning master style guide
 2018-11-13 41- 7756 contract   sylo            setting up master style guide
 2018-11-13 71- 7756 contract   sylo            figuring out master style guide setup
-2018-11-13 12- 7564 van        solar           create plates for inside of roof vent mounting
+2018-11-13 12- 7564 van        vents           create plates for inside of roof vent mounting
 2018-11-13 42- 7764 contract   sylo            setting up master style guide
 2018-11-13 72- 9764 contract   sylo            figuring out master style guide setup
 2018-11-13 73- 7575 contract   sylo            with Greta and Alisa, working out plans and group chat req
@@ -601,10 +737,10 @@ DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                      
 2018-11-09 13- 7586 van        solar           sanding rust on roof
 2018-11-08 03- 7965 solarsails meeting         Solarsails meeting at Hackland
 2018-11-08 21- 5746 solarsails lightunnel      prototype wiring
-2018-11-08 126 7677 van        solar           cut second and third vent hole
+2018-11-08 126 7677 van        vents           cut second and third vent hole
 2018-11-08 22- 6664 solarsails lightunnel      prototype
 2018-11-07 22- 6664 solarsails lightunnel      prototype
-2018-11-07 116 6666 van        solar           first vent hole cut, wrap peeled
+2018-11-07 116 6666 van        vents           first vent hole cut, wrap peeled
 2018-11-07 31- 4555 web        memex           add load anim trigger threshold, setup, close 'slow load' issue
 2018-11-07 116 6575 van        solar           second junction box installed
 2018-11-07 32- 5673 web        memex           promise removal, refactor
