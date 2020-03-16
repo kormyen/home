@@ -25,6 +25,7 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-03-17 31- 6665 web        lightbox        Continue next/prev.
 2020-03-16 39- 7866 contract   sylo            Set up asset/token icon checker nodejs project.
 2020-03-15 84- 6766 boat       motoring        Visit Alchemist/Joran and Brown's Island picnic with Sarah.
 2020-03-13 32- 6665 web        lightbox        Setting up next/prev, fighting close div layers.
