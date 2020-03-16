@@ -25,8 +25,18 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-03-16 39- 7866 contract   sylo            Set up asset/token icon checker nodejs project.
+2020-03-15 84- 6766 boat       motoring        Visit Alchemist/Joran and Brown's Island picnic with Sarah.
+2020-03-13 32- 6665 web        lightbox        Setting up next/prev, fighting close div layers.
+2020-03-13 49- 8665 contract   sylo            Wallet update swipe screens. Protocol discuss. 
+2020-03-12 48- 6665 contract   sylo            Quick new intro, discuss corp site, discuss exchange.
+2020-03-11 31- 6565 web        lightbox        Test custom attribute and generic events for prog enhancement setup.
+2020-03-11 72- 7675 swordy                     Researching Unity NetCode.
+2020-03-11 48- 6565 contract   sylo            dApp exchange rate, update card, anim feedback, corp site content.
+2020-03-10 31- 6555 web        lightbox        Improved lightbox css - small screens margin, radius. Fix nav small.
+2019-03-10 31- 6465 web        home            Log catch up.
 2020-03-10 31- 6555 contract   portfolio       Build working.
-2020-03-10 74- 8665 swordy                     Learning Unity DOTS, ECS.
+2020-03-10 75- 8665 swordy                     Learning Unity DOTS, ECS.
 2020-03-09 48- 6464 contract   sylo            dApp exchange value. Site review. Try setup site build.
 2020-03-07 12- 6565 misc                       Help Hackland working bee. Mount dust extract. Buy bits.
 2020-03-06 31- 6555 contract   portfolio       Set up basic build script.
@@ -144,7 +154,7 @@ MORE SOLAR SAILS PREP IN EVENINGS
 2019-11-30 11- 7666 boat       maintenance     Horizon fibreglassing with Sasha and Ceri.
 2019-11-29 47- 6455 contact    sylo            
 2019-11-28 47- 5555 contract   sylo            
-2019-11-27 33- 6564 contract   portfolio       Image descriptions in lightbox fullview.
+2019-11-27 33- 6564 contract   lightbox        Image descriptions in lightbox fullview.
 2019-11-27 48- 6665 contract   sylo            KYC finish. Future meeting.
 2019-11-26 31- 5445 misc       solarsails      Enter spreadsheet data notes from last meeting.
 2019-11-26 11- 7445 boat       maintenance     Boat fixing with Ceri and Sasha.
@@ -607,11 +617,11 @@ MORE SOLAR SAILS PREP IN EVENINGS
 2019-02-27 48- 6666 contract   sylo            Group account with Alisa
 2019-02-26 48- 6666 contract   sylo            Group account introducing Alisa
 2019-02-25 48- 6666 contract   sylo            Group account, create asset Alisa UX discussions
-2019-02-25 31- 5645 web        home            Catch up
+2019-02-25 31- 5645 web        home            Log catch up
 2019-02-23 89- 8887 boat       sailing         Quest sail from Jamieson Bay to near Rangitoto return
 2019-02-22 47- 6644 contract   sylo            Group account changes for demo, modal components for mobile
 2019-02-21 48- 6646 contract   sylo            Group account userflow finish up and mobile conversion
-2019-02-19 31- 5454 web        home            Catch up  
+2019-02-19 31- 5454 web        home            Log catch up  
 2019-02-19 82- 8865 boat       sailing         Quest test drive around Jamieson Bay
 2019-02-18 48- 6456 contract   sylo            Group account userflow with feedback, tablet meeting
 2019-02-15 48- 7767 contract   sylo            Group calling continued, group account userflow 
@@ -630,7 +640,7 @@ MORE SOLAR SAILS PREP IN EVENINGS
 2019-02-01 286 6665 van        reversecam      Wiring, fuses, creating dash mount switches 
 2019-01-31 123 6565 van        reversecam      Physical mounting of camera
 2019-01-30 32- 5554 web        memex           Fix minor bug, data updates
-2019-01-30 31- 6655 web        home            homecatch up
+2019-01-30 31- 6655 web        home            Log catch up
 2019-01-26 13- 5666 misc       solarsails      Ignition festival pizza chef
 2019-01-25 11- 4544 misc       solarsails      Ignition festival solar workshop helper
 2019-01-24 24- 4465 misc       solarsails      Ignition festival lighting
@@ -668,7 +678,7 @@ MORE SOLAR SAILS PREP IN EVENINGS
 2019-01-04 34- 5636 web        home            Meat portion as binary, review, refactor
 2019-01-04 02- 6666 van        bench           Parts research for waste water and gas hose
 2019-01-04 02- 6375 misc                       Steam Frogshark W8, Alexey director remove, server fix etc
-2019-01-02 31- 6765 web        home            Catch up
+2019-01-02 31- 6765 web        home            Log catch up
 2019-01-01 21- 5636 van        electronics     Wire USB fast charger to battery and rear bed cupboar
 2018-12-20 48- 6676 contract   sylo            Tablet screen design meeting complete! Start clean up post meeting.
 2018-12-19 47- 6485 contract   sylo            Tablet screen prep, forcing design team to have tablet meeting, pizza
