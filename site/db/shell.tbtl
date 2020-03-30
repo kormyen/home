@@ -25,6 +25,26 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-03-29 82- 6766 boat       sailiing        Waiheke Oneroa to Onetangi Bay.
+2020-03-29 82- 6766 boat       motoring        Leave panmure, via Halfmoon Bay, toward Waiheke Onetangi Bay.
+2020-03-29 11- 6675 boat       maintenance     Spinnaker pole adjust.
+2020-03-28 12- 6666 boat       maintenance     Diesel leak. Misc epoxying. Spinnaker pole adjust.
+2020-03-27 13- 5756 boat       maintenance     Diesel leak. Mount mooring pole holder.
+2020-03-27 12- 7464 contract   sylo            Meetings.
+2020-03-26 12- 7666 boat       maintenance     Fixing diesel leak.
+2020-03-26 4x- 7665 contract   sylo            How it works page.
+2020-03-25 44- 7665 contract   sylo            How it works page.
+2020-03-24 14- 7765 boat       maintenance     Prepping boat for lock down.
+2020-03-23 14- 7765 boat       maintenance     Prepping boat for lock down.
+2020-03-23 44- 7665 contact    sylo            Meeting with Alice.
+2020-03-22 13- 7665 boat       maintenance     Make replacement cover for solarpanel, reinstall panel on Horizon.
+2020-03-22 11- 7665 van        maintenance     clean, buy and replace license lightbulb, debug coolant warning.
+2020-03-21 24- 6667 boat       maintenance     Sarah help door, epirb, latch, rattle, epoxy, spacer, pv, smell, bilge.
+2020-03-20 32- 6655 contract   sylo            Sketch, web meet, icon db export, alyona icon task, how it works page.
+2020-03-19 47- 6666 contract   sylo            Long scrum, sylo ID talk, medium theming, OG img, db export.
+2020-03-18 31- 6665 web        lightbox        Got next/prev working for not built site.
+2020-03-18 48- 7455 contract   sylo            Social banners, notion setup, job desc page, web build setup, icon plan
+2020-03-17 39- 6765 contract   sylo            Continue icon checker. Start improving icons.
 2020-03-17 31- 6665 web        lightbox        Continue next/prev.
 2020-03-16 39- 7866 contract   sylo            Set up asset/token icon checker nodejs project.
 2020-03-15 84- 6766 boat       motoring        Visit Alchemist/Joran and Brown's Island picnic with Sarah.
