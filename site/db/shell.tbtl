@@ -25,6 +25,10 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-03-31 xx- 6464 contract   sylo            Message Dominic. Linkedin. Fix site, email DNS. Corp web.
+2020-03-31 11- 6463 boat       maintenance     Try unblock toilet.
+2020-03-30 43- 7575 contract   sylo            corp site, illustration planning with Alice, linkedin fixes, 
+2020-03-30 45- 7575 contract   sylo            icon checker bug, Alyonas new icons
 2020-03-29 82- 6766 boat       sailiing        Waiheke Oneroa to Onetangi Bay.
 2020-03-29 82- 6766 boat       motoring        Leave panmure, via Halfmoon Bay, toward Waiheke Onetangi Bay.
 2020-03-29 11- 6675 boat       maintenance     Spinnaker pole adjust.
