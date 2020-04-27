@@ -21,10 +21,38 @@ Sectors (task types)
 7 = research
 8 = boat
 9 = writing
+
 */
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-04-27 48- 6585 contract   sylo            Site layout. Discuss how it works diagram.
+2020-04-24 47- 6565 contract   sylo            
+2020-04-23 48- 6565 contract   sylo            
+2020-04-22 48- 6565 contract   sylo            
+2020-04-21 83- 7656 boat       motoring        Towed Alchemist to Blackpool Bay, Waiheke from Awaawaroa Bay.
+2020-04-20 47- 6665 contract   sylo            Discuss progress and plan. Continue new web layout continued. 
+2020-04-20 82- 6565 boat       motoring        Motor to Awaawaroa Bay from Man O War via Rotoroa Jetty.
+2020-04-19 12- 7575 boat       maintenance     Redo diesel leak fix.
+2020-04-18 12- 6666 boat       maintenance     Clean deck and exterior.
+2020-04-17 48- 7665 contract   sylo            Weblayout new, illustrator feedback.
+2020-04-16 48- 6565 contract   sylo            Weblayout, chats, icons.
+2020-04-15 48- 6665 contract   sylo            Minor brief help. Web layouts. Homepage focus.
+2020-04-14 48- 7776 contract   sylo            Meeting re art brief again. Web layout. Discuss layout.
+2020-04-13 41- 6665 contract   sylo            Meeting regarding art contractor brief. Public holiday.
+2020-04-11 11- 6656 misc                       Made bee letterbox.
+2020-04-10 46- 7674 contract   sylo            Discuss website. Search illustrator.
+2020-04-09 48- 6775 contract   sylo            Tracker integration, web diagram and style.
+2020-04-08 49- 6575 contract   sylo            Webpage design. Illustration plan discuss with Alice then also Ben Jim.
+2020-04-07 46- 7665 contract   sylo            Illustration style research, webpage design.
+2020-04-07 11- 7566 contract   sylo            Discuss diagram sketches, layout.
+2020-04-07 82- 6766 boat       motoring        Onetangi Bay to Man O'War Bay - sheltered from coming strong wind.
+2020-04-06 48- 5555 contract   sylo            
+2020-04-05 11- 8565 boat       maintenance     Diagram water pipes.
+2020-04-05 12- 6666 boat       maintenance     Build radio wall mount.
+2020-04-03 48- 5555 contract   sylo            
+2020-04-02 48- 5555 contract   sylo            
+2020-04-01 48- 5555 contract   sylo            
 2020-03-31 47- 6464 contract   sylo            Message Dominic. Linkedin. Fix site, email DNS. Corp web.
 2020-03-31 11- 6463 boat       maintenance     Try unblock toilet.
 2020-03-30 43- 7575 contract   sylo            corp site, illustration planning with Alice, linkedin fixes, 
