@@ -26,6 +26,7 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-04-27 49- 6767 contract   sylo            Site design.
 2020-04-27 48- 6585 contract   sylo            Site layout. Discuss how it works diagram.
 2020-04-24 47- 6565 contract   sylo            
 2020-04-23 48- 6565 contract   sylo            
