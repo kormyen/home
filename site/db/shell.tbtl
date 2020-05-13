@@ -21,12 +21,31 @@ Sectors (task types)
 7 = research
 8 = boat
 9 = writing
-
 */
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
-2020-04-27 49- 6767 contract   sylo            Site design.
+2020-05-13 31- 7646 misc       maintenance     Finance analysis.
+2020-05-13 48- 6565 contract   sylo            Site readme. Token allocation diagram. Homepage diagram.
+2020-05-12 48- 5565 contract   sylo            Menu. Homepage icons update etc. Sylo overview page.
+2020-05-11 48- 6565 contract   sylo            Homepage wording, three card improvement.
+2020-05-10 31- 6556 misc                       Scott accounting stuff.
+2020-05-08 81- 5375 boat       maintenance     Clean out gross bilge.
+2020-05-08 48- 6665 contract   sylo            Web improvements. Homepage wording.
+2020-05-07 81- 7664 boat       motoring        Tow Joran into Panmure.
+2020-05-07 48- 7665 contract   sylo            Site feedback, Notion discuss, telegram cta, discuss visuals, Anabela.
+2020-05-07 83- 7666 boat       motoring        Try to tow Joran into Panmure, but too slow anchored near river mouth.
+2020-05-06 82- 5565 boat       motoring        Motor from Blackpool to outside Howick - meet Joran Alchemist.
+2020-05-06 48- 6675 contract   sylo            Finalizing site for launch.
+2020-05-05 82- 6665 boat       motoring        Blackpool anchorage to Mellons Bay near Howick.
+2020-05-05 48- 6655 contract   sylo            Final site stuff. Icon uniformity. Social banners. Adjust header bg etc.
+2020-05-04 48- 6655 contract   sylo            Continued. News. Social icons. New Alyona icons. 
+2020-05-01 48- 6565 contract   sylo            Continued.
+2020-04-30 48- 7576 contract   sylo            New layout ideas. Discuss. Group brainstorm.
+2020-04-29 48- 7675 contract   sylo            Polishing content we have for current site design.
+2020-04-29 81- 7676 boat       sailing         Motor sailing east of Waiheke to east Blackpool bay. 
+2020-04-29 81- 6966 boat       motoring        Motoring with dolphin pod from little Oneroa. 
+2020-04-28 49- 6767 contract   sylo            Site design. Polish home and why.
 2020-04-27 48- 6585 contract   sylo            Site layout. Discuss how it works diagram.
 2020-04-24 47- 6565 contract   sylo            
 2020-04-23 48- 6565 contract   sylo            
