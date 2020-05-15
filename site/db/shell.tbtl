@@ -25,6 +25,7 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-05-15 48- 7665 contract   sylo            Alternate design. Diagram work. Aylona icon write up.
 2020-05-15 32- 6565 web        home            Catch up missing kiwiburn, Great Barrier logs.
 2020-05-14 48- 6565 contract   sylo            Token allocation graph. Web bg optimize. Menu improve.
 2020-05-13 31- 7646 misc       maintenance     Finance analysis.
@@ -196,9 +197,9 @@ DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                      
 2019-12-24 21- 6666 van        garage          Test inverter.
 2019-12-20 48- 5555 contract   sylo  
 2019-12-19 48- 5555 contract   sylo            
-2019-12-18 48- 5555 contract   sylo
-2019-12-17 48- 5555 contract   sylo
-2019-12-16 48- 5555 contract   sylo
+2019-12-18 48- 5555 contract   sylo            
+2019-12-17 48- 5555 contract   sylo            
+2019-12-16 48- 5555 contract   sylo            
 2019-12-13 11- 6555 boat       maintenance     Cut bed missing piece for Quest
 2019-12-13 47- 7645 contract   sylo            Persona meeting 2. Dapp modals 2.
 2019-12-12 47- 5545 contract   sylo            

@@ -62,7 +62,7 @@ LOGGING 2019
     p Phone log access
     p Since I have been working in Auckland and living in van I have not been using my laptop everyday, which is currently the sole logging station. I've ended up not logging for several days, then having to catch up - the longest stretch being 11 days. I did not miss any important data but this is not a good habit. Would be nice to have a simple way to append to log from my phone.
     p Date system change
-    p I much prefer Neauoire's Desamber date system but it makes things take a step extra for working things out. In an effort to reduce complexity I will change to a more standard date format. Eg: "19-01-01". I still intend to use Desamber display on the front end.
+    p I much prefer Neauoire's Desamber date system but it makes things take a step extra for working things out. In an effort to reduce complexity I will change to a more standard date format. Eg: "2019-01-01". I still intend to use Desamber display on the front end.
     p Image tags
     p Change image inclusion to format like Megamex with separate file for images with tags. Add names of people in photo etc.
     p Split
