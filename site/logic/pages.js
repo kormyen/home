@@ -19,7 +19,7 @@ function Pages()
       element.HtmlSidebar = ``;
 			element.HtmlSidebar += `<div class='sidebar fontSizeSmall colorSecondary'>`;
       element.HtmlSidebar += `${element.DESC}<br><br>`;
-      element.HtmlSidebar += `${element.DATE}<br><br>`;
+      element.HtmlSidebar += `${inline.parse(element.DATE)}<br><br>`;
 
       // LINKS
       if (element.LINK)
