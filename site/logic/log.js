@@ -323,26 +323,49 @@ function Log()
 
   this.getLastUpdateText = function()
   {
-    const SECONDS_IN_DAY = 1000*60*60*24;
-    let result = 'Last updated ';
+    // const SECONDS_IN_DAY = 1000*60*60*24;
+    const MONTHS = [
+      'January',
+      'February',
+      'March',
+      'April',
+      'May',
+      'June',
+      'July',
+      'August',
+      'September',
+      'October',
+      'November',
+      'December'
+    ]
+    const NTH = function(d) {
+      if (d > 3 && d < 21) return 'th';
+      switch (d % 10) {
+        case 1:  return "st";
+        case 2:  return "nd";
+        case 3:  return "rd";
+        default: return "th";
+      }
+    }
+    let result = `Last updated on the ${this.lastestDate.getDate()}${NTH(this.lastestDate)} of ${MONTHS[this.lastestDate.getMonth()]} ${this.lastestDate.getFullYear()}.`;
 
-    let dayDiff = Math.round((new Date() - this.lastestDate) / SECONDS_IN_DAY);
-    if (dayDiff == 0)
-    {
-      result += 'today.';
-    }
-    else if (dayDiff == 1)
-    {
-      result += 'yesterday.';
-    }
-    else if (dayDiff < 0)
-    {
-      result = 'Updated from the future.';
-    }
-    else 
-    {
-      result += `${dayDiff} days ago.`;
-    }
+    // let dayDiff = Math.round((new Date() - this.lastestDate) / SECONDS_IN_DAY);
+    // if (dayDiff == 0)
+    // {
+    //   result += 'today.';
+    // }
+    // else if (dayDiff == 1)
+    // {
+    //   result += 'yesterday.';
+    // }
+    // else if (dayDiff < 0)
+    // {
+    //   result = 'Updated from the future.';
+    // }
+    // else 
+    // {
+    //   result += `${dayDiff} days ago.`;
+    // }
 
     return result;
   }
