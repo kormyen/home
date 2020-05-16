@@ -25,7 +25,8 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
-2020-05-15 31- 6565 web        home            Fix date on log page. Add inline year func.
+2020-05-16 11- 6666 van        storage         Installed side of drawer slide for big above fridge, under bed drawer. 
+2020-05-15 32- 6565 web        home            Fix date on log page. Add inline year func.
 2020-05-15 48- 7665 contract   sylo            Alternate design. Diagram work. Aylona icon write up.
 2020-05-15 32- 6565 web        home            Catch up missing kiwiburn, Great Barrier logs.
 2020-05-14 48- 6565 contract   sylo            Token allocation graph. Web bg optimize. Menu improve.
@@ -415,7 +416,7 @@ DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                      
 2019-07-24 43- 6675 contract   sylo            Update payment flow with modals.
 2019-07-24 92- 6655 web        home            Format notes on time for webring glossary.
 2019-07-24 31- 6655 web        home            Project lens tweak. Photo lens tweak. Minor adjustments.
-2019-07-23 73- 7765 van                        Playing with and researching diesel heater install.
+2019-07-23 73- 7765 van        heater          Playing with and researching diesel heater install.
 2019-07-23 48- 6454 contract   sylo            Info modals. Payment tweaks.
 2019-07-22 31- 6655 web        home            Add footer ext links again. Add research project links.
 2019-07-22 47- 6665 contract   sylo            Payment final. Planning.
