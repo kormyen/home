@@ -45,7 +45,7 @@ node home/server/build.js
 
 **Publish**
 ```
-now --prod
+vercel --prod
 ```
 
 ## Dependencies
@@ -53,6 +53,7 @@ now --prod
 - The human-readable data structures [Indental](https://wiki.xxiivv.com/#indental) and [Tablatal](https://wiki.xxiivv.com/#tablatal) created by [Neauoire](http://wiki.xxiivv.com).
 - Headless Chrome Node API [Puppeteer](https://pptr.dev) for server side rendering.
 - [fs-extra](https://www.npmjs.com/package/fs-extra) for 'emptyDirSync'.
+- [vercel](https://vercel.com/download) for server hosting management.
 
 ## Inspirations
 
