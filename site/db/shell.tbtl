@@ -25,7 +25,8 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
-2020-05-16 11- 6666 van        storage         Installed side of drawer slide for big above fridge, under bed drawer. 
+2020-05-17 13- 6765 van        storage         Installed other side of drawer slide. Made base. 
+2020-05-16 11- 6666 van        storage         Installed side of drawer slide for big above fridge under bed drawer. 
 2020-05-15 32- 6565 web        home            Fix date on log page. Add inline year func.
 2020-05-15 48- 7665 contract   sylo            Alternate design. Diagram work. Aylona icon write up.
 2020-05-15 32- 6565 web        home            Catch up missing kiwiburn, Great Barrier logs.
