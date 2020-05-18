@@ -25,6 +25,9 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-05-18 14- 7673 van        storage         Made drawer walls. Mounted everything.
+2020-05-18 46- 6465 contract   sylo            Clean up. Menu.
+2020-05-17 31- 6655 web        home            About page edit. Add Sarah's portfolio project page.
 2020-05-17 13- 6765 van        storage         Installed other side of drawer slide. Made base. 
 2020-05-16 11- 6666 van        storage         Installed side of drawer slide for big above fridge under bed drawer. 
 2020-05-15 32- 6565 web        home            Fix date on log page. Add inline year func.
