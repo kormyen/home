@@ -18,6 +18,11 @@ Current benefits (compared to a static single-page client-side webapp)
 
 This setup would allow for a simple private nodejs frontend to do database additions and modifications then auto-rebuild the static public website.
 
+## To do
+- Add writen article functionality
+- Credit photographer tag on images
+- Add lightbox for images
+
 ## Structure
 
 - `server` folder is the build script.
