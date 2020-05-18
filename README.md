@@ -20,6 +20,8 @@ This setup would allow for a simple private nodejs frontend to do database addit
 
 ## To do
 - Add writen article functionality
+- Add source image compression on build
+- Improve page/article/image/inline rendering options
 - Credit photographer tag on images
 - Add lightbox for images
 
