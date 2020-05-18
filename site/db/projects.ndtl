@@ -239,7 +239,7 @@ MEGAMEX
 ARDUSAMBER
   BREF : neralie & arvelie
   TISA : a neralie & arvelie Arduino clock
-  DESC : Arduino experiements with Neauoire's time format Neralie
+  DESC : Arduino experiements with {link ext neauoire}'s time format Neralie
   SECT : 3
   BORN : 2018-05-15
   EDIT
@@ -369,9 +369,10 @@ LIGHTBOX
   TISA : a minimal vanilla JS lightbox lib
   SECT : 3, 4
   BODY
-    p Extremely minimal (barely worth it) {link ext vanillaJs} library for making very simple full-sized image viewer "lightbox" views for images on a website.  
+    p Minimal {link ext vanillaJs} library for making simple full-sized image viewer "lightbox" views for images on a website.  
     p I mostly seperated it as a library as a test of what is involved. 
     p Intending to use it in {link project memex}, {link project megamex} and on {link project home 'this site'} (as "progressive enhancement").
+    p It is used in {link ext sarahPortfolio}. Adding lightbox to her project got me to add features for text description and next/prev buttons.
     i 2018-11-02_12-01
   LINK
     - {link ext lightboxSource}
@@ -431,4 +432,19 @@ WHALEBUS
     y SRT7m2pXA44
   LINK
     - {link ext whalebusDownload}
+
+PORTFOLIO
+  BREF : work showcase
+  TISA : minimal portfolio website
+  SECT : 3, 4
+  BODY
+    p I built a portfolio website for Sarah Tanfield - a New Zealand book binder and package maker.
+    p It uses {link project lightbox} for full screen views of photos which got me to add features for text description and next/prev buttons.
+    p The portfolio website is built the same way as this website ({link project home}), using a javascript to build a no-JS static site from a human readable text file database to make it easy to edit and very fast to load.
+    p You can view the live website {link ext sarahPortfolio 'here'}.
+    i 2020-05-18_01-27
+    i 2020-05-18_08-41
+    i 2020-05-18_08-42
+  LINK
+    - {link ext sarahPortfolio}
 `

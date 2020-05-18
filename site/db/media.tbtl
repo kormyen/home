@@ -12,10 +12,14 @@ Q = Quality
 F = Focus
   C Center
   T Top
+  0 to 9 Positioning
 */
 
 var MEDIA = `
 DATE             EXT PBW MOQF PROJ          TAGS               AUTHOR           PEOPLE                                  DESCRIPTION                                                           END
+2020-05-18_08-42 jpg --- -+7C portfolio                        Hamish                                                   Display of photos in portfolio
+2020-05-18_08-41 jpg --- -+6C portfolio                        Hamish                                                   Lightbox of book binding project
+2020-05-18_01-27 jpg --- --5T portfolio                        Hamish                                                   Homepage of portfolio
 2019-03-22_12-18 jpg --- -+3C sylo                                                                                      Sylo website
 2019-03-16_19-02 jpg ++- --9C sailing       horizon            Hamish           Sasha, Joran, Dominic Tarr              at sunset sailing toward Pakatoa Island, near Waiheke
 2019-03-16_18-51 jpg +-- ++7C sailing       horizon, pakatoa   Hamish                                                   Near Waiheke looking toward Pakihi Island
