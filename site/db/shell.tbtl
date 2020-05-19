@@ -25,6 +25,9 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-05-19 32- 6664 web        lightbox        Set up next/prev lightbox navigation.
+2020-05-19 32- 6565 contract   portfolio       Merge. Lower case. Next/prev lightbox navigation.
+2020-05-19 48- 6666 contract   sylo            Create web drop down menu. Handle new asset icon files.
 2020-05-18 14- 7673 van        storage         Made drawer walls. Mounted everything.
 2020-05-18 46- 6465 contract   sylo            Clean up. Menu.
 2020-05-17 31- 6655 web        home            About page edit. Add Sarah's portfolio project page.
