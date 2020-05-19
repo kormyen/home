@@ -115,6 +115,7 @@ HOME
     p An attempt at simplicity to help survive as {link ext techDegrades}.
     p I found this quote and term {link ext longSite} on {link ext gwern} an inspiration in this regard:
     p "The Internet is self destructing paper. A place where anything written is soon destroyed by rapacious competition and the only preservation is to forever copy writing from sheet to sheet faster than they can burn..." Julian Assange  ({link ext destructingPaper}, 5 December 2006)
+    p In reference to above - the way the site is built is to allow the actual content to be easy to move around (text database), copy (human readable) and store (easily accessed standard files), while the visual display of it may change.
     t 2018
     p {image 2018-10-15_12-00 il} {image 2018-10-15_12-01 ir} 
     p Visualising my experiements with time tracking for self productivity gamification.
@@ -126,8 +127,8 @@ HOME
     t 2010
     i 2010-01-01_12-00
     p {image 2010-01-01_12-01 il} Portfolio site for university work. I still really like this version.
-    p This site was built with Adobe Flash.
-    p The top section is a mystery menu in Japanese for some reason with subtitles in English on hover. The {link project mort 'Mort TV'} header background was of a class 'art worm' project for fun, where each person paints the next square after only seeing the directly previous square.
+    p This site was built with Adobe Flash - a long dead interaction and animation software for web that people like to complain about (performance and security). I found Flash really quite nice to build things with.
+    p The top section is a mystery-meat-menu in Japanese (for some reason?) with subtitles in English on hover. The {link project mort 'Mort TV'} header background was of a class 'art worm' project for fun, where each person paints the next square after only seeing the directly previous square.
     p The first image below displays Fontana Dam a Half Life 2 map built for University.
     p 2nd displays a cliche M.C. Escher optical illusion inspired Counter-Strike map for University Game Design class.
     p 3rd is a Counter-Strike multiplayer map for University Game Design class.
@@ -397,20 +398,20 @@ VAN
     t Sub-projects
     p Rust repair and paint (forever)
     p Maintenance (forever)
-    p Insulation (95%)
+    p Insulation (100%)
     p Solar system (100%)
     p Bed (100%)
-    p Cabinetry (60%)
+    p Cabinetry (65%)
     p Electronics and power system (60%)
     p Cooling and ventilation (50%)
-    p Heating (0%)
+    p Heating (70%)
     p Flooring (100%)
     p Wall and ceiling finish (0%)
     p Kitchen bench (60%)
     p Office (80%)
-    p Shower and toilet (0%)
+    p Shower and toilet (60%)
     p Garage (60%)
-    p Sound system (70%)
+    p Sound system (100%)
     p The latest addition is "5%" (maximum) tinted window for ultimate stealth mode
     i 2019-07-04_12-55
 
@@ -440,8 +441,8 @@ PORTFOLIO
   BODY
     p I built a portfolio website for Sarah Tanfield - a New Zealand book binder and package maker.
     p It uses {link project lightbox} for full screen views of photos which got me to add features for text description and next/prev buttons.
-    p The portfolio website is built the same way as this website ({link project home}), using a javascript to build a no-JS static site from a human readable text file database to make it easy to edit and very fast to load.
-    p You can view the live website {link ext sarahPortfolio 'here'}.
+    p The portfolio website is built the same way as this website ({link project home}), using javascript to build a no-JS static site (to make it fast to load) from a human readable text database (to make it easy to edit).
+    p View the live website {link ext sarahPortfolio 'here'}.
     i 2020-05-18_01-27
     i 2020-05-18_08-41
     i 2020-05-18_08-42
