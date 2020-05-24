@@ -265,6 +265,7 @@ function Index()
 		else if (target.substr(0, 7) == 'thought')
 		{
 			target = target.substr(8);
+			target = target.replace(/-/g,` `);
 			let data = this.articles.get(target);
 
 			// other page
@@ -295,6 +296,7 @@ function Index()
 		else if (target.substr(0, 4) == 'note')
 		{
 			target = target.substr(5);
+			target = target.replace(/-/g,` `);
 			let data = this.articles.get(target);
 
 			// other page

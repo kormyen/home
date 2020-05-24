@@ -21,7 +21,7 @@ function Inline()
         {
             if (func == 'project' || func == 'thought' || func == 'note')
             {
-                result += `/${func}s/${name}`;
+                result += `/${func}s/${name.replace(/ /g, `-`)}`;
             }
             else if (name == 'home')
             {
@@ -36,7 +36,7 @@ function Inline()
         {
             if (func == 'project' || func == 'thought' || func == 'note')
             {
-                result += `#${func}-${name}`;
+                result += `#${func}-${name.replace(/ /g, `-`)}`;
             }
             else if (name == 'home')
             {
@@ -49,6 +49,11 @@ function Inline()
         }
 
         return result;
+    }
+
+    this.replaceSpaces = function(name)
+    {
+
     }
 
     this.doLink = function(url, label, ext, className)
