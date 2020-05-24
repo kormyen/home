@@ -25,6 +25,12 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-05-24 32- 6655 web        home            Set up articles - thoughts and notes.
+2020-05-24 11- 6656 van        maintenance     Clean up, sort out.
+2020-05-23 31- 6564 web        home            Start looking at article setup.
+2020-05-22 47- 8674 contract   sylo            Infographics. Discover ux design.
+2020-05-21 48- 6665 contract   sylo            
+2020-05-20 48- 6665 contract   sylo            
 2020-05-19 32- 6664 web        lightbox        Set up next/prev lightbox navigation.
 2020-05-19 32- 6565 contract   portfolio       Merge. Lower case. Next/prev lightbox navigation.
 2020-05-19 48- 6666 contract   sylo            Create web drop down menu. Handle new asset icon files.
