@@ -19,7 +19,7 @@ function Inline()
 
         if (BUILD)
         {
-            if (func == 'project')
+            if (func == 'project' || func == 'thought' || func == 'note')
             {
                 result += `/${func}s/${name}`;
             }
@@ -34,7 +34,7 @@ function Inline()
         }
         else
         {
-            if (func == 'project')
+            if (func == 'project' || func == 'thought' || func == 'note')
             {
                 result += `#${func}-${name}`;
             }

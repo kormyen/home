@@ -1,6 +1,8 @@
 var ARTICLES = `
 WHY HOME
+  BREF : reasoning
   TAGS : why
+  HEAD : 2014-05-30_12-00
   TYPE : thoughts
   BODY
     p https://www.jvt.me/posts/2019/07/22/why-website/
@@ -12,6 +14,7 @@ WHY HOME
 SOUL FOOD
   TAGS : art, why
   BREF : importance of values
+  HEAD : 2019-04-13_07-01
   TYPE : notes
   BODY
     p "Soul Food and the importance of values for creative survival" was a presentation by Raymond McGrath at Chromacon (a New Zealand arts festival) in 2019.
@@ -27,6 +30,7 @@ SOUL FOOD
 
 TIME
   BREF : importance of values
+  HEAD : 2018-07-05_12-02
   TYPE : notes
   BODY
     p Test
@@ -34,7 +38,8 @@ TIME
 LOGGING 2019
   TAGS : home
   DATE : 2019-01-04
-  BREF : log in review
+  HEAD : 2018-07-05_12-00
+  BREF : review
   PUBL : true
   TYPE : thoughts
   BODY
@@ -74,10 +79,11 @@ LOGGING 2019
     p Track gym visits
     p Track meditation
 
-GOALS 2019
+GOALS IN 2019
   TAGS : home
   DATE : 2019-01-04
-  BREF : Life, web, 2019
+  HEAD : 2019-04-13_07-01
+  BREF : Life, web
   PUBL : true
   TYPE : thoughts
   BODY
@@ -97,6 +103,8 @@ GOALS 2019
     p Meditate
 
 CRYSTALS
+  HEAD : 2019-04-13_07-01
+  TYPE : notes
   BODY
     p Quartz clock and Piezoelectricity
     p ref {link ext piezoele}
@@ -123,8 +131,10 @@ CHANGE MINDS
 
 PLASTIC OCEAN
   TAGS : env
+  HEAD : 2019-04-07_15-07
   DATE : 2019-06-08
-  BREF : 
+  TYPE : notes
+  BREF : documentary
   BODY
     p The Plastic Ocean documentary screening was good. I liked the sustainable building it was showed in even more though haha. Had some cool non-toxic-plastic (ironic?) double layered roof with pressured gas in between as insulation etc.
     p The plastic thing to me is a government/regulation problem (ban all non-compostable packaging ("bio-degradable-plastic" is bullshit - it doesn't ever "break down" it just "breaks apart")) but I guess education needs to permeate far enough into societies first in order for that to happen.
@@ -136,13 +146,16 @@ PLASTIC OCEAN
 VEGETABLES
   TAGS : life
   DATE : 2019
-  BREF : 
+  HEAD : 2019-04-15_16-25
+  TYPE : thoughts
+  BREF : eating
   BODY
     p {link ext animsent}
 
-THOUGHTS ON FLOATING
+FLOATING
   TAGS : life
   HEAD : 2014-11-19_19-00
+  TYPE : thoughts
   PUBL : true
   BODY
     p To call it "awesome" is the wrong word. Its relaxing, weightless, nothingness, surreal.
@@ -167,6 +180,8 @@ THOUGHTS ON FLOATING
 HUMANE CALM
   TAGS : design, ux
   BREF : importance of values
+  HEAD : 2019-04-13_07-01
+  TYPE : notes
   BODY
     p “The real problem of humanity is the following: we have paleolithic emotions; medieval institutions; and god-like technology. And it is terrifically dangerous, and it is now approaching a point of crisis overall.” Until we understand ourselves, “until we answer those huge questions of philosophy that the philosophers abandoned a couple of generations ago — Where do we come from? Who are we? Where are we going?—rationally,” we’re on very thin ground. Edward Osborne Wilson
     p "An interface is humane if it is responsive to human needs and considerate of human frailties." - Jef Raskin
