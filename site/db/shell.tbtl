@@ -25,6 +25,8 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-05-26 48- 7766 contract   sylo            In office. Dapp browser. Alice tx fee discuss.
+2020-05-25 47- 6565 contract   sylo            Infographic map. Dapp browser.
 2020-05-24 32- 6655 web        home            Set up articles - thoughts and notes.
 2020-05-24 11- 6656 van        maintenance     Clean up, sort out.
 2020-05-23 31- 6564 web        home            Start looking at article setup.
