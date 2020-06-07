@@ -1,21 +1,144 @@
 var ARTICLES = `
+GAMELAB NOTES
+  TAGS : gamedev
+  TYPE : notes
+  DATE : 2014-07-25
+  EDIT : 2010-06-04
+  CHNG : 0
+  PUBL : false
+  BODY
+    p Rami Gamelab lessons
+    p Lesson 1 "Why" is the biggest question.
+    p Lesson 2 Design is communication.
+    p Lesson 3 Be a little less normal.
+    p Lesson 4 Give more than you take.
+    p Lesson 5 Honesty helps make better games.
+    p Be prepared for surprise game pitching.
+    p Take business seriously.
+    p Lesson 6 Don't take business seriously.
+    p Lesson 7 
+    p Lesson 8 I'm a fraud & so are you.
+    p Lesson 9 Motivation is the most important thing we have.
+    p Lesson 10 Ideas are cheap.
+    p LEsson 11 Failure is good.
+    p Lesson 12 An industry is people.
+    p Lesson 13 Everything is a remix.
+    p Lesson 14 Your game can talk to you, too.
+    p Lesson 15 Don't rely on patterns.
+    p Lesson 16 The world is out there.
+    p Lesson 17 You can't make the game in your head.
+    p Lesson 18 Don't definate things for others.
+    p Lesson 19 Decide, don't accept.
+    p Lesson 20 Go on already.
+
+WHY CRYPTO
+  TYPE : thoughts
+  DATE : 2018-07-08
+  EDIT : 2010-06-04
+  CHNG : 0
+  PUBL : false
+  BODY
+    p I feel like trustless and transparent systems are an answer to tyranny/greed/corruption and inequality.
+    p Idealistically fairer and longer term solutions that are hard to corrupt due to transparency.
+    p "The proper exchange of ideas between free individuals keeps tyranny at bay."
+    p Is true but media centralization and widely popular material escapism distort societal discourse.
+    p '...the problem with hierarchies is that people stack up at the bottom and that they tilt toward tyranny across time'.
+
+WHY PRIVACY
+  BREF : test
+  HEAD : 2014-05-30_12-00
+  DATE : 2019-06-04
+  EDIT : 2010-06-04
+  CHNG : 1
+  TYPE : thoughts
+  PUBL : false
+  BODY
+    p Why is privacy important?
+    p "I've got nothing to hide"
+    p Why is end-to-end encryption (E2EE) is important?
+    p 
+    p > Today we walk around will first-hand proof via the Snowden docs and by admission in court that the NSA has been recording any phone call they can get their hands on for over a decade. We watched as email client Lavabit who dared to make a "secure email" service shut down due to the NSA demanding that they be able to read everyone's emails. And then we found out that basically every tech giant including google and facebook were forced to cooperate by giving warrantless access to all data for all customers at all times. And we just continue acting like that's not weird. Everyone just says "I don't have anything to hide. Therefore, no one else does either. Spy away!"
+    p > And the NSA says "Holy shit...somehow people are fine with that. Ok, let's keep going." Right now the NSA is literally trying to pass laws that will require tech companies to program backdoors into their products, as well as outlaw strong encryption. This is no different from requiring every house to have a secret entrance for police to come in any time they want to make sure you're not committing a crime. This should sound really familiar about now if you've ever read 1984. If you haven't, this should sound downright totalitarian.
+    p > The thing about secret entrances, though, is that people find them. People who aren't supposed to. In the security world, sometimes there's a bug in a program that allows a hacker to run malicious code on your computer, effectively using it for whatever they want. Maybe they want to steal all your bank info or your identity. Maybe they want to mine bitcoin. Whatever. If you mandate backdoors in all programs, that means that every piece of hardware and software will be guaranteed to have a government mandated fatal flaw. Finding these will become a sport for hackers.
+    p > Meanwhile, terrorists who actually know how to use a computer are using open source software without the government backdoor anyway. So you've sacrificed own security for a grand total of: nothing.
+    p > "I'm not an interesting person so I wouldn't think NSA gathering that I go on YouTube and Reddit is a big score for them."
+    p > Well you also probably don't criticize the government in public on a daily basis. But who would you side with if media outlets started getting shut down because the government didn't like what they said?
+    p > People are dangerously ignorant when it comes to digital security, and certain people in government know this and want to get as much of a foothold while that's still the case. Historically, it's really easy to lose freedoms, and way bloodier trying to gain them back.
+    p source: https://www.reddit.com/r/AdviceAnimals/comments/3tqafv/_/cx8wjdf
+    p Government changes quickly, laws and freedoms erode over time. What is the chance some where in the future there is a government in power that you strongly disagree with? Do you want them to have the power they already have? Do you want them to have more power?
+    p "If your comms aren't verifiably encrypted, they're verifiably insecure" https://twitter.com/NyxLandUnlife/status/1267381342339305472
+    p "If your security model depends on trusting a third party, it's not secure or private..." https://twitter.com/NyxLandUnlife/status/1267381891956645889
+    p If you have a central server you have a "Man-In-The-Middle" attack by design.
+    p Do you want someone you don't know in the room like 1984 while you talk to your closest friend? If you don't then while online you need "end to end encypted" (E2EE) "open source" communication tools.
+    p Audited, open-source technology is the only category possible to trust.
+
+TOOLS
+  BREF : Things I use
+  HEAD : 2014-05-30_12-00
+  TYPE : notes
+  DATE : 2019-06-03
+  EDIT : 2010-06-04
+  CHNG : 2
+  PUBL : true
+  BODY
+    p I recognize that using open source, privacy focused tools is important. If not for my current self, then my potential future self, protestors, journalists, and refugees.
+    p I list these to share things I think are good, and in hopes someone has suggestions of improvement, or as benefit to others.
+    p I like the idea of being frugal generally, but for the tools I use frequently I want the best possible and have no issue paying a reasonable fee.
+    p Cloud storage: sync.com
+    p I use cloud storage because I have a large amount of important data than I want to store. I want backups to be automatic because I know from experience that hardware breaks randomly. Backups must be off site as local pockets of reality are destroyed occasionally.
+    p I use sync.com as it is the cheapest, end-to-end-encrypted (E2EE) cloud storage provider that is fairly easy to use. Had no problems so far. Started using it on 2020-06-03.
+    p I've tried running my own self built, self run, self maintianed, server in the past and it's an annoyance I'd like to not spend time on any more.
+    p If you use this link to join we will both receive a bonus 1GB of additional storage. https://www.sync.com/?_sync_refer=c178eb780
+    p Password manager: Bitwarden
+    p I use a password manager so that I can have secure, unique, random, very long passwords for every app and website I use. A password manager makes this easy to manage.
+    p Bitwarden is cheap, open source, multiplatform, fast human support, and supports simple two-factor-authentication (which makes things even more secure).
+    p Messaging: Signal, Wire, Wickr
+    p Here is my comparison spreadsheet and criteria: 
+    p Email: Protonmail
+    p Proton mail is open source, privacy focused, encrption-enabling (PGP) and has severs located in Switzerland. I also considered Tutanota and might change to them in future.
+    p Wallet: Ledger, Exodus
+    p Crypto currency is the native currency of the internet. All services have been digitized, open sourced and democratized. Now it is money's turn. It is not fair that unlimited amounts of a country's currency can be generated devaluing hardworking citizen's lifetime of savings and investments.
+    p I use Ledger wallet because I want to securely hold my private keys in a external device. An alternative is Trezor.
+    p For crypto currency that Ledger does not support I use Exodus wallet. Exodus is mostly open source and has a simple user interface while supporting some important assets that Ledger does not.
+    p Design: Affinity Suite
+    p I used Affinity tools because I hate Adobe with a passion. Adobe has proven that they distrust their customers, leave exploitable surveilance bugs in their DRM, repeatedly have privacy failures and randomly lock down of local use of their software. Affinity are the next best thing. It's a hard transition from years of Adobe shortcut muscle memory but Adobe have proven that they cannot be trusted. Alternatives must be suppported.
+    p I would love to support open source alternatives like Gimp but find them painful to use.
+    p Design: Figma
+    p Web development: Responsively
+    p Notes: Workflowy
+    p Code: Visual Studio Code
+    p Browser: Brave
+    p I used Mac OSX so Safari is the best UX and best integrated browser but they have resently broken all extentions ability to exist. Brave seems to be the next best option in terms of the forfront of web tech, usability, privacy and open source. I also considered Firefox.
+
 WHY HOME
   BREF : reasoning
   TAGS : why
   HEAD : 2014-05-30_12-00
   TYPE : thoughts
+  PUBL : false
   BODY
     p https://www.jvt.me/posts/2019/07/22/why-website/
     p https://www.onebigfluke.com/2012/07/focusing-on-positives-why-i-have-my-own.html 
     p https://snarfed.org/2012-07-25_why_i_have_my_own_web_site
     p https://indieweb.org/why
     p https://www.gwern.net/About#long-site
+    p https://blog.jse.li/posts/software/
+    p https://zen-of-programming.com/design/
+    p https://zen-of-programming.com/
+    p https://practicaltypography.com/
+    p https://brutalist-web.design/
+    p https://frankchimero.com/blog/2015/the-webs-grain/
+    p https://mxb.dev/blog/the-css-mindset/
+    p https://anewdigitalmanifesto.com/
+    p https://small-tech.org/about/#non-colonial
+    p https://mastodon.social/@zensaiyuki/102683452946911475
 
 SOUL FOOD
   TAGS : art, why
   BREF : importance of values
   HEAD : 2019-04-13_07-01
   TYPE : notes
+  PUBL : false
   BODY
     p "Soul Food and the importance of values for creative survival" was a presentation by Raymond McGrath at Chromacon (a New Zealand arts festival) in 2019.
     p Wow ok. That talk was amazing. An illustrator talking about doing work for love, work that makes you happy.
@@ -32,16 +155,17 @@ TIME
   BREF : importance of values
   HEAD : 2018-07-05_12-02
   TYPE : notes
+  PUBL : false
   BODY
     p Test
 
 LOGGING 2019
+  BREF : Looking back
   TAGS : home
   DATE : 2019-01-04
   HEAD : 2018-07-05_12-00
-  BREF : review
-  PUBL : true
   TYPE : thoughts
+  PUBL : true
   BODY
     p Between 2018-07-12 and 2018-12-31 I logged 937 hours, tracked over 181 days, meaning 5.2 hours of output per day on average.
     p 76% of days were vegetarian.
@@ -50,7 +174,7 @@ LOGGING 2019
     p 15% of days included exercise.
     p Sector split: code (244h), visual (242h), carpentry (179h), physical (133h), electronics (80h), research (53h) and misc (6h).
     p The majority of work dedicated to Van (32%), Contract (26%) and Web (23%).
-    p The biggest projects were Sylo (248h), Memex (154h), Bench (105h), Solar (85h), Log (51h), Garage (46h), Insulation (45h), Core (34h), Crucifix (28h), Fan (25h) and Megamex (21h).
+    p The biggest projects were {link project sylo} (248h), {link project memex} (154h), {link project bench} (105h), {link project solar} (85h),  {link project log} (51h), {link project garage} (46h), {link project insulation} (45h), {link project core} (34h), {link project crucifix} (28h), {link project fan} (25h) and {link project megamex} (21h).
     p Benefits
     p The gamified mental nagging to keep or improve desired statistics over time helped me to keep work hours higher and meat consumption lower.
     p A benefit of entering logs regularly is the recognition of passing time. As opposed to the feeling of blurred days, weeks, months.
@@ -80,12 +204,12 @@ LOGGING 2019
     p Track meditation
 
 GOALS IN 2019
+  BREF : Looking forward
   TAGS : home
   DATE : 2019-01-04
   HEAD : 2019-04-13_07-01
-  BREF : Life, web
-  PUBL : true
   TYPE : thoughts
+  PUBL : true
   BODY
     p Goals for life:
     p Art for liberation
@@ -105,6 +229,7 @@ GOALS IN 2019
 CRYSTALS
   HEAD : 2019-04-13_07-01
   TYPE : notes
+  PUBL : false
   BODY
     p Quartz clock and Piezoelectricity
     p ref {link ext piezoele}
@@ -114,6 +239,7 @@ CHANGE MINDS
   TAGS : env
   DATE : 2019-06-18
   BREF : Why pollute?
+  PUBL : false
   BODY
     p How to stop the problem of polution?
     p Whos job is it to protect the environment?
@@ -135,6 +261,7 @@ PLASTIC OCEAN
   DATE : 2019-06-08
   TYPE : notes
   BREF : documentary
+  PUBL : false
   BODY
     p The Plastic Ocean documentary screening was good. I liked the sustainable building it was showed in even more though haha. Had some cool non-toxic-plastic (ironic?) double layered roof with pressured gas in between as insulation etc.
     p The plastic thing to me is a government/regulation problem (ban all non-compostable packaging ("bio-degradable-plastic" is bullshit - it doesn't ever "break down" it just "breaks apart")) but I guess education needs to permeate far enough into societies first in order for that to happen.
@@ -149,10 +276,12 @@ VEGETABLES
   HEAD : 2019-04-15_16-25
   TYPE : thoughts
   BREF : eating
+  PUBL : false
   BODY
     p {link ext animsent}
 
 FLOATING
+  BREF : sensory deprevation tank
   TAGS : life
   HEAD : 2014-11-19_19-00
   TYPE : thoughts
@@ -182,6 +311,7 @@ HUMANE CALM
   BREF : importance of values
   HEAD : 2019-04-13_07-01
   TYPE : notes
+  PUBL : true
   BODY
     p “The real problem of humanity is the following: we have paleolithic emotions; medieval institutions; and god-like technology. And it is terrifically dangerous, and it is now approaching a point of crisis overall.” Until we understand ourselves, “until we answer those huge questions of philosophy that the philosophers abandoned a couple of generations ago — Where do we come from? Who are we? Where are we going?—rationally,” we’re on very thin ground. Edward Osborne Wilson
     p "An interface is humane if it is responsive to human needs and considerate of human frailties." - Jef Raskin
@@ -198,20 +328,28 @@ HUMANE CALM
     p Technology should respect social norms
 
 GIBBS FARM
+  TYPE : notes
+  PUBL : false
   BODY
     p https://imgur.com/gallery/4uqtY
     p http://gibbsfarm.org.nz/
 
 GAME TOURISM
+  TYPE : thoughts
+  PUBL : false
   BODY 
     p steam screenshots
     p "Played @panoramical. Forgot about my tea. My tea is cold and this game is awesome." https://twitter.com/kormyen/status/644872926068518912
 
 HOBBITON
+  TYPE : notes
+  PUBL : false
   BODY
     p photos
 
 DOTS
+  TYPE : notes
+  PUBL : false
   BODY
     p Yayoi Kusama https://twitter.com/kormyen/status/641913580359516160
 `

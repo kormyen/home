@@ -27,7 +27,7 @@ function Media()
   {
     return dataset.filter(item => item.background == true);
   }
-
+  
   this.filterOverview = function(dataset)
   {
     return dataset.filter(item => item.overview == true);
