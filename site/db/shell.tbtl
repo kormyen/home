@@ -25,6 +25,8 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-06-08 32- 6563 web        home            Improved display of articles.
+2020-06-08 47- 5465 contact    sylo            New web content.
 2020-06-07 31- 6555 web        home            Fix display of articles.
 2020-06-06 11- 7666 van        bench           Drilled and epoxied breather vent into grey water tank.
 2020-06-05 48- 6757 contact    sylo            Website homepage redo making progress.
