@@ -25,6 +25,17 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-06-17 21- 7656 boat       radio           Wire up wall mount radio charger.
+2020-06-17 21- 6656 van        electronics     Figer out battery isolator setup.
+2020-06-17 48- 6666 contract   sylo            Sub page content, marketing meet, tone meet ben, Anabela chat, feedback.
+2020-06-16 48- 5565 contract   sylo            Website.
+2020-06-15 48- 6665 contract   sylo            Resub feedback. Homepage content.
+2020-06-12 31- 5563 web        home            Article sidebar.
+2020-06-12 48- 6456 contact    sylo            Web continued. Three seperate meetings.
+2020-06-11 48- 6456 contact    sylo            Alisa feedback on website
+2020-06-10 48- 6456 contact    sylo            Website.
+2020-06-09 32- 6454 web        home            Article sidebar.
+2020-06-09 48- 6456 contact    sylo            Feedback on tasks. DApp payment modal adjust. New web content. 
 2020-06-08 32- 6563 web        home            Improved display of articles.
 2020-06-08 47- 5465 contact    sylo            New web content.
 2020-06-07 31- 6555 web        home            Fix display of articles.
@@ -80,12 +91,14 @@ DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                      
 2020-04-27 48- 6585 contract   sylo            Site layout. Discuss how it works diagram.
 2020-04-24 47- 6565 contract   sylo            
 2020-04-23 48- 6565 contract   sylo            
+2020-04-22 11- 5555 boat       radio           Paint and mount radio charger.
 2020-04-22 48- 6565 contract   sylo            
 2020-04-21 83- 7656 boat       motoring        Towed Alchemist to Blackpool Bay, Waiheke from Awaawaroa Bay.
 2020-04-20 47- 6665 contract   sylo            Discuss progress and plan. Continue new web layout continued. 
 2020-04-20 82- 6565 boat       motoring        Motor to Awaawaroa Bay from Man O War via Rotoroa Jetty.
 2020-04-19 12- 7575 boat       maintenance     Redo diesel leak fix.
-2020-04-18 12- 6666 boat       maintenance     Clean deck and exterior.
+2020-04-18 11- 5555 boat       radio           Paint wall mount radio charger.
+2020-04-18 11- 6666 boat       maintenance     Clean deck and exterior.
 2020-04-17 48- 7665 contract   sylo            Weblayout new, illustrator feedback.
 2020-04-16 48- 6565 contract   sylo            Weblayout, chats, icons.
 2020-04-15 48- 6665 contract   sylo            Minor brief help. Web layouts. Homepage focus.
@@ -100,7 +113,7 @@ DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                      
 2020-04-07 82- 6766 boat       motoring        Onetangi Bay to Man O'War Bay - sheltered from coming strong wind.
 2020-04-06 48- 5555 contract   sylo            
 2020-04-05 11- 8565 boat       maintenance     Diagram water pipes.
-2020-04-05 12- 6666 boat       maintenance     Build radio wall mount.
+2020-04-05 12- 6666 boat       radio           Build radio wall mount.
 2020-04-03 48- 5555 contract   sylo            
 2020-04-02 48- 5555 contract   sylo            
 2020-04-01 48- 5555 contract   sylo            
