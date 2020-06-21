@@ -15,18 +15,42 @@ HAMISH
   HEAD : 2019-03-03_15-00
   BODY
     i 2017-05-12_12-01
-    t Kormyen
-    b Literal: "kor" tr.(Tau) Air (pilot). "M'yen" tr.(Tau) unforseen.
-    b Misinterpreted: Ghost, spirit, soul~
+    t Skills
+    p User Interface design
+    p User Experience design
+    p Web design
+    p Web development
+    p Game design
+    p Game development
+    t Tools
+    p Figma
+    p Afinity Designer
+    p Photoshop
+    p Illustrator
+    p After Effects
+    p Visual Studio
+    p Html / CSS / Javascript
+    p C#
     t Goals
     b Art for liberation - deliberate art, engineering and research toward escape from societal traps.
     b Incrementalism of self - continous personal improvement.
-    b Reduction of harm - life with admition that environment and the lives of others are important.
+    b Reduction of harm - prioritizing environment protection and the lives of all beings.
     t Research
     b {link project dastime 'Dasein'}
     b {link page log 'Productivity'}
     b {link project sailing 'Solarpunk'}
+    t Alias
+    p Kormyen
+    b Literal: "kor" tr.(Tau) Air (pilot). "M'yen" tr.(Tau) unforseen.
+    b Misinterpreted: Ghost, spirit, soul~
     i 2015-09-03_12-00
+  LINK
+    - {link ext twitter}
+    - {link ext merveillesTown 'Mastodon'}
+    - {link ext github}
+    - {link ext inaturalist}
+    - {link ext instagram}
+    - {link ext linkedin}
 
 LOG
   BREF : time tracker

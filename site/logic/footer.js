@@ -12,11 +12,11 @@ function Footer()
   this.getContent = function()
   {
     let result = ``;
-    result += this.inline.doLink(this.inline.getInternalUrl(`page`, `home`), `Home`, false, 'fontSizeNormal subtleLink footerItemMargins');
-    result += this.inline.doLink(this.inline.getInternalUrl('page', 'projects'), `Projects`, false, 'fontSizeNormal subtleLink footerItemMargins');
-    result += this.inline.doLink(this.inline.getInternalUrl('page', 'photos'), `Photos`, false, 'fontSizeNormal subtleLink footerItemMargins');
-    result += this.inline.doLink(this.inline.getInternalUrl('page', 'log'), `Log`, false, 'fontSizeNormal subtleLink footerItemMargins');
-    result += this.inline.doLink(this.inline.getInternalUrl('page', 'hamish'), `About`, false, 'fontSizeNormal subtleLink footerItemMargins');
+    result += this.inline.doLink(this.inline.getInternalUrl(`page`, `home`), `Home`, false, 'fontSizeSmall subtleLink footerItemMargins');
+    result += this.inline.doLink(this.inline.getInternalUrl('page', 'projects'), `Projects`, false, 'fontSizeSmall subtleLink footerItemMargins');
+    result += this.inline.doLink(this.inline.getInternalUrl('page', 'photos'), `Photos`, false, 'fontSizeSmall subtleLink footerItemMargins');
+    result += this.inline.doLink(this.inline.getInternalUrl('page', 'log'), `Log`, false, 'fontSizeSmall subtleLink footerItemMargins');
+    result += this.inline.doLink(this.inline.getInternalUrl('page', 'hamish'), `About`, false, 'fontSizeSmall subtleLink footerItemMargins');
     return result;
   }
 }

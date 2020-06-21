@@ -69,7 +69,7 @@ function Projects()
 
       // Sidebar HTML
       element.HtmlSidebar = ``;
-      element.HtmlSidebar += `<div class='sidebar fontSizeSmall colorSecondary'>`;
+      element.HtmlSidebar += `<div class='sidebar colorSecondary'>`;
 			element.HtmlSidebar += `${parent.capitalizeFirstLetter(element.NAME)} is ${element.TISA}<br>`;
       element.HtmlSidebar += `<br>`;
 

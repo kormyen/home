@@ -1,4 +1,127 @@
 var ARTICLES = `
+FIRST SAIL
+  BREF : My first sailing experience with Aunt Karen, Uncle Peter, Cousins Lara and Chloe
+  TAGS : sailing
+  TYPE : notes
+  HEAD : 2014-05-30_12-00
+  DATE : 2020-06-22
+  CHNG : 0
+  PUBL : true
+  BODY
+    p {image 2017-01-12_17-40 ir} My first sailing experience was with my Aunt Karen, Uncle Peter, my Dad and two crazy cousins Lara and Chloe in Australia for a week around 1999. 
+    p I don't recall specifically where we went, but I cherish the memories of adventuring:
+    p over waves sitting at the bow 
+    p to what seemed like an island of endless sand mountains
+    p a beach of beautiful clear water
+    p receiving creatively insulting poem readings by Chloe
+    p a strange enacted prison island with prison guards who made me (try to) yell in fake pain from a torture demonstration...
+
+VISITING PINO
+  BREF : The journey to meet the people of the internet
+  TAGS : sailing
+  TYPE : notes
+  HEAD : 2014-05-30_12-00
+  DATE : 2020-06-22
+  CHNG : 0
+  PUBL : true
+  BODY
+    p {image 2017-11-05_17-53 il} Sailing myself was not really even a consideration until I started watching the Hundred Rabbits {link ext studioSailboat} vlogs where they seemed to go quickly from zero sailing experience to international travel.
+    p I met Devine and Rekka and their boat Pino in Whangarei after they sailed to New Zealand from California. 
+    p {link ext pino} is a 10 meter Yamaha33 1982 masthead sloop fiberglass sailboat.
+    p Devine introduced me to a shared workshop and tool library called "Hackland" in Auckland and thus to it's expanding Ephemeral Yacht Club including {link ext joranKikke}, Helena, {link ext dominic}, Courtney and Lu.
+    i 2018-05-20_16-01
+    p Around this time the same Aunt Karen asked me if I plan to sail, I said "no, the ocean is scary" or something similarly dismissive in response but her question stayed with me.
+    p My vanlife experiences let me see that tiny homes are perfectly acceptable. A sense of adventure and becoming a "sum of those closest to you" nudged me toward actually deciding to "learn how to sail in the future"... "I'll buy a boat in five years".
+    p While working on {link project sylo} I became good friends with Sasha who was very keen to learn sailing. I introduced him to {link ext joranKikke 'Joran'} and {link ext dominic 'Dominic'}.
+
+SENSEI DOMINIC
+  BREF : Sailing training with a cyber hobo
+  TAGS : sailing
+  TYPE : notes
+  HEAD : 2014-05-30_12-00
+  DATE : 2020-06-22
+  CHNG : 0
+  PUBL : true
+  BODY
+    p My now close friend {link ext dominic 'Dominic Tarr'} offered to give Sasha and I a sailing lesson. He later told me that he knew his track record of sailing students converting to sailboat owners is a high percentage... I agreed to a day sail.
+    p {link ext dominic 'Dominic'} describes himself as a "cyberhobo" and is probably the most interesting person I know. He very much {link ext magicians 'looks like a magician'} to me. I very much appreciate his teaching, patience and stories.
+    p {image 2019-01-19_11-59 il} {image 2019-01-19_12-12 ir} 
+    p In saying that his self built folding dinghy is an experience in which if you can bail faster than the water flows then in everything will be fine. It is the first test to see if you are ready to board Cleo.
+    p {image 2019-01-19_12-13 il} {image 2019-01-19_15-53 ir} 
+    p We slowly sailed to Browns Island from Mission Bay. We swam ashore and hiked the small Windows XP landscape, enjoying the 360 degree view of Auckland city, Rangitoto Island and the Hauraki Gulf. It's feels as if it is very literally a picnic island.
+    i 2019-01-19_15-46
+    i 2019-01-19_15-56
+    i 2019-01-19_16-28
+    p We decided that instead of sailing back, we would sail to Waiheke Island stay a night and sail home in the morning.
+    p The two day lesson gave Sasha and I a good all round taste from low wind sailing, sunny windy sailing, and strong wind rainy sailing.
+    i 2019-01-20_12-00
+    p Sasha eventually convinced me over several weeks "why wait, sail now" - to split the costs of a yacht and learn together.
+    p I do not regret learning to sail what so ever.
+    p It sounds cliché but once I started sailing around Auckland's Gulf Harbour I finally understood Auckland's "City of Sails" motto. 
+    p It is stunningly beautiful.
+
+FINDING QUEST
+  BREF : The search for a boat
+  TAGS : sailing
+  TYPE : notes
+  HEAD : 2014-05-30_12-00
+  DATE : 2020-06-22
+  CHNG : 0
+  PUBL : true
+  BODY
+    p Sasha and I looked at 10 boats within a week. Eventually getting a feel for what prices boats seem to be selling for in Auckland.
+    p We also viewed a boat 'Horizon' which was on auction which we never thought we would be able to afford, we were just curious what the next class of boats was like.
+    i 2019-07-08-18-13
+    t Quest
+    p We eventually settled on buying Quest with the help of {link ext joranKikke 'Joran'} who gave her an inspection and us the go ahead.
+    p Sailing her to Auckland from Jamieson Bay was our first mission. An eight hour sail.
+    i 2019-03-02_07-34
+    p We did a couple of small test sails on days prior, to build our confidence and be able to quickly turn back if anything went wrong.
+    p On our first attempt we got all the way into the Hauraki Gulf over half way before the waves and wind picked up more than we were comfortable dealing with. Being blown around (too much sail), with fairly large waves.
+    i 2019-02-23_12-40
+    p Below is the unedited sunset view on the way back. By this point (though defeated) we were calm, drinking tea and enjoying the surreal setting light.
+    i 2019-02-23_19-43
+    p On our second attempt we brought along my friend {link ext alexey}, and did the trip over two days, stopping off at Rakino Island.
+    i 2019-03-03_10-13
+    i 2019-03-02_08-41
+    i 2019-03-03_15-00
+    p {link ext alexey 'Alexey'} took some amazing photos and also made a video.
+    y AThaJHPu1xc
+    i 2019-03-03_19-17
+    i 2019-07-08_23-31
+    p We kept Quest on a mooring in Stanley bay which we thought was an amazing location. It turns out to be a terrible location. Rocky with harbour waves and constant passing boat wakes. Completely unsuitable for doing anything other than leaving immediately. We have since moved Quest to a calm pile mooring in Panmure.
+
+HORIZON
+  BREF : Another boat
+  TAGS : sailing
+  TYPE : notes
+  HEAD : 2014-05-30_12-00
+  DATE : 2020-06-22
+  CHNG : 0
+  PUBL : true
+  BODY
+    t Horizon
+    p We actually only owned Quest around a week before Horizon's auction ended and we purchased her for a cheap price.
+    p The photo below is the first and what we thought the last time we saw Horizon. We expected her to be much more expensive.
+    i 2019-02-17_12-00
+    i 2019-04-14_16-43
+    i 2019-04-07_13-59
+    i 2019-03-16_19-02
+    i 2019-03-17_16-08
+    p Had awesome adventures with some awesome people.
+    i 2019-04-13_15-00
+    p {image 2019-03-10_13-14 il} {image 2019-03-16_19-10 ir}
+    p {image 2019-04-16_18-19 ir} {image 2019-03-16_19-06 il}
+    p {image 2019-04-07_18-47 ir} {image 2019-05-25_16-42 il}
+    p {image 2019-04-16_06-59 ir} {image 2019-04-14_10-47 il}
+    p {image 2019-05-25_16-38 ir} {image 2019-03-30_16-29 il}
+    i 2019-04-15_15-01
+    i 2019-04-16_08-03
+    i 2019-05-25_16-37
+    i 2019-03-23_13-03
+    p {link ext alexey 'Alexey'} also made a video of a trip on Horizon. 
+    y Yf6xADq_nQw
+
 GAMELAB NOTES
   TAGS : gamedev
   TYPE : notes
@@ -204,7 +327,7 @@ LOGGING 2019
     p Track meditation
 
 GOALS IN 2019
-  BREF : Looking forward
+  BREF : Looking forward test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test 
   TAGS : home
   DATE : 2019-01-04
   HEAD : 2019-02-23_19-43

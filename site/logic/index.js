@@ -16,6 +16,7 @@ function Index()
 	this.thoughts = null;
 	this.notes = null;
 
+	this.nav = null;
 	this.footer = null;
 	
 	this.main = null;
@@ -54,6 +55,9 @@ function Index()
 		this.thoughts.install(this.articles);
 		this.notes = new Notes();
 		this.notes.install(this.articles);
+
+		this.nav = new Nav();
+		this.nav.install(this.inline);
 
 		this.footer = new Footer();
 		this.footer.install(this.inline);
@@ -129,11 +133,12 @@ function Index()
 			this.header.setImage(this.media.getByDate(data.HEAD));
 
 			let htmlContent = ``;
-			htmlContent += `<p class='fontSizeLarge marginTopLarge marginBottomLarge colorMain'>
-				<a href='${this.inline.getInternalUrl('page', 'home')}' class='subtleLink'>Home</a>
-				<span class='colorSecondary'> / Photos</span></p>`;
-			htmlContent += `<div class='projectList'>`;
 
+			let navData = [];
+			navData.oneName = `Photos`;
+			htmlContent += this.nav.create(navData);
+
+			htmlContent += `<div class='projectList'>`;
 			let list = this.media.filterPhotos(this.media.db);
 			for (let k = 0; k < list.length; k++)
 			{
@@ -149,10 +154,11 @@ function Index()
 			let data = this.pages.get(target);
 			this.header.setImage(this.media.getByDate(data.HEAD));
 			
-			let htmlContent =  `<p class='fontSizeLarge marginTopLarge marginBottomLarge colorMain'>
-				<a href='${this.inline.getInternalUrl('page', 'home')}' class='subtleLink'>Home</a>
-				<span class='colorSecondary'> / ${parent.capitalizeFirstLetter(target)}</span></p>`;
-			htmlContent += `<div class='listContainer'>`;
+			let htmlContent = ``;
+
+			let navData = [];
+			navData.oneName = `Projects`;
+			htmlContent += this.nav.create(navData);
 
 			htmlContent += `<div class='projectList'>`;
 			let list = this.projects.getAll();
@@ -166,88 +172,16 @@ function Index()
 
 			this.main.innerHTML = htmlContent;
 		}
-		else if (target == 'hamish' || target == 'log')
-		{
-			let data = this.pages.get(target);
-			this.header.setImage(this.media.getByDate(data.HEAD));
-
-			let htmlContent = ``;
-			htmlContent +=  `<p class='fontSizeLarge marginTopLarge marginBottomLarge colorMain'>
-				<a href='${this.inline.getInternalUrl('page', 'home')}' class='subtleLink'>Home</a>
-				<span class='colorSecondary'> / ${parent.capitalizeFirstLetter(target)}</span></p>`;
-
-			htmlContent += `<div class='listContainer'>`;
-
-			htmlContent += data.HtmlSidebar;
-
-			htmlContent += `<div class='articleBody'>`;
-			htmlContent += data.HtmlBody;
-			htmlContent += `</div>`; // end articleBody
-
-			htmlContent += `</div>`; // end listContainer
-
-			this.main.innerHTML = htmlContent;
-		}
-		else if (target.substr(0, 7) == 'project')
-		{
-			target = target.substr(8);
-			let data = this.projects.get(target);
-
-			// other page
-			this.header.setImage(data.media[0]);
-			
-			let htmlContent = ``;
-			htmlContent += `<p class='fontSizeLarge marginTopLarge marginBottomLarge colorMain'>
-				<a href='${this.inline.getInternalUrl('page', 'home')}' class='subtleLink'>Home</a>
-				<span class='colorSecondary'> / </span>
-				<a href='${this.inline.getInternalUrl('page', 'projects')}' class='subtleLink'>Projects</a>
-				<span class='colorSecondary'> / ${parent.capitalizeFirstLetter(target)}</span></p>`;
-			
-			htmlContent += `<div class='listContainer'>`;
-
-			htmlContent += data.HtmlSidebar;
-
-			htmlContent += `<div class='articleBody'>`;
-			htmlContent += data.HtmlBody;
-			htmlContent += `</div>`; // end articleBody
-
-			htmlContent += `<div class='articleSpacer'>`;
-			htmlContent += `</div>`; // end spacer
-
-			htmlContent += `</div>`; // end listContainer
-
-			this.main.innerHTML = htmlContent;
-		}
-		else if (target == 'thoughts')
-		{
-			let data = this.pages.get(target);
-			this.header.setImage(this.media.getByDate(data.HEAD));
-			
-			let htmlContent =  `<p class='fontSizeLarge marginTopLarge marginBottomLarge colorMain'>
-				<a href='${this.inline.getInternalUrl('page', 'home')}' class='subtleLink'>Home</a>
-				<span class='colorSecondary'> / ${parent.capitalizeFirstLetter(target)}</span></p>`;
-			htmlContent += `<div class='listContainer'>`;
-
-			htmlContent += `<div class='projectList'>`;
-			let list = this.articles.filterType(`thoughts`);
-			const keys = Object.keys(list);
-			for (let k = 0; k < keys.length; k++)
-			{
-				let element = list[keys[k]];
-				htmlContent += element.HtmlArticle(`thought`);
-			}
-			htmlContent += '</div>'; // end projectList
-
-			this.main.innerHTML = htmlContent;
-		}
 		else if (target == 'notes')
 		{
 			let data = this.pages.get(target);
 			this.header.setImage(this.media.getByDate(data.HEAD));
 			
-			let htmlContent =  `<p class='fontSizeLarge marginTopLarge marginBottomLarge colorMain'>
-				<a href='${this.inline.getInternalUrl('page', 'home')}' class='subtleLink'>Home</a>
-				<span class='colorSecondary'> / ${parent.capitalizeFirstLetter(target)}</span></p>`;
+			htmlContent = ``;
+
+			let navData = [];
+			navData.oneName = `Notes`;
+			htmlContent += this.nav.create(navData);
 			htmlContent += `<div class='listContainer'>`;
 
 			htmlContent += `<div class='projectList'>`;
@@ -262,34 +196,82 @@ function Index()
 
 			this.main.innerHTML = htmlContent;
 		}
+		else if (target == 'thoughts')
+		{
+			let data = this.pages.get(target);
+			this.header.setImage(this.media.getByDate(data.HEAD));
+			htmlContent = ``;
+
+			let navData = [];
+			navData.oneName = `Thoughts`;
+			htmlContent += this.nav.create(navData);
+
+			htmlContent += `<div class='projectList'>`;
+			let list = this.articles.filterType(`thoughts`);
+			const keys = Object.keys(list);
+			for (let k = 0; k < keys.length; k++)
+			{
+				let element = list[keys[k]];
+				htmlContent += element.HtmlArticle(`thought`);
+			}
+			htmlContent += '</div>'; // end projectList
+
+			this.main.innerHTML = htmlContent;
+		}
+		////////////////////////////////////////////////////////////////////////////////
+		// ARTICLE PAGES ///////////////////////////////////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////
+		else if (target == 'hamish' || target == 'log')
+		{
+			let data = this.pages.get(target);
+			this.header.setImage(this.media.getByDate(data.HEAD));
+			let htmlContent = ``;
+
+			let navData = [];
+			navData.oneName = parent.capitalizeFirstLetter(target);
+			htmlContent += this.nav.create(navData);
+
+			// Article
+			htmlContent += this.pages.buildArticle(data.HtmlSidebar, data.HtmlBody);
+
+			this.main.innerHTML = htmlContent;
+		}
+		else if (target.substr(0, 7) == 'project')
+		{
+			target = target.substr(8);
+			let data = this.projects.get(target);
+			this.header.setImage(data.media[0]);
+			let htmlContent = ``;
+
+			// Sidebar
+			let navData = [];
+			navData.oneName = `Projects`;
+			navData.oneLink = this.inline.getInternalUrl('page', 'projects');
+			navData.twoName = parent.capitalizeFirstLetter(target);
+			htmlContent += this.nav.create(navData);
+
+			// Article
+			htmlContent += this.pages.buildArticle(data.HtmlSidebar, data.HtmlBody);
+
+			this.main.innerHTML = htmlContent;
+		}
 		else if (target.substr(0, 7) == 'thought')
 		{
 			target = target.substr(8);
 			target = target.replace(/-/g,` `);
 			let data = this.articles.get(target);
-
-			// other page
 			this.header.setImage(data.media);
-			
 			let htmlContent = ``;
-			htmlContent += `<p class='fontSizeLarge marginTopLarge marginBottomLarge colorMain'>
-				<a href='${this.inline.getInternalUrl('page', 'home')}' class='subtleLink'>Home</a>
-				<span class='colorSecondary'> / </span>
-				<a href='${this.inline.getInternalUrl('page', 'thoughts')}' class='subtleLink'>Thoughts</a>
-				<span class='colorSecondary'> / ${parent.capitalizeFirstLetter(target)}</span></p>`;
+
+			// Sidebar
+			let navData = [];
+			navData.oneName = `Thoughts`;
+			navData.oneLink = this.inline.getInternalUrl('page', 'thoughts');
+			navData.twoName = parent.capitalizeFirstLetter(target);
+			htmlContent += this.nav.create(navData);
 			
-			htmlContent += `<div class='listContainer'>`;
-
-			htmlContent += data.HtmlSidebar;
-
-			htmlContent += `<div class='articleBody'>`;
-			htmlContent += data.HtmlBody;
-			htmlContent += `</div>`; // end articleBody
-
-			htmlContent += `<div class='articleSpacer'>`;
-			htmlContent += `</div>`; // end spacer
-
-			htmlContent += `</div>`; // end listContainer
+			// Article
+			htmlContent += this.pages.buildArticle(data.HtmlSidebar, data.HtmlBody);
 
 			this.main.innerHTML = htmlContent;
 		}
@@ -298,29 +280,18 @@ function Index()
 			target = target.substr(5);
 			target = target.replace(/-/g,` `);
 			let data = this.articles.get(target);
-
-			// other page
 			this.header.setImage(data.media);
-			
 			let htmlContent = ``;
-			htmlContent += `<p class='fontSizeLarge marginTopLarge marginBottomLarge colorMain'>
-				<a href='${this.inline.getInternalUrl('page', 'home')}' class='subtleLink'>Home</a>
-				<span class='colorSecondary'> / </span>
-				<a href='${this.inline.getInternalUrl('page', 'notes')}' class='subtleLink'>Notes</a>
-				<span class='colorSecondary'> / ${parent.capitalizeFirstLetter(target)}</span></p>`;
-			
-			htmlContent += `<div class='listContainer'>`;
 
-			htmlContent += data.HtmlSidebar;
+			// Sidebar
+			let navData = [];
+			navData.oneName = `Notes`;
+			navData.oneLink = this.inline.getInternalUrl('page', 'notes');
+			navData.twoName = parent.capitalizeFirstLetter(target);
+			htmlContent += this.nav.create(navData);
 
-			htmlContent += `<div class='articleBody'>`;
-			htmlContent += data.HtmlBody;
-			htmlContent += `</div>`; // end articleBody
-
-			htmlContent += `<div class='articleSpacer'>`;
-			htmlContent += `</div>`; // end spacer
-
-			htmlContent += `</div>`; // end listContainer
+			// Article
+			htmlContent += this.pages.buildArticle(data.HtmlSidebar, data.HtmlBody);
 
 			this.main.innerHTML = htmlContent;
 		}

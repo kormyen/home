@@ -49,4 +49,22 @@ function Pages()
   {
     return this.db;
   }
+
+  this.buildArticle = function(sidebar, content)
+  {
+    let result = ``;
+		result += `<div class='contentContainer'>`;
+		result += `<div class='sidebarContainer'>`;
+    result += sidebar;
+    result += `</div>`; // end sidebarContainer
+
+		result += `<div class='articleContainer'>`;
+		result += `<div class='articleBody'>`;
+		result += content;
+    result += `</div>`; // end articleBody
+    result += `</div>`; // end articleContainer
+    result += `</div>`; // end contentContainer
+    result += `<div class='articleSpacer'></div>`;
+    return result;
+  }
 }
