@@ -25,6 +25,7 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-06-21 
 2020-06-19 42- 6765 contract   sylo            Website content focusing on token.
 2020-06-18 42- 6775 contract   sylo            Website content focusing on token.
 2020-06-18 49- 6775 contract   sylo            Website content focusing on token.
