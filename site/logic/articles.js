@@ -45,7 +45,18 @@ function Articles()
         // Sidebar HTML
         element.HtmlSidebar = ``;
         element.HtmlSidebar += `<div class='sidebar fontSizeSmall colorSecondary'>`;
-        element.HtmlSidebar += `${parent.capitalizeFirstLetter(element.BREF)}<br>`;
+        element.HtmlSidebar += `Posted: ${element.DATE}<br>`;
+
+        if (element.EDIT != null)
+        {
+          element.HtmlSidebar += `Last edit: ${element.EDIT}<br>`;
+        }
+
+        element.HtmlSidebar += `<br>`;
+        if (element.TISA != null)
+        {
+          element.HtmlSidebar += `${element.TISA}<br>`;
+        }
         element.HtmlSidebar += `<br>`;
 
         // LINKS

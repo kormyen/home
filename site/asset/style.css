@@ -399,13 +399,12 @@ header {
   margin-bottom: var(--size-columnPaddingLarge);
   /* font-size: var(--font-normal-min); */
   font-size: var(--font-normal);
-  width: 40em;
-  max-width: 16em;
+  width: 30em;
+  max-width: 14em;
   left: 5vw;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: var(--size-columnPaddingLarge);
-  padding-right: var(--size-columnPaddingMedium);
 }
 @media only screen and (max-width: 50em) /* MIN WIDTH REACHED */
 {

@@ -3,24 +3,24 @@ FIRST SAIL
   BREF : My first sailing experience with Aunt Karen, Uncle Peter, Cousins Lara and Chloe
   TAGS : sailing
   TYPE : notes
-  HEAD : 2014-05-30_12-00
+  HEAD : 2017-01-12_17-40
   DATE : 2020-06-22
   CHNG : 0
   PUBL : true
   BODY
     p {image 2017-01-12_17-40 ir} My first sailing experience was with my Aunt Karen, Uncle Peter, my Dad and two crazy cousins Lara and Chloe in Australia for a week around 1999. 
     p I don't recall specifically where we went, but I cherish the memories of adventuring:
-    p over waves sitting at the bow 
-    p to what seemed like an island of endless sand mountains
-    p a beach of beautiful clear water
-    p receiving creatively insulting poem readings by Chloe
-    p a strange enacted prison island with prison guards who made me (try to) yell in fake pain from a torture demonstration...
+    p Over waves sitting at the bow 
+    p To what seemed like an island of endless sand mountains
+    p A beach of beautiful clear water
+    p Receiving creatively insulting poem readings by Chloe
+    p A strange enacted prison island with prison guards who made me (try to) yell in fake pain from a torture demonstration...
 
 VISITING PINO
   BREF : The journey to meet the people of the internet
   TAGS : sailing
   TYPE : notes
-  HEAD : 2014-05-30_12-00
+  HEAD : 2017-11-05_17-53
   DATE : 2020-06-22
   CHNG : 0
   PUBL : true
@@ -38,7 +38,7 @@ SENSEI DOMINIC
   BREF : Sailing training with a cyber hobo
   TAGS : sailing
   TYPE : notes
-  HEAD : 2014-05-30_12-00
+  HEAD : 2019-01-19_15-53
   DATE : 2020-06-22
   CHNG : 0
   PUBL : true
@@ -64,7 +64,7 @@ FINDING QUEST
   BREF : The search for a boat
   TAGS : sailing
   TYPE : notes
-  HEAD : 2014-05-30_12-00
+  HEAD : 2019-03-03_10-13
   DATE : 2020-06-22
   CHNG : 0
   PUBL : true
@@ -95,7 +95,7 @@ HORIZON
   BREF : Another boat
   TAGS : sailing
   TYPE : notes
-  HEAD : 2014-05-30_12-00
+  HEAD : 2019-03-23_19-27
   DATE : 2020-06-22
   CHNG : 0
   PUBL : true
@@ -126,7 +126,7 @@ GAMELAB NOTES
   TAGS : gamedev
   TYPE : notes
   DATE : 2014-07-25
-  EDIT : 2010-06-04
+  EDIT : 2020-06-04
   CHNG : 0
   PUBL : false
   BODY
@@ -157,7 +157,7 @@ GAMELAB NOTES
 WHY CRYPTO
   TYPE : thoughts
   DATE : 2018-07-08
-  EDIT : 2010-06-04
+  EDIT : 2020-06-04
   CHNG : 0
   PUBL : false
   BODY
@@ -171,7 +171,7 @@ WHY PRIVACY
   BREF : test
   HEAD : 2014-05-30_12-00
   DATE : 2019-06-04
-  EDIT : 2010-06-04
+  EDIT : 2020-06-04
   CHNG : 1
   TYPE : thoughts
   PUBL : false
@@ -200,7 +200,7 @@ TOOLS
   HEAD : 2019-07-08_23-31
   TYPE : notes
   DATE : 2019-06-03
-  EDIT : 2010-06-04
+  EDIT : 2020-06-04
   CHNG : 2
   PUBL : true
   BODY
@@ -284,27 +284,32 @@ TIME
 
 LOGGING 2019
   BREF : Looking back
+  TISA : Thoughts in review on time tracking during 2019. What went well, what didn't and what to try in 2020.
+  LINK
+    - {link page log 'More details on time tracking'}
   TAGS : home
   DATE : 2019-01-04
+  EDIT : 2020-06-22
+  CHNG : 1
   HEAD : 2018-07-05_12-00
   TYPE : thoughts
   PUBL : true
   BODY
-    p Between 2018-07-12 and 2018-12-31 I logged 937 hours, tracked over 181 days, meaning 5.2 hours of output per day on average.
+    p Between 2018-07-12 and 2018-12-31 I logged 937 hours, tracked over 181 days, meaning 5.2 hours of output per day on average, or 36.4 hours per week averaged out.
     p 76% of days were vegetarian.
     p 7% of days were in nature.
     p 28% of days we social.
     p 15% of days included exercise.
     p Sector split: code (244h), visual (242h), carpentry (179h), physical (133h), electronics (80h), research (53h) and misc (6h).
-    p The majority of work dedicated to Van (32%), Contract (26%) and Web (23%).
+    p The majority of work was dedicated to Van (32%), Contract (26%) and Web (23%) categories.
     p The biggest projects were {link project sylo} (248h), {link project memex} (154h), {link project bench} (105h), {link project solar} (85h),  {link project log} (51h), {link project garage} (46h), {link project insulation} (45h), {link project core} (34h), {link project crucifix} (28h), {link project fan} (25h) and {link project megamex} (21h).
-    p Benefits
+    p Logging Benefits
     p The gamified mental nagging to keep or improve desired statistics over time helped me to keep work hours higher and meat consumption lower.
     p A benefit of entering logs regularly is the recognition of passing time. As opposed to the feeling of blurred days, weeks, months.
     p Viewing the dashboard statistics is satisfying. Like quantification, acknowledgment of long-term desirable time use.
     p Improvements
     p Simplification
-    p Too many statistics tracked means adding logs takes more effort than needed, and thus is more likely to procrastinate. The 'Flow' field ("Did I enter a flow state?") is not all that useful and will be removed. More stats should be removed...
+    p Too many statistics tracked means adding logs takes more effort than needed, and thus is more likely to procrastinate and skip. The 'Flow' field ("Did I enter a flow state?") is not all that useful and will be removed. More stats should be removed...
     p Vege gaming
     p I am finding that binary vegetarian/omnivore logging encourages increased meat consumption during a non-vegetarian-day since there is no log difference between a single portion vs gluttony. I will change the binary switch to a meat-portion-count per entry.
     p Feelings
@@ -475,4 +480,317 @@ DOTS
   PUBL : false
   BODY
     p Yayoi Kusama https://twitter.com/kormyen/status/641913580359516160
+
+PRESERVING MYSTERY
+  BREF : Frog Fractions
+  TISA : Notes on mystery in games
+  TAGS : gamedev
+  TYPE : notes
+  HEAD : 2016-02-14_00-02
+  DATE : 2016-02-14
+  EDIT : 2016-12-01, 2017-02-1, 2020-07-27
+  PUBL : true
+  LINK
+    - {link ext preserveMystery}
+  BODY
+    p Notes on {link ext preserveMystery}
+    p Make players wonder.
+    p Make players ask questions.
+    p 
+    p Hint at rather than describe the game world.
+    p No disappointing answers.
+    p Wonder and mystery is more interesting than disappointing answers.
+    p Let the audience fill in the gaps.
+    p Don’t answer everything. Be abstract.
+    p 
+    p Storytellers: “Show, don’t tell”.
+    p Games: “Don’t even show”.*
+    p 
+    p > A cool thing that can be missed makes the world feel more like a real place and less like a clockwork puzzle constructed purely for the benefit of the player.
+    p 
+    p Not everyone has to see everything. “Exclusion is a strength”.
+    p Create “pockets of communities” that feel like they’re in the know with others when the find things out.
+    p 
+    p > "This continuous breaking of experience, through the ‘false ceiling’ Jim Crawford (Frog Factions) cites as a necessity for mystery, in the age of video game walk-throughs and the culture of ‘looking it up’ online." - {link ext movingPeople 'Phil James'}
+    p 
+    p This provides an emotional spike, perceived as the “peak” of experience, then throttle it into overdrive.
+    p 
+    p Have an advocate – the "{link ext firstFollower}".
+    p 
+    p Encourage community involvement – people sharing stories. Puzzles too hard to solve on your own, require collective knowledge.
+    p 
+    i 2016-02-14_00-03
+    p > “The Minecraft {link ext farlands}" were the area that formed the “edge” of the “infinite” map in versions prior to Beta 1.8. When players made it to the Far Lands, they would experience an excessive drop in framerate and the terrain would be severely distorted… From here on, lighting does not work... attempting to walk onto them would cause the player to die in {link ext theVoid}.
+    p
+    i 2016-02-14_00-01
+    p Definitely play {link ext frogFractions} if you haven’t. Don't look up trailers or reviews just trust me. Give it 15 minutes, you'll know when it happens.
+    p
+    p Edit (2016-12): If this and/or Frog Fractions interests you play {link ext glittermitten}. Same deal: no trailers, no reviews: discovery~.
+    p 
+    p Edit (2017-02): Crowdfunded video game documentary producer Noclip released {link ext noclipMystery 'Rediscovering Mystery - Noclip Documentary (feat. Jonathan Blow / Derek Yu / Jim Crawford)'}. It's worth watching.
+    p > "In this special feature about video game mysteries, we talk to Jonathan Blow (The Witness / Braid), Derek Yu (Spelunky) and Jim Crawford (Frog Fractions) about the games that inspired wonder in us as children, and the fight to keep player discovery alive."
+    y z2g_0QQRjYY
+
+DRAGON SPEECH
+  BREF : Chris Crawford
+  TISA : Notes on dragon speech talk
+  TAGS : gamedev
+  TYPE : notes
+  HEAD : 2014-04-20_14-59
+  DATE : 2014-04-20
+  PUBL : true
+  LINK
+    - {link ext dragonSpeech}
+  BODY
+    y _04PLBdhqZ4
+    p We are an interactive species.
+    p Interaction is wired into us.
+    p All higher animals learn by playing, by interacting.
+    p Kittens “play” fighting / sneaking up on each other are training and learning.
+    p
+    p Most of our knowledge now is mass media. Theory delivered to many.
+    p Classrooms, lectures, movies, tv.
+    p 
+    p Art is just a way of communicating ideas.
+    p 
+    p One on one interaction is a much better communication method.
+    p Lecture (mass media) is efficiency.
+    p 
+    p Every artist through history has had to sacrifice effectiveness for efficiency. Until now. Computer game. Mass interaction.
+    p 
+    p “A truly good dream needs a lifetime to resolve.”
+
+INDIE GAME MARKETING
+  BREF : Emmy Jonassen lecture
+  TISA : Lecture notes on indie game marketing by Emmy Jonassen
+  TAGS : gamedev
+  TYPE : notes
+  HEAD : 2014-03-10_00-01
+  DATE : 2014-03-10
+  PUBL : true
+  LINK
+    - {link ext gameMarketSource}
+    - {link ext gameMarketVideo}
+    - {link ext gameMarketSlides}
+    - {link ext gameMarketAuthor}
+  BODY
+    p Notes from “Konsoll 2013: Marketing Indie Games on a $0 Budget”
+    p “Emmy Jonassen: To become a successful indie game developer, you must first become a successful indie game marketer. Trouble is, for many indies, marketing doesn’t come naturally or fit the indie budget.”
+    p
+    p #1 Trailer video
+    p #2 Screen-shots
+    p #3 Press Release
+    p #4 Landing Page
+    p #5 Development Blog
+    p 
+    t TRAILER VIDEO
+    p – Keep it short (90 seconds or less)
+    p – 3 to 5 seconds to capture attention at the start
+    p – Music and SFX very important to video
+    p – Show game-play
+    p – Add review text etc if possible
+    p – End with next steps (where to buy, website etc)
+    p Example: {link ext gameMarketTrailer}
+    p 
+    t SCREENSHOTS
+    p – High resolution
+    p – Excellent composition
+    p – Well lit
+    p – Engaging scene
+    p Example: {link ext theWitness} by {link ext jonathanBlow}
+    p 
+    t PRESS RELEASE
+    p – Press don’t like to write
+    p – Your press release will be used, cut and pasted
+    p – First paragraph most important
+    p – First paragraph must grab attention
+    p – First paragraph must contain all important info
+    p – “Use quotes”
+    p – Company and contact info
+    p – Send with screen-shots and trailer video
+    p – Use in-text hyper-links
+    p Example: Dajabon Games, Boston
+    p 
+    t LANDING PAGE 
+    p (The game’s web-page)
+    p – Purpose: convert visitors to customers
+    p – Remove all navigation
+    p – Grabbing headline (only text that will be read by majority)
+    p – Social sharing icons
+    p – Strong call to-action button (most important – this is the action you want visitors to do)
+    p – Trailer video
+    p – Screen shots
+    p – Testimonials / reviews
+    p – Contact and press kit buttons or links
+    p 
+    t DEVELOPMENT BLOG
+    p – Companies with dev blog bring in 55% more traffic on average
+    p – Post x1 per week minimum
+    p – Use images
+    p – Link from home page
+    p – RSS feed
+    p – Email subscription
+    p – Social subscription
+    p – Social sharing buttons
+    p – Promotion at posts end
+    p 
+    t NEXT
+    p Reach out to press
+    p – Research publications you should be on
+    p – Research publications you want to be on
+    p – Record in a spreadsheet list
+    p – Categorize publications into three tiers based on traffic
+    p 
+    p Find writer’s contact info
+    p – Visit each publication’s site on list
+    p – Search the websites for “Editorial Staff” link
+    p – Take all information and add to spreadsheet
+    p 
+    p Get in touch
+    p – Create email template to intro yourself and game
+    p – Customize template per site, per game
+    p – ANSWER “why would my readers give a shit?”
+    p 
+    p Thank you notes! Very important
+    p 
+    p Keep in touch
+    p – Maintain relationships with media
+    p – Social media
+    p – Comment on their articles
+    p 
+    t BUILD ADORING FANBASE
+    p Make your game easy to discover
+    p – Set up social media channels and post daily (Twitter, Facebook, LinkdIn, Google+)
+    p – Become active in forums, blogs, and other relevant sites
+    p – Participate in game jams and other events
+    p – Get involved with the local development community
+    p – Start a crowdfunder
+    p 
+    p Covert visitors into fans with content
+    p – Give tips
+    p – Game and company updates
+    p – Data and other insights, experiences (share research)
+    p – Opinion pieces
+    p – Interesting articles
+    p – Random or funny post (personality)
+    p 
+    p Nurture your relationship with fans
+    p – Respond to comments and questions in a timely and personalized way
+    p – Initiate and engage in discussion
+    p – Thank fans privately and publicly
+    p – Ask for and incorporate fan input
+    p – Respond to criticism in a thankful and professional way
+    p 
+    t Q&A
+    p “How early is too early?”
+    p – Put together a road map.
+    p 
+    p “Old screen shots?”
+    p – Keep in touch with press.
+    p 
+    p Smaller publicity is valuable. Networking.
+    p 
+    p Treat bad press like a troll
+    p – Respond directly, privately initially
+    p – Request more feed back to understand what they didn’t like
+    p – Respect them
+    p 
+    p Thank you Emmy Jonassen!
+    p Awesome presentation and valuable tips and info.
+    p We will put it to good use.
+
+VR
+  BREF : Thoughts on VR
+  TISA : Thgouths on VR
+  TAGS : gamedev, research, vr
+  TYPE : thoughts
+  HEAD : 2014-06-11_00-01
+  DATE : 2014-06-11
+  PUBL : true
+  BODY
+    p {link ext frogshark3News} Overall a bit weird, awkward and funny to see 90 minutes reduced down to a couple seconds of screen time.
+    p We think there is a bright future for Virtual Reality.
+    p "VR has the potential to be one of the biggest platform shifts ever and you can be on the leading edge of that." - {link ext vrShift}
+    p With the sense of “presence” in the virtual world, interacting with another person brings a new level of connection and wonder in virtual space.
+    p "Multiplayer is amazing in VR" - {link ext palmerLucky}
+    p Forget uncanny valley for a moment, ignore the dreary march toward realism, even just mapping positional movement and rotation of a person’s head is distinctly, recognizably human. Two cubes (players) are able to tell that they are both human, interact and communicate with just that alone.
+    i 2014-06-11_00-02
+    p Above comic panel from {link ext understandComics}.
+    p Non-default communication systems that encourage, emotional expression, the emergence of new, player created, in-game languages and efficient co-operative and competitive – sometimes deceptive – communicative behavior have a massive potential.
+    p Exploring imaginative worlds together with friends, *actual* “social” games will be amazing.
+    p The Facebook purchase was a stomach drop, an unexpected sour taste. It could have been inevitable and unavoidable since the venture capital relationship. We can look on the bright side with the increased chance of mass adoption, lower cost of product, easier R&D. The thought that if VR is what we hope, if Oculus succeeds beyond what we expect, knowing a company like Facebook is leading things is just heart breaking.
+    p - Competition is good.
+    p - VR is not Oculus.
+    p - Oculus is VR.
+    i 2014-06-11_00-03
+    p Sony’s Project Morpheus is a massive win. They have the ability to bring VR to the mainstream, push innovation, make things “just work” for the consumer. Long term though, I do have a lot of concerns for them.
+    p "First VR hardware is going to evolve rapidly on the PC as you can already see happening with the Rift. While the consoles, if they even support VR will remain static for years. Second, there are going to be far more hardware and software developers figuring out how to do awesome VR on the PC than on the consoles, and they will be much free-er to experiment. Third, VR needs as much processing power as it can get, remember we are talking about stereo rendering at 95 hertz, and a high end PC is already much more powerful than consoles, with the gap due to increase for years to come. And because of power and heat constraints PCs will always be far more powerful than mobile." - {link ext vrEvolve}
+    p {link ext sonyPsVr 'Sony are extremely inspiring in that they seem to have the right mindset.'}
+    p - “VR is a medium, not a peripheral
+    p - *Presence is the killer app*
+    p - Games are only one type of content
+    p - Emotion is amplified
+    p - The experience is social
+    p - It is for everyone”
+    p “...so that when NASA makes it to a new place, people with PS4 at home can feel like they’re right with them.”
+    p Hardware limits push for less focus on graphics. *Presence is priority*. Where once we expected to be more than happy with head tracking and screens in front of our eyes, we realize we need perfection like never before. Lag means motion sickness. Unintended movements, bad calibration, camera jumps are actually physically bad. Resolution so close to your eyes so obviously needs increasing.
+    p "The key to presence is convincing perceptual systems that operate at a low level, well below our conscious awareness that they are perceiving reality." - {link ext vrPresence}
+    p "Immersion means you feel surrounded by the virtual world. Presence means you feel in, the virtual world." - {link ext vrImmersion}
+    p "Trying to describe presence is bound to come up short. You can only really understand it by experiencing it but I will give it a shot. Presence is when; even though you know you’re in a demo room and there is nothing really there, you can’t help reaching out to try to touch a cube. When you automatically duck your head to avoid a pipe that is dangling from the ceiling. When you feel uneasy because there is a huge block hanging over your head. When your unwilling to step off a ledge. Its taking off the head mounted display and being disoriented to find yourself back in reality. Its more than just looking at some place interesting, its flipping the switch that makes you believe, deep in your lizard brain, that you are some place interesting. Presence is one of the most powerful experiences you can have outside reality precisely because it operates by engaging along many of the same channels as reality. For many people presence is simply magic." - {link ext vrDescribe}
+    p Just watch Michael Abrash’s {link ext vrCouldShouldWill 'What VR Could, Should, and Almost Certainly Will Be within Two Years'}
+    p {link ext valveHolodeck} from Steam Dev Days.
+    i 2014-06-11_00-01
+    p The good news is, the technology is nearly ready.
+    p The exciting thing is that lot still to learn.
+    p There seems to be a push for “360 degree video”, which sounds cool but I have a lot of concerns… The majority of motion sickness comes from your brain believing its actually moving in virtual space, but it receiving contradictory physical stimulus – the opposite reasoning but same effect as car sickness.
+    p *“Kinesthetic dissonance”*
+    p "…then there’s one huge change in our vision that occurs every few seconds that causes everything to be black: blinking. Luckily, our brain is quite smart and ignores the lack of signals from our eyes when we blink so we never notice our vision getting obscured by our eyelids. Likewise, when you turn your head, it never seems like the quick panning blur effect in movies because your brain knows that your complete vision will be shifting. It ignores a lot of the visual data when your head is moving and it prepares to show you new information once your head has stopped. If there is any disconnect between the motion you feel and the motion you see, your brain can get confused and this is the main cause of motion sickness." - {link ext vrEyeFramerate}
+    p If an actor, or camera man is jumping around, running or moving where you don’t intend; it could be bad. There are things to work out...
+    p "Motion sickness or kinetosis, also known as travel sickness, is a condition in which a disagreement exists between visually perceived movement and the vestibular system’s sense of movement. Depending on the cause, it can also be referred to as seasickness, car sickness, simulation sickness or airsickness." - {link ext wikiMotionSick}
+    p Virtual cinema screens while seemingly unimaginative, could actually be amazing in certain situations like for long plane trips. Feel as though you have left your cramped seat and escape to a complete virtual cinema just for you.
+    p Virtual School trips to the actual places of study. Virtual reality educational experiences.
+    p {link ext vrDesk} like {link ext heavyRainAri}?
+    p {link ext vrMeetings}
+    p {link ext vrLag}
+    p {link ext vrGenderSwap}
+    p I think there is a big potential for Neurotech integration. You already have something on your head anyway, why not seamlessly introduce biometrics and brainwave monitoring?
+    i 2014-06-11_00-04
+    p Warp is a VR experiment built by Alexey and I for the Oculus VRjam 2013. We played it quite safe (read: boring) in terms of gameplay but spent a lot of time focusing on the feel, the experience, visual aesthetic and usability. While a bad game, I feel like the experiment was a success in that (from what I have seen) nobody has been given motion sickness by it, at least not to the degree of some first person controlled experiences. Its sort of a perfect {link ext vrSeated}. We managed this by keeping the overall movement in the world always going forward, in a single direction, no weird movement, no unintended jumps, no scene changes and ALWAYS allowing for player head movement to be one-to-one.
+    p While cliche, we loved the idea of a spaceship cockpit simulator. With limited time, resources and the acceptance that there are a lot of them on the way, we wondered if a third person view of a player controller ship would work at all in VR. It did.
+    p *Part two will discuss peripherals and augmented reality.*
+
+NEUROTECH
+  BREF : Thoughts on neurotech
+  TISA : Thgouths on neurotech
+  TAGS : gamedev, research
+  TYPE : thoughts
+  HEAD : 2014-04-12_00-02
+  DATE : 2014-04-12
+  PUBL : true
+  BODY
+    i 2014-04-12_00-01
+    p {link ext dmitrySelitskiy} from {link ext thoughtWired} showed us some sweet Neurotech.
+    p 
+    i 2014-04-12_00-03
+    p See Alexey in the GIF moving the cube on the screen with his thoughts.
+    p The experience is a bit clumsy at the moment but it does work! Awesome to see.
+    p Currently training the user is an issue. Its a perfect UX design opportunity and a lot of game potential for a seamless training experience that adapts to the user. Ideally the user would learn through doing, while at the same time the system would be looking for thought pattern in the background.
+    p 
+    p Psychonauts training school VR!?
+    p 
+    p Dmitry said the main applications currently are about control, monitoring and determining mental state.
+    p He said that there are two real user groups of neurotech – complete beginners and experts. First time users would really need complete training from the basics ideally from within the app if you’re building one.
+    p 
+    p Neurotech seems to be in a similar boat to VR in terms of mass adoption and development. However it has a bit of a more difficult a task with its slower time before the user can do what they intend. The user needs to learn how to use the hardware while at the same time the hardware needs to learn the user’s brainwave patterns.
+    p 
+    p There isn’t really any formalized good practice around developing for it, and no real platform to abstract away dealing with the different hardware – which is exactly what Thought-Wired are working on.
+    p 
+    p Definitely check it out if you get a chance!
+    p I don’t think its a question of “if” this technology will be widely used, its a question of “when” and what it will look like then.
+    p 
+    p Looking forward to seeing this technology, and Thought-Wired’s platform develop.
+    p 
+    p {link ext emotiv}
+    p {link ext neuroskyMindwave}
+    p {link ext brainVizApp}
 `

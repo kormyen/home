@@ -25,6 +25,25 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-07-24 48- 6464 contact    sylo            Writing messenger article. 
+2020-07-23 21- 6465 van        electronics     Soldered in fuse for reverse monitor.
+2020-07-21 48- 5555 contact    sylo            
+2020-07-20 48- 5555 contact    sylo            
+2020-07-17 48- 5555 contact    sylo            
+2020-07-16 48- 5555 contact    sylo            
+2020-07-15 48- 5555 contact    sylo            
+2020-07-14 48- 5555 contact    sylo            
+2020-07-13 48- 5555 contact    sylo            
+2020-07-11 21- 4655 misc                       Helped Sarah with lamp.
+2020-07-10 48- 5465 contract   sylo            Meet. Web polish. Ben call. Marketing images. Not design.
+2020-07-09 42- 6665 contract   sylo            Late night web tweaks.
+2020-07-09 48- 6465 contract   sylo            Web continued.
+2020-07-08 48- 6465 contract   sylo            Web continued.
+2020-07-07 42- 7665 contract   sylo            Web continued.
+2020-07-07 49- 7665 contract   sylo            Web continued.
+2020-07-06 48- 6464 contract   sylo            Web continued.
+2020-07-03 48- 6465 contract   sylo            Web continued.
+2020-07-02 48- 6465 contract   sylo            Web continued.
 2020-07-01 48- 8776 contract   sylo            Powering through polish rewrite homepage.
 2020-06-30 48- 6473 contract   sylo            Figuring out webpage code. Start polishing homepage. Alice feedback.
 2020-06-29 48- 7756 contract   sylo            Research and write NFT task. Finish first pass text content.
