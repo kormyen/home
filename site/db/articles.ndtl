@@ -1,25 +1,8 @@
 var ARTICLES = `
-FIRST SAIL
-  BREF : My first sailing experience with Aunt Karen, Uncle Peter, Cousins Lara and Chloe
-  TAGS : sailing
-  TYPE : notes
-  HEAD : 2017-01-12_17-40
-  DATE : 2020-06-22
-  CHNG : 0
-  PUBL : true
-  BODY
-    p {image 2017-01-12_17-40 ir} My first sailing experience was with my Aunt Karen, Uncle Peter, my Dad and two crazy cousins Lara and Chloe in Australia for a week around 1999. 
-    p I don't recall specifically where we went, but I cherish the memories of adventuring:
-    p Over waves sitting at the bow 
-    p To what seemed like an island of endless sand mountains
-    p A beach of beautiful clear water
-    p Receiving creatively insulting poem readings by Chloe
-    p A strange enacted prison island with prison guards who made me (try to) yell in fake pain from a torture demonstration...
-
 VISITING PINO
   BREF : The journey to meet the people of the internet
   TAGS : sailing
-  TYPE : notes
+  TYPE : blog
   HEAD : 2017-11-05_17-53
   DATE : 2020-06-22
   CHNG : 0
@@ -34,10 +17,10 @@ VISITING PINO
     p My vanlife experiences let me see that tiny homes are perfectly acceptable. A sense of adventure and becoming a "sum of those closest to you" nudged me toward actually deciding to "learn how to sail in the future"... "I'll buy a boat in five years".
     p While working on {link project sylo} I became good friends with Sasha who was very keen to learn sailing. I introduced him to {link ext joranKikke 'Joran'} and {link ext dominic 'Dominic'}.
 
-SENSEI DOMINIC
+DOMINIC TEACHES SAILING
   BREF : Sailing training with a cyber hobo
   TAGS : sailing
-  TYPE : notes
+  TYPE : blog
   HEAD : 2019-01-19_15-53
   DATE : 2020-06-22
   CHNG : 0
@@ -63,7 +46,7 @@ SENSEI DOMINIC
 FINDING QUEST
   BREF : The search for a boat
   TAGS : sailing
-  TYPE : notes
+  TYPE : blog
   HEAD : 2019-03-03_10-13
   DATE : 2020-06-22
   CHNG : 0
@@ -94,7 +77,7 @@ FINDING QUEST
 HORIZON
   BREF : Another boat
   TAGS : sailing
-  TYPE : notes
+  TYPE : blog
   HEAD : 2019-03-23_19-27
   DATE : 2020-06-22
   CHNG : 0
@@ -121,6 +104,23 @@ HORIZON
     i 2019-03-23_13-03
     p {link ext alexey 'Alexey'} also made a video of a trip on Horizon. 
     y Yf6xADq_nQw
+
+FIRST SAIL
+  BREF : My first sailing experience with Aunt Karen, Uncle Peter, Cousins Lara and Chloe
+  TAGS : sailing
+  TYPE : blog
+  HEAD : 2017-01-12_17-40
+  DATE : 2020-06-22
+  CHNG : 0
+  PUBL : true
+  BODY
+    p {image 2017-01-12_17-40 ir} My first sailing experience was with my Aunt Karen, Uncle Peter, my Dad and two crazy cousins Lara and Chloe in Australia for a week around 1999. 
+    p I don't recall specifically where we went, but I cherish the memories of adventuring:
+    p Over waves sitting at the bow 
+    p To what seemed like an island of endless sand mountains
+    p A beach of beautiful clear water
+    p Receiving creatively insulting poem readings by Chloe
+    p A strange enacted prison island with prison guards who made me (try to) yell in fake pain from a torture demonstration...
 
 GAMELAB NOTES
   TAGS : gamedev

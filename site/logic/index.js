@@ -15,6 +15,7 @@ function Index()
 	this.photos = null;
 	this.thoughts = null;
 	this.notes = null;
+	this.blogs = null;
 
 	this.nav = null;
 	this.footer = null;
@@ -55,6 +56,8 @@ function Index()
 		this.thoughts.install(this.articles);
 		this.notes = new Notes();
 		this.notes.install(this.articles);
+		this.blogs = new Blogs();
+		this.blogs.install(this.articles);
 
 		this.nav = new Nav();
 		this.nav.install(this.inline);
@@ -81,6 +84,7 @@ function Index()
 			this.photos.start();
 			this.thoughts.start();
 			this.notes.start();
+			this.blogs.start();
 
 			let data = this.pages.get('index');
 			this.header.setImage(this.media.getByDate(data.HEAD));
@@ -120,12 +124,21 @@ function Index()
 					</div>
 					<div class="flexboxRow flexboxWrapToggle trippleArticleContainer" id="noteContainer">
 					</div>
+				</section>
+				
+				<section class="marginTopLarge">
+					<div class="marginBottomNormal fontSizeNormal">
+						<span class="colorSecondary">Recent <a class='subtleLink' href="${this.inline.getInternalUrl('page', 'blogs')}">blogs</a></span>
+					</div>
+					<div class="flexboxRow flexboxWrapToggle trippleArticleContainer" id="blogContainer">
+					</div>
 				</section>`;
 
 			this.focus.display(document.querySelector('#focusContainer'));
 			this.photos.display(document.querySelector('#photoContainer'));
 			this.thoughts.display(document.querySelector('#thoughtContainer'));
 			this.notes.display(document.querySelector('#noteContainer'));
+			this.blogs.display(document.querySelector('#blogContainer'));
 		}
 		else if (target == 'photos')
 		{
@@ -218,6 +231,28 @@ function Index()
 
 			this.main.innerHTML = htmlContent;
 		}
+		else if (target == 'blogs')
+		{
+			let data = this.pages.get(target);
+			this.header.setImage(this.media.getByDate(data.HEAD));
+			htmlContent = ``;
+
+			let navData = [];
+			navData.oneName = `Blogs`;
+			htmlContent += this.nav.create(navData);
+
+			htmlContent += `<div class='projectList'>`;
+			let list = this.articles.filterType(`blog`);
+			const keys = Object.keys(list);
+			for (let k = 0; k < keys.length; k++)
+			{
+				let element = list[keys[k]];
+				htmlContent += element.HtmlArticle(`blog`);
+			}
+			htmlContent += '</div>'; // end projectList
+
+			this.main.innerHTML = htmlContent;
+		}
 		////////////////////////////////////////////////////////////////////////////////
 		// ARTICLE PAGES ///////////////////////////////////////////////////////////////
 		////////////////////////////////////////////////////////////////////////////////
@@ -287,6 +322,26 @@ function Index()
 			let navData = [];
 			navData.oneName = `Notes`;
 			navData.oneLink = this.inline.getInternalUrl('page', 'notes');
+			navData.twoName = parent.capitalizeFirstLetter(target);
+			htmlContent += this.nav.create(navData);
+
+			// Article
+			htmlContent += this.pages.buildArticle(data.HtmlSidebar, data.HtmlBody);
+
+			this.main.innerHTML = htmlContent;
+		}
+		else if (target.substr(0, 4) == 'blog')
+		{
+			target = target.substr(5);
+			target = target.replace(/-/g,` `);
+			let data = this.articles.get(target);
+			this.header.setImage(data.media);
+			let htmlContent = ``;
+
+			// Sidebar
+			let navData = [];
+			navData.oneName = `Blogs`;
+			navData.oneLink = this.inline.getInternalUrl('page', 'blogs');
 			navData.twoName = parent.capitalizeFirstLetter(target);
 			htmlContent += this.nav.create(navData);
 

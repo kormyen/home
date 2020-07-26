@@ -19,7 +19,7 @@ function Inline()
 
         if (BUILD)
         {
-            if (func == 'project' || func == 'thought' || func == 'note')
+            if (func == 'project' || func == 'thought' || func == 'note' || func == 'blog')
             {
                 result += `/${func}s/${name.replace(/ /g, `-`)}`;
             }
@@ -34,7 +34,7 @@ function Inline()
         }
         else
         {
-            if (func == 'project' || func == 'thought' || func == 'note')
+            if (func == 'project' || func == 'thought' || func == 'note' || func == 'blog')
             {
                 result += `#${func}-${name.replace(/ /g, `-`)}`;
             }
