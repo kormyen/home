@@ -128,7 +128,7 @@ function Index()
 				
 				<section class="marginTopLarge">
 					<div class="marginBottomNormal fontSizeNormal">
-						<span class="colorSecondary">Recent <a class='subtleLink' href="${this.inline.getInternalUrl('page', 'blogs')}">blogs</a></span>
+						<span class="colorSecondary">Recent <a class='subtleLink' href="${this.inline.getInternalUrl('page', 'blog')}">blog</a> posts</span>
 					</div>
 					<div class="flexboxRow flexboxWrapToggle trippleArticleContainer" id="blogContainer">
 					</div>
@@ -231,14 +231,14 @@ function Index()
 
 			this.main.innerHTML = htmlContent;
 		}
-		else if (target == 'blogs')
+		else if (target == 'blog')
 		{
 			let data = this.pages.get(target);
 			this.header.setImage(this.media.getByDate(data.HEAD));
 			htmlContent = ``;
 
 			let navData = [];
-			navData.oneName = `Blogs`;
+			navData.oneName = `Blog`;
 			htmlContent += this.nav.create(navData);
 
 			htmlContent += `<div class='projectList'>`;
@@ -340,8 +340,8 @@ function Index()
 
 			// Sidebar
 			let navData = [];
-			navData.oneName = `Blogs`;
-			navData.oneLink = this.inline.getInternalUrl('page', 'blogs');
+			navData.oneName = `Blog`;
+			navData.oneLink = this.inline.getInternalUrl('page', 'blog');
 			navData.twoName = parent.capitalizeFirstLetter(target);
 			htmlContent += this.nav.create(navData);
 

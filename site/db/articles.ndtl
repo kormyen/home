@@ -292,7 +292,7 @@ LOGGING 2019
   EDIT : 2020-06-22
   CHNG : 1
   HEAD : 2018-07-05_12-00
-  TYPE : thoughts
+  TYPE : blog
   PUBL : true
   BODY
     p Between 2018-07-12 and 2018-12-31 I logged 937 hours, tracked over 181 days, meaning 5.2 hours of output per day on average, or 36.4 hours per week averaged out.
@@ -336,7 +336,7 @@ GOALS IN 2019
   TAGS : home
   DATE : 2019-01-04
   HEAD : 2019-02-23_19-43
-  TYPE : thoughts
+  TYPE : blog
   PUBL : true
   BODY
     p Goals for life:
@@ -367,6 +367,7 @@ CHANGE MINDS
   TAGS : env
   DATE : 2019-06-18
   BREF : Why pollute?
+  TYPE : thoughts
   PUBL : false
   BODY
     p How to stop the problem of polution?
@@ -408,11 +409,11 @@ VEGETABLES
   BODY
     p {link ext animsent}
 
-FLOATING
+SENSORY DEPREVATION FLOAT
   BREF : sensory deprevation tank
   TAGS : life
   HEAD : 2014-11-19_19-00
-  TYPE : thoughts
+  TYPE : blog
   PUBL : true
   BODY
     p To call it "awesome" is the wrong word. Its relaxing, weightless, nothingness, surreal.
@@ -456,7 +457,7 @@ HUMANE CALM
     p Technology should respect social norms
 
 GIBBS FARM
-  TYPE : notes
+  TYPE : blog
   PUBL : false
   BODY
     p https://imgur.com/gallery/4uqtY
@@ -470,7 +471,7 @@ GAME TOURISM
     p "Played @panoramical. Forgot about my tea. My tea is cold and this game is awesome." https://twitter.com/kormyen/status/644872926068518912
 
 HOBBITON
-  TYPE : notes
+  TYPE : blog
   PUBL : false
   BODY
     p photos
