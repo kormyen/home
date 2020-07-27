@@ -15,7 +15,11 @@ function Articles()
     for (let k = 0; k < keys.length; k++)
     {
       let element = this.db[keys[k]];
-      element.NAME = keys[k].toLowerCase();
+
+      if (element.NAME == undefined)
+      {
+        element.NAME = parent.capitalizeFirstLetter(keys[k]);
+      }
 
       // Body HTML
       element.HtmlBody = runelike.parse(element.BODY);
@@ -33,10 +37,10 @@ function Articles()
       {
         element.HtmlArticle = function(location)
         {
-          let result = `<a href='${inline.getInternalUrl(location, element.NAME)}' class='article noDecoration'>`;
+          let result = `<a href='${inline.getInternalUrl(location, element.NAME.toLowerCase())}' class='article noDecoration'>`;
           result += `<img src='media/small/${element.media.file}' class='articleImg articleBlackAndWhite radiusNormal'></img>`;
           // result += `<span class='fontSizeSmall colorMain marginTopNormal articleTitle'>${parent.capitalizeFirstLetter(element.NAME)}<span id='articleDesc'>: ${element.BREF}</span></span>
-          result += `<span class='fontSizeSmall colorMain marginTopNormal articleTitle'>${parent.capitalizeFirstLetter(element.NAME)}</span>
+          result += `<span class='fontSizeSmall colorMain marginTopNormal articleTitle'>${element.NAME}</span>
             </a>`;
 
           return result;

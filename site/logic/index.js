@@ -302,7 +302,7 @@ function Index()
 			let navData = [];
 			navData.oneName = `Thoughts`;
 			navData.oneLink = this.inline.getInternalUrl('page', 'thoughts');
-			navData.twoName = parent.capitalizeFirstLetter(target);
+			navData.twoName = data.NAME;
 			htmlContent += this.nav.create(navData);
 			
 			// Article

@@ -102,11 +102,11 @@ function Inline()
                         optionalLabel = fullText.split("'")[1]; 
                     }
                     
-                    if (func == "project" || func == "page")
+                    if (func == "project" || func == "page" || func == "thought" || func == "note" || func == "blog")
                     {
                         // INTERNAL LINK
                         const url = parent.getInternalUrl(func, pageName);
-                        const label = (optionalLabel == '') ? this.capitalizeFirstLetter(pageName) : optionalLabel;
+                        const label = (optionalLabel == '') ? pageName : optionalLabel;
 
                         if ((func == "project") && (this.projects.get(pageName) == undefined))
                         {

@@ -25,6 +25,8 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-07-27 91- 6363 contract   sylo            Adjusting messenger article.
+2020-07-27 46- 6666 contact    sylo            Food token.
 2020-07-26 31- 6666 web        home            Add blog category.
 2020-07-26 32- 6566 web        home            Moving old thoughts and notes into db.
 2020-07-24 48- 6464 contact    sylo            Writing messenger article. 
