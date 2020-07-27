@@ -97,14 +97,14 @@ function Index()
 
 				<section class="marginTopLarge">
 					<div class="marginBottomNormal fontSizeNormal">
-						<span class="colorSecondary">Recent <a class='subtleLink' href="${this.inline.getInternalUrl('page', 'projects')}">projects</a></span>
+						<span class="colorSecondary">Recent <a class='subtleLink' href="${this.inline.getInternalUrl('page', 'projects')}">projects</a> of ${this.projects.getCount()}</span>
 					</div>
 					<div class="flexboxRow flexboxWrapToggle trippleArticleContainer" id="focusContainer"></div>
 				</section>
 
 				<section class="marginTopLarge">
 					<div class="marginBottomNormal fontSizeNormal">
-						<span class="colorSecondary">Recent <a class='subtleLink' href="${this.inline.getInternalUrl('page', 'photos')}">photos</a></span>
+						<span class="colorSecondary">Recent <a class='subtleLink' href="${this.inline.getInternalUrl('page', 'photos')}">photos</a> of ${this.photos.getCount()}</span>
 					</div>
 					<div class="flexboxRow flexboxWrapToggle trippleArticleContainer" id="photoContainer">
 					</div>
@@ -112,7 +112,7 @@ function Index()
 				
 				<section class="marginTopLarge">
 					<div class="marginBottomNormal fontSizeNormal">
-						<span class="colorSecondary">Recent <a class='subtleLink' href="${this.inline.getInternalUrl('page', 'thoughts')}">thoughts</a></span>
+						<span class="colorSecondary">Recent <a class='subtleLink' href="${this.inline.getInternalUrl('page', 'thoughts')}">thoughts</a> of ${this.thoughts.getCount()}</span>
 					</div>
 					<div class="flexboxRow flexboxWrapToggle trippleArticleContainer" id="thoughtContainer">
 					</div>
@@ -120,7 +120,7 @@ function Index()
 				
 				<section class="marginTopLarge">
 					<div class="marginBottomNormal fontSizeNormal">
-						<span class="colorSecondary">Recent <a class='subtleLink' href="${this.inline.getInternalUrl('page', 'notes')}">notes</a></span>
+						<span class="colorSecondary">Recent <a class='subtleLink' href="${this.inline.getInternalUrl('page', 'notes')}">notes</a> of ${this.notes.getCount()}</span>
 					</div>
 					<div class="flexboxRow flexboxWrapToggle trippleArticleContainer" id="noteContainer">
 					</div>
@@ -128,7 +128,7 @@ function Index()
 				
 				<section class="marginTopLarge">
 					<div class="marginBottomNormal fontSizeNormal">
-						<span class="colorSecondary">Recent <a class='subtleLink' href="${this.inline.getInternalUrl('page', 'blog')}">blog</a> posts</span>
+						<span class="colorSecondary">Recent <a class='subtleLink' href="${this.inline.getInternalUrl('page', 'blog')}">blog</a> posts of ${this.blogs.getCount()}</span>
 					</div>
 					<div class="flexboxRow flexboxWrapToggle trippleArticleContainer" id="blogContainer">
 					</div>

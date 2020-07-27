@@ -5,6 +5,7 @@ function Projects()
   this.db = null;
   this.sectors = {};
   const parent = this;
+  this.dbLength;
 
   this.install = function(data, media, log, runelike, inline)
   {
@@ -12,6 +13,9 @@ function Projects()
 
     // Parse project db into usable format
     const keys = Object.keys(this.db);
+    console.log(keys.length)
+    this.dbLength = keys.length;
+
     for (let k = 0; k < keys.length; k++)
     {
       let element = this.db[keys[k]];
@@ -139,6 +143,11 @@ function Projects()
   this.getAll = function()
   {
     return this.db;
+  }
+
+  this.getCount = function()
+  {
+    return this.dbLength;
   }
 
   this.capitalizeFirstLetter = function(string)

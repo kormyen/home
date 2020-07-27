@@ -4,6 +4,7 @@ function Thoughts()
 {
   this.articles = null;
   this.content = null;
+  this.dbLength;
 
   this.install = function(articles)
   {
@@ -13,6 +14,8 @@ function Thoughts()
   this.start = function()
   {
     const filtered = this.articles.filterType(`thoughts`);
+    this.dbLength = filtered.length;
+    
     let limited = filtered.slice(0, 3);
 
     this.content = ``;
@@ -20,6 +23,11 @@ function Thoughts()
     {
       this.content += limited[i].HtmlArticle(`thought`);
     }
+  }
+
+  this.getCount = function()
+  {
+    return this.dbLength;
   }
 
   this.display = function(container)
