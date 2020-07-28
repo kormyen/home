@@ -322,7 +322,7 @@ function Index()
 			let navData = [];
 			navData.oneName = `Notes`;
 			navData.oneLink = this.inline.getInternalUrl('page', 'notes');
-			navData.twoName = parent.capitalizeFirstLetter(target);
+			navData.twoName = data.NAME;
 			htmlContent += this.nav.create(navData);
 
 			// Article
@@ -342,7 +342,7 @@ function Index()
 			let navData = [];
 			navData.oneName = `Blog`;
 			navData.oneLink = this.inline.getInternalUrl('page', 'blog');
-			navData.twoName = parent.capitalizeFirstLetter(target);
+			navData.twoName = data.NAME;
 			htmlContent += this.nav.create(navData);
 
 			// Article
