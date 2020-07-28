@@ -9,10 +9,14 @@ function Runelike()
     const runes =
     {
         't': { tag: 'h2' }, // paragraph title-line 'fontSizeSmall marginTopNormal colorMain'
+        '2': { tag: 'h2' },
+        '3': { tag: 'h3' },
         'p': { tag: 'p' }, // paragraph normal-line 'fontSizeSmall marginTopNormal colorSecondary'
+        'q': { tag: 'quote', join: false },
         'b': { tag: 'br' }, // paragraph normal-line 'fontSizeSmall marginTopNormal colorSecondary'
-        'i': { tag: 'img' }, // image full-width by-date 'widthFit marginTopNormal radiusNormal'
-        'y': { tag: 'yt' }
+        'i': { tag: 'img', join: false }, // image full-width by-date 'widthFit marginTopNormal radiusNormal'
+        'y': { tag: 'yt', join: false },
+        'v': { tag: 'vimeo', join: false }
     }
 
     this.install = function(media, inline)
@@ -38,7 +42,7 @@ function Runelike()
             const rune = runes[line.substr(0, 1)];
             let lineValue = line.substr(2);
             const prev = acc[acc.length - 1] ? acc[acc.length - 1] : { rune: rune, a: [] };
-            if (this.prevRune === rune.tag && rune.tag != 'img' && rune.tag != 'yt')
+            if (this.prevRune === rune.tag && rune.join != false)
             {
                 prev.a.push(lineValue);
                 if (acc.length == 0)
@@ -82,9 +86,9 @@ function Runelike()
                 }
                 result += `</p>`;
             }
-            else if (stash.rune.tag == 'p')
+            else if (stash.rune.tag == 'h3')
             {
-                result += `${acc}<p class='fontSizeSmall marginTopNormal colorSecondary'>`;
+                result += `${acc}<p class='fontSizeNormal marginTopLarge marginBottomNormal colorSecondary'>`;
                 for (let i = 0; i < stash.a.length; i++)
                 {
                     if (i > 0)
@@ -94,6 +98,32 @@ function Runelike()
                     result += `${parent.inline.parse(stash.a[i])}`;
                 }
                 result += `</p>`;
+            }
+            else if (stash.rune.tag == 'p')
+            {
+                result += `${acc}<p class='fontSizeSmall marginTopNormal marginBottomNormal colorSecondary'>`;
+                for (let i = 0; i < stash.a.length; i++)
+                {
+                    if (i > 0)
+                    {
+                        result += `<br><br>`;
+                    }
+                    result += `${parent.inline.parse(stash.a[i])}`;
+                }
+                result += `</p>`;
+            }
+            else if (stash.rune.tag == 'quote')
+            {
+                result += `${acc}<p class='fontSizeSmall marginTopNormal marginBottomNormal colorSecondary'><i> > `;
+                for (let i = 0; i < stash.a.length; i++)
+                {
+                    if (i > 0)
+                    {
+                        result += `<br><br>`;
+                    }
+                    result += `${parent.inline.parse(stash.a[i])}`;
+                }
+                result += `</i></p>`;
             }
             else if (stash.rune.tag == 'br')
             {
@@ -112,9 +142,14 @@ function Runelike()
             {
                 for (let i = 0; i < stash.a.length; i++)
                 {
-                    // result += `${acc}<iframe width="560" height="315" src="https://www.youtube.com/embed/${stash.a[i]}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    result += `${acc}<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/${stash.a[i]}' frameborder='0' allowfullscreen></iframe></div>
-                    <br><br>`;
+                    result += `${acc}<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/${stash.a[i]}' frameborder='0' allowfullscreen></iframe></div>`;
+                }
+            }
+            else if (stash.rune.tag == 'vimeo')
+            {
+                for (let i = 0; i < stash.a.length; i++)
+                {
+                    result += `<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/${stash.a[i]}' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>`;
                 }
             }
 

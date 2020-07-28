@@ -56,7 +56,7 @@ FINDING QUEST
   PUBL : true
   BODY
     p Sasha and I looked at 10 boats within a week. Eventually getting a feel for what prices boats seem to be selling for in Auckland.
-    p We also viewed a boat 'Horizon' which was on auction which we never thought we would be able to afford, we were just curious what the next class of boats was like.
+    p We also viewed a boat {link blog horizon 'Horizon'} which was on auction which we never thought we would be able to afford, we were just curious what the next class of boats was like.
     i 2019-07-08-18-13
     t Quest
     p We eventually settled on buying Quest with the help of {link ext joranKikke 'Joran'} who gave her an inspection and us the go ahead.
@@ -86,8 +86,7 @@ HORIZON
   CHNG : 0
   PUBL : true
   BODY
-    t Horizon
-    p We actually only owned Quest around a week before Horizon's auction ended and we purchased her for a cheap price.
+    p We actually only owned {link blog finding-quest 'Quest'} around a week before Horizon's auction ended and we purchased her for a cheap price.
     p The photo below is the first and what we thought the last time we saw Horizon. We expected her to be much more expensive.
     i 2019-02-17_12-00
     i 2019-04-14_16-43
@@ -210,40 +209,40 @@ TOOLS
     p I recognize that using open source, privacy focused tools is important. If not for my current self, then my potential future self, protestors, journalists, and refugees.
     p I list these to share things I think are good, and in hopes someone has suggestions of improvement, or as benefit to others.
     p I like the idea of being frugal generally, but for the tools I use frequently I want the best possible and have no issue paying a reasonable fee.
-    p Cloud storage: sync.com
+    t Cloud storage: sync.com
     p I use cloud storage because I have a large amount of important data than I want to store. I want backups to be automatic because I know from experience that hardware breaks randomly. Backups must be off site as local pockets of reality are destroyed occasionally.
     p I use sync.com as it is the cheapest, end-to-end-encrypted (E2EE) cloud storage provider that is fairly easy to use. Had no problems so far. Started using it on 2020-06-03.
     p I've tried running my own self built, self run, self maintianed, server in the past and it's an annoyance I'd like to not spend time on any more.
     p I am not particually tied to sync.com. Their app and web UX/UI is passable but could be improved. Options are fairly limited however as more well known services will Google Drive and Dropbox data mine your unencrypted files.
-    p If you use this link to join we will both receive a bonus 1GB of additional storage. https://www.sync.com/?_sync_refer=c178eb780
-    p sync.com recomendation - 8/10. Limited actually usable options, does the job well enough.
-    p Password manager: Bitwarden
+    p If you use {link ext syncReferral 'this link to join'} we will both receive a bonus 1GB of additional storage.
+    p sync.com recomendation - 8/10. Limited actually usable alternative options, does the job well enough.
+    t Password manager: Bitwarden
     p I use a password manager so that I can have secure, unique, random, very long passwords for every app and website I use. A password manager makes this easy to manage.
     p Bitwarden is cheap, open source, multiplatform, fast human support, and supports simple two-factor-authentication (which makes things even more secure).
     p I have used 1Password and Keypass in the past and both are a mess in different ways. I avoided LastPass as something seemed weird about it.
     p The biggest win for me is the built in two factor authentication setup (TOTP) which you need to pay the small yearly fee to use. This means there is no need to use Google's Authenticator app. I am aware that there is a security trade off here, but I find it acceptable.
     p I like that it feels fairly minimal and like it just focuses on doing exactly it's job well, not adding unnessisary skeuomorphic junk like 1password.
     p I highly recommend Bitwarden - 10/10.
-    p Messaging: Signal, Wire, Wickr
+    t Messaging: Signal, Wire, Wickr
     p Here is my comparison spreadsheet and criteria: 
-    p Email: Protonmail
+    t Email: Protonmail
     p Proton mail is open source, privacy focused, encryption-enabling (PGP) and has severs located in Switzerland. I also considered Tutanota and might change to them in future.
     p Proton mail seems to get the job done well. The feel very slow to update release features on their roadmap where Tutanota seem to be far ahead. I've been waiting for Proton mail's Calendar to release properly for very many months.
     p Proton mail recommendation 7/10.
-    p Wallet: Ledger, Exodus, Metamask
+    t Wallet: Ledger, Exodus, Metamask
     p Crypto currency is the native currency of the internet. All services have been digitized, open sourced and democratized. Now it is money's turn. It is not fair that unlimited amounts of a country's currency can be generated devaluing hardworking citizen's lifetime of savings and investments.
     p I use Ledger wallet because I want to securely hold my private keys in a external device. An alternative is Trezor.
     p For crypto currency that Ledger does not support I use Exodus wallet. Exodus is mostly open source and has a simple user interface while supporting some important assets that Ledger does not.
-    p Design: Affinity Suite
+    t Design: Affinity Suite
     p I used Affinity tools because I hate Adobe with a passion. Adobe has proven that they distrust their customers, leave exploitable surveilance bugs in their DRM, repeatedly have privacy failures and randomly lock down of local use of their software. Affinity are the next best thing. It's a frustrating transition from years of Adobe shortcut muscle memory but Adobe have proven that they cannot be trusted. Alternatives must be suppported.
     p I would love to support open source alternatives like Gimp but find them painful to use.
     p The honest reality is that Affinity tools do not yet cover all of the required features of Adobe's suite but I now just Adobe's stuff for the very limited times it is required. Hopefully less and less.
     p Affinity design still feels weird to use, but I wonder if that is mostly due to Adobe stockholm syndrome 7/10. 
-    p Design: Figma
-    p Web development: Responsively
-    p Notes: Workflowy, Sublime
-    p Code: Visual Studio Code
-    p Browser: Brave
+    t Design: Figma
+    t Web development: Responsively
+    t Notes: Workflowy, Sublime
+    t Code: Visual Studio Code
+    t Browser: Brave
     p I used Mac OSX so Safari is the best UX and best integrated browser but they have resently broken all extentions ability to exist. Brave seems to be the next best option in terms of the forfront of web tech, usability, privacy and open source. I also considered Firefox.
 
 WHY HOME
@@ -316,28 +315,28 @@ LOGGING 2019
     p Sector split: code (244h), visual (242h), carpentry (179h), physical (133h), electronics (80h), research (53h) and misc (6h).
     p The majority of work was dedicated to Van (32%), Contract (26%) and Web (23%) categories.
     p The biggest projects were {link project sylo} (248h), {link project memex} (154h), {link project bench} (105h), {link project solar} (85h),  {link project log} (51h), {link project garage} (46h), {link project insulation} (45h), {link project core} (34h), {link project crucifix} (28h), {link project fan} (25h) and {link project megamex} (21h).
-    p Logging Benefits
+    3 Logging Benefits
     p The gamified mental nagging to keep or improve desired statistics over time helped me to keep work hours higher and meat consumption lower.
     p A benefit of entering logs regularly is the recognition of passing time. As opposed to the feeling of blurred days, weeks, months.
     p Viewing the dashboard statistics is satisfying. Like quantification, acknowledgment of long-term desirable time use.
-    p Improvements
-    p Simplification
+    2 Improvements
+    3 Simplification
     p Too many statistics tracked means adding logs takes more effort than needed, and thus is more likely to procrastinate and skip. The 'Flow' field ("Did I enter a flow state?") is not all that useful and will be removed. More stats should be removed...
-    p Vege gaming
+    3 Vege gaming
     p I am finding that binary vegetarian/omnivore logging encourages increased meat consumption during a non-vegetarian-day since there is no log difference between a single portion vs gluttony. I will change the binary switch to a meat-portion-count per entry.
-    p Feelings
+    3 Feelings
     p I have a nagging feeling that percentage values for 'mood', 'health' and 'energy' do not feel they adequately represent 'feeling', but I am not sure how useful that is to track long term. I could add a word each day for feeling but not sure that the added effort it would add for logs match the benefit. Even a word obviously won't be adequate for representing contradictory or multiplistic feelings.
-    p Better vis and insights
+    3 Better vis and insights
     p Need visualization for social, exercise days and better visualization for sectors, difficulty, efficiency, interest, learned, mood, health, energy. Probably an averaged line graph with scatter points. Adding combined stats (like Neauoire) as comparisons between sectors, categories and or projects could lead to insights.
-    p Phone log access
+    3 Phone log access
     p Since I have been working in Auckland and living in van I have not been using my laptop everyday, which is currently the sole logging station. I've ended up not logging for several days, then having to catch up - the longest stretch being 11 days. I did not miss any important data but this is not a good habit. Would be nice to have a simple way to append to log from my phone.
-    p Date system change
+    3 Date system change
     p I much prefer Neauoire's Desamber date system but it makes things take a step extra for working things out. In an effort to reduce complexity I will change to a more standard date format. Eg: "2019-01-01". I still intend to use Desamber display on the front end.
-    p Image tags
+    3 Image tags
     p Change image inclusion to format like Megamex with separate file for images with tags. Add names of people in photo etc.
-    p Split
+    3 Split
     p It could make sense for this logging system to be split into two systems for example 'output' (concrete work) and 'input' (social activities, intake and self improvement).
-    p Considerations:
+    3 Considerations:
     p Track takeout meals
     p Track alcohol
     p Track fruit/vege portions
@@ -352,15 +351,15 @@ GOALS IN 2019
   TYPE : blog
   PUBL : true
   BODY
-    p Goals for life:
-    p Art for liberation
-    p Incrementalism of self (position and trajectory)
-    p Reduction of harm
-    p Goals for this website:
+    3 Goals for life:
+    p Art for liberation - deliberate art, engineering and research toward escape from societal traps.
+    p Incrementalism of self - continuous personal improvement.
+    p Reduction of harm - life toward long-termism and admission that environment and the lives of others are radically important.
+    3 Goals for this website:
     p Digital memory palace
     p Exocortex
     p Portfolio
-    p Goals for 2019:
+    3 Goals for 2019:
     p Cook
     p Read
     p Save
@@ -453,13 +452,17 @@ HUMANE CALM
   BREF : importance of values
   HEAD : 2019-04-13_07-01
   TYPE : notes
+  DATE : 2018-07-20
   PUBL : true
+  LINK
+    - {link ext calmTech}
+    - {link ext humaneAgenda}
   BODY
-    p “The real problem of humanity is the following: we have paleolithic emotions; medieval institutions; and god-like technology. And it is terrifically dangerous, and it is now approaching a point of crisis overall.” Until we understand ourselves, “until we answer those huge questions of philosophy that the philosophers abandoned a couple of generations ago — Where do we come from? Who are we? Where are we going?—rationally,” we’re on very thin ground. Edward Osborne Wilson
-    p "An interface is humane if it is responsive to human needs and considerate of human frailties." - Jef Raskin
-    p https://vimeo.com/332532972 "Humane: A New Agenda for Tech"
+    v 332532972
     p 
-    p https://calmtech.com/ 
+    q “The real problem of humanity is the following: we have paleolithic emotions; medieval institutions; and god-like technology. And it is terrifically dangerous, and it is now approaching a point of crisis overall.” Until we understand ourselves, “until we answer those huge questions of philosophy that the philosophers abandoned a couple of generations ago — Where do we come from? Who are we? Where are we going?—rationally,” we’re on very thin ground. Edward Osborne Wilson
+    q "An interface is humane if it is responsive to human needs and considerate of human frailties." - Jef Raskin
+    p 
     p Technology should require the smallest possible amount of attention
     p Technology should inform and create calm
     p Technology should make use of the periphery
@@ -507,7 +510,7 @@ PRESERVING MYSTERY
   LINK
     - {link ext preserveMystery}
   BODY
-    p Notes on {link ext preserveMystery}
+    v 91436410
     p Make players wonder.
     p Make players ask questions.
     p 
@@ -518,14 +521,14 @@ PRESERVING MYSTERY
     p Don’t answer everything. Be abstract.
     p 
     p Storytellers: “Show, don’t tell”.
-    p Games: “Don’t even show”.*
+    p Games: “Don’t even show”.
     p 
-    p > A cool thing that can be missed makes the world feel more like a real place and less like a clockwork puzzle constructed purely for the benefit of the player.
+    q "A cool thing that can be missed makes the world feel more like a real place and less like a clockwork puzzle constructed purely for the benefit of the player."
     p 
     p Not everyone has to see everything. “Exclusion is a strength”.
     p Create “pockets of communities” that feel like they’re in the know with others when the find things out.
     p 
-    p > "This continuous breaking of experience, through the ‘false ceiling’ Jim Crawford (Frog Factions) cites as a necessity for mystery, in the age of video game walk-throughs and the culture of ‘looking it up’ online." - {link ext movingPeople 'Phil James'}
+    q "This continuous breaking of experience, through the ‘false ceiling’ Jim Crawford (Frog Factions) cites as a necessity for mystery, in the age of video game walk-throughs and the culture of ‘looking it up’ online." - {link ext movingPeople 'Phil James'}
     p 
     p This provides an emotional spike, perceived as the “peak” of experience, then throttle it into overdrive.
     p 
@@ -534,15 +537,18 @@ PRESERVING MYSTERY
     p Encourage community involvement – people sharing stories. Puzzles too hard to solve on your own, require collective knowledge.
     p 
     i 2016-02-14_00-03
-    p > “The Minecraft {link ext farlands}" were the area that formed the “edge” of the “infinite” map in versions prior to Beta 1.8. When players made it to the Far Lands, they would experience an excessive drop in framerate and the terrain would be severely distorted… From here on, lighting does not work... attempting to walk onto them would cause the player to die in {link ext theVoid}.
+    q “The Minecraft {link ext farlands}" were the area that formed the “edge” of the “infinite” map in versions prior to Beta 1.8. When players made it to the Far Lands, they would experience an excessive drop in framerate and the terrain would be severely distorted… From here on, lighting does not work... attempting to walk onto them would cause the player to die in {link ext theVoid}.
     p
     i 2016-02-14_00-01
     p Definitely play {link ext frogFractions} if you haven’t. Don't look up trailers or reviews just trust me. Give it 15 minutes, you'll know when it happens.
     p
-    p Edit (2016-12): If this and/or Frog Fractions interests you play {link ext glittermitten}. Same deal: no trailers, no reviews: discovery~.
+    3 Edit (2016-12)
+    p If this and/or Frog Fractions interests you play {link ext glittermitten}. 
+    p Same deal: no trailers, no reviews: discovery~.
     p 
-    p Edit (2017-02): Crowdfunded video game documentary producer Noclip released {link ext noclipMystery 'Rediscovering Mystery - Noclip Documentary (feat. Jonathan Blow / Derek Yu / Jim Crawford)'}. It's worth watching.
-    p > "In this special feature about video game mysteries, we talk to Jonathan Blow (The Witness / Braid), Derek Yu (Spelunky) and Jim Crawford (Frog Fractions) about the games that inspired wonder in us as children, and the fight to keep player discovery alive."
+    3 Edit (2017-02)
+    p Crowdfunded video game documentary producer Noclip released {link ext noclipMystery 'Rediscovering Mystery - Noclip Documentary (feat. Jonathan Blow / Derek Yu / Jim Crawford)'}. It's worth watching.
+    q "In this special feature about video game mysteries, we talk to Jonathan Blow (The Witness / Braid), Derek Yu (Spelunky) and Jim Crawford (Frog Fractions) about the games that inspired wonder in us as children, and the fight to keep player discovery alive."
     y z2g_0QQRjYY
 
 DRAGON SPEECH
@@ -588,8 +594,8 @@ GAME MARKETING 2014
     - {link ext gameMarketSlides}
     - {link ext gameMarketAuthor}
   BODY
-    p Notes from “Konsoll 2013: Marketing Indie Games on a $0 Budget”
-    p “Emmy Jonassen: To become a successful indie game developer, you must first become a successful indie game marketer. Trouble is, for many indies, marketing doesn’t come naturally or fit the indie budget.”
+    p Notes from {link ext gameMarketVideo 'Konsoll 2013: Marketing Indie Games on a $0 Budget'}
+    q “Emmy Jonassen: To become a successful indie game developer, you must first become a successful indie game marketer. Trouble is, for many indies, marketing doesn’t come naturally or fit the indie budget.”
     p
     p #1 Trailer video
     p #2 Screen-shots
@@ -597,7 +603,7 @@ GAME MARKETING 2014
     p #4 Landing Page
     p #5 Development Blog
     p 
-    t TRAILER VIDEO
+    3 Trailer video
     p – Keep it short (90 seconds or less)
     p – 3 to 5 seconds to capture attention at the start
     p – Music and SFX very important to video
@@ -606,14 +612,14 @@ GAME MARKETING 2014
     p – End with next steps (where to buy, website etc)
     p Example: {link ext gameMarketTrailer}
     p 
-    t SCREENSHOTS
+    3 Screenshots
     p – High resolution
     p – Excellent composition
     p – Well lit
     p – Engaging scene
     p Example: {link ext theWitness} by {link ext jonathanBlow}
     p 
-    t PRESS RELEASE
+    3 Press release
     p – Press don’t like to write
     p – Your press release will be used, cut and pasted
     p – First paragraph most important
@@ -625,19 +631,19 @@ GAME MARKETING 2014
     p – Use in-text hyper-links
     p Example: Dajabon Games, Boston
     p 
-    t LANDING PAGE 
+    3 Landing page 
     p (The game’s web-page)
     p – Purpose: convert visitors to customers
     p – Remove all navigation
     p – Grabbing headline (only text that will be read by majority)
     p – Social sharing icons
-    p – Strong call to-action button (most important – this is the action you want visitors to do)
+    p – Strong call to-action button (most important – the action you want visitors to do)
     p – Trailer video
     p – Screen shots
     p – Testimonials / reviews
     p – Contact and press kit buttons or links
     p 
-    t DEVELOPMENT BLOG
+    3 Development blog
     p – Companies with dev blog bring in 55% more traffic on average
     p – Post x1 per week minimum
     p – Use images
@@ -648,7 +654,7 @@ GAME MARKETING 2014
     p – Social sharing buttons
     p – Promotion at posts end
     p 
-    t NEXT
+    3 Next
     p Reach out to press
     p – Research publications you should be on
     p – Research publications you want to be on
@@ -672,7 +678,7 @@ GAME MARKETING 2014
     p – Social media
     p – Comment on their articles
     p 
-    t BUILD ADORING FANBASE
+    3 Build adoring fanbase
     p Make your game easy to discover
     p – Set up social media channels and post daily (Twitter, Facebook, LinkdIn, Google+)
     p – Become active in forums, blogs, and other relevant sites
@@ -695,7 +701,7 @@ GAME MARKETING 2014
     p – Ask for and incorporate fan input
     p – Respond to criticism in a thankful and professional way
     p 
-    t Q&A
+    3 Q&A
     p “How early is too early?”
     p – Put together a road map.
     p 
@@ -811,4 +817,48 @@ Neurotech
     p I don’t think its a question of “if” this technology will be widely used, its a question of “when” and what it will look like then.
     p 
     p Looking forward to seeing this technology, and Thought-Wired’s platform develop.
+
+MESSENGER MUSTS
+  BREF : What to look for in a messenger
+  TISA : An article I wrote for {link project sylo} about important must haves for a messenger application
+  TAGS : research
+  TYPE : thoughts
+  HEAD : 2016-02-14_00-02
+  DATE : 2020-07-28
+  PUBL : true
+  BODY
+    p Apps like Telegram, Facebook Messenger and Whatsapp claim privacy and are great at PR -  they hit key metrics in specific ways, letting people believe they are respecting privacy while failing their user's in deliberate technical ways.
+    p Here is what to look for in a messenger:
+    3 #1: Proven end-to-end encryption by default
+    p For real human-to-human authenticity online we need privacy. People act differently when they know they are being watched, and speak differently when they know their conversation is being listened to. Privacy is important even if you have "nothing to hide" - I talk more about this here.
+    p For privacy to exist online we need end-to-end encryption (E2EE). What this means is that what you say is encrypted with keys that only you control. These messages are encrypted specifically only for the persons you wish to read your message. It is encrypted from your end, to their end - no one else can read the content, even if they wanted to.
+    p Most popular applications don’t have end-to-end encryption at all, opting to ‘data mine’ — that is, to sell their users’ data as a way to make money.
+    p The first suggested rule to cryptography (encryption) is — ‘Don’t roll your own crypto.’
+    p This rule implies that instead of writing your own cryptographic protocols, developers should ‘use published, public, algorithms and protocols.’
+    p Cryptography is a very complex discipline and extremely important to implement correctly; one small error could open up a back door to exposing important private information.
+    p The suggestion goes that new cryptography research projects are usually results of new requirements and built on learnings from a multitude of failures and fixes.
+    p Telegram *fails* in this regard — by writing their own cryptography in-house from scratch, which is both unusual and suspicious when provably secure, audited, open-source options already exists.
+    p Perhaps unexpectedly, Facebook’s Messenger and Facebook Whatsapp are actually relatively good examples of following the cryptography’s first rule, in that they have contracted the creators of Signal to integrate the secure Signal Protocol for messaging. The Signal Protocol is an open-source cryptographic protocol with end-to-end encryption.
+    p However "...by default" is the gotcha here.
+    p Facebook Messenger along with Telegram fail in this regard, having purposefully created insecure, un-encrypted chats by default and requiring users to specifically create a ‘secret’ chat in order to actually have privacy.
+    p With Telegram, this secret chat function is further restricted to a single device for each participant, making it easier to accidentally use the un-encrypted default chat.
+    3 #2: Open source to prove claims
+    p A privacy focused application needs to be open source so that it can be verified that the creators are actually doing what they claim they are. It is not an expectation that every standard user of the app would verify the code for themselves. It is only important that professional developers, and auditing companies are able to. Studies can be done, reports can be made, and bugs can be reported before they are exploited.
+    p There is no way to check if Facebook is actually doing what they claim with their end-to-end encryption in Whatsapp and Facebook Messenger Secret Conversations. Worse specific app sandboxing permissions could allow full access between Facebook’s app to your unencrypted data. There is no proof that they are doing any thing malicious, but the ability is there, and there isn’t a way to check if they are or not with closed source. Do you trust Facebook? 
+    p https://medium.com/@gzanon/no-end-to-end-encryption-does-not-prevent-facebook-from-accessing-whatsapp-chats-d7c6508731b2
+    3 #3 Valuable metadata doesn't leak
+    p stuff
+    p 
+    3 #4: No private data required
+    p stuff
+    3 #5: Easy to use
+    p stuff
+    3 #6: Clear communication when data policy is changed or user data is acquired
+    p stuff
+    3 #7: Decentralised & Peer-to-Peer
+    p stuff
+    3 #8: Encrypted temporary storage
+    p stuff
+    3 #9: How do they make money
+    p stuff
 `

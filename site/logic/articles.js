@@ -37,7 +37,7 @@ function Articles()
       {
         element.HtmlArticle = function(location)
         {
-          let result = `<a href='${inline.getInternalUrl(location, element.NAME.toLowerCase())}' class='article noDecoration'>`;
+          let result = `<a href='${inline.getInternalUrl(location, keys[k].toLowerCase())}' class='article noDecoration'>`;
           result += `<img src='media/small/${element.media.file}' class='articleImg articleBlackAndWhite radiusNormal'></img>`;
           // result += `<span class='fontSizeSmall colorMain marginTopNormal articleTitle'>${parent.capitalizeFirstLetter(element.NAME)}<span id='articleDesc'>: ${element.BREF}</span></span>
           result += `<span class='fontSizeSmall colorMain marginTopNormal articleTitle'>${element.NAME}</span>

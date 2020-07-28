@@ -25,6 +25,8 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-07-28 32- 6666 web        home            Tweaks and improvements to articles and text. Add vimeo embed.
+2020-07-28 48- 6475 contract   sylo            OG detail feedback. Invision flows feedback. Roadmap improvements.
 2020-07-27 32- 6666 web        home            Tweaks and improvements to articles.
 2020-07-27 91- 6363 contract   sylo            Adjusting messenger article.
 2020-07-27 46- 6666 contact    sylo            Food token.
