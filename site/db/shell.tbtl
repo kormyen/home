@@ -25,6 +25,17 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-08-08 
+2020-08-07 
+2020-08-06 
+2020-08-05 
+2020-08-04 
+2020-08-03 
+2020-08-02 
+2020-08-01 92- 6555 web        home            Porting articles from ghost site.
+2020-07-31 48- 6464 contract   sylo            New product site.
+2020-07-30 48- 6464 contract   sylo            New product site.
+2020-07-29 48- 6464 contract   sylo            Roadmap for monthly update. Roadmap redesign for website.
 2020-07-28 32- 6666 web        home            Tweaks and improvements to articles and text. Add vimeo embed.
 2020-07-28 48- 6475 contract   sylo            OG detail feedback. Invision flows feedback. Roadmap improvements.
 2020-07-27 32- 6666 web        home            Tweaks and improvements to articles.
