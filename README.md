@@ -19,11 +19,16 @@ Current benefits (compared to a static single-page client-side webapp)
 This setup would allow for a simple private nodejs frontend to do database additions and modifications then auto-rebuild the static public website.
 
 ## To do
-- Add writen article functionality
+- finish messenger article
+- finish journey article
+- handle inline *bold*
 - Add source image compression on build
 - Improve page/article/image/inline rendering options
 - Credit photographer tag on images
 - Add lightbox for images
+- Add tags to item cards
+- Add filtering by tags
+- Add new images
 
 ## Structure
 

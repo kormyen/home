@@ -387,18 +387,30 @@ header {
   margin-left: var(--size-columnPaddingMedium);
 }
 
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+}
+
 .sidebarContainer {
   z-index: 1000;
   height: calc(100% - var(--size-header-normal));
   max-height: 100%;
   position: absolute;
 }
+@media only screen and (max-width: 80em) /* MIN WIDTH REACHED */
+{
+  .sidebarContainer {
+    position: relative;
+    height: auto;
+  }
+}
+
 .sidebar {
   display: block;
   flex-shrink: 0;
   margin-top: var(--size-columnPaddingNormal);
   margin-bottom: var(--size-columnPaddingLarge);
-  /* font-size: var(--font-normal-min); */
   font-size: var(--font-normal);
   width: 30em;
   max-width: 14em;
@@ -411,11 +423,14 @@ header {
 {
   .sidebar {
     font-size: var(--font-small-min);
+    width: 100%;
+    max-width: 100%;
   }
 }
 @media screen and (min-width: 80em) { /* MAX WIDTH REACHED */
   .sidebar {
     font-size: var(--font-small-max);
+    position: auto;
   }
 }
 

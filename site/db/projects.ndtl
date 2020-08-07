@@ -24,11 +24,11 @@ SAILING
   TISA : the most stressful way to travel
   SECT : 1, 8
   BODY
-    p article first sail
-    p article visiting pino
-    p article sensei dominic
-    p article finding quest
-    p article horizon
+    p {link blog first-sail} 
+    p {link blog visiting-rabbits} 
+    p {link blog dominic-teaches-sailing} 
+    p {link blog finding-quest} 
+    p {link blog horizon} 
 
 HOME
   BREF : this website

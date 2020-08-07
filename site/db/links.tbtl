@@ -1,6 +1,8 @@
 var LINKS = `
-NAME               LABEL                                                     URL                                                                                             END
+NAME               LABEL                                                     URL                                                                                                        END
 neauoire           Neauoire                                                  https://wiki.xxiivv.com
+rekka              Rekka                                                     https://kokorobot.ca/
+rabbits            Hundred Rabbits                                           https://100r.co/
 pino               Pino                                                      https://100r.co/pages/pino.html
 dominic            Dominic Tarr                                              https://dominictarr.com
 techDegrades       technology degrades                                       https://www.youtube.com/watch?v=pW-SOdj4Kkk
@@ -102,4 +104,20 @@ brainVizApp        Brainwave Viz App                                         htt
 syncReferral       sync.com referral link                                    https://www.sync.com/?_sync_refer=c178eb780
 calmTech           Calm Tech                                                 https://calmtech.com/
 humaneAgenda       A New Agenda for Tech                                     https://vimeo.com/332532972
+journeyImmp        "I was born for this" by Immp                             http://kee-naa-puff.deviantart.com/art/I-was-born-for-this-357732391
+journeyFarooky     Journey by Farooky                                        http://farooky.deviantart.com/art/Journey-320480382
+journeyCinematic   Journey cinematic                                         https://www.youtube.com/watch?v=ZOmS50WbDe0
+journeyCinematic2  Journey cinematic                                         https://www.youtube.com/watch?v=tOR782dc-mk
+journeyManiac      Journey by ModestManiac                                   https://www.deviantart.com/modestmaniac/art/Journey-294638332
+journeySpoonfish   Journey by SpoonfishLee                                   http://spoonfishlee.deviantart.com/art/Journey-the-drop-369730001
+journeyLifetime    An entire lifetime                                        http://brutalgamer.com/2012/03/11/journeys-story-is-the-story-of-our-lives/
+journeyWanderer    Wanderer Sarta by Neko Art                                http://neko-art.deviantart.com/art/wanderer-Sarta-338733192
+journeyHero        A heroes journey                                          https://www.youtube.com/watch?v=hOuopA60kqU
+journeyLost        A lost loved one                                          http://portablesoldier.tumblr.com/post/20846896304/journey-a-review-from-the-heart
+journeyRebirth     rebirth, reincarnation                                    http://fuckyeahjourneythegame.tumblr.com/post/19941611643/i-like-to-believe-that-some-of-the-aspects-are
+journeyAfterlife   afterlife, heaven, redemption, limbo                      http://au.ign.com/articles/2012/03/06/journey-behind-the-scenes
+journeyFert        fertilisation                                             https://www.youtube.com/watch?v=fx3imhYJBic
+journeyUniversal   universal appeal                                          https://www.youtube.com/watch?v=hOuopA60kqU
+xkcd1179           relevant XKCD                                             https://xkcd.com/1179/
+wiki8601           Wikipedia: ISO 8601                                       https://en.wikipedia.org/wiki/ISO_8601
 `

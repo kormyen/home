@@ -59,7 +59,7 @@ function Articles()
         element.HtmlSidebar += `<br>`;
         if (element.TISA != null)
         {
-          element.HtmlSidebar += `${element.TISA}<br>`;
+          element.HtmlSidebar += `${inline.parse(element.TISA)}<br>`;
         }
         element.HtmlSidebar += `<br>`;
 
