@@ -17,17 +17,16 @@ function Pages()
 
       // Sidebar HTML
       element.HtmlSidebar = ``;
-			element.HtmlSidebar += `<div class='sidebar fontSizeSmall colorSecondary'>`;
-      element.HtmlSidebar += `${element.DESC}<br><br>`;
-      element.HtmlSidebar += `${inline.parse(element.DATE)}<br><br>`;
+			element.HtmlSidebar += `<div class='sidebar marginBottomLarge'>`;
+      element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary">${element.DESC}</p>`;
+      element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary">${inline.parse(element.DATE)}</p>`;
 
       // LINKS
       if (element.LINK)
       {
         for (let l = 0; l < element.LINK.length; l++)
         {
-          element.HtmlSidebar += inline.parse(element.LINK[l].substr(2));
-          element.HtmlSidebar += `<br><br>`;
+          element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary">${inline.parse(element.LINK[l].substr(2))}</p>`;
         }
       }
 

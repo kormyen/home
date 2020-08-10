@@ -46,7 +46,7 @@ function Articles()
 
         // Sidebar HTML
         element.HtmlSidebar = ``;
-        element.HtmlSidebar += `<div class='sidebar'>`;
+        element.HtmlSidebar += `<div class='sidebar marginBottomLarge'>`;
         element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary">Posted: ${element.DATE}</p>`;
 
         if (element.EDIT != null)

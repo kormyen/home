@@ -18,8 +18,8 @@ Current benefits (compared to a static single-page client-side webapp)
 This setup would allow for a simple private nodejs frontend to do database additions and modifications then auto-rebuild the static public website.
 
 ## To do release
-- fix post page misc text on medium and small width
-- add posts to footer
+- fix font size too large in sidebar on full screen
+- add posts link to footer
 - make footer into flex display to handle small screen
 - order by time posts in /posts
 - format post link names properly (sailing proj page)
