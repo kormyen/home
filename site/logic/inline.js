@@ -19,7 +19,7 @@ function Inline()
 
         if (BUILD)
         {
-            if (func == 'project' || func == 'thought' || func == 'note' || func == 'blog')
+            if (func == 'project' || func == 'post')
             {
                 result += `/${func}s/${name.replace(/ /g, `-`)}`;
             }
@@ -34,7 +34,7 @@ function Inline()
         }
         else
         {
-            if (func == 'project' || func == 'thought' || func == 'note' || func == 'blog')
+            if (func == 'project' || func == 'post')
             {
                 result += `#${func}-${name.replace(/ /g, `-`)}`;
             }
@@ -102,7 +102,7 @@ function Inline()
                         optionalLabel = fullText.split("'")[1]; 
                     }
                     
-                    if (func == "project" || func == "page" || func == "thought" || func == "note" || func == "blog")
+                    if (func == "project" || func == "page" || func == "post")
                     {
                         // INTERNAL LINK
                         const url = parent.getInternalUrl(func, pageName);

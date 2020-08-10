@@ -25,13 +25,17 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
-2020-08-08 
-2020-08-07 
-2020-08-06 
-2020-08-05 
-2020-08-04 
-2020-08-03 
-2020-08-02 
+2020-08-11 48- xxxx contract   sylo            
+2020-08-11 31- 6565 web        home            Todo adds. Improve sidebar on small/med width.
+2020-08-10 47- 5374 contract   sylo            New project site continued.
+2020-08-09 31- 4655 web        home            More post related stuff
+2020-08-08 31- 6555 web        home            Setting up ordered posts
+2020-08-07 31- 6555 web        home            Working on articles
+2020-08-07 48- 6464 contract   sylo            New product site. Marketing stuff.
+2020-08-06 48- 6464 contract   sylo            New product site. Marketing stuff. Pitch stuff.
+2020-08-05 48- 6464 contract   sylo            New product site. Pitch stuff.
+2020-08-04 48- 6464 contract   sylo            New product site. 
+2020-08-03 48- 6464 contract   sylo            New product site. 
 2020-08-01 92- 6555 web        home            Porting articles from ghost site.
 2020-07-31 48- 6464 contract   sylo            New product site.
 2020-07-30 48- 6464 contract   sylo            New product site.

@@ -13,9 +13,10 @@ function Index()
 
 	this.focus = null;
 	this.photos = null;
-	this.thoughts = null;
-	this.notes = null;
-	this.blogs = null;
+	this.posts = null;
+	// this.thoughts = null;
+	// this.notes = null;
+	// this.blogs = null;
 
 	this.nav = null;
 	this.footer = null;
@@ -52,12 +53,14 @@ function Index()
 		this.focus.install(this.log, this.projects);
 		this.photos = new Photos();
 		this.photos.install(this.media);
-		this.thoughts = new Thoughts();
-		this.thoughts.install(this.articles);
-		this.notes = new Notes();
-		this.notes.install(this.articles);
-		this.blogs = new Blogs();
-		this.blogs.install(this.articles);
+		this.posts = new Posts();
+		this.posts.install(this.articles);
+		// this.thoughts = new Thoughts();
+		// this.thoughts.install(this.articles);
+		// this.notes = new Notes();
+		// this.notes.install(this.articles);
+		// this.blogs = new Blogs();
+		// this.blogs.install(this.articles);
 
 		this.nav = new Nav();
 		this.nav.install(this.inline);
@@ -82,9 +85,10 @@ function Index()
 			// OVERVIEW
 			this.focus.start();
 			this.photos.start();
-			this.thoughts.start();
-			this.notes.start();
-			this.blogs.start();
+			this.posts.start();
+			// this.thoughts.start();
+			// this.notes.start();
+			// this.blogs.start();
 
 			let data = this.pages.get('index');
 			this.header.setImage(this.media.getByDate(data.HEAD));
@@ -112,33 +116,15 @@ function Index()
 				
 				<section class="marginTopLarge">
 					<div class="marginBottomNormal fontSizeNormal">
-						<span class="colorSecondary">Recent <a class='subtleLink' href="${this.inline.getInternalUrl('page', 'thoughts')}">thoughts</a> of ${this.thoughts.getCount()}</span>
+						<span class="colorSecondary">Recent <a class='subtleLink' href="${this.inline.getInternalUrl('page', 'posts')}">posts</a> of ${this.posts.getCount()}</span>
 					</div>
 					<div class="flexboxRow flexboxWrapToggle trippleArticleContainer" id="thoughtContainer">
 					</div>
-				</section>
-				
-				<section class="marginTopLarge">
-					<div class="marginBottomNormal fontSizeNormal">
-						<span class="colorSecondary">Recent <a class='subtleLink' href="${this.inline.getInternalUrl('page', 'notes')}">notes</a> of ${this.notes.getCount()}</span>
-					</div>
-					<div class="flexboxRow flexboxWrapToggle trippleArticleContainer" id="noteContainer">
-					</div>
-				</section>
-				
-				<section class="marginTopLarge">
-					<div class="marginBottomNormal fontSizeNormal">
-						<span class="colorSecondary">Recent <a class='subtleLink' href="${this.inline.getInternalUrl('page', 'blog')}">blog</a> posts of ${this.blogs.getCount()}</span>
-					</div>
-					<div class="flexboxRow flexboxWrapToggle trippleArticleContainer" id="blogContainer">
-					</div>
 				</section>`;
-
+				
 			this.focus.display(document.querySelector('#focusContainer'));
 			this.photos.display(document.querySelector('#photoContainer'));
-			this.thoughts.display(document.querySelector('#thoughtContainer'));
-			this.notes.display(document.querySelector('#noteContainer'));
-			this.blogs.display(document.querySelector('#blogContainer'));
+			this.posts.display(document.querySelector('#thoughtContainer'));
 		}
 		else if (target == 'photos')
 		{
@@ -185,7 +171,7 @@ function Index()
 
 			this.main.innerHTML = htmlContent;
 		}
-		else if (target == 'notes')
+		else if (target == 'posts')
 		{
 			let data = this.pages.get(target);
 			this.header.setImage(this.media.getByDate(data.HEAD));
@@ -193,63 +179,15 @@ function Index()
 			htmlContent = ``;
 
 			let navData = [];
-			navData.oneName = `Notes`;
-			htmlContent += this.nav.create(navData);
-			htmlContent += `<div class='listContainer'>`;
-
-			htmlContent += `<div class='projectList'>`;
-			let list = this.articles.filterType(`notes`);
-			const keys = Object.keys(list);
-			for (let k = 0; k < keys.length; k++)
-			{
-				let element = list[keys[k]];
-				htmlContent += element.HtmlArticle(`note`);
-			}
-			htmlContent += '</div>'; // end projectList
-
-			this.main.innerHTML = htmlContent;
-		}
-		else if (target == 'thoughts')
-		{
-			let data = this.pages.get(target);
-			this.header.setImage(this.media.getByDate(data.HEAD));
-			htmlContent = ``;
-
-			let navData = [];
-			navData.oneName = `Thoughts`;
+			navData.oneName = `Posts`;
 			htmlContent += this.nav.create(navData);
 
 			htmlContent += `<div class='projectList'>`;
-			let list = this.articles.filterType(`thoughts`);
-			const keys = Object.keys(list);
-			for (let k = 0; k < keys.length; k++)
+			let list = this.articles.getAll();
+			for (let k = 0; k < list.length; k++)
 			{
-				let element = list[keys[k]];
-				htmlContent += element.HtmlArticle(`thought`);
+				htmlContent += list[k].HtmlArticle(`post`);
 			}
-			htmlContent += '</div>'; // end projectList
-
-			this.main.innerHTML = htmlContent;
-		}
-		else if (target == 'blog')
-		{
-			let data = this.pages.get(target);
-			this.header.setImage(this.media.getByDate(data.HEAD));
-			htmlContent = ``;
-
-			let navData = [];
-			navData.oneName = `Blog`;
-			htmlContent += this.nav.create(navData);
-
-			htmlContent += `<div class='projectList'>`;
-			let list = this.articles.filterType(`blog`);
-			const keys = Object.keys(list);
-			for (let k = 0; k < keys.length; k++)
-			{
-				let element = list[keys[k]];
-				htmlContent += element.HtmlArticle(`blog`);
-			}
-			htmlContent += '</div>'; // end projectList
 
 			this.main.innerHTML = htmlContent;
 		}
@@ -290,9 +228,9 @@ function Index()
 
 			this.main.innerHTML = htmlContent;
 		}
-		else if (target.substr(0, 7) == 'thought')
+		else if (target.substr(0, 4) == 'post')
 		{
-			target = target.substr(8);
+			target = target.substr(5);
 			target = target.replace(/-/g,` `);
 			let data = this.articles.get(target);
 			this.header.setImage(data.media);
@@ -300,51 +238,11 @@ function Index()
 
 			// Sidebar
 			let navData = [];
-			navData.oneName = `Thoughts`;
-			navData.oneLink = this.inline.getInternalUrl('page', 'thoughts');
+			navData.oneName = `Posts`;
+			navData.oneLink = this.inline.getInternalUrl('page', 'posts');
 			navData.twoName = data.NAME;
 			htmlContent += this.nav.create(navData);
 			
-			// Article
-			htmlContent += this.pages.buildArticle(data.HtmlSidebar, data.HtmlBody);
-
-			this.main.innerHTML = htmlContent;
-		}
-		else if (target.substr(0, 4) == 'note')
-		{
-			target = target.substr(5);
-			target = target.replace(/-/g,` `);
-			let data = this.articles.get(target);
-			this.header.setImage(data.media);
-			let htmlContent = ``;
-
-			// Sidebar
-			let navData = [];
-			navData.oneName = `Notes`;
-			navData.oneLink = this.inline.getInternalUrl('page', 'notes');
-			navData.twoName = data.NAME;
-			htmlContent += this.nav.create(navData);
-
-			// Article
-			htmlContent += this.pages.buildArticle(data.HtmlSidebar, data.HtmlBody);
-
-			this.main.innerHTML = htmlContent;
-		}
-		else if (target.substr(0, 4) == 'blog')
-		{
-			target = target.substr(5);
-			target = target.replace(/-/g,` `);
-			let data = this.articles.get(target);
-			this.header.setImage(data.media);
-			let htmlContent = ``;
-
-			// Sidebar
-			let navData = [];
-			navData.oneName = `Blog`;
-			navData.oneLink = this.inline.getInternalUrl('page', 'blog');
-			navData.twoName = data.NAME;
-			htmlContent += this.nav.create(navData);
-
 			// Article
 			htmlContent += this.pages.buildArticle(data.HtmlSidebar, data.HtmlBody);
 

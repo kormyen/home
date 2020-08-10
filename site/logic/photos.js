@@ -4,7 +4,7 @@ function Photos()
 {
   this.media = null;
   this.content = null;
-  this.photoCount;
+  this.dbLength;
 
   this.install = function(media)
   {
@@ -18,7 +18,7 @@ function Photos()
 
     const filtered = this.media.filterNotHeaders(this.media.db);
     const photosOnly = this.media.filterPhotos(filtered);
-    this.photoCount = photosOnly.length;
+    this.dbLength = photosOnly.length;
 
     const sorted = this.media.sortByScore(photosOnly);
     
@@ -34,7 +34,7 @@ function Photos()
 
   this.getCount = function()
   {
-    return this.photoCount;
+    return this.dbLength;
   }
 
   this.display = function(container)

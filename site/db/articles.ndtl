@@ -6,7 +6,7 @@ VISITING RABBITS
   TAGS : sailing
   TYPE : blog
   HEAD : 2017-11-05_17-53
-  DATE : 2020-06-22
+  DATE : 2019-07-14
   CHNG : 0
   PUBL : true
   BODY
@@ -24,7 +24,7 @@ DOMINIC TEACHES SAILING
   TAGS : sailing
   TYPE : blog
   HEAD : 2019-01-19_15-53
-  DATE : 2020-06-22
+  DATE : 2019-07-14
   CHNG : 0
   PUBL : true
   BODY
@@ -51,7 +51,7 @@ FINDING QUEST
   TAGS : sailing
   TYPE : blog
   HEAD : 2019-03-03_10-13
-  DATE : 2020-06-22
+  DATE : 2019-07-14
   CHNG : 0
   PUBL : true
   BODY
@@ -82,7 +82,7 @@ HORIZON
   TAGS : sailing
   TYPE : blog
   HEAD : 2019-03-23_19-27
-  DATE : 2020-06-22
+  DATE : 2019-07-14
   CHNG : 0
   PUBL : true
   BODY
@@ -112,9 +112,9 @@ FIRST SAIL
   TAGS : sailing
   TYPE : blog
   HEAD : 2017-01-12_17-40
-  DATE : 2020-06-22
+  DATE : 2019-07-14
   CHNG : 0
-  PUBL : true
+  PUBL : false
   BODY
     p {image 2017-01-12_17-40 ir} My first sailing experience was with my Aunt Karen, Uncle Peter, my Dad and two crazy cousins Lara and Chloe in Australia for a week around 1999. 
     p I don't recall specifically where we went, but I cherish the memories of adventuring:
@@ -202,10 +202,10 @@ TOOLS I USE
   BREF : Things I use
   HEAD : 2019-07-08_23-31
   TYPE : notes
-  DATE : 2019-06-03
+  DATE : 2020-06-03
   EDIT : 2020-06-04
   CHNG : 2
-  PUBL : true
+  PUBL : false
   BODY
     p I recognize that using open source, privacy focused tools is important. If not for my current self, then my potential future self, protestors, journalists, and refugees.
     p I list these to share things I think are good, and in hopes someone has suggestions of improvement, or as benefit to others.
@@ -412,17 +412,6 @@ PLASTIC OCEAN
     p "Stop obsessing over your environmental 'sins.' Fight the oil and gas industry instead."  {link ext recycleDontCare}
     p If you have a hose spraying water everywhere getting things undesirably wet, do you try to catch every drop of water or turn the hose off?
 
-VEGETABLES
-  TAGS : life
-  DATE : 2019
-  HEAD : 2019-04-15_16-25
-  TYPE : thoughts
-  BREF : eating
-  PUBL : false
-  BODY
-    p {link ext animsent}
-    p https://www.theguardian.com/environment/2020/jun/19/why-you-should-go-animal-free-arguments-in-favour-of-meat-eating-debunked-plant-based
-
 SENSORY DEPREVATION FLOAT
   BREF : sensory deprevation tank
   TAGS : life
@@ -456,10 +445,13 @@ HUMANE CALM
   HEAD : 2019-04-13_07-01
   TYPE : notes
   DATE : 2018-07-20
-  PUBL : true
+  PUBL : false
   LINK
     - {link ext calmTech}
     - {link ext humaneAgenda}
+    - {link ext leanPlea}
+    - {link ext aptivateGuidelines}
+    - {link ext websiteObesity}
   BODY
     v 332532972
     p 
@@ -827,7 +819,7 @@ MESSENGER MUSTS
   TYPE : thoughts
   HEAD : 2016-02-14_00-02
   DATE : 2020-07-28
-  PUBL : true
+  PUBL : false
   BODY
     p Apps like Telegram, Facebook Messenger and Whatsapp claim privacy and are great at PR -  they hit key metrics in specific ways, letting people believe they are respecting privacy while failing their user's in deliberate technical ways.
     p Here is what to look for in a messenger:
@@ -948,6 +940,8 @@ VEGETABLES
   EDIT : 2017-01-31
   PUBL : false
   BODY
+    p {link ext animsent}
+    p https://www.theguardian.com/environment/2020/jun/19/why-you-should-go-animal-free-arguments-in-favour-of-meat-eating-debunked-plant-based
     p Maybe the below is naive, maybe I will look back and face-palm - time will tell. 
     p Either way I think this is probably a good thing to question.
     p 
@@ -1163,7 +1157,7 @@ VAN??
   HEAD : 2018-01-20_12-00
   DATE : 2017-01-10
   EDIT : 2017-02-01, 2017-02-10
-  PUBL : true
+  PUBL : false
   BODY
     p This article is about the whys, hows and whats of my \"Van Life\" experiment - to live in a van!
     p 
@@ -1388,7 +1382,7 @@ SWORDY EA RELEASE!
   HEAD : 2018-01-20_12-00
   DATE : 2016-07-22
   EDIT : 2017-01-19, 2017-02-01
-  PUBL : true
+  PUBL : false
   BODY
     p We did it! Swordy is up [on Steam Early Access](http://store.steampowered.com/app/467900)!
     p 
@@ -1775,6 +1769,4 @@ MIGW AND PAX 14
     p - Food: $500
     p 
     p **TOTAL: $6000**
-    p 
-    p 
 `

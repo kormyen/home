@@ -31,7 +31,7 @@ function Runelike()
         {
             const rune = l.substr(0, 1);
             if (rune === ';') { return false } // Comment ;
-            if (l.substr(1, 1) !== ' ') { console.warn('Non-Runic', l); return false; }
+            // if (l.substr(1, 1) !== ' ') { console.warn('Non-Runic', l); return false; }
             if (!runes[rune]) { console.warn(`Non-Runic[${rune}]`, l); return false; }
             return true;
         }

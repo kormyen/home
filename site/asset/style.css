@@ -410,25 +410,25 @@ header {
   display: block;
   flex-shrink: 0;
   margin-top: var(--size-columnPaddingNormal);
-  margin-bottom: var(--size-columnPaddingLarge);
+  margin-bottom: var(--size-columnPaddingNormal);
   font-size: var(--font-normal);
-  width: 30em;
-  max-width: 14em;
   left: 5vw;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: var(--size-columnPaddingLarge);
+  width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media only screen and (max-width: 50em) /* MIN WIDTH REACHED */
 {
   .sidebar {
     font-size: var(--font-small-min);
-    width: 100%;
-    max-width: 100%;
   }
 }
 @media screen and (min-width: 80em) { /* MAX WIDTH REACHED */
   .sidebar {
+    max-width: 14em;
     font-size: var(--font-small-max);
     position: auto;
   }
@@ -449,7 +449,7 @@ header {
 }
 
 .articleBody {
-  max-width: 40em;
+  max-width: 40rem;
   margin-left: auto;
   margin-right: auto;
 }

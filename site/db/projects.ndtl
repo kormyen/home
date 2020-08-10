@@ -24,11 +24,11 @@ SAILING
   TISA : the most stressful way to travel
   SECT : 1, 8
   BODY
-    p {link blog first-sail} 
-    p {link blog visiting-rabbits} 
-    p {link blog dominic-teaches-sailing} 
-    p {link blog finding-quest} 
-    p {link blog horizon} 
+    p {link post first-sail} 
+    p {link post visiting-rabbits} 
+    p {link post dominic-teaches-sailing} 
+    p {link post finding-quest} 
+    p {link post horizon} 
 
 HOME
   BREF : this website

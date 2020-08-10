@@ -8,13 +8,16 @@ function Articles()
 
   this.install = function(data, media, runelike, inline)
   {
-    this.db = new Indental(data).parse();
+    let tempDb = new Indental(data).parse();
+    let results = [];
 
     // Parse project db into usable format
-    const keys = Object.keys(this.db);
+    const keys = Object.keys(tempDb);
     for (let k = 0; k < keys.length; k++)
     {
-      let element = this.db[keys[k]];
+      let element = tempDb[keys[k]];
+
+      element.KEY = keys[k];
 
       if (element.NAME == undefined)
       {
@@ -26,11 +29,6 @@ function Articles()
 
       // Media
       element.media = media.getByDate(element.HEAD);
-      // if (element.media.length > 1)
-      // {
-      //   element.media = media.filterOverview(element.media);
-      //   element.media.sort((a, b) => b.quality - a.quality);
-      // }
  
       // Article HTML
       if (element.PUBL == "true")
@@ -48,36 +46,35 @@ function Articles()
 
         // Sidebar HTML
         element.HtmlSidebar = ``;
-        element.HtmlSidebar += `<div class='sidebar fontSizeSmall colorSecondary'>`;
-        element.HtmlSidebar += `Posted: ${element.DATE}<br>`;
+        element.HtmlSidebar += `<div class='sidebar'>`;
+        element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary">Posted: ${element.DATE}</p>`;
 
         if (element.EDIT != null)
         {
-          element.HtmlSidebar += `Last edit: ${element.EDIT}<br>`;
+          element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary">Last edit: ${element.EDIT}</p>`;
         }
 
-        element.HtmlSidebar += `<br>`;
         if (element.TISA != null)
         {
-          element.HtmlSidebar += `${inline.parse(element.TISA)}<br>`;
+          element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary">${inline.parse(element.TISA)}</p>`;
         }
-        element.HtmlSidebar += `<br>`;
 
         // LINKS
         if (element.LINK)
         {
-          element.HtmlSidebar += `<br>`;
           for (let l = 0; l < element.LINK.length; l++)
           {
-            element.HtmlSidebar += inline.parse(element.LINK[l].substr(2));
-            element.HtmlSidebar += `<br>`;
+            element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary">${inline.parse(element.LINK[l].substr(2))}</p>`;
           }
         }
       }
 
 			element.HtmlSidebar += `</div>`; // sidebar
 
-      this.db[keys[k]] = element;
+      if (element.PUBL == "true")
+      {
+        this.db.push(element);
+      }
     }
   }
 
@@ -85,12 +82,11 @@ function Articles()
   {
     let results = [];
 
-    const keys = Object.keys(this.db);
-    for (let k = 0; k < keys.length; k++)
+    for (let k = 0; k < this.db.length; k++)
     {
-      if ((this.db[keys[k]].PUBL == "true") && (this.db[keys[k]].TYPE == query))
+      if ((this.db[k].PUBL == "true") && (this.db[k].TYPE == query))
       {
-        results.push(this.db[keys[k]]);
+        results.push(this.db[k]);
       }
     }
 
@@ -99,7 +95,13 @@ function Articles()
 
   this.get = function(query)
   {
-    return this.db[query.toUpperCase()];
+    for (let k = 0; k < this.db.length; k++)
+    {
+      if (this.db[k].KEY == query.toUpperCase())
+      {
+        return this.db[k];
+      }
+    }
   }
 
   this.getAll = function()
@@ -111,5 +113,13 @@ function Articles()
   {
       string = string.toLowerCase();
       return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+
+  this.sortByDate = function(dataset)
+  {
+    return dataset.slice(0).sort(function(a,b) 
+    { 
+      return ((a.DATE < b.DATE) ? -1 : ((a.DATE > b.DATE) ? 1 : 0));
+    }).reverse();
   }
 }

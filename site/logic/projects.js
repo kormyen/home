@@ -13,7 +13,6 @@ function Projects()
 
     // Parse project db into usable format
     const keys = Object.keys(this.db);
-    console.log(keys.length)
     this.dbLength = keys.length;
 
     for (let k = 0; k < keys.length; k++)
