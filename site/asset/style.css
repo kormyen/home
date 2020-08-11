@@ -626,9 +626,17 @@ footer {
   text-align: center;
   height: var(--size-mainPadding);
 }
+#footerSocial > * {
+  margin-left: var(--size-columnPaddingMedium);
+  margin-right: var(--size-columnPaddingMedium);
+}
 @media only screen and (max-width: 50em) /* MIN WIDTH REACHED */
 {
   #footerSocial {
     text-align: left;
+  }
+  #footerSocial > * {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
