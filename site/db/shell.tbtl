@@ -25,7 +25,8 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
-2020-08-11 48- xxxx contract   sylo            
+2020-08-12 31- 5555 web        home            Footer improve. 
+2020-08-11 48- 6464 contract   sylo            New product content. NFT article feedback and images.
 2020-08-11 31- 6565 web        home            Todo adds. Improve sidebar on small/med width.
 2020-08-10 47- 5374 contract   sylo            New project site continued.
 2020-08-09 31- 4655 web        home            More post related stuff

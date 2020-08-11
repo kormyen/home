@@ -19,8 +19,6 @@ This setup would allow for a simple private nodejs frontend to do database addit
 
 ## To do release
 - fix font size too large in sidebar on full screen
-- make footer into flex display to handle small width
-- format post link names nicer (sailing proj page)
 - set meta OG images and descriptions for all project/photo/post/projects/photos/about/log etc pages
 
 ## Post formatting
@@ -54,6 +52,7 @@ This setup would allow for a simple private nodejs frontend to do database addit
 - flow
 
 ## To do improvements
+- format post link names nicer (sailing proj page)
 - handle super wide resolution
 - handle inline *bold*
 - Credit photographer tag on images
