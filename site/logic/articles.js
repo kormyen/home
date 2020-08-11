@@ -9,7 +9,6 @@ function Articles()
   this.install = function(data, media, runelike, inline)
   {
     let tempDb = new Indental(data).parse();
-    let results = [];
 
     // Parse project db into usable format
     const keys = Object.keys(tempDb);
@@ -76,6 +75,12 @@ function Articles()
         this.db.push(element);
       }
     }
+
+    // Sort by date
+    this.db.sort(function(a,b) 
+    { 
+      return ((a.DATE < b.DATE) ? -1 : ((a.DATE > b.DATE) ? 1 : 0));
+    }).reverse();
   }
 
   this.filterType = function(query)
@@ -113,13 +118,5 @@ function Articles()
   {
       string = string.toLowerCase();
       return string.charAt(0).toUpperCase() + string.slice(1);
-  }
-
-  this.sortByDate = function(dataset)
-  {
-    return dataset.slice(0).sort(function(a,b) 
-    { 
-      return ((a.DATE < b.DATE) ? -1 : ((a.DATE > b.DATE) ? 1 : 0));
-    }).reverse();
   }
 }

@@ -19,10 +19,9 @@ This setup would allow for a simple private nodejs frontend to do database addit
 
 ## To do release
 - fix font size too large in sidebar on full screen
-- add posts link to footer
-- make footer into flex display to handle small screen
-- order by time posts in /posts
-- format post link names properly (sailing proj page)
+- make footer into flex display to handle small width
+- format post link names nicer (sailing proj page)
+- set meta OG images and descriptions for all project/photo/post/projects/photos/about/log etc pages
 
 ## Post formatting
 - gamelab notes
@@ -54,16 +53,19 @@ This setup would allow for a simple private nodejs frontend to do database addit
 - van insulation
 - flow
 
-## To do next
+## To do improvements
 - handle super wide resolution
 - handle inline *bold*
-- Add source image compression on build
 - Credit photographer tag on images
+- Paralax on header image?
+
+## To do features
 - Add lightbox for images
 - Add tags to item cards
 - Add filtering by tags
 - Add new photos
 - Add sketches
+- Add source image compression on build
 
 ## Structure
 - `server` folder is the build script.

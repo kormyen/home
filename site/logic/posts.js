@@ -15,9 +15,7 @@ function Posts()
   {
     let all = this.articles.getAll();
     this.dbLength = all.length;
-
-    let sorted = this.articles.sortByDate(all);
-    let limited = sorted.slice(0, 3);
+    let limited = all.slice(0, 3);
 
     this.content = ``;
     for (var i = 0; i < limited.length; i++)
