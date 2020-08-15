@@ -18,7 +18,7 @@ Current benefits (compared to a static single-page client-side webapp)
 This setup would allow for a simple private nodejs frontend to do database additions and modifications then auto-rebuild the static public website.
 
 ## To do release
-- fix font size too large in sidebar on full screen
+- set article content width to ch so doesn't move text around on resize
 - set meta OG images and descriptions for all project/photo/post/projects/photos/about/log etc pages
 
 ## Post formatting
@@ -27,7 +27,7 @@ This setup would allow for a simple private nodejs frontend to do database addit
 - humane calm
 - messenger article
 - van??
-- swordy Ea release
+- swordy ea release
 - migw and pax 14
 - tools i use (needs image)
 - first sail (needs image)

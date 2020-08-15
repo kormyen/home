@@ -50,7 +50,7 @@ function Articles()
 
         if (element.EDIT != null)
         {
-          element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary">Last edit: ${element.EDIT}</p>`;
+          element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary">Edited: ${element.EDIT}</p>`;
         }
 
         if (element.TISA != null)
