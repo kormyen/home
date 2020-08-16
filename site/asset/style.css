@@ -415,7 +415,7 @@ header {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: var(--size-columnPaddingLarge);
-  width: 40rem;
+  max-width: 40rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -423,6 +423,12 @@ header {
   .sidebar {
     position: auto;
     width: 15rem;
+  }
+}
+@media only screen and (max-width: 50em) /* MIN WIDTH REACHED */
+{
+  .sidebar {
+    width: 100%;
   }
 }
 
