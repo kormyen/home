@@ -124,37 +124,43 @@ FIRST SAIL
     p Receiving creatively insulting poem readings by Chloe
     p A strange enacted prison island with prison guards who made me (try to) yell in fake pain from a torture demonstration...
 
-GAMELAB NOTES
+INIDE GAMEDEV LESSONS
   TAGS : gamedev
   TYPE : notes
+  TISA : Notes on "17 lessons learned" in indie gamedev
+  HEAD : 2020-08-16_14-33
   DATE : 2014-07-25
   EDIT : 2020-06-04
   CHNG : 0
-  PUBL : false
+  PUBL : true
+  LINK
+    - {link ext rami17lessons}
+    - {link ext vlambeerToolkit}
   BODY
-    p Rami Gamelab lessons
-    p Lesson 1 "Why" is the biggest question.
-    p Lesson 2 Design is communication.
-    p Lesson 3 Be a little less normal.
-    p Lesson 4 Give more than you take.
-    p Lesson 5 Honesty helps make better games.
+    y fQhPGJQhtak
+    p This is notes on the video above - Rami Ismail's Gamelab 2015 lecture "17 lessons I learned while running a chaotic game studio"
+    p Lesson 1: "Why" is the biggest question.
+    p Lesson 2: Design is communication.
+    p Lesson 3: Be a little less normal.
+    p Lesson 4: Give more than you take.
+    p Lesson 5: Honesty helps make better games.
     p Be prepared for surprise game pitching.
     p Take business seriously.
-    p Lesson 6 Don't take business seriously.
+    p Lesson 6: Don't take business seriously.
     p Lesson 7 
-    p Lesson 8 I'm a fraud & so are you.
-    p Lesson 9 Motivation is the most important thing we have.
-    p Lesson 10 Ideas are cheap.
-    p LEsson 11 Failure is good.
-    p Lesson 12 An industry is people.
-    p Lesson 13 Everything is a remix.
-    p Lesson 14 Your game can talk to you, too.
-    p Lesson 15 Don't rely on patterns.
-    p Lesson 16 The world is out there.
-    p Lesson 17 You can't make the game in your head.
-    p Lesson 18 Don't definate things for others.
-    p Lesson 19 Decide, don't accept.
-    p Lesson 20 Go on already.
+    p Lesson 8: I'm a fraud & so are you.
+    p Lesson 9: Motivation is the most important thing we have.
+    p Lesson 10: Ideas are cheap.
+    p LEsson 11: Failure is good.
+    p Lesson 12: An industry is people.
+    p Lesson 13: Everything is a remix.
+    p Lesson 14: Your game can talk to you, too.
+    p Lesson 15: Don't rely on patterns.
+    p Lesson 16: The world is out there.
+    p Lesson 17: You can't make the game in your head.
+    p Lesson 18: Don't define things for others.
+    p Lesson 19: Decide, don't accept.
+    p Lesson 20: Go on already.
 
 WHY CRYPTO
   TYPE : thoughts

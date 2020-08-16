@@ -18,11 +18,9 @@ Current benefits (compared to a static single-page client-side webapp)
 This setup would allow for a simple private nodejs frontend to do database additions and modifications then auto-rebuild the static public website.
 
 ## To do release
-- set article content width to ch so doesn't move text around on resize
 - set meta OG images and descriptions for all project/photo/post/projects/photos/about/log etc pages
 
 ## Post formatting
-- gamelab notes
 - soul food
 - humane calm
 - messenger article
