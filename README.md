@@ -21,17 +21,17 @@ This setup would allow for a simple private nodejs frontend to do database addit
 - set meta OG images and descriptions for all project/photo/post/projects/photos/about/log etc pages
 
 ## Post formatting
-- soul food
-- humane calm
-- messenger article
-- van??
-- swordy ea release
-- migw and pax 14
 - tools i use (needs image)
 - first sail (needs image)
 - crusifix (needs final image)
+- soul food
+- van??
+- swordy ea release
+- migw and pax 14
 
 ## Post writing
+- messenger article
+- humane calm
 - Swordy project page
 - why crypto
 - why privacy
