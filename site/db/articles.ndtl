@@ -19,7 +19,7 @@ VISITING RABBITS
     p My vanlife experiences let me see that tiny homes are perfectly acceptable. A sense of adventure and becoming a "sum of those closest to you" nudged me toward actually deciding to "learn how to sail in the future"... "I'll buy a boat in five years".
     p While working on {link project sylo} I became good friends with Sasha who was very keen to learn sailing. I introduced him to {link ext joranKikke 'Joran'} and {link ext dominic 'Dominic'}.
 
-DOMINIC TEACHES SAILING
+SAILING LESSON
   BREF : Sailing training with a cyber hobo
   TAGS : sailing
   TYPE : blog
@@ -32,10 +32,9 @@ DOMINIC TEACHES SAILING
     p {link ext dominic 'Dominic'} describes himself as a "cyberhobo" and is probably the most interesting person I know. He very much {link ext magicians 'looks like a magician'} to me. I very much appreciate his teaching, patience and stories.
     p {image 2019-01-19_11-59 il} {image 2019-01-19_12-12 ir} 
     p In saying that his self built folding dinghy is an experience in which if you can bail faster than the water flows then in everything will be fine. It is the first test to see if you are ready to board Cleo.
-    p {image 2019-01-19_12-13 il} {image 2019-01-19_15-53 ir} 
+    i 2019-01-19_12-13
     p We slowly sailed to Browns Island from Mission Bay. We swam ashore and hiked the small Windows XP landscape, enjoying the 360 degree view of Auckland city, Rangitoto Island and the Hauraki Gulf. It's feels as if it is very literally a picnic island.
     i 2019-01-19_15-46
-    i 2019-01-19_15-56
     i 2019-01-19_16-28
     p We decided that instead of sailing back, we would sail to Waiheke Island stay a night and sail home in the morning.
     p The two day lesson gave Sasha and I a good all round taste from low wind sailing, sunny windy sailing, and strong wind rainy sailing.
@@ -68,14 +67,13 @@ FINDING QUEST
     p Below is the unedited sunset view on the way back. By this point (though defeated) we were calm, drinking tea and enjoying the surreal setting light.
     i 2019-02-23_19-43
     p On our second attempt we brought along my friend {link ext alexey}, and did the trip over two days, stopping off at Rakino Island.
-    i 2019-03-03_10-13
     i 2019-03-02_08-41
     i 2019-03-03_15-00
     p {link ext alexey 'Alexey'} took some amazing photos and also made a video.
     y AThaJHPu1xc
+    p We kept Quest on a mooring in Stanley bay which we thought was an amazing location. It turns out to be a terrible location. Rocky with harbour waves and constant passing boat wakes. Completely unsuitable for doing anything other than leaving immediately. We have since moved Quest to a calm pile mooring in Panmure.
     i 2019-03-03_19-17
     i 2019-07-08_23-31
-    p We kept Quest on a mooring in Stanley bay which we thought was an amazing location. It turns out to be a terrible location. Rocky with harbour waves and constant passing boat wakes. Completely unsuitable for doing anything other than leaving immediately. We have since moved Quest to a calm pile mooring in Panmure.
 
 HORIZON
   BREF : Another boat
@@ -124,7 +122,7 @@ FIRST SAIL
     p Receiving creatively insulting poem readings by Chloe
     p A strange enacted prison island with prison guards who made me (try to) yell in fake pain from a torture demonstration...
 
-INIDE GAMEDEV LESSONS
+INDIE GAMEDEV LESSONS
   TAGS : gamedev
   TYPE : notes
   TISA : Notes on "17 lessons learned" in indie gamedev
@@ -151,7 +149,7 @@ INIDE GAMEDEV LESSONS
     p Lesson 8: I'm a fraud & so are you.
     p Lesson 9: Motivation is the most important thing we have.
     p Lesson 10: Ideas are cheap.
-    p LEsson 11: Failure is good.
+    p Lesson 11: Failure is good.
     p Lesson 12: An industry is people.
     p Lesson 13: Everything is a remix.
     p Lesson 14: Your game can talk to you, too.
@@ -731,7 +729,6 @@ VR
   DATE : 2014-06-11
   PUBL : true
   BODY
-    p We think there is a bright future for Virtual Reality.
     p "VR has the potential to be one of the biggest platform shifts ever and you can be on the leading edge of that." - {link ext vrShift}
     p With the sense of “presence” in the virtual world, interacting with another person brings a new level of connection and wonder in virtual space.
     p "Multiplayer is amazing in VR" - {link ext palmerLucky}
@@ -781,7 +778,7 @@ VR
     p While cliche, we loved the idea of a spaceship cockpit simulator. With limited time, resources and the acceptance that there are a lot of them on the way, we wondered if a third person view of a player controller ship would work at all in VR. It did.
     p *Part two will discuss peripherals and augmented reality.*
 
-Neurotech
+NEUROTECH
   BREF : Thoughts on neurotech
   TISA : Thoughts on neurotech after an explanation and guided demo, testing various apps and examples.
   TAGS : gamedev, research
@@ -801,7 +798,6 @@ Neurotech
     p Dmitry Selitskiy from Thought Wired showed us some sweet Neurotech.
     i 2020-07-28_01-03
     p See Alexey in the GIF moving the cube on the screen with his thoughts.
-    i 2014-04-12_00-03
     p The experience is clumsy but it does work! Awesome to see.
     p Currently training the user is an issue. Its a perfect UX design opportunity and a lot of game potential for a seamless training experience that adapts to the user. Ideally the user would learn through doing, while at the same time the system would be looking for thought pattern in the background.
     p 
@@ -818,6 +814,7 @@ Neurotech
     p I don’t think its a question of “if” this technology will be widely used, its a question of “when” and what it will look like then.
     p 
     p Looking forward to seeing this technology, and Thought-Wired’s platform develop.
+    i 2014-04-12_00-03
 
 MESSENGER MUSTS
   BREF : What to look for in a messenger
@@ -1139,8 +1136,8 @@ VEGETABLES
 
 ISO 8601
   NAME : ISO 8601
-  BREF : test
-  TISA : test
+  BREF : Superior date format
+  TISA : Superior date format
   TAGS : 
   TYPE : thoughts
   HEAD : 2020-08-08_02-37
