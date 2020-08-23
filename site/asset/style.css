@@ -544,11 +544,11 @@ header {
 }
 .lightbox-img {
   position: absolute;
-  top: 50%;
+  top: 0;
   left: 50%;
   max-height: 100vh;
   max-width: 100vw;
-  transform: translateY(-50%) translateX(-50%);
+  transform: translateX(-50%);
   vertical-align: middle;
 }
 
