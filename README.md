@@ -17,52 +17,7 @@ Current benefits (compared to a static single-page client-side webapp)
 
 This setup would allow for a simple private nodejs frontend to do database additions and modifications then auto-rebuild the static public website.
 
-## To do release
-- set meta OG images and descriptions for all project/photo/post/projects/photos/about/log etc pages
-
-## Post formatting
-- tools i use (needs image)
-- first sail (needs image)
-- crusifix (needs final image)
-- soul food
-- van??
-- swordy ea release
-- migw and pax 14
-
-## Post writing
-- messenger article
-- humane calm
-- Swordy project page
-- why crypto
-- why privacy
-- why home
-- time
-- crystal
-- change minds
-- plastic ocean
-- gibbs farm
-- game tourism
-- hobbiton
-- dots
-- vegetables
-- VR 2
-- van insulation
-- flow
-
-## To do improvements
-- format post link names nicer (sailing proj page)
-- handle super wide resolution
-- handle inline *bold*
-- Credit photographer tag on images
-- Paralax on header image?
-
-## To do features
-- Add lightbox for images
-- Add tags to item cards
-- Add filtering by tags
-- Add new photos
-- Add sketches
-- Add source image compression on build
+See [to do list](TODO.md)
 
 ## Structure
 - `server` folder is the build script.

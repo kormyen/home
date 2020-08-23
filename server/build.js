@@ -9,7 +9,7 @@ const puppeteer = require('puppeteer');
 const timeStart = new Date();
 const directorySource = path.join(__dirname, `../site`);
 const directoryOutput = path.join(__dirname, `../public`);
-const miscPages = ['projects', 'photos'];
+const miscPages = ['projects', 'photos', 'posts'];
 const staticFolders = ['asset', 'media', 'c'];
 
 // Include Tablatal library in order to read DB
@@ -36,6 +36,22 @@ const pagesScript = new vm.Script(fs.readFileSync(path.join(directorySource, 'db
 pagesScript.runInThisContext();
 const pages = new Indental(PAGES).parse();
 const pagesKeys = Object.keys(pages);
+
+// Include posts DB
+const postsScript = new vm.Script(fs.readFileSync(path.join(directorySource, 'db/articles.ndtl')));
+postsScript.runInThisContext();
+const posts = new Indental(ARTICLES).parse();
+
+let postsKeys = [];
+const postsKeysAll = Object.keys(posts);
+for (let p = 0; p < postsKeysAll.length; p++)
+{
+  if (posts[postsKeysAll[p]].PUBL == "true")
+  {
+    postsKeys.push(postsKeysAll[p]);
+    console.log(postsKeysAll[p]);
+  }
+}
 
 // Wipe build directory so we start from scratch incase something is removed - no diff!
 fs.emptyDirSync(directoryOutput);
@@ -98,7 +114,7 @@ async function doBuild()
     if (err) { throw err; }
   });
 
-  // PROJECT LIST, PHOTO LIST
+  // PROJECT LIST, PHOTO LIST, POST LIST
   for (let m = 0; m < miscPages.length; m++)
   {
     // Create directories
@@ -137,6 +153,7 @@ async function doBuild()
 
     // Load
     loadPath = `file:${path.join(directorySource, `index.html#project-${projectKeys[p]}`)}`;
+    console.log(loadPath);
     await page.goto(loadPath);
     await page.reload(); // this refresh/reload makes url hash read (js image loading) actually happen
     html = await page.content();
@@ -144,7 +161,38 @@ async function doBuild()
     // Remove JS and save
     htmlSplit = html.split("<!-- JS -->");
     htmlSplit[0] = await convertLinksToRoot(htmlSplit[0]);
-    await fsp.writeFile(`${dir}/index.html`, htmlSplit[0] + htmlSplit[2])
+    await fsp.writeFile(`${dir}/index.html`, htmlSplit[0] + htmlSplit[2]);
+  }
+
+  // POST PAGES
+  for (let p = 0; p < postsKeys.length; p++)
+  {
+    // Create directories
+    const dirPosts = `${directoryOutput}/posts`;
+    if (!fs.existsSync(dirPosts))
+    {
+      fs.mkdirSync(dirPosts);
+    }
+
+    let postId = postsKeys[p].toLowerCase().replace(/ /g,`-`);
+    
+    const dir = `${dirPosts}/${postId}`;
+    if (!fs.existsSync(dir))
+    {
+      fs.mkdirSync(dir);
+    }
+
+    // Load
+    loadPath = `file:${path.join(directorySource, `index.html#post-${postId}`)}`;
+    console.log(loadPath);
+    await page.goto(loadPath);
+    await page.reload(); // this refresh/reload makes url hash read (js image loading) actually happen
+    html = await page.content();
+
+    // Remove JS and save
+    htmlSplit = html.split("<!-- JS -->");
+    htmlSplit[0] = await convertLinksToRoot(htmlSplit[0]);
+    await fsp.writeFile(`${dir}/index.html`, htmlSplit[0] + htmlSplit[2]);
   }
 
   // OTHER PAGES (LOG, ABOUT)
@@ -168,7 +216,7 @@ async function doBuild()
       // Remove JS and save
       htmlSplit = html.split("<!-- JS -->");
       htmlSplit[0] = await convertLinksToRoot(htmlSplit[0]);
-      await fsp.writeFile(`${dir}/index.html`, htmlSplit[0] + htmlSplit[2])
+      await fsp.writeFile(`${dir}/index.html`, htmlSplit[0] + htmlSplit[2]);
     }
   }
 
