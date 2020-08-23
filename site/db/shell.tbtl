@@ -25,8 +25,21 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
-2020-08-16 13- 6666 van        vents           Extend heating pipe. Plan and start building shelf with vent in bedroom.
-2020-08-16 31- 6655 web        home            Improve sidebar sizing.
+2020-08-24 31- 4554 web        home            Fix image page. Release build.
+2020-08-23 31- 6565 web        home            Fix building post pages.
+2020-08-23 65- 5765 van        shelf           Lower storage walls, heater box, install as is.
+2020-08-21 48- 6465 contract   sylo            Catch up call, marketing call, Ben call about defi article, site content.
+2020-08-20 48- 7374 contract   sylo            Paul node image. New site meeting. New site map. New content.
+2020-08-19 62- 5656 van        shelf           Roof. Vent hole. Walls.
+2020-08-19 48- 6466 contract   sylo            
+2020-08-19 61- 6655 van        shelf           Made second shelf
+2020-08-18 61- 6655 van        shelf           Made a shelf
+2020-08-18 49- 6466 contract   sylo            Discuss web imagery. Make document images.
+2020-08-17 48- 6466 contract   sylo            New product site - additional pages.
+2020-08-17 62- 6665 van        shelf           Made front framing.
+2020-08-16 61- 6666 van        shelf           Plan and start building shelf with vent in bedroom.
+2020-08-16 12- 6666 van        vents           Extend heating pipe.
+2020-08-16 31- 6655 web        home            Improve sidebar sizing. Minor article improvements. Setting up build.
 2020-08-15 13- 5755 misc                       Helped mom improve screw. Sarah, mom and I built shade tunnel.
 2020-08-14 48- 6375 contract   sylo            New product site design and content. Calls.
 2020-08-13 48- 6466 contract   sylo            New product site design and content.
