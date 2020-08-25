@@ -27,7 +27,11 @@ function Projects()
       element.media = media.filterByProject(media.db, element.NAME);
       if (element.media.length > 1)
       {
-        element.media = media.filterOverview(element.media);
+        let overviewImages = media.filterOverview(element.media);
+        if (overviewImages.length > 0)
+        {
+          element.media = overviewImages;
+        }
         element.media.sort((a, b) => b.quality - a.quality);
       }
  

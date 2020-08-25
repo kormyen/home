@@ -445,11 +445,13 @@ SENSORY DEPREVATION FLOAT
 
 HUMANE CALM
   TAGS : design, ux
+  TISA : notes on importance of values in tech
   BREF : importance of values
   HEAD : 2019-04-13_07-01
   TYPE : notes
   DATE : 2018-07-20
-  PUBL : false
+  EDIT : 2020-08-26
+  PUBL : true
   LINK
     - {link ext calmTech}
     - {link ext humaneAgenda}
@@ -460,17 +462,27 @@ HUMANE CALM
   BODY
     v 332532972
     p 
-    q “The real problem of humanity is the following: we have paleolithic emotions; medieval institutions; and god-like technology. And it is terrifically dangerous, and it is now approaching a point of crisis overall.” Until we understand ourselves, “until we answer those huge questions of philosophy that the philosophers abandoned a couple of generations ago — Where do we come from? Who are we? Where are we going?—rationally,” we’re on very thin ground. Edward Osborne Wilson
     q "An interface is humane if it is responsive to human needs and considerate of human frailties." - Jef Raskin
     p 
-    p Technology should require the smallest possible amount of attention
-    p Technology should inform and create calm
-    p Technology should make use of the periphery
-    p Technology should amplify the best of technology and the best of humanity
-    p Technology can communicate, but doesn’t need to speak
-    p Technology should work even when it fails
-    p The right amount of technology is the minimum needed to solve the problem
-    p Technology should respect social norms
+    t Calm Technology:
+    q Technology should require the smallest possible amount of attention
+    q Technology should inform and create calm
+    q Technology should make use of the periphery
+    q Technology should amplify the best of technology and the best of humanity
+    q Technology can communicate, but doesn’t need to speak
+    q Technology should work even when it fails
+    q The right amount of technology is the minimum needed to solve the problem
+    q Technology should respect social norms
+    p
+    p These principles applied to websites relate to the {link ext websiteObesity} lecture
+    i 2020-08-24_16-13
+    p A website food pyramid should primarily be worthy content, some images, a bit of css, then javascript only if you need it.
+    p When in reality most websites currently consist of the below:
+    q "A base layer of HTML
+    q A huge pile of crap
+    q On top of it all, a whole mess of surveillance scripts."
+    i 2020-08-24_16-14
+    q “The real problem of humanity is the following: we have paleolithic emotions; medieval institutions; and god-like technology. And it is terrifically dangerous, and it is now approaching a point of crisis overall.” Until we understand ourselves, “until we answer those huge questions of philosophy that the philosophers abandoned a couple of generations ago — Where do we come from? Who are we? Where are we going?—rationally,” we’re on very thin ground. Edward Osborne Wilson
 
 GIBBS FARM
   TYPE : blog
@@ -505,7 +517,7 @@ PRESERVING MYSTERY
   TYPE : notes
   HEAD : 2016-02-14_00-02
   DATE : 2016-02-14
-  EDIT : 2016-12-01, 2017-02-1, 2020-07-27
+  EDIT : 2016-12-01, 2017-02-01, 2020-07-27
   PUBL : true
   LINK
     - {link ext preserveMystery}
@@ -773,10 +785,6 @@ VR
     p {link ext vrLag}
     p {link ext vrGenderSwap}
     p I think there is a big potential for {link thought neurotech} integration. You already have something on your head anyway, why not seamlessly introduce biometrics and brainwave monitoring?
-    i 2014-06-11_00-04
-    p {link project warp} is a VR experiment built by Alexey and I for the Oculus VRjam 2013. We played it quite safe (read: boring) in terms of gameplay but spent a lot of time focusing on the feel, the experience, visual aesthetic and usability. While a bad game, I feel like the experiment was a success in that (from what I have seen) nobody has been given motion sickness by it, at least not to the degree of some first person controlled experiences. Its sort of a perfect {link ext vrSeated}. We managed this by keeping the overall movement in the world always going forward, in a single direction, no weird movement, no unintended jumps, no scene changes and ALWAYS allowing for player head movement to be one-to-one.
-    p While cliche, we loved the idea of a spaceship cockpit simulator. With limited time, resources and the acceptance that there are a lot of them on the way, we wondered if a third person view of a player controller ship would work at all in VR. It did.
-    p *Part two will discuss peripherals and augmented reality.*
 
 NEUROTECH
   BREF : Thoughts on neurotech
@@ -796,11 +804,12 @@ NEUROTECH
   BODY
     i 2014-04-12_00-01
     p Dmitry Selitskiy from Thought Wired showed us some sweet Neurotech.
-    i 2020-07-28_01-03
+    i 2014-04-12_00-03
     p See Alexey in the GIF moving the cube on the screen with his thoughts.
     p The experience is clumsy but it does work! Awesome to see.
     p Currently training the user is an issue. Its a perfect UX design opportunity and a lot of game potential for a seamless training experience that adapts to the user. Ideally the user would learn through doing, while at the same time the system would be looking for thought pattern in the background.
     p 
+    i 2020-08-24_12-38
     p Psychonauts training school VR!?
     p 
     p Dmitry said the main applications currently are about control, monitoring and determining mental state.
@@ -814,7 +823,7 @@ NEUROTECH
     p I don’t think its a question of “if” this technology will be widely used, its a question of “when” and what it will look like then.
     p 
     p Looking forward to seeing this technology, and Thought-Wired’s platform develop.
-    i 2014-04-12_00-03
+    i 2020-07-28_01-03
 
 MESSENGER MUSTS
   BREF : What to look for in a messenger

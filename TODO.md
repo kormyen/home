@@ -1,4 +1,8 @@
+- Fix 'projects' pages side bar text too small
+- Finish toilet project
+
 ## Post formatting
+- Sailing projects page
 - tools i use (needs image)
 - first sail (needs image)
 - crusifix (needs final image)
@@ -13,7 +17,6 @@
 
 ## Post write
 - gibbs farm
-- humane calm
 - Swordy project page
 - why crypto
 - why privacy
@@ -30,7 +33,8 @@
 - flow
 
 ## To do improvements
-- simplify buiild script, maybe index can store list of pages (js version and html version) instead of build script needing to calc.
+- Add BREF or TISA to article cards to hint more about article content
+- simplify build script, maybe index can store list of pages (js version and html version) instead of build script needing to calc.
 - refactor out duplication in index.js
 - set meta OG images and descriptions for all project/photo/post/projects/photos/about/log etc pages
 - format post link names nicer (sailing proj page)
@@ -41,6 +45,7 @@
 
 ## To do features
 - Add /now page 
+- Add rss support
 - Add lightbox for images
 - Add tags to item cards
 - Add filtering by tags

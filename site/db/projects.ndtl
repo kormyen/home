@@ -377,4 +377,24 @@ PORTFOLIO
     i 2020-05-18_08-42
   LINK
     - {link ext sarahPortfolio}
+    - {link ext sarahSource}
+
+WARP
+  BREF : VR JAM 2013
+  TISA : "VR JAM 2013" entry for Oculus developer kit V1
+  SECT : 3, 4
+  BODY
+    p Warp is a {link post VR} experiment built by {link ext alexey} and I for the Oculus VR jam 2013. We played it quite safe (read: boring) in terms of gameplay but spent a lot of time focusing on the feel, the experience, visual aesthetic and usability. While a bad game, I feel like the experiment was a success in that (from what I have seen) nobody has been given motion sickness by it, at least not to the degree of some first person controlled experiences. Its sort of a perfect {link ext vrSeated}. We managed this by keeping the overall movement in the world always going forward, in a single direction, no weird movement, no unintended jumps, no scene changes and ALWAYS allowing for player head movement to be one-to-one.
+    p While cliche, we loved the idea of a spaceship cockpit simulator. With limited time, resources and the acceptance that there are a lot of them on the way, we wondered if a third person view of a player controller ship would work at all in VR. It did.
+    i 2020-08-24_12-49
+    i 2020-08-24_12-50
+
+TOILET
+  BREF : composting toilet
+  TISA : home made composting toilet
+  SECT : 1, 6
+  BODY
+    p 
+  LINK
+    - {link ext omickToilet}
 `
