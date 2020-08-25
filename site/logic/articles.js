@@ -24,7 +24,6 @@ function Articles()
       }
 
       // Body HTML
-      console.log(element);
       element.HtmlBody = runelike.parse(element.BODY);
 
       // Media

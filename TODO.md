@@ -1,5 +1,7 @@
-- Fix 'projects' pages side bar text too small
-- Finish toilet project
+## Next Release
+- bug: article content above a video missing? Happened in humane tech article with intro p before the v
+- bug: visual probllem in 'projects' pages side bar text too small
+- Finish toilet project content
 
 ## Post formatting
 - Sailing projects page
@@ -33,6 +35,8 @@
 - flow
 
 ## To do improvements
+- Sort projects by date or importance
+- Put type icons on links
 - Add BREF or TISA to article cards to hint more about article content
 - simplify build script, maybe index can store list of pages (js version and html version) instead of build script needing to calc.
 - refactor out duplication in index.js
@@ -44,6 +48,7 @@
 - Paralax on header image?
 
 ## To do features
+- Add image alt text
 - Add /now page 
 - Add rss support
 - Add lightbox for images

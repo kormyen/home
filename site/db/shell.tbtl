@@ -25,6 +25,10 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-08-26 91- 6745 web        home            Add humane calm article content.
+2020-08-25 91- 6745 web        home            Add warp project. Misc stuff.
+2020-08-25 48- 5474 contract   sylo            Web feedback, Notion clean up, marketing stuff.
+2020-08-24 48- 5474 contract   sylo            
 2020-08-24 31- 4554 web        home            Fix image page. Release build.
 2020-08-23 31- 6565 web        home            Fix building post pages.
 2020-08-23 65- 5765 van        shelf           Lower storage walls, heater box, install as is.

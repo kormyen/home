@@ -455,14 +455,15 @@ HUMANE CALM
   LINK
     - {link ext calmTech}
     - {link ext humaneAgenda}
-    - {link ext leanPlea}
-    - {link ext aptivateGuidelines}
     - {link ext websiteObesity}
-    - {link ext rekkaLean}
+    - {link ext omickDesign}
   BODY
     v 332532972
     p 
+    p Notes on "calm technology", "lean web" and simple living. 
+    p "Ockham's Razor as Applied to Technology", or rather "The right amount of technology is the minimum needed to solve the problem".
     q "An interface is humane if it is responsive to human needs and considerate of human frailties." - Jef Raskin
+    p The goal is technology that respects humans and time.
     p 
     t Calm Technology:
     q Technology should require the smallest possible amount of attention
@@ -474,6 +475,7 @@ HUMANE CALM
     q The right amount of technology is the minimum needed to solve the problem
     q Technology should respect social norms
     p
+    t Lean web
     p These principles applied to websites relate to the {link ext websiteObesity} lecture
     i 2020-08-24_16-13
     p A website food pyramid should primarily be worthy content, some images, a bit of css, then javascript only if you need it.
@@ -483,6 +485,25 @@ HUMANE CALM
     q On top of it all, a whole mess of surveillance scripts."
     i 2020-08-24_16-14
     q “The real problem of humanity is the following: we have paleolithic emotions; medieval institutions; and god-like technology. And it is terrifically dangerous, and it is now approaching a point of crisis overall.” Until we understand ourselves, “until we answer those huge questions of philosophy that the philosophers abandoned a couple of generations ago — Where do we come from? Who are we? Where are we going?—rationally,” we’re on very thin ground. Edward Osborne Wilson
+    p 
+    t Simple living
+    p These principles applied to the simplication of design process and simple living are explored in {link ext omickDesign} and {link ext omickWhy}.
+    p They could have built a mold and vacuum sealed a custom fibreglass lid... or built an auto closing hinge... or built an underground pantry box away from creatures etc. Instead they used a barrel and tied a piece of bent metal on top... which has served them well for 15 years.
+    p I am very guilty of over complicating things, so it's a lesson/reminder to me.
+    p 
+    q "When comparing technologies that perform the same function, a technology that is simpler in design will tend to be simpler to construct and repair, but will tend to require greater skill to use, whereas a technology that requires less skill to use will tend to be more complex in design and more complex to construct and repair."
+    p 
+    q "How important is the perceived need that this design is addressing? 
+    q Is it really a need? 
+    q If so, what is the simplest way in which it can be met? 
+    q What are the trade-offs between simplicity of design and convenience of use?
+    q Does the form of a design reflect its function in an aesthetically pleasing way? 
+    q Does the design address the need in ways that tend to make my life more free or more encumbered? 
+    q More integrated with the local environment or less so? 
+    q What is the environmental and economic and social justice impact of the materials used? 
+    q Is this design versatile--can it serve multiple purposes? 
+    q Is it simple enough to be easily replicated?
+    i 2020-08-26_11-24
 
 GIBBS FARM
   TYPE : blog
