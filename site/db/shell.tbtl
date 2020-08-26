@@ -25,6 +25,8 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-08-26 91- 5665 web        home            Add toilet project content.
+2020-08-26 47- 6464 contract   sylo            Notion clean up. Figma clean up. Illustration/layout.
 2020-08-26 91- 6745 web        home            Add humane calm article content.
 2020-08-25 91- 6745 web        home            Add warp project. Misc stuff.
 2020-08-25 48- 5474 contract   sylo            Web feedback, Notion clean up, marketing stuff.
