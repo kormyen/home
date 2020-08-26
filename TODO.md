@@ -1,7 +1,6 @@
 ## Next Release
 - bug: article content above a video missing? Happened in humane tech article with intro p before the v
-- bug: visual probllem in 'projects' pages side bar text too small
-- Finish toilet project content
+- bug: visual problem in 'projects' pages side bar text too small
 
 ## Post formatting
 - Sailing projects page

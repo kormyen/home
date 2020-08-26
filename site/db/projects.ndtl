@@ -390,11 +390,50 @@ WARP
     i 2020-08-24_12-50
 
 TOILET
-  BREF : composting toilet
+  BREF : shit bucket
   TISA : home made composting toilet
   SECT : 1, 6
   BODY
+    p I made this composting toilet with a deadline for Kiwiburn to serve as our themecamp toilet, with the intention for it to them live in my {link project van 'vanlife home'}.
+    i 2020-01-18_18-27
+    p Above is my composting toilet just completed - still in the {link ext hackland} workshop.
+    p When people say "composting toilet" what they really mean is "shitting in a bucket" - but it's nicer than most people who haven't used one think. It's surprising how many people just write-off the idea before they realise it's actually all good. 
     p 
+    t Why
+    p The big benefit is it's cheap, simple, turns waste into compost, and reduces water use (good for off-grid, mobile homes and boats).
+    p The main negative is there is more work involved than just pushing a button.
+    q "...a technology that is simpler in design will tend to be simpler to construct and repair, but will tend to require greater skill to use..." - {link ext omickDesign}
+    p
+    t What's involved
+    p All it really comes down to is decorating a bucket to make it more comfortable and socially acceptable: put it in a box!
+    p Having a urine seperator is a highly recommended addition. By keeping 1s and 2s seperate I think it's not technically "sewerage"... but what that means to you is that it doesn't smell so bad. 
+    i 2020-01-20-16-03
+    p Instead of flushing with water you keep the solids dry with sawdust, dry soil or similar. 
+    i 2020-01-22_12-46
+    p An air fan with a vent out somewhere to get the bad air away is another good addition to help keep things drying and not smelly. A mixer/tumbler is a nice to have addition like in Nature's Head toilets.
+    p Nature's head toilets with their $2000 price tag are too much to pay for a bucket to me, so I made my own.
+    p Through rushing a bit while building I made the mistake of not getting the urine container before building the box (I had the bucket). I could not find one that fit and decided to cut a hole in the front to fit a larger 20L bottle to suit the camp's 20 members needs.
+    p The benefit turned out to be that you can see how full the bottle is from the front/outside of the toilet which is great actually, just maybe not as neat as I intended.
+    p A 20L bottle is actually large as it's better to empty daily or every second day because the pee actually does start to stink if left to sit. With 20 people using it we went through at least one bottle each day. For a smaller family you likely need 5L or 10L max.
+    p Everyone in our camp seemed to prefer this toilet over the Portaloos. Maybe that doesn't say much.
+    p 
+    i 2020-01-20-16-04
+    t My setup
+    p - The box lid has a toilet seat attached on it. 
+    p - The lid where the seat is attached has a hinge so the bucket can be removed.
+    p - Under the lid, the lip has a routed slot. This slot keeps the urine seperator in the right place - directing urine away from the bucket, into the urine bottle.
+    p - The urine bottle sits at the front, in-front of the bucket.
+    p - At the bottom of the bucket I put some wood planks cut to the curve of the bucket base so that it cannot move around - so the bucket doesn't move when my van does.
+    p Other sites likely have good building guides if you are looking to make a box for your bucket.
+    p 
+    t Afterward
+    i 2020-01-28-00-21
+    p My friend Emma took our buckets after Kiwiburn and turned them into compost. 
+    p Here she is in her completely standard gardening attire.
+    i 2020-01-29_10-51
+    p There are special things you need to do with this like being very careful with hygiene (mask, gloves etc). I believe you need to compost specifically to reach quite high temperatures (well insulated/covered) in order to kill harmful bacteria, and you need to leave it for a year or so. After that it's good to use as garden compost... definitely check elsewhere for specifics - I have not actually done this process yet personally.
+    i 2020-01-29_11-05
+    i 2020-01-29_11-33 
   LINK
     - {link ext omickToilet}
 `
