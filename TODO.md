@@ -1,4 +1,5 @@
 ## Next Release
+- Find photo of toilet room at kiwiburn
 - bug: article content above a video missing? Happened in humane tech article with intro p before the v
 - bug: visual problem in 'projects' pages side bar text too small
 
