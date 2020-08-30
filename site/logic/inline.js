@@ -51,11 +51,6 @@ function Inline()
         return result;
     }
 
-    this.replaceSpaces = function(name)
-    {
-
-    }
-
     this.doLink = function(url, label, ext, className)
     {
         if (!className)

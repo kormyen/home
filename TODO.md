@@ -1,5 +1,8 @@
 ## Next Release
-- bug: article content above a video missing? Happened in humane tech article with intro p before the v
+- add solarsails project content
+- add solarsails photos
+- add shelf project
+- add shelf photos
 
 ## Post formatting
 - Sailing projects page
