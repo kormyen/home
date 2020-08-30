@@ -1,7 +1,5 @@
 ## Next Release
-- Find photo of toilet room at kiwiburn
 - bug: article content above a video missing? Happened in humane tech article with intro p before the v
-- bug: visual problem in 'projects' pages side bar text too small
 
 ## Post formatting
 - Sailing projects page
@@ -23,7 +21,7 @@
 - why crypto
 - why privacy
 - why home
-- time
+- timewi
 - crystal
 - change minds
 - game tourism
@@ -49,6 +47,8 @@
 
 ## To do features
 - Add image alt text
+- Add meta titles to pages based on page title
+- Add identity page https://wiki.xxiivv.com/site/identity.html
 - Add /now page 
 - Add rss support
 - Add lightbox for images
