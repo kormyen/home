@@ -384,15 +384,21 @@ WARP
   TISA : "VR JAM 2013" entry for Oculus developer kit V1
   SECT : 3, 4
   BODY
-    p Warp is a {link post VR} experiment built by {link ext alexey} and I for the Oculus VR jam 2013. We played it quite safe (read: boring) in terms of gameplay but spent a lot of time focusing on the feel, the experience, visual aesthetic and usability. While a bad game, I feel like the experiment was a success in that (from what I have seen) nobody has been given motion sickness by it, at least not to the degree of some first person controlled experiences. Its sort of a perfect {link ext vrSeated}. We managed this by keeping the overall movement in the world always going forward, in a single direction, no weird movement, no unintended jumps, no scene changes and ALWAYS allowing for player head movement to be one-to-one.
+    p Warp is a {link post VR} experiment built by {link ext alexey} (artist, animator) and I for the Oculus VR jam 2013. 
+    p We mostly focused on trying to make a VR experience that anyone could play (just headset and standard controller) and not feel sick.
+    p We played it quite safe (read: boring) in terms of gameplay but spent a lot of time focusing on the feel, the experience, visual aesthetic and usability in this early time for VR. 
+    p The concept would have worked if expanded upon for sure.
+    p While a bad game, I feel like the experiment was a success in that (from what I have seen) nobody has been given motion sickness by it, at least not to the degree of some first person controlled experiences. Its sort of a perfect {link ext vrSeated}. We managed this by keeping the overall movement in the world always going forward, in a single direction, no weird movement, no unintended jumps, no scene changes and ALWAYS allowing for player head movement to be one-to-one.
     p While cliche, we loved the idea of a spaceship cockpit simulator. With limited time, resources and the acceptance that there are a lot of them on the way, we wondered if a third person view of a player controller ship would work at all in VR. It did.
     i 2020-08-24_12-49
     i 2020-08-24_12-50
+    p Alexey more recently made these images with the assets from the game. I stole them from his website.
 
 TOILET
   BREF : shit bucket
   TISA : home made composting toilet
   SECT : 1, 6
+  EDIT : 2020-08-28, 2020-08-27
   BODY
     p When people say "composting toilet" what they really mean is "shitting in a bucket" - but it's nicer than most people who haven't used one think. It's surprising how many people just write-off the idea before they realise it's actually all good. 
     p 
@@ -449,4 +455,10 @@ TOILET
     i 2020-01-29_11-33 
   LINK
     - {link ext omickToilet}
+
+SOLARSAILS
+ BODY
+   > Solarsails is solarpunk but made of junk.
+   > Kind of a post apocolypse of current technology, but everything is clean and renewable.
+   > A bamboo gypsy camp of solar panels and colored cloth.
 `
