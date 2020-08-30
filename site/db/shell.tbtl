@@ -25,6 +25,11 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                              IMAGES                  END
+2020-08-30 14- 7665 van        shelf           Break, fix and install heat pipe. Install into van.
+2020-08-29 14- 7665 van        shelf           
+2020-08-28 47- 6464 contract   sylo            Improve design. Google call with market research.
+2020-08-27 31- 7674 misc                       Movement tutorial 2.
+2020-08-27 91- 6745 web        home            Content tweaks.
 2020-08-27 48- 6666 contract   sylo            Spend rules text, shorten pillars text, components clean, new design.
 2020-08-27 31- 7745 misc                       Movement tutorial.
 2020-08-26 91- 5665 web        home            Add toilet project content.
