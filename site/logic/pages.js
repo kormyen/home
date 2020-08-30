@@ -18,15 +18,15 @@ function Pages()
       // Sidebar HTML
       element.HtmlSidebar = ``;
 			element.HtmlSidebar += `<div class='sidebar marginBottomLarge'>`;
-      element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary">${element.DESC}</p>`;
-      element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary">${inline.parse(element.DATE)}</p>`;
+      element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">${element.DESC}</p>`;
+      element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">${inline.parse(element.DATE)}</p>`;
 
       // LINKS
       if (element.LINK)
       {
         for (let l = 0; l < element.LINK.length; l++)
         {
-          element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary">${inline.parse(element.LINK[l].substr(2))}</p>`;
+          element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">${inline.parse(element.LINK[l].substr(2))}</p>`;
         }
       }
 

@@ -36,7 +36,6 @@ function Articles()
         {
           let result = `<a href='${inline.getInternalUrl(location, keys[k].toLowerCase())}' class='article noDecoration'>`;
           result += `<img src='media/small/${element.media.file}' class='articleImg articleBlackAndWhite radiusNormal'></img>`;
-          // result += `<span class='fontSizeSmall colorMain marginTopNormal articleTitle'>${parent.capitalizeFirstLetter(element.NAME)}<span id='articleDesc'>: ${element.BREF}</span></span>
           result += `<span class='fontSizeSmall colorMain marginTopNormal articleTitle'>${element.NAME}</span>
             </a>`;
 
@@ -46,16 +45,16 @@ function Articles()
         // Sidebar HTML
         element.HtmlSidebar = ``;
         element.HtmlSidebar += `<div class='sidebar marginBottomLarge'>`;
-        element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary">Posted: ${element.DATE}</p>`;
+        element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">Posted: ${element.DATE}</p>`;
 
         if (element.EDIT != null)
         {
-          element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary">Edited: ${element.EDIT}</p>`;
+          element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">Edited: ${element.EDIT}</p>`;
         }
 
         if (element.TISA != null)
         {
-          element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary">${inline.parse(element.TISA)}</p>`;
+          element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">${inline.parse(element.TISA)}</p>`;
         }
 
         // LINKS
@@ -63,7 +62,7 @@ function Articles()
         {
           for (let l = 0; l < element.LINK.length; l++)
           {
-            element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary">${inline.parse(element.LINK[l].substr(2))}</p>`;
+            element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">${inline.parse(element.LINK[l].substr(2))}</p>`;
           }
         }
       }

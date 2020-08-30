@@ -76,9 +76,8 @@ function Projects()
 
       // Sidebar HTML
       element.HtmlSidebar = ``;
-      element.HtmlSidebar += `<div class='sidebar colorSecondary'>`;
-			element.HtmlSidebar += `${parent.capitalizeFirstLetter(element.NAME)} is ${element.TISA}<br>`;
-      element.HtmlSidebar += `<br>`;
+      element.HtmlSidebar += `<div class='sidebar marginBottomLarge'>`;
+			element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">${parent.capitalizeFirstLetter(element.NAME)} is ${element.TISA}</p>`;
 
       // DATE
       const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
@@ -113,22 +112,20 @@ function Projects()
       
       if (stringAge != ``)
       {
-        element.HtmlSidebar += `${stringAge}<br>`
+        element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">${stringAge}</p>`;
       }
 
       if (projLogStats && projLogStats.hoursTotal > 0)
       {
-        element.HtmlSidebar += `${ projLogStats.hoursTotal } hours since ${ stringAgeBorn }<br>`
+        element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">${ projLogStats.hoursTotal } hours since ${ stringAgeBorn }</p>`;
       }
 
       // LINKS
       if (element.LINK)
       {
-        element.HtmlSidebar += `<br>`;
         for (let l = 0; l < element.LINK.length; l++)
         {
-          element.HtmlSidebar += inline.parse(element.LINK[l].substr(2));
-          element.HtmlSidebar += `<br>`;
+          element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">${inline.parse(element.LINK[l].substr(2))}</p>`;
         }
       }
 
