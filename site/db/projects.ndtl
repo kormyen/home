@@ -457,8 +457,11 @@ TOILET
     - {link ext omickToilet}
 
 SOLARSAILS
- BODY
-   > Solarsails is solarpunk but made of junk.
-   > Kind of a post apocolypse of current technology, but everything is clean and renewable.
-   > A bamboo gypsy camp of solar panels and colored cloth.
+  BREF : solar family
+  TISA : solarpunk themecamp
+  SECT : 1, 2, 4
+  BODY
+    > Solarsails is solarpunk but made of junk.
+    > Kind of a post apocolypse of current technology, but everything is clean and renewable.
+    > A bamboo gypsy camp of solar panels and colored cloth.
 `

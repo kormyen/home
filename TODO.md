@@ -4,12 +4,19 @@
 - add shelf project
 - add shelf photos
 
-## Post formatting
-- Sailing projects page
+## Next features
+- set meta OG images and descriptions for all project/photo/post/projects/photos/about/log etc pages
+- Add meta titles to pages based on page title
+- Add /now page 
+
+## Images needed
 - tools i use (needs image)
 - first sail (needs image)
 - crusifix (needs final image)
 - soul food (needs images)
+
+## Post formatting
+- Sailing projects page
 - van??
 - swordy ea release
 - migw and pax 14
@@ -24,7 +31,7 @@
 - why crypto
 - why privacy
 - why home
-- timewi
+- time
 - crystal
 - change minds
 - game tourism
@@ -35,13 +42,16 @@
 - van insulation
 - flow
 
+## Missing projects
+- Flower
+- Him
+
 ## To do improvements
 - Sort projects by date or importance
 - Put type icons on links
 - Add BREF or TISA to article cards to hint more about article content
 - simplify build script, maybe index can store list of pages (js version and html version) instead of build script needing to calc.
 - refactor out duplication in index.js
-- set meta OG images and descriptions for all project/photo/post/projects/photos/about/log etc pages
 - format post link names nicer (sailing proj page)
 - handle super wide resolution
 - handle inline *bold*
@@ -50,9 +60,7 @@
 
 ## To do features
 - Add image alt text
-- Add meta titles to pages based on page title
 - Add identity page https://wiki.xxiivv.com/site/identity.html
-- Add /now page 
 - Add rss support
 - Add lightbox for images
 - Add tags to item cards

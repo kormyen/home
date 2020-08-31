@@ -62,7 +62,7 @@ LOG
     p {tracker project percentages}
     p {tracker sector percentages}
     p {tracker lastUpdateText}
-    p The graph below is of productive hours per week over time.
+    p The graph below is total productive hours per week.
     p {tracker week graph}
   LINK
     - {link ext logData}
