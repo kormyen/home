@@ -398,7 +398,7 @@ header {
   max-height: 100%;
   position: absolute;
 }
-@media only screen and (max-width: 80em) /* MIN WIDTH REACHED */
+@media only screen and (max-width: 80em)
 {
   .sidebarContainer {
     position: relative;
@@ -428,7 +428,7 @@ header {
 @media only screen and (max-width: 50em) /* MIN WIDTH REACHED */
 {
   .sidebar {
-    width: 100%;
+  width: 100%;
   }
 }
 

@@ -1,3 +1,5 @@
+- BUG: Fix 1280px width screen causes weird sidebar indent. not 1279 down or 1281 up.
+
 ## Next Release
 - add solarsails project content
 - add solarsails photos
