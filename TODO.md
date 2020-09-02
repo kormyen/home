@@ -1,15 +1,10 @@
+## BUGS
 - BUG: Fix 1280px width screen causes weird sidebar indent. not 1279 down or 1281 up.
 
-## Next Release
-- add solarsails project content
-- add solarsails photos
-- add shelf project
-- add shelf photos
-
-## Next features
+## Next release
 - set meta OG images and descriptions for all project/photo/post/projects/photos/about/log etc pages
-- Add meta titles to pages based on page title
-- Add /now page 
+- add meta titles to pages based on page title
+- add /now page 
 
 ## Images needed
 - tools i use (needs image)
