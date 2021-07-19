@@ -156,6 +156,7 @@ function Runelike()
             return result;
         }
 
+        console.log(lines)
         return lines.filter(this.isRunic).reduce(this.stash, []).reduce(this.toHtml, '');
     }
 }

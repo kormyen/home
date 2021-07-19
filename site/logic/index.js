@@ -82,6 +82,7 @@ function Index()
 
 		if(target == '')
 		{
+			console.log('load')
 			// OVERVIEW
 			this.focus.start();
 			this.photos.start();

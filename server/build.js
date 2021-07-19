@@ -10,7 +10,7 @@ const timeStart = new Date();
 const directorySource = path.join(__dirname, `../site`);
 const directoryOutput = path.join(__dirname, `../public`);
 const miscPages = ['projects', 'photos', 'posts'];
-const staticFolders = ['asset', 'media', 'c'];
+const staticFolders = ['asset', 'media'];
 
 // Include Tablatal library in order to read DB
 const tbtlScript = new vm.Script(fs.readFileSync(path.join(directorySource, 'logic/lib/tablatal.js')));

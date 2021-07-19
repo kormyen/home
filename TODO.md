@@ -1,5 +1,5 @@
 ## BUGS
-- BUG: Fix 1280px width screen causes weird sidebar indent. not 1279 down or 1281 up.
+- BUG: exactly 1280px width screen causes weird sidebar indent. not 1279 with down or 1281 up, exactly 1280 only.
 
 ## Next release
 - set meta OG images and descriptions for all project/photo/post/projects/photos/about/log etc pages

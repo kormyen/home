@@ -25,6 +25,70 @@ Sectors (task types)
 
 var SHELL = `
 DATE       SHP KIDE CATEGORY   PROJECT         DESCRIPTION                                                                                                  END
+2021-01-05 31- 8866 misc                       SwiftUI tutorial.
+2021-01-05 48- 7564 contract   sylo            First day back. Web fixes. App design. Priority thinking.
+2021-01-04 32- 8866 misc                       SwiftUI tutorial.
+2021-01-03 32- 8866 misc                       SwiftUI tutorial.
+
+
+
+
+
+2020-11-03 18- 6666 boat       maintenance     Cut gland packing. Cleaned bilge.
+2020-11-02 48- 6664 contract   sylo            Sylo Node updates
+2020-11-01 03- 6765 misc       solarsails      First meeting.
+2020-10-31
+2020-10-30 48-                                 NZ Tourism slides.
+2020-10-29 47- 7666 contract   sylo            Sylo Node process.
+2020-10-28 47- 5766 contract   sylo            Armadillo article images.
+2020-10-27 48- xxxx contract   sylo            Node help screen. Node activity.
+2020-10-26 
+2020-10-25 
+2020-10-24 
+2020-10-23 48- 6776 contract   sylo            Sylo Node dashboard. Oya post imagery.
+2020-10-22 72- 8666 misc                       Emails. Research ecological significance. More detail to plan.
+2020-10-22 48- 5664 contract   sylo            Cover images. Sylo Node. Reward discussion. App update flow.
+2020-10-21 72- 8666 misc                       Sale and purchase agreement research.
+2020-10-21 48- 6666 contract   sylo            Oya marketing. Export. Dashboard. App oya upgrade.
+2020-10-20 48- 7647 contract   sylo            Oya marketing. Node Dashboard. After Effects attempt.
+2020-10-19 48- 5464 contract   sylo            Oya marketing.
+2020-10-18 
+2020-10-17 
+2020-10-16 
+2020-10-15 
+2020-10-14 31- 6656 misc                       Movement tutorial 8 complete.
+2020-10-14 91- 6555 misc       solarsails      Submit camp ticket details.
+2020-10-14 48- 6666 contract   sylo            v2 marketing branding. v2 app design. 
+2020-10-13 47- 6474 contract   sylo            v2 marketing branding.
+2020-10-12 32- 7565 misc                       Land research
+2020-10-12 32- 6453 misc                       Movement tutorial 7 continued.
+2020-10-11 x
+2020-10-10 x
+2020-10-09 
+2020-10-08 
+2020-10-07 
+2020-10-06 48- 7666 contract   sylo            Social DeFi designs continued. Chats with Ben and Jimmy.
+2020-10-05 48- 7565 contract   sylo            Social DeFi design.
+2020-10-04 - GB
+2020-10-03 - GB
+2020-10-02 - GB
+2020-10-01 - GB
+2020-09-30
+2020-09-29
+2020-09-28 48- 6465 contract   sylo            Smart Money how page setup.
+2020-09-27 93- 6556 misc       solarsails      KB2021 themecamp application. Intro doc.
+2020-09-26 81- 6465 boat       maintenance     Set up new mooring line for Quest.
+2020-09-25 
+2020-09-24 
+2020-09-23 31- 6655 misc                       Movement tutorial 6 notes.
+2020-09-22 48- 6455 contract   sylo            Improving homepage code.
+2020-09-21 14- 6465 boat       maintenance     Cleaning engine to be fixed and general tidy up.
+2020-09-20 43- 6566 contract   sylo            Simplifying site code.
+2020-09-18 
+2020-09-17 
+2020-09-16 
+2020-09-15 
+2020-09-14 
 2020-09-13 31- 7655 misc                       Movement tutorial 6.
 2020-09-13 14- 6465 van        maintenance     Remove headlights, clean, dry out, seal one, put both back in van.
 2020-09-11 33- 7755 misc                       Movement tutorial 5.

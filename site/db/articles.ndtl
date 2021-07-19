@@ -122,7 +122,7 @@ FIRST SAIL
     p Receiving creatively insulting poem readings by Chloe
     p A strange enacted prison island with prison guards who made me (try to) yell in fake pain from a torture demonstration...
 
-INDIE GAMEDEV LESSONS
+17 INDIEDEV LESSONS
   TAGS : gamedev
   TYPE : notes
   TISA : Notes on "17 lessons learned" in indie gamedev
@@ -136,7 +136,7 @@ INDIE GAMEDEV LESSONS
     - {link ext vlambeerToolkit}
   BODY
     y fQhPGJQhtak
-    p This is notes on the video above - Rami Ismail's Gamelab 2015 lecture "17 lessons I learned while running a chaotic game studio"
+    p These are the points from the video above - Rami Ismail's Gamelab 2015 lecture "17 lessons I learned while running a chaotic game studio".
     p Lesson 1: "Why" is the biggest question.
     p Lesson 2: Design is communication.
     p Lesson 3: Be a little less normal.
@@ -159,6 +159,34 @@ INDIE GAMEDEV LESSONS
     p Lesson 18: Don't define things for others.
     p Lesson 19: Decide, don't accept.
     p Lesson 20: Go on already.
+
+GAME DESIGN NOTES
+  TAGS : gamedev
+  TYPE : notes
+  TISA : Notes on game design
+  HEAD : 2020-08-16_14-33
+  DATE : 2020-09-24
+  EDIT : 
+  CHNG : 0
+  PUBL : true
+  LINK
+    - {link ext mizizizizPillars}
+  BODY
+    t Action progression loop
+    - Three pillars "engine, wheel and road"
+    y https://www.youtube.com/watch?v=_gzCoVaojwI
+    t 1st pillar 
+    p "The engine"
+    p BASE GAME LOOP: Something fun and do it over and over. 
+    - Eg: Balancing a ping pong ball. FPS: Point and shoot. Platformer: Run and jump. Number accumulation: XP or high score.
+    t 2nd pillar 
+    p "The wheel"
+    p PROGRESSION: A sense of progression. Same base loop but progression. Feels rewarding.
+    - Eg: Upgrades after waves. Getting better high scores. Running track faster than last time. Running further.
+    - Eg: Running. Base look is moving legs, feels fun to go fast. Progression feels rewarding - getting better, faster over years of practice. 
+    t 3rd pillar 
+    p "The road"
+    p DIFFICULTY CURVE: Game gets harder the more you play. Complexity increases, difficulty increases, more challenges. Up until final test of all things learned to complete the game.
 
 WHY CRYPTO
   TYPE : thoughts
@@ -1803,4 +1831,51 @@ MIGW AND PAX 14
     p - Food: $500
     p 
     p **TOTAL: $6000**
+
+3D MATHS
+  BREF : notes on game maths
+  TISA : notes on game maths
+  TAGS : gamedev
+  TYPE : notes
+  HEAD : 2018-01-20_12-00
+  DATE : 2020-09-04
+  EDIT : 
+  PUBL : false
+  BODY
+    t Dot product
+    p Vector3.Dot(vector1, vector2)
+    q "For normalized vectors Dot returns 1 if they point in exactly the same direction, -1 if they point in completely opposite directions and zero if the vectors are perpendicular." - Unity Docs
+    p Other:
+    q "The dot product is the cosine of the angle between two vectors, multiplied by their lengths." - {link ext movementTut2}
+    q "The dot product is a float value equal to the magnitudes of the two vectors multiplied together and then multiplied by the cosine of the angle between them." - Unity Docs 
+    p 
+    p Examples:
+    p Convert "float upDot = hit.normal.y" as up is +y and gravity -y into gravity arbiitrary: "float upDot = Vector3.Dot(upAxis, hit.normal)";
+
+LEVEL DESIGN
+  LINK
+      - {link ext dungeonMap}
+  BODY
+    p Scattered notes and representations of level design.
+    p 
+    p halfway : The World Design of Hollow Knight | Boss Keys https://www.youtube.com/watch?v=7ITtPPE-pXE&t=471s
+    p - Varying color themed zones in world match map color - helps navigation and spacial reasoning.
+    p - Vary movement navigation / gameplay types in different zones - bounce, dodge, dark, vertical, horizontal.
+    p - Vary enemy types between different zones - exploding, kamakazie, scary, tiny swarms.
+    p - Mixing visual, navigation, color, enemy, gameplay between zones makes new areas feel fresh and new.
+    p - Currently locked area transitions hint at with thematic visual elements and color of connected zone.
+    p - Metroid invincible enemies (don't have right ability yet) block areas.
+    p - Boss kill gives metroid ability needed for progress (locks/keys).
+    p - Chase boss "carrot on stick", boss fight, unlock boss's ability.
+    p - Locks/keys: movement abilities, attack abilities, items, boss.
+    p - "We started with a basic, linear progression of item acquirement, with the idea that we would allow that progression to break apart, branch out and wind around itself as the world grew". - Team Cherry
+    p - Multiple routes through game. Legitimate agency. Route through game dictated by own curiosity. Dynamic difficulty adjustment. Helps player not get stuck / lost.
+    p - Unlockable quick travel stations but not to every area.
+    p - No map on first entry to new area. Can buy sketchy map. Through exploring then resting map fills wherer you have been.
+    p Zelda boss keys
+    p Doom map 
+    p fez
+    p rainworld
+    p Darksouls
+    p daily level design sketches
 `

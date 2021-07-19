@@ -66,10 +66,14 @@
   <script src="logic/nav.js"></script>
   <script src="logic/footer.js"></script>
   <script>
+			console.log('start')
+
     var index = new Index();
     index.install();
     index.start();
     window.addEventListener("hashchange", function() { index.load(); });
+			console.log('html')
+
   </script>
 <!-- JS -->
 </body>

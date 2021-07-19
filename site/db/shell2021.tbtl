@@ -1,0 +1,40 @@
+/*
+DATE = Gregorian day
+
+S = Sector (work type/category - see below)
+H = Hours
+
+Sectors (task types)
+0 = misc
+1 = physical
+2 = electronics
+3 = code
+4 = design
+5 = audio
+6 = carpentry
+7 = research
+8 = boat
+9 = writing
+*/
+
+var SHELL = `
+DATE       SH CATEGORY   PROJECT         DESCRIPTION                                                                                                  END
+2021-01-18 48 contract   sylo            Wallet quick access. Buy website.
+2021-01-17 12 boat       maintenance     Sanding rear hatch.
+2021-01-16 15 boat       maintenance     Attach engine water intake with Dave. Rigging pins. Intake cover. Remove rear hatch.
+2021-01-15 fr contract   sylo            
+2021-01-14 th contract   sylo            
+2021-01-13 we contract   sylo            
+2021-01-12 tu contract   sylo            
+2021-01-11 mo contract   sylo            
+2021-01-10 sun
+2021-01-09 sat
+2021-01-08 fr contract   sylo            
+2021-01-07 31 misc                       SwiftUI tutorial.
+2021-01-06 48 contract   sylo            Node NAT status. 
+2021-01-05 31 misc                       SwiftUI tutorial.
+2021-01-05 48 contract   sylo            First day back. Web fixes. App design. Priority thinking.
+2021-01-04 32 misc                       SwiftUI tutorial.
+2021-01-04 14 misc       gardening       Repotting plants.
+2021-01-03 32 misc                       SwiftUI tutorial.
+`
