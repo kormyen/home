@@ -3,49 +3,38 @@ function Inline()
     this.media = null;
     this.links = null;
     this.log = null;
+    this.projects = null;
+    this.photos = null;
+    this.posts = null;
+    this.focus = null;
     const parent = this;
 
-    this.install = function(media, links, log, projects)
+    this.install = function(media, links, log, projects, photos, posts, focus)
     {
         this.media = media;
         this.links = links;
         this.log = log;
         this.projects = projects;
+        this.photos = photos;
+        this.posts = posts;
+        this.focus = focus;
     }
 
     this.getInternalUrl = function(func, name)
     {
         let result = ``;
 
-        if (BUILD)
+        if (func == 'project' || func == 'post')
         {
-            if (func == 'project' || func == 'post')
-            {
-                result += `/${func}s/${name.replace(/ /g, `-`)}`;
-            }
-            else if (name == 'home')
-            {
-                result += `/`;
-            }
-            else if (func == 'page')
-            {
-                result += `/${name}`;
-            }
+            result += `/${func}-${name.replace(/ /g, `-`)}`;
         }
-        else
+        else if (name == 'home')
         {
-            if (func == 'project' || func == 'post')
-            {
-                result += `#${func}-${name.replace(/ /g, `-`)}`;
-            }
-            else if (name == 'home')
-            {
-                result += `#`;
-            }
-            else if (func == 'page')
-            {
-                result += `#${name}`;
-            }
+            result += `/`;
+        }
+        else if (func == 'page')
+        {
+            result += `/${name}`;
         }
 
         return result;
@@ -121,6 +110,24 @@ function Inline()
                         const entry = parent.links.getByName(linkName);
                         const label = (optionalLabel == '') ? entry.label : optionalLabel;
                         lineResult += parent.doLink(entry.url, label, true);
+                    }
+                }
+                else if (chunk == 'stat')
+                {
+                    const fullText = split[i];
+                    const linkChunks = fullText.split(' ');
+                    const func = linkChunks[1];
+                    if (func == "projectsTotal")
+                    {
+                        lineResult += this.projects.getCount();
+                    }
+                    else if (func == "photosTotal")
+                    {
+                        lineResult += this.photos.getCount();
+                    }
+                    else if (func == "postsTotal")
+                    {
+                        lineResult += this.posts.getCount();
                     }
                 }
                 else if (chunk == 'year')

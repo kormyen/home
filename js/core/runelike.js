@@ -1,9 +1,14 @@
 function Runelike()
 {
-    this.media = null;
-    this.links = null;
-    this.log = null;
     this.inline = null;
+    this.media = null;
+    this.projects = null;
+    this.articles = null;
+    this.templatePhotosLens = null;
+    this.templatePostsLens = null;
+    this.templateFocusLens = null;
+	this.templateIndex = new TemplateIndex();
+	this.templateCards = new TemplateCards();
     const parent = this;
 
     const runes =
@@ -16,13 +21,20 @@ function Runelike()
         'b': { tag: 'br' }, // paragraph normal-line 'fontSizeSmall marginTopNormal colorSecondary'
         'i': { tag: 'img', join: false }, // image full-width by-date 'widthFit marginTopNormal radiusNormal'
         'y': { tag: 'yt', join: false },
-        'v': { tag: 'vimeo', join: false }
+        'v': { tag: 'vimeo', join: false },
+        'b': { tag: 'block' },
+        '/': { tag: 'comment' }
     }
 
-    this.install = function(media, inline)
+    this.install = function(inline, media, projects, articles, templatePhotosLens, templatePostsLens, templateFocusLens)
     {
-        this.media = media;
         this.inline = inline;
+        this.media = media;
+        this.projects = projects;
+        this.articles = articles;
+        this.templatePhotosLens = templatePhotosLens;
+        this.templatePostsLens = templatePostsLens;
+        this.templateFocusLens = templateFocusLens;
     }
 
     this.parse = function(lines = [])
@@ -75,7 +87,7 @@ function Runelike()
             }
             else if (stash.rune.tag == 'h2')
             {
-                result += `${acc}<p class='fontSizeLarge marginTopLarge colorSecondary'>`;
+                result += `${acc}<p class='fontSizeLarge marginTopLarge marginBottomNormal colorSecondary'>`;
                 for (let i = 0; i < stash.a.length; i++)
                 {
                     if (i > 0)
@@ -152,11 +164,44 @@ function Runelike()
                     result += `${acc}<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/${stash.a[i]}' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>`;
                 }
             }
+            else if (stash.rune.tag == 'block')
+            {
+                const func = stash.a[0];
+
+                result += acc;
+                if (func == 'projectsLens')
+                {
+                    result += parent.templateIndex.componentLens('focusContainer', parent.templateFocusLens.getContent());
+                }
+                else if (func == 'photosLens')
+                {
+                    result += parent.templateIndex.componentLens('photosContainer', parent.templatePhotosLens.getContent());
+                }
+                else if (func == 'postsLens')
+                {
+                    result += parent.templateIndex.componentLens('postsContainer', parent.templatePostsLens.getContent());
+                }
+                else if (func == 'projectsAll')
+                {
+                    result += parent.templateCards.componentList(parent.projects.getAll());
+                }
+                else if (func == 'photosAll')
+                {
+                    result += parent.templateCards.componentList(parent.media.filterPhotos(parent.media.db));
+                }
+                else if (func == 'postsAll')
+                {
+                    result += parent.templateCards.componentList(parent.articles.getAll());
+                }
+            }
+            else if (stash.rune.tag == 'comment')
+            {
+                result += acc;
+            }
 
             return result;
         }
 
-        console.log(lines)
         return lines.filter(this.isRunic).reduce(this.stash, []).reduce(this.toHtml, '');
     }
 }

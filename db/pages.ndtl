@@ -1,0 +1,92 @@
+var PAGES = `
+INDEX
+  TITL : Home
+  DESC : Hamish MacDonald - Experience Designer
+  HEAD : 2019-04-15_15-35
+  KEYS : Hamish MacDonald, kormyen, design, projects, photos, posts
+  BODY
+    2 {link page hamish 'Hamish'} is an Experience Designer
+    3 Recent {link page projects} of {stat projectsTotal}
+    b projectsLens
+    3 Recent {link page photos} of {stat photosTotal}
+    b photosLens
+    3 Recent {link page posts} of {stat postsTotal}
+    b postsLens
+    / thoughts
+    / notes
+    / blogs
+
+HAMISH
+  TITL : Hamish
+  DESC : Who is Hamish?
+  BREF : Who?
+  DATE : 1988 - 2023
+  HEAD : 2019-03-03_15-00
+  KEYS : Hamish MacDonald, kormyen, about
+  PRNT : INDEX
+  BODY
+    i 2017-05-12_12-01
+    p Hamish is an Experience Designer
+    p He currently lives aboard a sailboat and van, in Auckland New Zealand.
+    t Skills
+    p User Interface design
+    p User Experience design
+    p Web design
+    p Web development
+    p Game design
+    p Game development
+    t Chosen Tools
+    p Figma
+    p Unity3D
+    p C#
+    p HTML / CSS / JS
+    p Deno / TypeScript
+    p Jetbrains Rider
+    t Goals
+    b Art for liberation - deliberate art, engineering and research toward escape from societal traps.
+    b Incrementalism of self - continuous personal improvement.
+    b Reduction of harm - life toward long-termism and admission that environment and the lives of others are radically important.
+    t Research
+    b {link project dastime 'Dasein'}
+    b {link page log 'Productivity'}
+    b {link project sailing 'Solarpunk'}
+    t Alias
+    p Kormyen
+    b Literal: "kor" tr.(Tau) Air (pilot). "M'yen" tr.(Tau) unforseen.
+    b Misinterpreted: Ghost, spirit, soul~
+    i 2015-09-03_12-00
+    p Contact me via email at h@kor.nz or via @kormyen
+  LINK
+    - {link ext twitter}
+    - {link ext merveillesTown 'Mastodon'}
+    - {link ext github}
+    - {link ext instagram}
+    - {link ext linkedin}
+
+PROJECTS
+  TITL : Projects
+  DESC : Digital, design, art, hardware, web3, physical, gamedev, electronics. 
+  KEYS : Hamish MacDonald, kormyen, design, projects, photos, posts
+  HEAD : 2011-11-25_12-00
+  PRNT : INDEX
+  BODY
+    b projectsAll
+
+PHOTOS
+  TITL : Photos
+  DESC : Photos from life
+  KEYS : Hamish MacDonald, kormyen, photos, photography
+  HEAD : 2018-05-03_12-00
+  PRNT : INDEX
+  BODY
+    b photosAll
+
+POSTS
+  TITL : Posts
+  DESC : Articles, thoughts and notes
+  KEYS : Hamish MacDonald, kormyen, posts, articles, thoughts, notes
+  HEAD : 2019-04-21_17-02
+  PRNT : INDEX
+  BODY
+    b postsAll
+`

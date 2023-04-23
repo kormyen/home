@@ -1,6 +1,6 @@
 'use strict';
 
-function Posts()
+function TemplateLensPosts()
 {
   this.articles = null;
   this.content = null;
@@ -9,10 +9,7 @@ function Posts()
   this.install = function(articles)
   {
     this.articles = articles;
-  }
 
-  this.start = function()
-  {
     let all = this.articles.getAll();
     this.dbLength = all.length;
     let limited = all.slice(0, 3);
@@ -29,8 +26,8 @@ function Posts()
     return this.dbLength;
   }
 
-  this.display = function(container)
+  this.getContent = function()
   {
-    container.innerHTML = this.content;
+    return this.content;
   }
 }

@@ -1,24 +1,23 @@
 'use strict';
 
-function Photos()
+function TemplateLensPhotos()
 {
   this.media = null;
   this.content = null;
   this.dbLength;
+  this.startCalled = false;
 
   this.install = function(media)
   {
     this.media = media;
-  }
-
-  this.start = function()
-  {
+  
     // let filtered = this.media.filterWithPerson(this.media.db, 'Hamish');
     // let sorted = this.media.sortByQuality(filtered);
 
     const filtered = this.media.filterNotHeaders(this.media.db);
     const photosOnly = this.media.filterPhotos(filtered);
     this.dbLength = photosOnly.length;
+    this.startCalled = true;
 
     const sorted = this.media.sortByScore(photosOnly);
     
@@ -37,8 +36,8 @@ function Photos()
     return this.dbLength;
   }
 
-  this.display = function(container)
+  this.getContent = function()
   {
-    container.innerHTML = this.content;
+    return this.content;
   }
 }

@@ -2,10 +2,13 @@
 
 function Image(data)
 {
-  this.file       = data.date+'.'+data.ext;
-  this.desc       = data.description;
-  this.date       = data.date;
-  this.proj       = data.proj;
+  this.desc         = data.description;
+  this.date         = data.date;
+  this.proj         = data.proj;
+
+  this.file         = data.date+'.'+data.ext;
+  this.pathRelative = MEDIAFOLDER+this.file;
+  this.pathAbsolute = DOMAIN+this.pathRelative;
 
   this.parseBinary = function(value)
   {
@@ -88,13 +91,13 @@ function Image(data)
   {
     this.htmlMed = `
       <video width='100%' controls class='widthFit marginTopNormal marginBottomNormal radiusNormal'>
-        <source src='media/${ this.file }' type='video/mp4'>
+        <source src='${ this.pathRelative }' type='video/mp4'>
       </video>
     `;
   }
   else
   {
-    this.htmlColor = function(stepsBack)
+    this.HtmlArticle = function(stepsBack = 0)
     {
       let steps = ``;
       for (let s = 0; s < stepsBack; s++)
@@ -120,9 +123,9 @@ function Image(data)
         </a>`;
       return result;
     }
-    this.htmlMed     = `<a href='/media/${ this.date }'><img src='media/${ this.file }' class='widthFit marginTopNormal marginBottomNormal ${ imageAlign }radiusNormal' } ></a>`;
-    this.htmlMedL    = `<a href='/media/${ this.date }'><img src='media/${ this.file }' class='elementHalfLeft'></a>`;
-    this.htmlMedR    = `<a href='/media/${ this.date }'><img src='media/${ this.file }' class='elementHalfRight'></a>`;
+    this.htmlMed     = `<a href='/media/${ this.date }'><img src='${ this.pathRelative }' class='widthFit marginTopNormal marginBottomNormal ${ imageAlign }radiusNormal' } ></a>`;
+    this.htmlMedL    = `<a href='/media/${ this.date }'><img src='${ this.pathRelative }' class='elementHalfLeft'></a>`;
+    this.htmlMedR    = `<a href='/media/${ this.date }'><img src='${ this.pathRelative }' class='elementHalfRight'></a>`;
   }
 
   this.roughDatediff = function(first, second)

@@ -1,50 +1,85 @@
 var PROJECTS = `
+LOG
+  TITL : Project - Log
+  BREF : time tracker
+  DESC : Log is a time tracker
+  DATE : 2018-07-12 onward
+  HEAD : 2018-07-05_12-00
+  KEYS : Hamish MacDonald, kormyen, Design
+  BODY
+    p "What gets measured gets done."
+    p {tracker project percentages}
+    p {tracker sector percentages}
+    p {tracker lastUpdateText}
+    p The graph below is total productive hours per week.
+    p {tracker week graph}
+  LINK
+    - {link ext logData}
+
+SEEKERS
+  TITL : Project - Seekers
+  BREF : gamified infrastructure
+  TISA : gamified infrastructure NFTs
+  DESC : A NFT project of loveable customisable robots with the utility of unlocking gamified decentralised comms infrastructure
+  TAGS : ux, ui
+  KEYS : seekers, nft, design
+  SECT : 4
+  BODY
+    p The Seekers project is a NFT project of loveable robots with the utility of enabling their owner activate them to run a web3 node. The Seeker nodes contribute to a decentralised network for private offchain communications.
+    p I am the Creative Director on the Seekers project, proposing the intial concept and working with the design, development and production team to deliver.
+    p Seekers are created by {link project Sylo} but we worked closely with the amazing team at Non-Fungible Labs of {link ext flufWorldHome}.
+    p The Seekers NFT mint was a first of it's kind "community-determined supply" where the initial supply was set at 50,000 which reduced every second as the Seekers were under attack by Goblins. The mint sold out in 77 minutes which meant the community saved a total of 47,895 Seekers.
+    p Seekers has been the most fun I've had on any project and I look forward to continuing to see it evolve.
+  LINK
+    - {link ext seekersHome}
+    - {link ext seekersOpensea}
+    - {link ext seekersTwitter}
+    - {link ext seekersDiscord}
+
 SYLO
-  BREF : smart wallet
+  TITL : Project - Sylo
+  BREF : web3 comms
   TISA : a platform for decentralized applications and communication with a focus on privacy and respect. User run incentized network infrastructure, decentralized applications and decentralized finance.
-  DESC : My focus on this project was design - UX and UI. My responsibilities included design systems, mobile app, browser app and marketing website.
+  DESC : My focus on this project was design - product, design, UX and UI. My responsibilities include Creative Director, Sylo Wallet design systems, wallet mobile app, and marketing.
   TAGS : ux, ui
   SECT : 4
   BODY
-    p Sylo has a focus on ease of use, while keeping a user in control of their data.
-    p It is built as a decentralized application platform, crypto-currency wallet and encrypted voice, video and text chat app.
-    p It's like Telegram (or WhatsApp) with payments (or like WeChat) but not exploiting everything you put into it because it's actually private and decentralized.
+    p Sylo has a focus on bringing crypto to everyday people - putting people in control of their digital money, digital assets, communications privacy, and making the tools that make it all run; fun and easy to use.
     i 2019-07-08_00-17
-    p My role at Sylo is as a designer, focusing on UX and UI - making cryptocurrency and decentralization things easy to understand.
+    p My role at Sylo is Creative Director, focusing on product, design, UX and UI.
     p The design team was interviewed on 2019-06-14 explaining our work and thoughts: "{link ext syloDesigners}". I had no help in picking the title for this article but like it as an unintended reference to "{link ext magicians}".
     i 2019-06-14_11-00
-    p The design team (left to right): myself, Alice, James and {link ext gretaGotlieb 'Greta'}.
-    p I hate photos.
+    p The 2019 design team (left to right): myself, Alice, James and {link ext gretaGotlieb 'Greta'}.
   LINK
     - {link ext syloHomepage}
     - {link ext syloApp}
 
-SAILING
-  BREF : wind adventures
-  TISA : the most stressful way to travel
-  SECT : 1, 8
-  BODY
-    p {link post visiting-rabbits} 
-    p {link post sailing-lesson} 
-    p {link post finding-quest} 
-    p {link post horizon} 
-
 HOME
+  TITL : Project - Home
   BREF : this website
   TISA : a portfolio, time tracker and exocortex
   BORN : 2006
   SECT : 3, 4, 7
   TAGS : ux, ui
+  EDIT
+    - 2023-04-23 Added 'Weathering Software Winder' and 2023 version
   BODY
     p Since I was young I have chipped away at an unfinishable amorphous website that has reborn every few years.
     p "...our small digital fires we keep alight at night." {link ext phil}
-    t Current
+    t 2023
+    p I rewrote the 2019 version to remove the 2019's overly complicated "build" process. It previously ran a headless browser to visit each "single page application" page and save it as a flat html file which I didn't like but seemed the simplest way at the time to turn the JS SPA site into non-JS HTML and control the exact URLs.
+    p The new left it as a javascript "single page application", not ideal but a simplification. I found the build thing a nagging anti-inspiration.
+    p The rewrite was inspired by stumbling upon this article {link ext devSpaRoute} which explained with vanilla JS how to control routing, history and address bar content which I could not figure out in 2019.
+    t 2019
     p The 2019 version was inspired by {link ext neauoire} with a focus on simplicity and minimalism in structure it is hopefully some form of foundational base to build upon into time.
     p At the very least with it's use of a human-readable data database; it's content should be portable between future website versions and long term. Simple to archive. 
+    t Philosophy: "Long Now"
     p An attempt at simplicity to help survive as {link ext techDegrades}.
     p I found this quote and term {link ext longSite} on {link ext gwern} an inspiration in this regard:
     p "The Internet is self destructing paper. A place where anything written is soon destroyed by rapacious competition and the only preservation is to forever copy writing from sheet to sheet faster than they can burn..." Julian Assange  ({link ext destructingPaper}, 5 December 2006)
     p In reference to above - the way the site is built is to allow the actual content to be easy to move around (text database), copy (human readable) and store (easily accessed standard files), while the visual display of it may change.
+    p This above thinking for me is entirely insprired by {link ext neauoire 'Devine'} and {link ext rekka} of {link ext rabbits} who I met in Whangarei and travelled to Wellington with.
+    p This talk {link ext weatherSoftware}
     t 2018
     p {image 2018-10-15_12-00 il} {image 2018-10-15_12-01 ir} 
     p Visualising my experiements with time tracking for self productivity gamification.
@@ -77,6 +112,7 @@ HOME
     - {link ext homeSource}
 
 MORT
+  TITL : Project - Mort
   BREF : rar
   TISA : a MONSTER!!!
   SECT : 4
@@ -101,6 +137,7 @@ MORT
     i 2019-07-08_12-00
 
 SKUL
+  TITL : Project - Skul
   BREF : monument
   TISA : a monument
   SECT : 4
@@ -115,6 +152,7 @@ SKUL
     p Server group photo
 
 SSS
+  TITL : Project - SSS
   BREF : steampunk theme
   TISA : an iOS theme
   SECT : 4
@@ -129,6 +167,7 @@ SSS
     p The other nine app icons were created by someone else.
 
 MEMEX
+  TITL : Project - Memex
   BREF : note archive
   TISA : a personal knowledge base
   DESC : A bookmarks and notes tool to help with storage and overview
@@ -155,6 +194,7 @@ MEMEX
     i 2018-11-07_12-00
 
 MEGAMEX
+  TITL : Project - Megamex
   BREF : catalog megaliths
   TISA : a lens for overviewing megaliths
   DESC : A tool for overviewing similarities and beauty of megalithic sites
@@ -167,6 +207,7 @@ MEGAMEX
     p I cannot finish this by myself.
 
 ARDUSAMBER
+  TITL : Project - Ardusamber
   BREF : neralie & arvelie
   TISA : a neralie & arvelie Arduino clock
   DESC : Arduino experiements with {link ext neauoire}'s time format Neralie
@@ -197,6 +238,7 @@ ARDUSAMBER
     - {link ext ardusamberSource}
 
 DASTIME
+  TITL : Project - Dastime
   BREF : dasein time
   TISA : a clock design
   DESC : 
@@ -238,6 +280,7 @@ DASTIME
     - {link ext dastimeSource}
 
 FPVMOD
+  TITL : Project - FPVMOD
   BREF : display++
   TISA : a modified fpv drove display
   DESC : Modified FPV drone display (Eachine VR006) with recording and larger swappable battery.
@@ -248,6 +291,7 @@ FPVMOD
     i 2018-03-20_12-00
 
 CORE
+  TITL : Project - Core
   BREF : power core
   TISA : input receiver and output commander for the VNS Tiny House IoT power system
   UNDR : VNS
@@ -260,6 +304,7 @@ CORE
     - {link ext vnsCoreSource}
 
 CONTROL
+  TITL : Project - Control
   BREF : control panel
   TISA : a custom control panel with switches and dimmer
   SECT : 1, 2, 3, 4
@@ -274,6 +319,7 @@ CONTROL
     - {link ext vnsControlSource}
     
 POWER
+  TITL : Project - Power
   BREF : power unit
   TISA : a power distribution unit for an IoT system
   UNDR : VNS
@@ -286,6 +332,7 @@ POWER
     - {link ext vnsPowerSource}
 
 CRUCIFIX
+  TITL : Project - Crucifix
   BREF : boardwalk
   TISA : a boardwalk deck/pathway
   SECT : 1
@@ -295,6 +342,7 @@ CRUCIFIX
     p Project complete but don't have final photos yet.
 
 LIGHTBOX
+  TITL : Project - Lightbox
   BREF : image zoom
   TISA : a minimal vanilla JS lightbox lib
   SECT : 3, 4
@@ -308,6 +356,7 @@ LIGHTBOX
     - {link ext lightboxSource}
 
 SWORDY
+  TITL : Project - Swordy
   BREF : physics brawler
   TISA : a physics based local-multiplayer fighting game
   SECT : 3, 4, 7
@@ -319,6 +368,7 @@ SWORDY
     > {link ext frogshark}
 
 VAN
+  TITL : Project - Van
   BREF : tiny house
   TISA : mobile stealth tiny house
   SECT : 1, 2, 3, 4, 6, 7
@@ -345,6 +395,7 @@ VAN
     i 2019-07-04_12-55
 
 WHALEBUS
+  TITL : Project - Whalebus
   BREF : spam toy
   TISA : 48 hour game jam "what do we do now?" themed toy
   SECT : 3, 4
@@ -364,6 +415,7 @@ WHALEBUS
     - {link ext whalebusDownload}
 
 PORTFOLIO
+  TITL : Project - Portfolio
   BREF : work showcase
   TISA : minimal portfolio website
   SECT : 3, 4
@@ -380,6 +432,7 @@ PORTFOLIO
     - {link ext sarahSource}
 
 WARP
+  TITL : Project - Warp
   BREF : VR JAM 2013
   TISA : "VR JAM 2013" entry for Oculus developer kit V1
   SECT : 3, 4
@@ -395,6 +448,7 @@ WARP
     p Alexey more recently made these images with the assets from the game. I stole them from his website.
 
 TOILET
+  TITL : Project - Toilet
   BREF : shit bucket
   TISA : home made composting toilet
   SECT : 1, 6
@@ -457,11 +511,12 @@ TOILET
     - {link ext omickToilet}
 
 SOLARSAILS
+  TITL : Project - Solarsails
   BREF : solar family
   TISA : solarpunk themecamp
   SECT : 1, 2, 4
   BODY
-    p Solarsails is a solarpunk themecamp made of bamboo, repurposed junk, solar panels and optimism.
+    p To me Solarsails is a solarpunk themecamp made of bamboo, repurposed junk, solar panels and optimism.
     p Solarsails is a big group effort of twenty or so friends, I am just a small part. I have generally provided cargo transport, solar power from my {link project van}, a composting {link project toilet} lights and misc building help.
     p
     t What is Solarpunk?
@@ -525,6 +580,7 @@ SOLARSAILS
     i 2020-01-27_09-54
 
 SHELF
+  TITL : Project - Shelf
   BREF : overengineered
   TISA : wooden cornershelf and heat vent
   SECT : 6

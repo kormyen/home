@@ -44,8 +44,8 @@ SAILING LESSON
     p It sounds cliché but once I started sailing around Auckland's Gulf Harbour I finally understood Auckland's "City of Sails" motto. 
     p It is stunningly beautiful.
 
-FINDING QUEST
-  NAME : Finding Quest
+QUEST
+  NAME : Quest
   BREF : The search for a boat
   TAGS : sailing
   TYPE : blog
@@ -54,7 +54,7 @@ FINDING QUEST
   CHNG : 0
   PUBL : true
   BODY
-    p Sasha and I looked at 10 boats within a week. Eventually getting a feel for what prices boats seem to be selling for in Auckland.
+    p My friend Sasha and I looked at 10 boats within a week. Eventually getting a feel for what prices boats seem to be selling for in Auckland.
     p We also viewed a boat {link blog horizon 'Horizon'} which was on auction which we never thought we would be able to afford, we were just curious what the next class of boats was like.
     i 2019-07-08-18-13
     t Quest
@@ -76,22 +76,24 @@ FINDING QUEST
     i 2019-07-08_23-31
 
 HORIZON
-  BREF : Another boat
+  BREF : A 2nd boat
+  TISA : A 2nd boat
   TAGS : sailing
   TYPE : blog
   HEAD : 2019-03-23_19-27
   DATE : 2019-07-14
-  CHNG : 0
+  CHNG : 1
   PUBL : true
   BODY
-    p We actually only owned {link blog finding-quest 'Quest'} around a week before Horizon's auction ended and we purchased her for a cheap price.
+    p My friend Sasha and I actually only owned Quest {link blog finding-quest 'Quest'} around a week before Horizon's Trademe auction ended and we purchased her for a cheap price... because she had a leak!
     p The photo below is the first and what we thought the last time we saw Horizon. We expected her to be much more expensive.
+    p Horizon's leak had stopped after sitting on her new mooring home for a while so we thought we might have got away with a crazy deal. It wasn't until sailing to Great Barrier Island one time and hearing the bilge pumps going that we thought we might be in deeper than we hoped. We ended up being totally fine, with only a slow weep. We learned a whole lot going through the process of fixing the leak with a lot of help from many ath the Panmure Yacht and Boating club.
     i 2019-02-17_12-00
     i 2019-04-14_16-43
     i 2019-04-07_13-59
     i 2019-03-16_19-02
     i 2019-03-17_16-08
-    p Had awesome adventures with some awesome people.
+    p I had awesome adventures with some awesome people aboard - sailing the Auckland Waitemata Harbour in New Zealand.
     i 2019-04-13_15-00
     p {image 2019-03-10_13-14 il} {image 2019-03-16_19-10 ir}
     p {image 2019-04-16_18-19 ir} {image 2019-03-16_19-06 il}
@@ -173,17 +175,17 @@ GAME DESIGN NOTES
     - {link ext mizizizizPillars}
   BODY
     t Action progression loop
-    - Three pillars "engine, wheel and road"
+    p - Three pillars "engine, wheel and road"
     y https://www.youtube.com/watch?v=_gzCoVaojwI
     t 1st pillar 
     p "The engine"
     p BASE GAME LOOP: Something fun and do it over and over. 
-    - Eg: Balancing a ping pong ball. FPS: Point and shoot. Platformer: Run and jump. Number accumulation: XP or high score.
+    p Eg: Balancing a ping pong ball. FPS: Point and shoot. Platformer: Run and jump. Number accumulation: XP or high score.
     t 2nd pillar 
     p "The wheel"
     p PROGRESSION: A sense of progression. Same base loop but progression. Feels rewarding.
-    - Eg: Upgrades after waves. Getting better high scores. Running track faster than last time. Running further.
-    - Eg: Running. Base look is moving legs, feels fun to go fast. Progression feels rewarding - getting better, faster over years of practice. 
+    p Eg: Upgrades after waves. Getting better high scores. Running track faster than last time. Running further.
+    p Eg: Running. Base look is moving legs, feels fun to go fast. Progression feels rewarding - getting better, faster over years of practice. 
     t 3rd pillar 
     p "The road"
     p DIFFICULTY CURVE: Game gets harder the more you play. Complexity increases, difficulty increases, more challenges. Up until final test of all things learned to complete the game.
@@ -377,7 +379,7 @@ LOGGING 2019
     p Track meditation
 
 GOALS IN 2019
-  BREF : Looking forward test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test 
+  BREF : Looking forward 
   TAGS : home
   DATE : 2019-01-04
   HEAD : 2019-02-23_19-43
@@ -1878,4 +1880,44 @@ LEVEL DESIGN
     p rainworld
     p Darksouls
     p daily level design sketches
+
+END GAME NOTES
+  TYPE : notes
+  TISA : Notes on "Endgame" design
+  HEAD : 
+  DATE : 2022-09-12
+  EDIT : 
+  CHNG : 0
+  PUBL : false
+  BODY
+    p Phases: Discovery, Onboarding, Scaffolding, Endgame.
+    t Endgame Examples
+    p Plants Vs Zombies - once finished all levels twice, the Endgame is about custom challenges for levels.
+    p Diablo - the Endgame is "Diablo Runs" where players band together to defeat the final boss multiple times a day in order to get enough loot to perfect their gear.
+    p FarmVille - maybe using all your gold and plants to create masterful artwork and take a screenshot before they all wither out.
+    p 
+    p Some games may have the general journey (scaffolding) of striving towards the max level, and the endgame lies in player versus player battles, or Group Quests of Max Level Players taking on extremely difficult challenges.
+    p 
+    p Endgame "Epic meaning" options:
+    p Impact - show actual impact, like more trees planted, people being fed or more people writing letters to them saying how their lives have changed.
+    p Elitism - When a player has been playing a lot, it is likely she has a strong standing in the game or leading a group, and if she believes her group is a top tier group and needs to remain on top, she will stay in the group to play for extensive long periods of time.
+    p Teacher - As that group may also have younger members, the veteran player can also feel like an experienced master by helping the newbies learn the ropes.
+    p Social influence - Facilitate all the activities in the group - timezone, participation, and trading preferences all in a spreadsheet.
+    p Unpredictability & Curiosity - Easter Eggs, Mystery Boxes, or Social Treasures.
+    p Changability in challenges - If you can create variables in the challenge the users need to to tackle, that is often an ideal and scalable way to engage them in the Endgame.
+    p Accumulation - Not a true "goal" but the act of collecting and accumulating feels like "Blissful Productivity".
+    p Alfred Effect - A feeling of comfort and homeliness in an experience customised, personalised and catered to the user.
+    p Collection Sets - When you have so many pieces within a variety of Collection Sets, you become extremely motivated to complete your set.
+    p Big Burn - Extremely expensive status symbol items for the veteran players, showing that they were able to earn it. 
+    p Endless - extraordinarily difficult stages, sometimes algorithmically harder not meant to be completed. Can't string people along forever though.
+    p Mix Moats with unpredictability - randomly generated challenges that require great skills and planning to overcome, and could often become intensively difficult in certain combinations. This forces users to continue to use new ways to utilize their veteran skills to overcome the challenge.
+    p Empowerment of Creativity & Feedback - examples Poker, Majong, Professional Sports, Chess, Starcraft, Shooting games, League of Legends-like games, all have mastered the art of creating balanced yet dynamic environments filled with meaningful choices. 
+    p Veteran competition - can create a lot of activity in the Endgame because when players are competing with each other they are both Improving in the activity and continuously creating more challenge for each other. Eg: Street fighter, Starcraft or Super Smash Bros. 
+    p New social settings - places to hang out. Similar to "Veteran competition" players provide content to each other.
+    p Source: https://yukaichou.com/gamification-study/4-experience-phases-gamification-4-endgame/
+    p
+    p Misc ideas:
+    p Cosmetic-trophy system - A cosmetic-trophy system based on achievements would be nice too. IE: Kill a certain boss, get a weapon chain. Complete a themed challenge floor, change the appearance of a fireball to a flaming skull. Place well in an event, get a fancy cape. Cosmetics should be a combination of making things look pretty and bragging about achievements. Some cosmetics should be character-bound while others should be account bound.
+    p Procedural high risk - procedurally generated content, rare drops and high difficulty. Greater rifts in Diablo 3, hazard 5 in Deep Rock Galactic, Wormhole Space in Eve Online.
+    p User chosen endgame goals sandbox - Most "money". Highest kill efficiency. Most Skill Points. Largest faction. Or...
 `

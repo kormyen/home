@@ -1,3 +1,8 @@
+## REFACTOR
+- URLS? https://dev.to/thedevdrawer/single-page-application-routing-using-hash-or-url-9jh
+- Fix full size image link
+- Fix Log page
+
 ## BUGS
 - BUG: exactly 1280px width screen causes weird sidebar indent. not 1279 with down or 1281 up, exactly 1280 only.
 

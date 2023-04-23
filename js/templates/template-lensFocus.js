@@ -1,6 +1,6 @@
 'use strict';
 
-function Focus()
+function TemplateLensFocus()
 {
   this.log;
   this.projects;
@@ -12,10 +12,7 @@ function Focus()
     this.log = log;
     this.projects = projects;
     this.media = media;
-  }
-
-  this.start = function()
-  {
+  
     // Limit to recent logs
     let recentLogs = [];
     // let refDate = new Date;
@@ -74,8 +71,8 @@ function Focus()
     }
   }
 
-  this.display = function(container)
+  this.getContent = function()
   {
-    container.innerHTML = this.content;
+    return this.content;
   }
 }
