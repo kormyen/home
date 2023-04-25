@@ -2,10 +2,12 @@ var PROJECTS = `
 LOG
   TITL : Project - Log
   BREF : time tracker
+  TISA : a time tracker
   DESC : Log is a time tracker
   DATE : 2018-07-12 onward
   HEAD : 2018-07-05_12-00
-  KEYS : Hamish MacDonald, kormyen, Design
+  KEYS : productivity
+  SECT : 7
   BODY
     p "What gets measured gets done."
     p {tracker project percentages}
@@ -452,7 +454,10 @@ TOILET
   BREF : shit bucket
   TISA : home made composting toilet
   SECT : 1, 6
-  EDIT : 2020-08-28, 2020-08-27
+  EDIT : 
+    - 2020-08-28
+    - 2020-08-27
+    - 2021-04-24
   BODY
     p When people say "composting toilet" what they really mean is "shitting in a bucket" - but it's nicer than most people who haven't used one think. It's surprising how many people just write-off the idea before they realise it's actually all good. 
     p 
@@ -469,11 +474,11 @@ TOILET
     t What's involved
     p All it really comes down to is decorating a bucket to make it more comfortable and socially acceptable: put it in a box!
     p You can have a semi-portable box like mine, or build it into your bathroom. Express your box creativity.
-    p Having a urine seperator is a highly recommended addition. By keeping 1s and 2s seperate I think it's not technically "sewerage"... but what that means to you is that it doesn't smell so bad. 
+    p Having a urine seperator is a highly recommended addition. By keeping 1s and 2s seperate I think it's not technically "sewerage"... but what that means to you is that it doesn't smell so bad, or fill so fast.
     i 2020-08-27_13-30
     p I got {link ext urineSeperator 'this one'} from "Free Range Designs". It's expensive for a piece of plastic but works perfectly. Maybe there are similar 3D-print-able alternatives online.
     i 2020-01-20-16-03
-    p Instead of flushing with water you keep the solids dry with sawdust, dry soil or similar. 
+    p Instead of flushing with water you keep the solids dry with sawdust, dry soil, dry coffee grounds, pet cage sawdust or similar. 
     i 2020-01-22_12-46
     p For the themecamp we got a big container of sawdust for free from a wood mill on the drive down. {link ext dominic 'Dominic'} and I asked at the office and they said "help yourself".
     p 

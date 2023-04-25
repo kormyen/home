@@ -17,8 +17,8 @@ function Runelike()
         '2': { tag: 'h2' },
         '3': { tag: 'h3' },
         'p': { tag: 'p' }, // paragraph normal-line 'fontSizeSmall marginTopNormal colorSecondary'
+        '-': { tag: 'bullet' }, // paragraph normal-line 'fontSizeSmall marginTopNormal colorSecondary'
         'q': { tag: 'quote', join: false },
-        'b': { tag: 'br' }, // paragraph normal-line 'fontSizeSmall marginTopNormal colorSecondary'
         'i': { tag: 'img', join: false }, // image full-width by-date 'widthFit marginTopNormal radiusNormal'
         'y': { tag: 'yt', join: false },
         'v': { tag: 'vimeo', join: false },
@@ -87,7 +87,7 @@ function Runelike()
             }
             else if (stash.rune.tag == 'h2')
             {
-                result += `${acc}<p class='fontSizeLarge marginTopLarge marginBottomNormal colorSecondary'>`;
+                result += `${acc}<p class='fontSizeNormal marginTopLarge marginBottomMedium colorSecondary'>`;
                 for (let i = 0; i < stash.a.length; i++)
                 {
                     if (i > 0)
@@ -100,7 +100,7 @@ function Runelike()
             }
             else if (stash.rune.tag == 'h3')
             {
-                result += `${acc}<p class='fontSizeNormal marginTopLarge marginBottomNormal colorSecondary'>`;
+                result += `${acc}<p class='fontSizeSmall marginTopLarge marginBottomNormal colorSecondary strong spaced'>`;
                 for (let i = 0; i < stash.a.length; i++)
                 {
                     if (i > 0)
@@ -124,18 +124,18 @@ function Runelike()
                 }
                 result += `</p>`;
             }
-            else if (stash.rune.tag == 'quote')
+            else if (stash.rune.tag == 'bullet')
             {
-                result += `${acc}<p class='fontSizeSmall marginTopNormal marginBottomNormal colorSecondary'><i> > `;
+                result += `${acc}<p class='fontSizeSmall marginTopNormal marginBottomNormal colorSecondary'>`;
                 for (let i = 0; i < stash.a.length; i++)
                 {
                     if (i > 0)
                     {
                         result += `<br><br>`;
                     }
-                    result += `${parent.inline.parse(stash.a[i])}`;
+                    result += `- ${parent.inline.parse(stash.a[i])}`;
                 }
-                result += `</i></p>`;
+                result += `</p>`;
             }
             else if (stash.rune.tag == 'br')
             {

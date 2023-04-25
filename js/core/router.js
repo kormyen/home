@@ -22,13 +22,34 @@ function Router(app)
         let page = app.pages.get(location);
 
         // Set header content
-        app.header.setImage(app.media.getByDate(page.HEAD));
+        if (page.HEAD)
+        {
+            app.header.setImage(app.media.getByDate(page.HEAD));
+        }
+        else
+        {
+            app.header.setEmpty();
+        }
+
+        let htmlContent = ``;
+
+        // Set nav content
+        if (page.PRNT)
+        {
+            htmlContent += app.nav.single(page.PRNT, page.TITL)
+        }
 
         // Set body content
-        document.querySelector('main').innerHTML = page.HtmlBody;
+        htmlContent += page.HtmlBody;
+
+        let sidebar = app.templateSidebar.create();
+        document.querySelector('main').innerHTML = app.pages.buildArticle(sidebar, htmlContent);
+        //document.querySelector('main').innerHTML = htmlContent;
 
         // Set meta content
         app.templateMeta.display(page);
+
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
     };
     
     this.route = (event) => {

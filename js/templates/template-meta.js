@@ -51,12 +51,13 @@ function TemplateMeta()
     document.querySelector('meta[name="keywords"]').setAttribute("content", data.KEYS);
 
     // Image
-    let image = this.app.media.getByDate(data.HEAD);
-    document.querySelector('meta[property="og:image"]').setAttribute("content", image.pathAbsolute);
-    document.querySelector('meta[name="twitter:image"]').setAttribute("content", image.pathAbsolute);
+    let imageName = (data.HEAD) ? data.HEAD : DEFAULTIMAGE;
+    let imageData = this.app.media.getByDate(imageName);
+    document.querySelector('meta[property="og:image"]').setAttribute("content", imageData.pathAbsolute);
+    document.querySelector('meta[name="twitter:image"]').setAttribute("content", imageData.pathAbsolute);
 
     // Image Alt
-    document.querySelector('meta[property="og:image:alt"]').setAttribute("content", image.desc);
-    document.querySelector('meta[name="twitter:image:alt"]').setAttribute("content", image.desc);
+    document.querySelector('meta[property="og:image:alt"]').setAttribute("content", imageData.desc);
+    document.querySelector('meta[name="twitter:image:alt"]').setAttribute("content", imageData.desc);
   }
 }

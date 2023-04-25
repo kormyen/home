@@ -28,7 +28,7 @@ function Inline()
         {
             result += `/${func}-${name.replace(/ /g, `-`)}`;
         }
-        else if (name == 'home')
+        else if (name == 'INDEX')
         {
             result += `/`;
         }

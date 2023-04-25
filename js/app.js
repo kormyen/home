@@ -52,71 +52,19 @@ function App()
 	this.templateMeta = new TemplateMeta();
 	this.templateMeta.install(this, document.querySelector('head'));
 
+	this.templateSidebar = new TemplateSidebar();
+	this.templateSidebar.install(this.inline);
+
 	this.router = new Router(this);
 
 
-
-	// 	else if (target == 'projects')
-	// 	{
-	// 		let navData = [];
-	// 		navData.oneName = `Projects`;
-	// 		htmlContent += this.nav.create(navData);
-	// 	}
-	// 	else if (target == 'photos')
-	// 	{
-	// 		let htmlContent = ``;
-
-	// 		let navData = [];
-	// 		navData.oneName = `Photos`;
-	// 		htmlContent += this.nav.create(navData);
-
-	// 		htmlContent += `<div class='projectList'>`;
-	// 		let list = this.media.filterPhotos(this.media.db);
-	// 		for (let k = 0; k < list.length; k++)
-	// 		{
-	// 			let element = list[[k]];
-	// 			htmlContent += element.htmlColor(0);
-	// 		}
-	// 		htmlContent += '</div>'; // end projectList
-
-	// 		this.main.innerHTML = htmlContent;
-	// 	}
-	// 	else if (target == 'posts')
-	// 	{
-	// 		let data = this.pages.get(target);
-	// 		this.header.setImage(this.media.getByDate(data.HEAD));
-			
-	// 		htmlContent = ``;
-
-	// 		let navData = [];
-	// 		navData.oneName = `Posts`;
-	// 		htmlContent += this.nav.create(navData);
-
-	// 		htmlContent += `<div class='projectList'>`;
-	// 		let list = this.articles.getAll();
-	// 		for (let k = 0; k < list.length; k++)
-	// 		{
-	// 			htmlContent += list[k].HtmlArticle(`post`);
-	// 		}
-
-	// 		this.main.innerHTML = htmlContent;
-	// 	}
 	// 	////////////////////////////////////////////////////////////////////////////////
 	// 	// ARTICLE PAGES ///////////////////////////////////////////////////////////////
 	// 	////////////////////////////////////////////////////////////////////////////////
 	// 	else if (target == 'hamish' || target == 'log')
 	// 	{
-	// 		let data = this.pages.get(target);
-	// 		this.header.setImage(this.media.getByDate(data.HEAD));
-	// 		let htmlContent = ``;
-
-	// 		let navData = [];
-	// 		navData.oneName = parent.capitalizeFirstLetter(target);
-	// 		htmlContent += this.nav.create(navData);
-
 	// 		// Article
 	// 		htmlContent += this.pages.buildArticle(data.HtmlSidebar, data.HtmlBody);
-
 	// 		this.main.innerHTML = htmlContent;
 	// 	}
 	// 	else if (target.substr(0, 7) == 'project')
