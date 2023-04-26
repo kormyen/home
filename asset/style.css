@@ -3,6 +3,7 @@
   --color-primary: #EEE;
   --color-secondary: #999;
   --color-tertiary: #333;
+  --color-background: #000;
 
   --size-mainWidth: 80em;
   --size-columnPaddingNormal: 10px; /* Connected elements */
@@ -43,7 +44,7 @@ html {
   font-family: sans-serif;
   font-weight: 100;
   color: var(--color-primary);
-  background-color: #000 !important;
+  background-color: var(--color-background) !important;
   /* min-height: 100%; */
   position: relative;
 }
@@ -94,8 +95,9 @@ header {
   color: var(--color-primary);
 }
 .subtleLink:hover {
-  /* text-decoration: underline; */
-  color: var(--color-highlight);
+  text-decoration: none;
+  background-color: #fff;
+  color: var(--color-background);
 }
 
 
@@ -626,13 +628,14 @@ header {
   align-items: center; /* vertical */
   width: 100%;
 }
-#footer > p {
+#footer > span {
   display: flex;
   flex-direction: row;
   text-align: center;
   justify-content: center; /* horizontal */
   align-items: center; /* vertical */
   height: 2em;
+  white-space: pre-wrap;
 }
 @media only screen and (max-width: 50em) /* MIN WIDTH REACHED */
 {

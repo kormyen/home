@@ -13,8 +13,10 @@ function TemplateFooter()
   {
     let result = `
       <div id="footer" class="fontSizeTiny colorSecondary">
-        <p>This page was last updated 2023-04-25</p>
-        <p>Hamish MacDonald © 2023 — {link ext ccbyncsa4}</p>
+        <span>This page was last updated 2023-04-25</span>
+        <span>`;
+        result += this.inline.parse(`Hamish MacDonald © 2023 {link ext ccbyncsa4}`);
+        result += `</span>
       </div>
       `;
     container.innerHTML = result;

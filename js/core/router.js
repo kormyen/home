@@ -2,6 +2,20 @@ function Router(app)
 {
     this.app = app;
 
+    var lastID = null;
+
+    var handleMouseover = function (e) {
+        var target = e.target || e.srcElement;
+        lastID = target.id;
+    };
+
+    if (document.addEventListener) {
+        document.addEventListener('mouseover', handleMouseover, false);
+    }
+    else {
+        document.attachEvent('onmouseover', handleMouseover);
+    }
+
     this.locationHandler = function()
     {
         // get the url path
@@ -54,6 +68,7 @@ function Router(app)
     
     this.route = (event) => {
         event = event || window.event; // get window.event if event argument not provided
+
         event.preventDefault();
         // window.history.pushState(state, unused, target link);
         window.history.pushState({}, "", event.target.href);
@@ -63,7 +78,13 @@ function Router(app)
     // create document click that watches the nav links only
     document.addEventListener("click", (e) => {
         const { target } = e;
-        if (!target.matches("a")) {
+        if (!target.matches("a"))
+        {
+            return;
+        }
+        if (lastID == 'ext')
+        {
+            // if external link, then handle normally
             return;
         }
         e.preventDefault();

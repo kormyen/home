@@ -49,7 +49,7 @@ function Inline()
 
         if (ext)
         {
-            return `<a href='${url}' class='${className}' target='_blank'>${label}</a>`;
+            return `<a href='${url}' class='${className}' target='_blank' id='ext'>${label}</a>`;
         }
         else
         {
@@ -108,7 +108,9 @@ function Inline()
                         // EXTERNAL LINK
                         const linkName = linkChunks[2];
                         const entry = parent.links.getByName(linkName);
-                        const label = (optionalLabel == '') ? entry.label : optionalLabel;
+                        let label = '';
+                        label += '^';
+                        label += (optionalLabel == '') ? entry.label : optionalLabel;
                         lineResult += parent.doLink(entry.url, label, true);
                     }
                 }
