@@ -12,8 +12,8 @@ INDEX
     / Hello, I'm {link page hamish 'Hamish MacDonald'}.
     3 Featured {link page projects} of {stat projectsTotal}
     b projectsLens
-    3 Other recent {link page projects} of {stat projectsTotal}
-    b projectsLensReccent
+    / Other recent {link page projects} of {stat projectsTotal}
+    / projectsLensReccent
     3 Recent {link page photos} of {stat photosTotal}
     b photosLens
     3 Recent {link page posts} of {stat postsTotal}

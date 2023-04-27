@@ -41,7 +41,9 @@ function Projects()
         let result = `<a href='${inline.getInternalUrl('project', element.NAME)}' class='article noDecoration'>`;
         if (element.media.length > 0)
         {
+          result += `<div class="img-gradient">`;
           result += `<img src='media/small/${element.media[0].file}' class='articleImg articleBlackAndWhite radiusNormal'></img>`;
+          result += `</div>`;
         }
         result += `<span class='fontSizeSmall colorMain marginTopNormal articleTitle'>${parent.capitalizeFirstLetter(element.NAME)}<span id='articleDesc'>: ${element.BREF}</span></span>
           </a>`;

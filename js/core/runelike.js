@@ -100,7 +100,7 @@ function Runelike()
             }
             else if (stash.rune.tag == 'h3')
             {
-                result += `${acc}<p class='fontSizeSmall marginTopLarge marginBottomNormal colorSecondary strong spaced'>`;
+                result += `${acc}<p class='fontSizeSmall marginTopLarge marginBottomNormal colorSecondary'>`;
                 for (let i = 0; i < stash.a.length; i++)
                 {
                     if (i > 0)

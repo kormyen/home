@@ -336,6 +336,7 @@ header {
 .article:hover .articleBlackAndWhite {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%) brightness(100%);
+  background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73));
 }
 
 .articleImg {
@@ -380,6 +381,24 @@ header {
   .articleImg {
     height: var(--size-sectionHeightMin);
   }
+}
+.img-gradient {
+  position:relative;
+}
+.img-gradient::after {
+  content: '';
+  position: absolute;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.6));
+  transition-duration: 4s;
+  transition: all;
+}
+.article:hover .img-gradient::after
+{
+  background: none;
+  transition-duration: 4s;
+  background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0));
 }
 
 .trippleArticleContainer .article {
@@ -443,7 +462,7 @@ header {
 @media screen and (min-width: 80em) { /* MAX WIDTH REACHED */
   .sidebar {
     position: auto;
-    width: 15rem;
+    width: 10rem;
   }
 }
 @media only screen and (max-width: 50em) /* MIN WIDTH REACHED */

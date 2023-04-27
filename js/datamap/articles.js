@@ -35,7 +35,9 @@ function Articles()
         element.HtmlArticle = function(location)
         {
           let result = `<a href='${inline.getInternalUrl(location, keys[k].toLowerCase())}' class='article noDecoration'>`;
+          result += `<div class="img-gradient">`;
           result += `<img src='media/small/${element.media.file}' class='articleImg articleBlackAndWhite radiusNormal'></img>`;
+          result += `</div>`;
           result += `<span class='fontSizeSmall colorMain marginTopNormal articleTitle'>${element.NAME}</span>
             </a>`;
 
