@@ -4,11 +4,17 @@ function Image(data)
 {
   this.desc         = data.description;
   this.date         = data.date;
+  this.dateShort    = data.date.split('_')[0];;
   this.proj         = data.proj;
 
   this.file         = data.date+'.'+data.ext;
   this.pathRelative = MEDIAFOLDER+this.file;
   this.pathAbsolute = DOMAIN+this.pathRelative;
+
+  this.author       = data.author;
+  this.country      = data.country;
+  this.location     = data.location;
+  this.area         = data.area;
 
   this.parseBinary = function(value)
   {

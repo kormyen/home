@@ -22,7 +22,8 @@ function Router(app)
         let location = window.location.pathname;
     
         // if the path length is 0, set it to primary page route
-        if (location.length == 0 || location == "/") {
+        if (location.length == 0 || location == "/")
+        {
             location = "INDEX";
         }
         else
@@ -31,6 +32,10 @@ function Router(app)
             location = location[1];
             location = location.toUpperCase();
         }
+
+        let query = location[2];
+        console.log(location);
+        console.log(query);
 
         // Get page data
         let page = app.pages.get(location);

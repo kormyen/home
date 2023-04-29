@@ -24,17 +24,17 @@ function Inline()
     {
         let result = ``;
 
-        if (func == 'project' || func == 'post')
-        {
-            result += `/${func}-${name.replace(/ /g, `-`)}`;
-        }
-        else if (name == 'INDEX')
+        if (name == 'INDEX')
         {
             result += `/`;
         }
         else if (func == 'page')
         {
             result += `/${name}`;
+        }
+        else if (func == 'project' || func == 'post')
+        {
+            result += `/${func}s/${name.replace(/ /g, `-`)}`;
         }
 
         return result;

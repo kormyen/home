@@ -10,7 +10,7 @@ INDEX
   BODY
     2 {link page hamish 'Hamish'} is an Experience Designer
     / Hello, I'm {link page hamish 'Hamish MacDonald'}.
-    3 Featured {link page projects} of {stat projectsTotal}
+    3 Recent {link page projects} of {stat projectsTotal}
     b projectsLens
     / Other recent {link page projects} of {stat projectsTotal}
     / projectsLensReccent
