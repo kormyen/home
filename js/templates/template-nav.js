@@ -7,22 +7,17 @@ function Nav()
         this.inline = inline;
     }
 
-    this.create = function(data)
+    this.double = function(originPage, parentPage, child)
     {
+        console.log('double: ' + origin + '. ' + parent);
+
         let result = ``;
         result += `<p class='fontSizeNormal marginTopLarge marginBottomLarge colorMain nav'>`;
-        result += `<a href='${this.inline.getInternalUrl('page', 'home')}' class='subtleLink'>Home</a>`;
+        result += `<a href='${this.inline.getInternalUrl('page', originPage.NAME.toUpperCase())}' class='subtleLink'>${originPage.TITL}</a>`;
 
-        if (data.twoName == null)
-        {
-            result += `<span class='colorSecondary'> / ${data.oneName}</span></p>`;
-        }
-        else 
-        {
-			result += `<span class='colorSecondary'> / </span>`;
-			result += `<a href='${data.oneLink}' class='subtleLink'>${data.oneName}</a>`;
-			result += `<span class='colorSecondary'> / ${data.twoName}</span></p>`;
-        }
+        result += `<span class='colorSecondary'> / </span>`;
+        result += `<a href='${this.inline.getInternalUrl('page', parentPage.NAME.toUpperCase())}' class='subtleLink'>${parentPage.TITL}</a>`;
+        result += `<span class='colorSecondary'> / ${child}</span></p>`;
         
         return result;
     }

@@ -8,7 +8,7 @@ function Image(data)
   this.proj         = data.proj;
 
   this.file         = data.date+'.'+data.ext;
-  this.pathRelative = MEDIAFOLDER+this.file;
+  this.pathRelative = '/'+MEDIAFOLDER+'/'+this.file;
   this.pathAbsolute = DOMAIN+this.pathRelative;
 
   this.author       = data.author;

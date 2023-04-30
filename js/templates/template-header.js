@@ -15,8 +15,8 @@ function Header()
     // date
     if (image.dateShort)
     {
-      result += `<span class='photoInfoItem radiusNormal'>`;
-      result += `<img src='asset/icon/font-awesome/clock-solid.svg' class='photoInfoIcon'>`
+      result += `<span class='photoInfoItem'>`;
+      result += `<img src='/asset/icon/font-awesome/clock-solid.svg' class='photoInfoIcon'>`
       result += image.dateShort;
       result += `</span>`;
     }
@@ -24,8 +24,8 @@ function Header()
     // photographer
     if (image.author)
     {
-      result += `<span class='photoInfoItem radiusNormal'>`;
-      result += `<img src='asset/icon/font-awesome/camera-solid.svg' class='photoInfoIcon'>`
+      result += `<span class='photoInfoItem'>`;
+      result += `<img src='/asset/icon/font-awesome/camera-solid.svg' class='photoInfoIcon'>`
       result += image.author;
       result += `</span>`;
     }
@@ -33,7 +33,6 @@ function Header()
     // people
     if (image.people && image.people.length > 0 && image.people[0] != '')
     {
-      console.log(image.people)
       let peopleInfo = '';
       for (let i = 0; i < image.people.length; i++) {
         const person = image.people[i];
@@ -43,8 +42,8 @@ function Header()
           peopleInfo += ', ';
         }
       }
-      result += `<span class='photoInfoItem radiusNormal'>`;
-      result += `<img src='asset/icon/font-awesome/user-solid.svg' class='photoInfoIcon'>`
+      result += `<span class='photoInfoItem'>`;
+      result += `<img src='/asset/icon/font-awesome/user-solid.svg' class='photoInfoIcon'>`
       result += peopleInfo;
       result += `</span>`;
     }
@@ -81,8 +80,8 @@ function Header()
 
     if (locationInfo)
     {
-      result += `<span class='photoInfoItem radiusNormal'>`;
-      result += `<img src='asset/icon/font-awesome/location-dot-solid.svg' class='photoInfoIcon'>`
+      result += `<span class='photoInfoItem'>`;
+      result += `<img src='/asset/icon/font-awesome/location-dot-solid.svg' class='photoInfoIcon'>`
       result += locationInfo;
       result += `</span>`;
     }

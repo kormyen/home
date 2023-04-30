@@ -1,11 +1,10 @@
 var PROJECTS = `
 LOG
-  TITL : Project - Log
+  TITL : Log
   BREF : time tracker
   TISA : a time tracker
   DESC : Log is a time tracker
   DATE : 2018-07-12 onward
-  HEAD : 2018-07-05_12-00
   KEYS : productivity
   SECT : 7
   BODY
@@ -19,7 +18,7 @@ LOG
     - {link ext logData}
 
 SEEKERS
-  TITL : Project - Seekers
+  TITL : Seekers
   BREF : gamified infrastructure
   TISA : gamified infrastructure NFTs
   DESC : A NFT project of loveable customisable robots with the utility of unlocking gamified decentralised comms infrastructure
@@ -39,7 +38,7 @@ SEEKERS
     - {link ext seekersDiscord}
 
 SYLO
-  TITL : Project - Sylo
+  TITL : Sylo
   BREF : web3 comms
   TISA : a platform for decentralized applications and communication with a focus on privacy and respect. User run incentized network infrastructure, decentralized applications and decentralized finance.
   DESC : My focus on this project was design - product, design, UX and UI. My responsibilities include Creative Director, Sylo Wallet design systems, wallet mobile app, and marketing.
@@ -57,7 +56,7 @@ SYLO
     - {link ext syloApp}
 
 HOME
-  TITL : Project - Home
+  TITL : Home
   BREF : this website
   TISA : a portfolio, time tracker and exocortex
   BORN : 2006
@@ -114,7 +113,7 @@ HOME
     - {link ext homeSource}
 
 MORT
-  TITL : Project - Mort
+  TITL : Mort
   BREF : rar
   TISA : a MONSTER!!!
   SECT : 4
@@ -139,7 +138,7 @@ MORT
     i 2019-07-08_12-00
 
 SKUL
-  TITL : Project - Skul
+  TITL : Skul
   BREF : monument
   TISA : a monument
   SECT : 4
@@ -154,7 +153,7 @@ SKUL
     p Server group photo
 
 SSS
-  TITL : Project - SSS
+  TITL : SSS
   BREF : steampunk theme
   TISA : an iOS theme
   SECT : 4
@@ -169,7 +168,7 @@ SSS
     p The other nine app icons were created by someone else.
 
 MEMEX
-  TITL : Project - Memex
+  TITL : Memex
   BREF : note archive
   TISA : a personal knowledge base
   DESC : A bookmarks and notes tool to help with storage and overview
@@ -196,7 +195,7 @@ MEMEX
     i 2018-11-07_12-00
 
 MEGAMEX
-  TITL : Project - Megamex
+  TITL : Megamex
   BREF : catalog megaliths
   TISA : a lens for overviewing megaliths
   DESC : A tool for overviewing similarities and beauty of megalithic sites
@@ -209,7 +208,7 @@ MEGAMEX
     p I cannot finish this by myself.
 
 ARDUSAMBER
-  TITL : Project - Ardusamber
+  TITL : Ardusamber
   BREF : neralie & arvelie
   TISA : a neralie & arvelie Arduino clock
   DESC : Arduino experiements with {link ext neauoire}'s time format Neralie
@@ -240,7 +239,7 @@ ARDUSAMBER
     - {link ext ardusamberSource}
 
 DASTIME
-  TITL : Project - Dastime
+  TITL : Dastime
   BREF : dasein time
   TISA : a clock design
   DESC : 
@@ -282,7 +281,7 @@ DASTIME
     - {link ext dastimeSource}
 
 FPVMOD
-  TITL : Project - FPVMOD
+  TITL : FPVMOD
   BREF : display++
   TISA : a modified fpv drove display
   DESC : Modified FPV drone display (Eachine VR006) with recording and larger swappable battery.
@@ -293,7 +292,7 @@ FPVMOD
     i 2018-03-20_12-00
 
 CORE
-  TITL : Project - Core
+  TITL : Core
   BREF : power core
   TISA : input receiver and output commander for the VNS Tiny House IoT power system
   UNDR : VNS
@@ -306,7 +305,7 @@ CORE
     - {link ext vnsCoreSource}
 
 CONTROL
-  TITL : Project - Control
+  TITL : Control
   BREF : control panel
   TISA : a custom control panel with switches and dimmer
   SECT : 1, 2, 3, 4
@@ -321,7 +320,7 @@ CONTROL
     - {link ext vnsControlSource}
     
 POWER
-  TITL : Project - Power
+  TITL : Power
   BREF : power unit
   TISA : a power distribution unit for an IoT system
   UNDR : VNS
@@ -334,7 +333,7 @@ POWER
     - {link ext vnsPowerSource}
 
 CRUCIFIX
-  TITL : Project - Crucifix
+  TITL : Crucifix
   BREF : boardwalk
   TISA : a boardwalk deck/pathway
   SECT : 1
@@ -344,7 +343,7 @@ CRUCIFIX
     p Project complete but don't have final photos yet.
 
 LIGHTBOX
-  TITL : Project - Lightbox
+  TITL : Lightbox
   BREF : image zoom
   TISA : a minimal vanilla JS lightbox lib
   SECT : 3, 4
@@ -358,7 +357,7 @@ LIGHTBOX
     - {link ext lightboxSource}
 
 SWORDY
-  TITL : Project - Swordy
+  TITL : Swordy
   BREF : physics brawler
   TISA : a physics based local-multiplayer fighting game
   SECT : 3, 4, 7
@@ -370,7 +369,7 @@ SWORDY
     > {link ext frogshark}
 
 VAN
-  TITL : Project - Van
+  TITL : Van
   BREF : tiny house
   TISA : mobile stealth tiny house
   SECT : 1, 2, 3, 4, 6, 7
@@ -397,7 +396,7 @@ VAN
     i 2019-07-04_12-55
 
 WHALEBUS
-  TITL : Project - Whalebus
+  TITL : Whalebus
   BREF : spam toy
   TISA : 48 hour game jam "what do we do now?" themed toy
   SECT : 3, 4
@@ -417,7 +416,7 @@ WHALEBUS
     - {link ext whalebusDownload}
 
 PORTFOLIO
-  TITL : Project - Portfolio
+  TITL : Portfolio
   BREF : work showcase
   TISA : minimal portfolio website
   SECT : 3, 4
@@ -434,7 +433,7 @@ PORTFOLIO
     - {link ext sarahSource}
 
 WARP
-  TITL : Project - Warp
+  TITL : Warp
   BREF : VR JAM 2013
   TISA : "VR JAM 2013" entry for Oculus developer kit V1
   SECT : 3, 4
@@ -450,7 +449,7 @@ WARP
     p Alexey more recently made these images with the assets from the game. I stole them from his website.
 
 TOILET
-  TITL : Project - Toilet
+  TITL : Toilet
   BREF : shit bucket
   TISA : home made composting toilet
   SECT : 1, 6
@@ -516,7 +515,7 @@ TOILET
     - {link ext omickToilet}
 
 SOLARSAILS
-  TITL : Project - Solarsails
+  TITL : Solarsails
   BREF : solar family
   TISA : solarpunk themecamp
   SECT : 1, 2, 4
@@ -585,7 +584,7 @@ SOLARSAILS
     i 2020-01-27_09-54
 
 SHELF
-  TITL : Project - Shelf
+  TITL : Shelf
   BREF : overengineered
   TISA : wooden cornershelf and heat vent
   SECT : 6

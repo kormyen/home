@@ -2,7 +2,7 @@ var PAGES = `
 INDEX
   TITL : Home
   DESC : Hamish MacDonald - Experience Designer
-  HEAD : 2019-04-15_15-35
+  HEAD : 2019-04-15_15-36
   KEYS : Hamish MacDonald, kormyen, design, projects, photos, posts
   EDIT 
     - 2023-04-22: Update structure to runlike

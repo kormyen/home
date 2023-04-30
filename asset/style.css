@@ -6,12 +6,15 @@
   --color-background: #000;
 
   --size-mainWidth: 80em;
-  --size-columnPaddingSmall: 8px; /* Connected elements */
+  --size-columnPaddingSmall: 3px; /* Connected elements */
   --size-columnPaddingNormal: 10px; /* Connected elements */
   --size-columnPaddingMedium: 20px; /* Asscoaited elements */
   --size-columnPaddingLarge: 40px; /* Seperate elements */
 
-  --size-radius: 10px;
+  --size-radiusSmall: 5px;
+  --size-radiusNormal: 10px;
+  --size-radiusLarge: 40px;
+
   --size-mainPadding: 100px;
   --size-sidebar: 300px;
   --size-details: 150px;
@@ -104,7 +107,10 @@ header:hover .photoInfoContainer {
   display: flex;
 }
 .photoInfoItem {
-  padding: var(--size-columnPaddingSmall) var(--size-columnPaddingNormal) var(--size-columnPaddingSmall) var(--size-columnPaddingNormal);
+  padding-top: var(--size-columnPaddingNormal);
+  padding-bottom: var(--size-columnPaddingNormal);
+  padding-left: var(--size-columnPaddingMedium);
+  padding-right: var(--size-columnPaddingMedium);
   border-width: 1px;
   border-style: solid;
   border-color: var(--color-tertiary);
@@ -113,12 +119,13 @@ header:hover .photoInfoContainer {
   display: flex;
   flex-direction: row;
   align-items: center;
+  border-radius: var(--size-radiusLarge);
 }
 .photoInfoIcon {
   height: 1em;
   width: 1em;
   color: #FFFFFF;
-  margin-right: var(--size-columnPaddingSmall);
+  margin-right: var(--size-columnPaddingNormal);
 }
 
 svg {
@@ -132,6 +139,8 @@ svg {
 .subtleLink {
   text-decoration: none;
   color: var(--color-primary);
+  padding: var(--size-columnPaddingSmall);
+  border-radius: var(--size-radiusSmall);
 }
 .subtleLink:hover {
   text-decoration: none;
@@ -324,12 +333,15 @@ svg {
   height: auto;
 }
 
+.radiusSmall {
+  border-radius: var(--size-radiusSmall);
+}
 .radiusNormal {
-  border-radius: var(--size-radius);
+  border-radius: var(--size-radiusNormal);
 }
 
 .elementHalfLeft {
-  border-radius: var(--size-radius);
+  border-radius: var(--size-radiusNormal);
   float: left;
   height: auto;
   margin-right: var(--size-columnPaddingNormal);
@@ -337,7 +349,7 @@ svg {
   margin-bottom: var(--size-columnPaddingMedium);
 }
 .elementHalfRight {
-  border-radius: var(--size-radius);
+  border-radius: var(--size-radiusNormal);
   float: right;
   height: auto;
   margin-left: var(--size-columnPaddingNormal);

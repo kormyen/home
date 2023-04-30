@@ -30,7 +30,7 @@ function Inline()
         }
         else if (func == 'page')
         {
-            result += `/${name}`;
+            result += `/${name.toLowerCase()}`;
         }
         else if (func == 'project' || func == 'post')
         {
