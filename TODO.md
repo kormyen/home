@@ -1,6 +1,8 @@
 ## REWRITE
 - Make sidebar nav update based on current page
 - Add photo lightbox
+- fix nav on small width
+- change project lens to manual featured items
 
 ## REFACTOR
 - Unify all db data to have same page items (articles, projects, pages all have BREF, TITL, META etc)

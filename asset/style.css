@@ -107,10 +107,7 @@ header:hover .photoInfoContainer {
   display: flex;
 }
 .photoInfoItem {
-  padding-top: var(--size-columnPaddingNormal);
-  padding-bottom: var(--size-columnPaddingNormal);
-  padding-left: var(--size-columnPaddingMedium);
-  padding-right: var(--size-columnPaddingMedium);
+  padding: var(--size-columnPaddingNormal);
   border-width: 1px;
   border-style: solid;
   border-color: var(--color-tertiary);
@@ -119,7 +116,7 @@ header:hover .photoInfoContainer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-radius: var(--size-radiusLarge);
+  border-radius: var(--size-radiusNormal);
 }
 .photoInfoIcon {
   height: 1em;

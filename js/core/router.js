@@ -92,6 +92,11 @@ function Router(app)
             let originPageData = app.pages.get(parentPageData.PRNT);
             htmlContent += app.nav.double(originPageData, parentPageData, pageData.TITL)
         }
+        else
+        {
+            // root page
+            app.templateMeta.display(pageData);
+        }
 
         // Set body content
         htmlContent += pageData.HtmlBody;
