@@ -69,11 +69,12 @@ function Router(app)
         }
         else if (pageData.media && pageData.media.length > 0)
         {
-            // Used by projects
+            // Header automatically set by best photo of it
             app.header.setImage(pageData.media[0]);
         }
         else
         {
+            // Missing header pic!
             app.header.setEmpty();
         }
 
@@ -82,19 +83,21 @@ function Router(app)
         // Set nav content
         if (pageData.PRNT == 'INDEX')
         {
+            // main page like PROJECTS, POSTS, PHOTOS
             app.templateMeta.display(pageData);
-            htmlContent += app.nav.single(pageData.PRNT, pageData.TITL)
+            htmlContent += app.nav.single(pageData.PRNT, pageData.TITL);
         }
         else if (pageData.PRNT)
         {
+            // child page like POST, ARTICLE, PROJECT
             app.templateMeta.display(pageData, app.capitalizeFirstLetter(pageData.PRNT));
             let parentPageData = app.pages.get(pageData.PRNT);
             let originPageData = app.pages.get(parentPageData.PRNT);
-            htmlContent += app.nav.double(originPageData, parentPageData, pageData.TITL)
+            htmlContent += app.nav.double(originPageData, parentPageData, pageData.TITL);
         }
         else
         {
-            // root page
+            // root page like HOME
             app.templateMeta.display(pageData);
         }
 
@@ -102,9 +105,12 @@ function Router(app)
         htmlContent += pageData.HtmlBody;
         
         // Set sidebar content
-        let sidebar = app.templateSidebar.create(pageData);
+        let sidebar  = app.templateSidebar.display(pageData.TITL);
+
+        // Set all page content
         document.querySelector('main').innerHTML = app.pages.buildArticle(sidebar, htmlContent);
 
+        // Scroll page to top, so it feels like a page load
         document.body.scrollTop = document.documentElement.scrollTop = 0;
     }
     

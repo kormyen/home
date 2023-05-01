@@ -71,6 +71,7 @@ HOME
     p The new left it as a javascript "single page application", not ideal but a simplification. I found the build thing a nagging anti-inspiration.
     p The rewrite was inspired by stumbling upon this article {link ext devSpaRoute} which explained with vanilla JS how to control routing, history and address bar content which I could not figure out in 2019.
     t 2019
+    i 2019-07-09_21-13
     p The 2019 version was inspired by {link ext neauoire} with a focus on simplicity and minimalism in structure it is hopefully some form of foundational base to build upon into time.
     p At the very least with it's use of a human-readable data database; it's content should be portable between future website versions and long term. Simple to archive. 
     t Philosophy: "Long Now"
@@ -79,7 +80,7 @@ HOME
     p "The Internet is self destructing paper. A place where anything written is soon destroyed by rapacious competition and the only preservation is to forever copy writing from sheet to sheet faster than they can burn..." Julian Assange  ({link ext destructingPaper}, 5 December 2006)
     p In reference to above - the way the site is built is to allow the actual content to be easy to move around (text database), copy (human readable) and store (easily accessed standard files), while the visual display of it may change.
     p This above thinking for me is entirely insprired by {link ext neauoire 'Devine'} and {link ext rekka} of {link ext rabbits} who I met in Whangarei and travelled to Wellington with.
-    p This talk {link ext weatherSoftware}
+    p This talk {link ext weatherSoftware} goes into their rationale and inspiration for technology that is simple, easy to edit and easy to maintain.
     t 2018
     p {image 2018-10-15_12-00 il} {image 2018-10-15_12-01 ir} 
     p Visualising my experiements with time tracking for self productivity gamification.
@@ -459,7 +460,7 @@ WARP
     p Alexey more recently made these images with the assets from the game. I stole them from his website.
 
 TOILET
-  TITL : Toilet
+  TITL : Composting Toilet
   DESC : A home made composting toilet.
   TAGS : physical, offgrid, woodwork
   BREF : shit bucket
@@ -470,18 +471,14 @@ TOILET
     - 2021-04-24
   BODY
     p When people say "composting toilet" what they really mean is "shitting in a bucket" - but it's nicer than most people who haven't used one think. It's surprising how many people just write-off the idea before they realise it's actually all good. 
-    p 
     p I made this composting toilet with a deadline for {link ext kiwiburn} to serve as our {link project solarsails 'Solarsails'} themecamp toilet, with the intention for it to then live in my {link project van 'vanlife home'}.
     i 2020-01-18_18-27
     p Above is my composting toilet just completed - still in the {link ext hackland} workshop.
-    p 
-    t Why
+    2 Why
     p The big benefit is it's cheap, simple, turns waste into compost, and reduces water use (good for off-grid, mobile homes and boats).
     p The main negative is there is more work involved than just pushing a button.
-    p 
-    q "...a technology that is simpler in design will tend to be simpler to construct and repair, but will tend to require greater skill to use..." - {link ext omickDesign}
-    p
-    t What's involved
+    p "...a technology that is simpler in design will tend to be simpler to construct and repair, but will tend to require greater skill to use..." - {link ext omickDesign}
+    2 What's involved
     p All it really comes down to is decorating a bucket to make it more comfortable and socially acceptable: put it in a box!
     p You can have a semi-portable box like mine, or build it into your bathroom. Express your box creativity.
     p Having a urine seperator is a highly recommended addition. By keeping 1s and 2s seperate I think it's not technically "sewerage"... but what that means to you is that it doesn't smell so bad, or fill so fast.
@@ -491,18 +488,15 @@ TOILET
     p Instead of flushing with water you keep the solids dry with sawdust, dry soil, dry coffee grounds, pet cage sawdust or similar. 
     i 2020-01-22_12-46
     p For the themecamp we got a big container of sawdust for free from a wood mill on the drive down. {link ext dominic 'Dominic'} and I asked at the office and they said "help yourself".
-    p 
-    t Nice to haves
+    2 Nice to haves
     p An air fan with a vent out somewhere to get the bad air away is a nice-to-have to help keep things drying and not smelly. I do not have this but would like to add it.
     p A mixer/tumbler is another nice-to-have addition like in Nature's Head toilets. This helps mix/break up the weter chunks into the dry medium - to help dry things out which means less smell.
     p Nature's head toilets with their $2000 price tag are too much to pay for a bucket to me, so I made my own.
-    p
-    t Too long didn't read
+    2 Too long didn't read
     p - Seperate 1s and 2s (urine diverter).
     p - Make 2s dry. (sawdust-like flush medium, air flow fan with pipe outside, poop/medium tumbler/mixer)
-    p 
     i 2020-01-20-16-04
-    t My setup
+    2 My setup
     p - The box lid has a toilet seat attached on it. 
     p - The lid where the seat is attached has a hinge so the bucket can be removed.
     p - Under the lid, the lip has a routed slot. This slot keeps the urine seperator in the right place directing urine away from the bucket, into the urine bottle.
@@ -513,8 +507,7 @@ TOILET
     p The benefit turned out to be that you can see how full the bottle is from the front/outside of the toilet which is great actually, just maybe not as neat as I intended.
     p Other sites likely have good building guides if you are looking to make a box for your bucket.
     p Everyone in our camp seemed to prefer this toilet over the Portaloos. Maybe that doesn't say much.
-    p 
-    t Afterward
+    2 Afterward
     i 2020-01-28-00-21
     p My friend Emma took our buckets after Kiwiburn and turned them into compost. 
     p Here she is in her completely standard gardening attire.
@@ -539,17 +532,17 @@ SOLARSAILS
     i 2020-09-01_23-13
     p Above - the Solarpunk Flag
     p 
-    q "Solarpunks cherish nature, progress and science; the individual and the community.
-    q They believe in a world that is green, colourful, and bright. It can be described as a literary genre, an aesthetic, or a movement. The key points are:
-    q - An emphasis on renewable energy, especially solar power.
-    q - A demand for technology and society to re-centre around sustainability, longevity, and balance.
-    q - A focus on decentralisation, community activism, social justice and civic empowerment.
-    q - A recognition that economic, social, and ecological injustices are all deeply inter-connected."
+    p "Solarpunks cherish nature, progress and science; the individual and the community.
+    p They believe in a world that is green, colourful, and bright. It can be described as a literary genre, an aesthetic, or a movement. The key points are:
+    p - An emphasis on renewable energy, especially solar power.
+    p - A demand for technology and society to re-centre around sustainability, longevity, and balance.
+    p - A focus on decentralisation, community activism, social justice and civic empowerment.
+    p - A recognition that economic, social, and ecological injustices are all deeply inter-connected."
     p Above description from {link ext sunbeamCityWiki}
     p 
-    q "Solarpunk is a genre of Speculative Fiction that focuses on craftsmanship, community, and technology powered by renewable energy, wrapped up in a coating of Art Nouveau blended with African and Asian aesthetics." - {link ext solarpunkTvTropes}
-    q "...seeks to answer and embody the question “what does a sustainable civilization look like, and how can we get there?” The aesthetics of solarpunk merge the practical with the beautiful, the well-designed with the green and wild, the bright and colorful with the earthy and solid." - {link ext solarpunkReference}
-    q "...about finding ways to make life more wonderful for us right now, and more importantly for the generations that follow us – i.e., extending human life at the species level, rather than individually." - {link ext solarpunkManifesto}
+    p "Solarpunk is a genre of Speculative Fiction that focuses on craftsmanship, community, and technology powered by renewable energy, wrapped up in a coating of Art Nouveau blended with African and Asian aesthetics." - {link ext solarpunkTvTropes}
+    p "...seeks to answer and embody the question “what does a sustainable civilization look like, and how can we get there?” The aesthetics of solarpunk merge the practical with the beautiful, the well-designed with the green and wild, the bright and colorful with the earthy and solid." - {link ext solarpunkReference}
+    p "...about finding ways to make life more wonderful for us right now, and more importantly for the generations that follow us – i.e., extending human life at the species level, rather than individually." - {link ext solarpunkManifesto}
     p 
     t Ignition 2019
     p For me Solarsails started when {link ext joranKikke} sent me a message on somewhere asking if I want to join a solarpunk theme camp. I met Joran through {link ext rabbits}' leaving party.
@@ -578,7 +571,7 @@ SOLARSAILS
     p For Kiwiburn we wanted to do the same but slightly more ambitious. We kept the same big communal dining area but made it more out front, with lots of plants. We decided we wanted a bigger bamboo structure...
     p We did a mission weekend to collect more bamboo which Rongamai had pre-cut for us. Another two build test weekends we tested Helena and Alex's bamboo pyramid concept. It was high and wobbly enough to feel alive when you climbed it. We decided to make the half way strong section into a sort of hammock chill zone. We limited this to a max of four people at a time, one for each strong triangle section.
     p Slightly surprisingly festival attenders were excellent at following rules. At one point in the night I saw a group of five friends visit and say: 
-    q "Let's go up... Hmm! What does this say? OH! This is not for us, we are a five person family, onward!".
+    p "Let's go up... Hmm! What does this say? OH! This is not for us, we are a five person family, onward!".
     i 2020-01-21_13-46
     i 2020-01-21_17-39
     p Above - Alex climbs (with climbing safety gear) the pyramid to attach final ropes and pullies etc. 

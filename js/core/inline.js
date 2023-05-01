@@ -24,13 +24,20 @@ function Inline()
     {
         let result = ``;
 
-        if (name == 'INDEX')
+        if (name.toUpperCase() == 'INDEX')
         {
             result += `/`;
         }
         else if (func == 'page')
         {
-            result += `/${name.toLowerCase()}`;
+            if (name.toUpperCase() == 'HOME')
+            {
+                result += `/`;
+            }
+            else
+            {
+                result += `/${name.toLowerCase()}`;
+            }
         }
         else if (func == 'project' || func == 'post')
         {

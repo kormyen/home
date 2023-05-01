@@ -58,7 +58,7 @@ QUEST
   PUBL : true
   BODY
     p My friend Sasha and I looked at 10 boats within a week. Eventually getting a feel for what prices boats seem to be selling for in Auckland.
-    p We also viewed a boat {link blog horizon 'Horizon'} which was on auction which we never thought we would be able to afford, we were just curious what the next class of boats was like.
+    p We also viewed a boat {link post horizon 'Horizon'} which was on auction which we never thought we would be able to afford, we were just curious what the next class of boats was like.
     i 2019-07-08-18-13
     t Quest
     p We eventually settled on buying Quest with the help of {link ext joranKikke 'Joran'} who gave her an inspection and us the go ahead.
@@ -89,7 +89,7 @@ HORIZON
   CHNG : 1
   PUBL : true
   BODY
-    p My friend Sasha and I actually only owned Quest {link blog finding-quest 'Quest'} around a week before Horizon's Trademe auction ended and we purchased her for a cheap price... because she had a leak!
+    p My friend Sasha and I actually only owned Quest {link post quest 'Quest'} around a week before Horizon's Trademe auction ended and we purchased her for a cheap price... because she had a leak!
     p The photo below is the first and what we thought the last time we saw Horizon. We expected her to be much more expensive.
     p Horizon's leak had stopped after sitting on her new mooring home for a while so we thought we might have got away with a crazy deal. It wasn't until sailing to Great Barrier Island one time and hearing the bilge pumps going that we thought we might be in deeper than we hoped. We ended up being totally fine, with only a slow weep. We learned a whole lot going through the process of fixing the leak with a lot of help from many ath the Panmure Yacht and Boating club.
     i 2019-02-17_12-00
@@ -297,6 +297,13 @@ WHY HOME
   TYPE : thoughts
   PUBL : false
   BODY
+    t Philosophy: "Long Now"
+    p An attempt at simplicity to help survive as {link ext techDegrades}.
+    p I found this quote and term {link ext longSite} on {link ext gwern} an inspiration in this regard:
+    p "The Internet is self destructing paper. A place where anything written is soon destroyed by rapacious competition and the only preservation is to forever copy writing from sheet to sheet faster than they can burn..." Julian Assange  ({link ext destructingPaper}, 5 December 2006)
+    p In reference to above - the way the site is built is to allow the actual content to be easy to move around (text database), copy (human readable) and store (easily accessed standard files), while the visual display of it may change.
+    p This above thinking for me is entirely insprired by {link ext neauoire 'Devine'} and {link ext rekka} of {link ext rabbits} who I met in Whangarei and travelled to Wellington with.
+    p This talk {link ext weatherSoftware} goes into their rationale and inspiration for technology that is simple, easy to edit and easy to maintain.
     p https://www.jvt.me/posts/2019/07/22/why-website/
     p https://www.onebigfluke.com/2012/07/focusing-on-positives-why-i-have-my-own.html 
     p https://snarfed.org/2012-07-25_why_i_have_my_own_web_site

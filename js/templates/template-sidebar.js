@@ -9,16 +9,15 @@ function TemplateSidebar()
     this.inline = inline;
   }
 
-  this.create = function()
+  this.display = function(pageName)
   {
     let result = `<div class='sidebar marginBottomLarge'>`
-    // result += this.inline.doLink(this.inline.getInternalUrl(`page`, `home`), `Home`, false, 'fontSizeSmall subtleLink');
     //  ▾
-    result += `<p class='fontSizeSmall colorSecondary'>Home</p>`;
-    result += this.inline.doLink(this.inline.getInternalUrl('page', 'projects'), `Projects`, false, 'fontSizeSmall subtleLink marginLeftNormal');
-    result += this.inline.doLink(this.inline.getInternalUrl('page', 'photos'), `Photos`, false, 'fontSizeSmall subtleLink marginLeftNormal');
-    result += this.inline.doLink(this.inline.getInternalUrl('page', 'posts'), `Posts`, false, 'fontSizeSmall subtleLink marginLeftNormal');
-    result += this.inline.doLink(this.inline.getInternalUrl('page', 'hamish'), `Hamish`, false, 'fontSizeSmall subtleLink marginLeftNormal');
+    // result += this.doPageLabel('Home', pageName == 'Home');
+    result += this.doPageLabel('Projects', pageName == 'Projects');
+    result += this.doPageLabel('Photos', pageName == 'Photos');
+    result += this.doPageLabel('Posts', pageName == 'Posts');
+    result += this.doPageLabel('Hamish', pageName == 'Hamish');
     result += `
       <div id="sidebarSocial">
         <a href='https://twitter.com/kormyen' target='_blank'><img src='/asset/icon/external/twitter.svg' class='socialIcon'></a>
@@ -30,9 +29,15 @@ function TemplateSidebar()
     return result;
   }
 
-  this.display = function(pageData)
+  this.doPageLabel = function(pageName, isLink, optionalCss = '')
   {
-    let result = '';
-    return result;
+    if (isLink)
+    {
+      return `<p class='fontSizeSmall subtleLinkDisabled ${optionalCss}'>${pageName}</p>`;
+    }
+    else
+    {
+      return this.inline.doLink(this.inline.getInternalUrl(`page`, pageName), pageName, false, 'fontSizeSmall subtleLink ' + optionalCss);
+    }
   }
 }

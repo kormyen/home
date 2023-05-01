@@ -55,7 +55,7 @@ html {
 }
 main {
   /* max-width: var(--size-mainWidth); */
-  padding: var(--size-columnPaddingNormal) 5vw 0 5vw;
+  padding: var(--size-columnPaddingNormal) var(--size-columnPaddingLarge) 0 var(--size-columnPaddingLarge);
   margin: 0 auto 0 auto;
   box-sizing: border-box;
   display: flex;
@@ -144,10 +144,9 @@ svg {
   background-color: var(--color-highlight);
   color: var(--color-background);
 }
-.subtleLinkActive {
+.subtleLinkDisabled {
   text-decoration: none;
   color: var(--color-secondary);
-  background-color: var(--color-tertiary);
   padding: var(--size-columnPaddingSmall);
   border-radius: var(--size-radiusSmall);
 }
@@ -491,13 +490,12 @@ svg {
 {
   .sidebarContainer {
     position: relative;
-    height: auto;
   }
 }
 
 .sidebar {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-shrink: 0;
   margin-top: var(--size-columnPaddingNormal);
   margin-bottom: var(--size-columnPaddingNormal);
@@ -506,25 +504,33 @@ svg {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: var(--size-columnPaddingLarge);
-  max-width: 40rem;
+  width: 55em;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (min-width: 80em) { /* MAX WIDTH REACHED */
   .sidebar {
     position: auto;
+    flex-direction: column;
     width: 10rem;
   }
 }
 @media only screen and (max-width: 50em) /* MIN WIDTH REACHED */
 {
   .sidebar {
-  width: 100%;
+    width: 100%;
+    flex-direction: row;
   }
 }
 #sidebarSocial {
   margin-top: var(--size-columnPaddingMedium);
   width: 100%;
+  display: none;
+}
+@media screen and (min-width: 80em) { /* MAX WIDTH REACHED */
+  #sidebarSocial {
+    display: block;
+  }
 }
 #sidebarSocial > * {
   /* margin-left: var(--size-columnPaddingNormal); */

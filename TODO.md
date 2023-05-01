@@ -1,8 +1,12 @@
 ## REWRITE
-- Make sidebar nav update based on current page
 - Add photo lightbox
-- fix nav on small width
+- Make back/forward history navigation work
+- Make htaccess thing work
+
+## FIX
+- Weird offset in photo list
 - change project lens to manual featured items
+- Fix social icons missing from medium width
 
 ## REFACTOR
 - Unify all db data to have same page items (articles, projects, pages all have BREF, TITL, META etc)

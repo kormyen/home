@@ -45,7 +45,7 @@ function Projects()
           result += `<img src='media/small/${element.media[0].file}' class='articleImg articleBlackAndWhite radiusNormal'></img>`;
           result += `</div>`;
         }
-        result += `<span class='fontSizeSmall colorMain marginTopNormal articleTitle'>${parent.capitalizeFirstLetter(element.NAME)}<span id='articleDesc'>: ${element.BREF}</span></span>
+        result += `<span class='fontSizeSmall colorMain marginTopNormal articleTitle'>${parent.capitalizeFirstLetter(element.TITL)}<span id='articleDesc'>: ${element.BREF}</span></span>
           </a>`;
 
         return result;
@@ -79,7 +79,7 @@ function Projects()
       // Sidebar HTML
       element.HtmlSidebar = ``;
       element.HtmlSidebar += `<div class='sidebar marginBottomLarge'>`;
-			element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">${parent.capitalizeFirstLetter(element.NAME)} is ${element.TISA}</p>`;
+			element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">${parent.capitalizeFirstLetter(element.TITL)} is ${element.TISA}</p>`;
 
       // DATE
       const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
