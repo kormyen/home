@@ -57,61 +57,6 @@ function App()
 
 	this.router = new Router(this);
 
-
-	// 	////////////////////////////////////////////////////////////////////////////////
-	// 	// ARTICLE PAGES ///////////////////////////////////////////////////////////////
-	// 	////////////////////////////////////////////////////////////////////////////////
-	// 	else if (target == 'hamish' || target == 'log')
-	// 	{
-	// 		// Article
-	// 		htmlContent += this.pages.buildArticle(data.HtmlSidebar, data.HtmlBody);
-	// 		this.main.innerHTML = htmlContent;
-	// 	}
-	// 	else if (target.substr(0, 7) == 'project')
-	// 	{
-	// 		target = target.substr(8);
-	// 		let data = this.projects.get(target);
-	// 		this.header.setImage(data.media[0]);
-	// 		let htmlContent = ``;
-
-	// 		// Sidebar
-	// 		let navData = [];
-	// 		navData.oneName = `Projects`;
-	// 		navData.oneLink = this.inline.getInternalUrl('page', 'projects');
-	// 		navData.twoName = parent.capitalizeFirstLetter(target);
-	// 		htmlContent += this.nav.create(navData);
-
-	// 		// Article
-	// 		htmlContent += this.pages.buildArticle(data.HtmlSidebar, data.HtmlBody);
-
-	// 		this.main.innerHTML = htmlContent;
-	// 	}
-	// 	else if (target.substr(0, 4) == 'post')
-	// 	{
-	// 		target = target.substr(5);
-	// 		target = target.replace(/-/g,` `);
-	// 		let data = this.articles.get(target);
-	// 		this.header.setImage(data.media);
-	// 		let htmlContent = ``;
-
-	// 		// Sidebar
-	// 		let navData = [];
-	// 		navData.oneName = `Posts`;
-	// 		navData.oneLink = this.inline.getInternalUrl('page', 'posts');
-	// 		navData.twoName = data.NAME;
-	// 		htmlContent += this.nav.create(navData);
-			
-	// 		// Article
-	// 		htmlContent += this.pages.buildArticle(data.HtmlSidebar, data.HtmlBody);
-
-	// 		this.main.innerHTML = htmlContent;
-	// 	}
-	// 	else
-	// 	{
-	// 		console.log('Unhandled url');
-	// 	}
-	// }
-
 	this.capitalizeFirstLetter = function(string) 
 	{
 		string = string.toLowerCase();

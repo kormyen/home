@@ -19,7 +19,7 @@ function Router(app)
         document.attachEvent('onmouseover', handleMouseover);
     }
 
-    this.locationHandler = function()
+    var locationHandler = function()
     {
         // get the url path
         let request = window.location.pathname;
@@ -41,7 +41,7 @@ function Router(app)
         if (!path2)
         {
             let pageData = app.pages.get(path1);
-            this.displayPage(pageData);
+            displayPage(pageData);
         }
         else
         {
@@ -49,18 +49,18 @@ function Router(app)
             {
                 let pageData = app.projects.get(path2);
                 pageData.PRNT = path1;
-                this.displayPage(pageData);
+                displayPage(pageData);
             }
             else if (path1 == 'POSTS')
             {
                 let pageData = app.articles.get(path2);
                 pageData.PRNT = path1;
-                this.displayPage(pageData);
+                displayPage(pageData);
             }
         }
     }
 
-    this.displayPage = function(pageData)
+    var displayPage = function(pageData)
     {
         // Set header content
         if (pageData.HEAD)
@@ -114,12 +114,13 @@ function Router(app)
         document.body.scrollTop = document.documentElement.scrollTop = 0;
     }
     
-    this.route = (event) => {
+    var route = (event) => 
+    {
         event = event || window.event; // get window.event if event argument not provided
         event.preventDefault();
         // window.history.pushState(state, unused, target link);
         window.history.pushState({}, "", event.target.href);
-        this.locationHandler();
+        locationHandler();
     }
 
     // create document click that watches the nav links only
@@ -145,13 +146,13 @@ function Router(app)
             return;
         }
         e.preventDefault();
-        this.route();
+        route();
     });
 
     // add an event listener to the window that watches for url changes
-    window.onpopstate = this.locationHandler;
+    window.onpopstate = locationHandler;
     // call the urlLocationHandler function to handle the initial url
-    window.route = this.route;
+    window.route = route;
     // call the urlLocationHandler function to handle the initial url
-    this.locationHandler();
+    locationHandler();
 }

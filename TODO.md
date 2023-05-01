@@ -1,6 +1,5 @@
 ## REWRITE
 - Add photo lightbox
-- Make back/forward history navigation work
 - Make htaccess thing work
 
 ## FIX
