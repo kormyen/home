@@ -3,10 +3,12 @@
    <head>
       <meta charset="utf-8">
       <link rel="stylesheet" href="asset/style.css">
+      <link rel="stylesheet" href="asset/lightbox.css">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <title>Kor - Loading</title>
    </head>
    <body>
+      <div class="lightbox"></div>
       <header></header>
       <div class="wrapper">
          <main></main>
@@ -15,6 +17,7 @@
 
       <script src="js/external/tablatal.js"></script>
       <script src="js/external/indental.js"></script>
+      <script src="js/external/lightbox.js"></script>
 
       <script src="db/log.tbtl"></script>
       <script src="db/media.tbtl"></script>
@@ -53,6 +56,9 @@
       <script src="CONFIG.js"></script>
 
       <script>
+         var lightbox = new Lightbox();
+         lightbox.install(document.querySelector('.lightbox'), 'lightbox');
+         
          var app = new App();
       </script>
    </body>

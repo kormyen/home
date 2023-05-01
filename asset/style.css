@@ -401,6 +401,7 @@ svg {
   min-height: var(--size-sectionHeightMin);
   max-height: var(--size-sectionHeightMax);
   padding: 0;
+  cursor: pointer;
 }
 
 .articleBlackAndWhite {
@@ -649,23 +650,6 @@ svg {
   fill: var(--color-secondary);
 }
 
-
-
-/* LIGHTBOX */
-.lightbox {
-  object-position: center;
-  height: 100% !important;
-  width: 100%;
-}
-.lightbox-img {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  max-height: 100vh;
-  max-width: 100vw;
-  transform: translateX(-50%);
-  vertical-align: middle;
-}
 
 
 

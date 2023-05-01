@@ -111,9 +111,12 @@ function Image(data)
         steps += `../`;
       }
 
-      let result = `<a href='${ steps }media/${ this.date }' class='article'>
-        <img src='${ steps }media/small/${ this.file }' class='articleImg ${ imageAlign }radiusNormal' } >
-        </a>`;
+      // let result = `<a href='${ steps }media/${ this.date }' class='article'>
+      //   <img src='${ steps }media/small/${ this.file }' class='articleImg ${ imageAlign }radiusNormal' } >
+      //   </a>`;
+      let result = `<div class='article' onclick="lightbox.load('${ steps }${ this.pathRelative }')">
+        <img src='${ steps }media/small/${ this.file }' class='articleImg ${ imageAlign }radiusNormal' }>
+        </div>`;
       return result;
     }
     this.html = function(stepsBack)
