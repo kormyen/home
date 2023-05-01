@@ -111,9 +111,6 @@ function Image(data)
         steps += `../`;
       }
 
-      // let result = `<a href='${ steps }media/${ this.date }' class='article'>
-      //   <img src='${ steps }media/small/${ this.file }' class='articleImg ${ imageAlign }radiusNormal' } >
-      //   </a>`;
       let result = `<div class='article' onclick="lightbox.load('${ steps }${ this.pathRelative }')">
         <img src='${ steps }media/small/${ this.file }' class='articleImg ${ imageAlign }radiusNormal' }>
         </div>`;
@@ -132,9 +129,9 @@ function Image(data)
         </a>`;
       return result;
     }
-    this.htmlMed     = `<a href='/media/${ this.date }'><img src='${ this.pathRelative }' class='widthFit marginTopNormal marginBottomNormal ${ imageAlign }radiusNormal' } ></a>`;
-    this.htmlMedL    = `<a href='/media/${ this.date }'><img src='${ this.pathRelative }' class='elementHalfLeft'></a>`;
-    this.htmlMedR    = `<a href='/media/${ this.date }'><img src='${ this.pathRelative }' class='elementHalfRight'></a>`;
+    this.htmlMed     = `<div onclick="lightbox.load('${ this.pathRelative }')"><img src='${ this.pathRelative }' class='widthFit marginTopNormal marginBottomNormal ${ imageAlign }radiusNormal' } ></div>`;
+    this.htmlMedL    = `<div onclick="lightbox.load('${ this.pathRelative }')"><img src='${ this.pathRelative }' class='elementHalfLeft'></div>`;
+    this.htmlMedR    = `<div onclick="lightbox.load('${ this.pathRelative }')"><img src='${ this.pathRelative }' class='elementHalfRight'></div>`;
   }
 
   this.roughDatediff = function(first, second)
