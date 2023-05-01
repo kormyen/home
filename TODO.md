@@ -1,14 +1,16 @@
-## REFACTOR
-- Add sidebar
-- Add project page
-- Add article page
+## REWRITE
+- Make sidebar nav update based on current page
 - Add photo lightbox
+
+## REFACTOR
+- Unify all db data to have same page items (articles, projects, pages all have BREF, TITL, META etc)
+- Build database tree Home.pages[0].pages[0]
+- TITL not needed? Set homepage name in CONFIG.
 
 ## BUGS
 - BUG: exactly 1280px width screen causes weird sidebar indent. not 1279 with down or 1281 up, exactly 1280 only.
 
 ## Next release
-- set meta OG images and descriptions for all project/photo/post/projects/photos/about/log etc pages
 - add meta titles to pages based on page title
 - add /now page 
 
@@ -50,6 +52,7 @@
 - Him
 
 ## To do improvements
+- Add "related posts", pick one the viewer hasn't seen yet (history)
 - Sort projects by date or importance
 - Put type icons on links
 - Add BREF or TISA to article cards to hint more about article content

@@ -112,9 +112,9 @@ function App()
 	// 	}
 	// }
 
-	// this.capitalizeFirstLetter = function(string) 
-	// {
-	// 	string = string.toLowerCase();
-	// 	return string.charAt(0).toUpperCase() + string.slice(1);
-	// }
+	this.capitalizeFirstLetter = function(string) 
+	{
+		string = string.toLowerCase();
+		return string.charAt(0).toUpperCase() + string.slice(1);
+	}
 }

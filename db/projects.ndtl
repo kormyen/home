@@ -1,13 +1,13 @@
 var PROJECTS = `
 LOG
   TITL : Log
+  DESC : A simple time tracker built in vanilla js.
+  TAGS : productivity, time tracker, data visualisation, webdev, js, design, programming
   BREF : time tracker
-  TISA : a time tracker
-  DESC : Log is a time tracker
   DATE : 2018-07-12 onward
-  KEYS : productivity
   SECT : 7
   BODY
+    p Log is a time tracker.
     p "What gets measured gets done."
     p {tracker project percentages}
     p {tracker sector percentages}
@@ -19,11 +19,9 @@ LOG
 
 SEEKERS
   TITL : Seekers
+  DESC : A NFT project of loveable customisable robots with the utility of unlocking gamified decentralised comms infrastructure.
+  TAGS : ux, ui, seekers, nft, design
   BREF : gamified infrastructure
-  TISA : gamified infrastructure NFTs
-  DESC : A NFT project of loveable customisable robots with the utility of unlocking gamified decentralised comms infrastructure
-  TAGS : ux, ui
-  KEYS : seekers, nft, design
   SECT : 4
   BODY
     p The Seekers project is a NFT project of loveable robots with the utility of enabling their owner activate them to run a web3 node. The Seeker nodes contribute to a decentralised network for private offchain communications.
@@ -39,12 +37,12 @@ SEEKERS
 
 SYLO
   TITL : Sylo
+  DESC : A platform for decentralized apps and communication.
+  TAGS : ux, ui, design, decentralision, communication
   BREF : web3 comms
-  TISA : a platform for decentralized applications and communication with a focus on privacy and respect. User run incentized network infrastructure, decentralized applications and decentralized finance.
-  DESC : My focus on this project was design - product, design, UX and UI. My responsibilities include Creative Director, Sylo Wallet design systems, wallet mobile app, and marketing.
-  TAGS : ux, ui
   SECT : 4
   BODY
+    p Sylo is a platform for decentralized applications and communication with a focus on privacy and respect. User run incentized network infrastructure, decentralized applications and decentralized finance.
     p Sylo has a focus on bringing crypto to everyday people - putting people in control of their digital money, digital assets, communications privacy, and making the tools that make it all run; fun and easy to use.
     i 2019-07-08_00-17
     p My role at Sylo is Creative Director, focusing on product, design, UX and UI.
@@ -57,14 +55,15 @@ SYLO
 
 HOME
   TITL : Home
+  DESC : A portfolio, time tracker and exocortex.
+  TAGS : ux, ui, webdev, portfolio, js, design, programming
   BREF : this website
-  TISA : a portfolio, time tracker and exocortex
   BORN : 2006
   SECT : 3, 4, 7
-  TAGS : ux, ui
   EDIT
     - 2023-04-23 Added 'Weathering Software Winder' and 2023 version
   BODY
+    p Home is a portfolio, time tracker and exocortex.
     p Since I was young I have chipped away at an unfinishable amorphous website that has reborn every few years.
     p "...our small digital fires we keep alight at night." {link ext phil}
     t 2023
@@ -114,11 +113,11 @@ HOME
 
 MORT
   TITL : Mort
+  DESC : Character design assignment.
+  TAGS : character, design
   BREF : rar
-  TISA : a MONSTER!!!
   SECT : 4
   BORN : 2010-07-30
-  TAGS : character
   BODY
     p {image 2007-09-04_12-00 ir} I created Mort for a character design asignment for university. 
     p I referenced and borrowed from the styles of 'Johnny the Homicidal Maniac', 'Invader Zim', 'Lazy Muffin (Yotam Perel)' and 'Domo-Kun'.
@@ -139,8 +138,9 @@ MORT
 
 SKUL
   TITL : Skul
+  DESC : A minecraft sculpture.
+  TAGS : game, sculpture, art
   BREF : monument
-  TISA : a monument
   SECT : 4
   BORN : 2015-08-12
   BODY
@@ -154,10 +154,10 @@ SKUL
 
 SSS
   TITL : SSS
+  DESC : A Steampunk iOS theme.
+  TAGS : ux, ui, design
   BREF : steampunk theme
-  TISA : an iOS theme
   SECT : 4
-  TAGS : ux, ui
   BORN : 2009-09-07
   BODY
     p I created this theme using a jail broken iPhone 3GS by ripping existing 'Cydia' (3rd party app store) downloaded themes and manually replacing the image parts/text files from slices of my steampunk theme design.
@@ -169,11 +169,10 @@ SSS
 
 MEMEX
   TITL : Memex
+  DESC : A bookmarks and notes tool to help with storage and overview.
+  TAGS : ux, ui, webdev, js, design, research, programming
   BREF : note archive
-  TISA : a personal knowledge base
-  DESC : A bookmarks and notes tool to help with storage and overview
   SECT : 3, 4, 7
-  TAGS : ux, ui
   BORN : 2018-07-14
   UNDR : Home
   LINK
@@ -196,9 +195,9 @@ MEMEX
 
 MEGAMEX
   TITL : Megamex
-  BREF : catalog megaliths
-  TISA : a lens for overviewing megaliths
   DESC : A tool for overviewing similarities and beauty of megalithic sites
+  TAGS : history, research
+  BREF : catalog megaliths
   SECT : 7
   BORN : 2018-09-30
   BODY
@@ -209,9 +208,9 @@ MEGAMEX
 
 ARDUSAMBER
   TITL : Ardusamber
+  DESC : Arduino experiements with Neauoire's time format Neralie.
+  TAGS : arduino, programming, time, clock, arvelie, neralie, electronics
   BREF : neralie & arvelie
-  TISA : a neralie & arvelie Arduino clock
-  DESC : Arduino experiements with {link ext neauoire}'s time format Neralie
   SECT : 3
   BORN : 2018-05-15
   EDIT
@@ -240,9 +239,9 @@ ARDUSAMBER
 
 DASTIME
   TITL : Dastime
+  DESC : A clock design.
+  TAGS : arduino, programming, time, clock, hardware
   BREF : dasein time
-  TISA : a clock design
-  DESC : 
   SECT : 3, 4
   BORN : 2018-07-05
   BODY
@@ -282,9 +281,10 @@ DASTIME
 
 FPVMOD
   TITL : FPVMOD
+  DESC : Modified FPV drone display (Eachine VR006) with recording and larger swappable battery.
+  TAGS : drone, hardware, mod, electronics
   BREF : display++
   TISA : a modified fpv drove display
-  DESC : Modified FPV drone display (Eachine VR006) with recording and larger swappable battery.
   SECT : 1
   BORN : 2018-03-20
   BODY
@@ -293,8 +293,9 @@ FPVMOD
 
 CORE
   TITL : Core
+  DESC : An input receiver and output commander for the VNS Tiny House IoT power system.
+  TAGS : arduino, programming, electronics, hardware
   BREF : power core
-  TISA : input receiver and output commander for the VNS Tiny House IoT power system
   UNDR : VNS
   SECT : 3
   BODY
@@ -306,8 +307,9 @@ CORE
 
 CONTROL
   TITL : Control
+  DESC : A custom control panel with switches and dimmer.
+  TAGS : arduino, programming, electronics, hardware
   BREF : control panel
-  TISA : a custom control panel with switches and dimmer
   SECT : 1, 2, 3, 4
   UNDR : VNS
   BODY
@@ -321,8 +323,9 @@ CONTROL
     
 POWER
   TITL : Power
+  DESC : A power distribution unit for an IoT system.
+  TAGS : arduino, programming, electronics, hardware
   BREF : power unit
-  TISA : a power distribution unit for an IoT system
   UNDR : VNS
   SECT : 1, 2, 3
   BODY
@@ -334,8 +337,9 @@ POWER
 
 CRUCIFIX
   TITL : Crucifix
+  DESC : A boardwalk pathway.
+  TAGS : physical, woodwork
   BREF : boardwalk
-  TISA : a boardwalk deck/pathway
   SECT : 1
   BODY
     i 2018-10-14_12-00
@@ -344,8 +348,9 @@ CRUCIFIX
 
 LIGHTBOX
   TITL : Lightbox
+  DESC : A minimal vanilla JS lightbox lib.
+  TAGS : webdev, js, programming
   BREF : image zoom
-  TISA : a minimal vanilla JS lightbox lib
   SECT : 3, 4
   BODY
     p Minimal {link ext vanillaJs} library for making simple full-sized image viewer "lightbox" views for images on a website.  
@@ -358,8 +363,9 @@ LIGHTBOX
 
 SWORDY
   TITL : Swordy
+  DESC : A physics based local-multiplayer fighting game.
+  TAGS : gamedev, Unity3D, design, programming
   BREF : physics brawler
-  TISA : a physics based local-multiplayer fighting game
   SECT : 3, 4, 7
   BODY
     p GIFs and images of development: {link ext swordyDevAlbum}
@@ -370,8 +376,9 @@ SWORDY
 
 VAN
   TITL : Van
+  DESC : A mobile stealth tiny house.
+  TAGS : physical, mod, offgrid
   BREF : tiny house
-  TISA : mobile stealth tiny house
   SECT : 1, 2, 3, 4, 6, 7
   BODY
     i 2018-01-20_12-00
@@ -397,8 +404,9 @@ VAN
 
 WHALEBUS
   TITL : Whalebus
+  DESC : A 48 hour game jam "what do we do now?" themed toy.
+  TAGS : gamedev, Unity3D, design, programming
   BREF : spam toy
-  TISA : 48 hour game jam "what do we do now?" themed toy
   SECT : 3, 4
   BODY
     p 48 hour game jam "what do we do now?" themed toy.
@@ -417,8 +425,9 @@ WHALEBUS
 
 PORTFOLIO
   TITL : Portfolio
+  DESC : A minimal portfolio website.
+  TAGS : ux, ui, webdev, portfolio, js, design, programming
   BREF : work showcase
-  TISA : minimal portfolio website
   SECT : 3, 4
   BODY
     p I built a portfolio website for Sarah Tanfield - a New Zealand book binder and package maker.
@@ -434,8 +443,9 @@ PORTFOLIO
 
 WARP
   TITL : Warp
+  DESC : "VR JAM 2013" entry for Oculus developer kit V1.
+  TAGS : gamedev, Unity3D, design, programming, VR
   BREF : VR JAM 2013
-  TISA : "VR JAM 2013" entry for Oculus developer kit V1
   SECT : 3, 4
   BODY
     p Warp is a {link post VR} experiment built by {link ext alexey} (artist, animator) and I for the Oculus VR jam 2013. 
@@ -450,8 +460,9 @@ WARP
 
 TOILET
   TITL : Toilet
+  DESC : A home made composting toilet.
+  TAGS : physical, offgrid, woodwork
   BREF : shit bucket
-  TISA : home made composting toilet
   SECT : 1, 6
   EDIT : 
     - 2020-08-28
@@ -516,8 +527,9 @@ TOILET
 
 SOLARSAILS
   TITL : Solarsails
+  DESC : A solarpunk themecamp
+  TAGS : physical, offgrid
   BREF : solar family
-  TISA : solarpunk themecamp
   SECT : 1, 2, 4
   BODY
     p To me Solarsails is a solarpunk themecamp made of bamboo, repurposed junk, solar panels and optimism.
@@ -585,9 +597,11 @@ SOLARSAILS
 
 SHELF
   TITL : Shelf
+  DESC : wooden cornershelf and heat vent
+  TAGS : physical, woodwork
   BREF : overengineered
-  TISA : wooden cornershelf and heat vent
   SECT : 6
+  UNDR : Van
   BODY
     p This monstrosity is a corner shelf in the corner of my van bed. It is mainly a box to hold the diesel powered heater vent near and pointed at the bed. I extended this box to make use of the corner space for storage.
     p I also added USB charging points hidden at the top of the main shelf.

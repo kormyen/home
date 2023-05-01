@@ -30,13 +30,17 @@ function TemplateMeta()
       `;
   }
 
-  this.display = function(data)
+  this.display = function(data, optionalParent)
   {
     // Title
     let metaTitle = 'Kor'
+    if (optionalParent)
+    {
+      metaTitle += ' - ' + optionalParent;
+    }
     if (data.TITL)
     {
-        metaTitle += ' - ' + data.TITL;
+      metaTitle += ' - ' + data.TITL;
     }
     document.title = metaTitle;
     document.querySelector('meta[property="og:title"]').setAttribute("content", metaTitle);
@@ -48,7 +52,7 @@ function TemplateMeta()
     document.querySelector('meta[name="twitter:description"]').setAttribute("content", data.DESC);
 
     // Keywords
-    document.querySelector('meta[name="keywords"]').setAttribute("content", data.KEYS);
+    document.querySelector('meta[name="keywords"]').setAttribute("content", data.TAGS);
 
     // Image
     let imageName = (data.HEAD) ? data.HEAD : DEFAULTIMAGE;

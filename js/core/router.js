@@ -38,15 +38,9 @@ function Router(app)
             path2 = (paths[2]) ? paths[2].toUpperCase() : '';
         }
 
-        console.log('path1: '+path1);
-        console.log('path2: '+path2);
-
         if (!path2)
         {
-            console.log(path1);
-            console.log(app.pages.get(path1));
             let pageData = app.pages.get(path1);
-            // pageData.path1 = path1;
             this.displayPage(pageData);
         }
         else
@@ -54,7 +48,13 @@ function Router(app)
             if (path1 == 'PROJECTS')
             {
                 let pageData = app.projects.get(path2);
-                pageData.PRNT = 'PROJECTS';
+                pageData.PRNT = path1;
+                this.displayPage(pageData);
+            }
+            else if (path1 == 'POSTS')
+            {
+                let pageData = app.articles.get(path2);
+                pageData.PRNT = path1;
                 this.displayPage(pageData);
             }
         }
@@ -63,7 +63,6 @@ function Router(app)
     this.displayPage = function(pageData)
     {
         // Set header content
-        console.log(pageData)
         if (pageData.HEAD)
         {
             app.header.setImage(app.media.getByDate(pageData.HEAD));
@@ -83,33 +82,29 @@ function Router(app)
         // Set nav content
         if (pageData.PRNT == 'INDEX')
         {
+            app.templateMeta.display(pageData);
             htmlContent += app.nav.single(pageData.PRNT, pageData.TITL)
         }
         else if (pageData.PRNT)
         {
+            app.templateMeta.display(pageData, app.capitalizeFirstLetter(pageData.PRNT));
             let parentPageData = app.pages.get(pageData.PRNT);
             let originPageData = app.pages.get(parentPageData.PRNT);
-            console.log(originPageData)
             htmlContent += app.nav.double(originPageData, parentPageData, pageData.TITL)
         }
 
         // Set body content
         htmlContent += pageData.HtmlBody;
-
-        let sidebar = app.templateSidebar.create();
+        
+        // Set sidebar content
+        let sidebar = app.templateSidebar.create(pageData);
         document.querySelector('main').innerHTML = app.pages.buildArticle(sidebar, htmlContent);
-        //document.querySelector('main').innerHTML = htmlContent;
-
-        // Set meta content
-        app.templateMeta.display(pageData);
 
         document.body.scrollTop = document.documentElement.scrollTop = 0;
     }
     
     this.route = (event) => {
         event = event || window.event; // get window.event if event argument not provided
-        console.log('route: ' + event.target.href);
-
         event.preventDefault();
         // window.history.pushState(state, unused, target link);
         window.history.pushState({}, "", event.target.href);

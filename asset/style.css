@@ -144,8 +144,15 @@ svg {
 }
 .subtleLink:hover {
   text-decoration: none;
-  background-color: #fff;
+  background-color: var(--color-highlight);
   color: var(--color-background);
+}
+.subtleLinkActive {
+  text-decoration: none;
+  color: var(--color-secondary);
+  background-color: var(--color-tertiary);
+  padding: var(--size-columnPaddingSmall);
+  border-radius: var(--size-radiusSmall);
 }
 
 

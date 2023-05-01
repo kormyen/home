@@ -9,8 +9,6 @@ function Nav()
 
     this.double = function(originPage, parentPage, child)
     {
-        console.log('double: ' + origin + '. ' + parent);
-
         let result = ``;
         result += `<p class='fontSizeNormal marginTopLarge marginBottomLarge colorMain nav'>`;
         result += `<a href='${this.inline.getInternalUrl('page', originPage.NAME.toUpperCase())}' class='subtleLink'>${originPage.TITL}</a>`;

@@ -191,7 +191,7 @@ function Runelike()
                 }
                 else if (func == 'postsAll')
                 {
-                    result += parent.templateCards.componentList(parent.articles.getAll());
+                    result += parent.templateCards.componentList(parent.articles.getAll(), 'posts');
                 }
             }
             else if (stash.rune.tag == 'comment')

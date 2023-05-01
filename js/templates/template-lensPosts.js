@@ -17,7 +17,7 @@ function TemplateLensPosts()
     this.content = ``;
     for (var i = 0; i < limited.length; i++)
     {
-      this.content += limited[i].HtmlArticle(`post`);
+      this.content += limited[i].HtmlArticle();
     }
   }
 

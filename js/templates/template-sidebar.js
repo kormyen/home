@@ -14,7 +14,7 @@ function TemplateSidebar()
     let result = `<div class='sidebar marginBottomLarge'>`
     // result += this.inline.doLink(this.inline.getInternalUrl(`page`, `home`), `Home`, false, 'fontSizeSmall subtleLink');
     //  ▾
-    result += `<p class='fontSizeSmall colorSecondary strong'>Home</p>`;
+    result += `<p class='fontSizeSmall colorSecondary'>Home</p>`;
     result += this.inline.doLink(this.inline.getInternalUrl('page', 'projects'), `Projects`, false, 'fontSizeSmall subtleLink marginLeftNormal');
     result += this.inline.doLink(this.inline.getInternalUrl('page', 'photos'), `Photos`, false, 'fontSizeSmall subtleLink marginLeftNormal');
     result += this.inline.doLink(this.inline.getInternalUrl('page', 'posts'), `Posts`, false, 'fontSizeSmall subtleLink marginLeftNormal');
@@ -27,6 +27,12 @@ function TemplateSidebar()
         <a href='https://webring.xxiivv.com/' target='_blank'><img src='/asset/icon/external/webring.svg' class='socialIcon'></a>
       </div>`;
     result += `</div>`;
+    return result;
+  }
+
+  this.display = function(pageData)
+  {
+    let result = '';
     return result;
   }
 }

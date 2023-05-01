@@ -3,7 +3,7 @@ INDEX
   TITL : Home
   DESC : Hamish MacDonald - Experience Designer
   HEAD : 2019-04-15_15-36
-  KEYS : Hamish MacDonald, kormyen, design, projects, photos, posts
+  TAGS : Hamish MacDonald, kormyen, design, projects, photos, posts
   EDIT 
     - 2023-04-22: Update structure to runlike
     - 2023-04-25: New intro
@@ -28,7 +28,7 @@ HAMISH
   BREF : Who?
   DATE : 1988 - 2023
   HEAD : 2019-03-03_15-00
-  KEYS : Hamish MacDonald, kormyen, about
+  TAGS : Hamish MacDonald, kormyen, about
   PRNT : INDEX
   EDIT
     - 2023-04-23 Add contact info, update tools, add brief intro
@@ -81,7 +81,7 @@ HAMISH
 PROJECTS
   TITL : Projects
   DESC : Digital, design, art, hardware, web3, physical, gamedev, electronics. 
-  KEYS : Hamish MacDonald, kormyen, design, projects, photos, posts
+  TAGS : Hamish MacDonald, kormyen, design, projects, photos, posts
   HEAD : 2011-11-25_12-00
   PRNT : INDEX
   BODY
@@ -90,7 +90,7 @@ PROJECTS
 PHOTOS
   TITL : Photos
   DESC : Photos from life
-  KEYS : Hamish MacDonald, kormyen, photos, photography
+  TAGS : Hamish MacDonald, kormyen, photos, photography
   HEAD : 2018-05-03_12-00
   PRNT : INDEX
   BODY
@@ -99,7 +99,7 @@ PHOTOS
 POSTS
   TITL : Posts
   DESC : Articles, thoughts and notes
-  KEYS : Hamish MacDonald, kormyen, posts, articles, thoughts, notes
+  TAGS : Hamish MacDonald, kormyen, posts, articles, thoughts, notes
   HEAD : 2019-04-21_17-02
   PRNT : INDEX
   BODY

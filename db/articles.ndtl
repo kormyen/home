@@ -1,8 +1,8 @@
 var ARTICLES = `
 VISITING RABBITS
-  NAME : Visiting Rabbits
+  TITL : Visiting Rabbits
+  DESC : How I met the Hundred Rabbits; Rekka, Devine and Pino - the floating art studio
   BREF : The journey to meet the people of the internet
-  TISA : How I met the {link ext rabbits} ({link ext rekka} and {link ext neauoire 'Devine'}) and {link ext pino} - the floating art studio
   TAGS : sailing
   TYPE : blog
   HEAD : 2017-11-05_17-53
@@ -20,7 +20,9 @@ VISITING RABBITS
     p While working on {link project sylo} I became good friends with Sasha who was very keen to learn sailing. I introduced him to {link ext joranKikke 'Joran'} and {link ext dominic 'Dominic'}.
 
 SAILING LESSON
-  BREF : Sailing training with a cyber hobo
+  TITL : Sailing lesson
+  DESC : Sailing lesson with a cyber hobo
+  BREF : with a cyber hobo
   TAGS : sailing
   TYPE : blog
   HEAD : 2019-01-19_15-53
@@ -45,8 +47,9 @@ SAILING LESSON
     p It is stunningly beautiful.
 
 QUEST
-  NAME : Quest
-  BREF : The search for a boat
+  TITL : Quest
+  DESC : The search for a first boat
+  BREF : get boat
   TAGS : sailing
   TYPE : blog
   HEAD : 2019-03-03_10-13
@@ -76,8 +79,9 @@ QUEST
     i 2019-07-08_23-31
 
 HORIZON
+  TITL : Horizon
+  DESC : 
   BREF : A 2nd boat
-  TISA : A 2nd boat
   TAGS : sailing
   TYPE : blog
   HEAD : 2019-03-23_19-27
@@ -108,6 +112,7 @@ HORIZON
     y Yf6xADq_nQw
 
 FIRST SAIL
+  TITL : First sail
   BREF : My first sailing experience with Aunt Karen, Uncle Peter, Cousins Lara and Chloe
   TAGS : sailing
   TYPE : blog
@@ -125,9 +130,10 @@ FIRST SAIL
     p A strange enacted prison island with prison guards who made me (try to) yell in fake pain from a torture demonstration...
 
 17 INDIEDEV LESSONS
+  TITL : 17 indiedev lessons
+  DESC : Notes on "17 lessons learned" in indie gamedev
   TAGS : gamedev
   TYPE : notes
-  TISA : Notes on "17 lessons learned" in indie gamedev
   HEAD : 2020-08-16_14-33
   DATE : 2014-07-25
   EDIT : 2020-06-04
@@ -163,9 +169,10 @@ FIRST SAIL
     p Lesson 20: Go on already.
 
 GAME DESIGN NOTES
+  TITL : Engine, wheels, road
+  DESC : Notes on Rami Ismail pillars of game design
   TAGS : gamedev
   TYPE : notes
-  TISA : Notes on game design
   HEAD : 2020-08-16_14-33
   DATE : 2020-09-24
   EDIT : 
@@ -191,6 +198,7 @@ GAME DESIGN NOTES
     p DIFFICULTY CURVE: Game gets harder the more you play. Complexity increases, difficulty increases, more challenges. Up until final test of all things learned to complete the game.
 
 WHY CRYPTO
+  TITL : Why crypto
   TYPE : thoughts
   DATE : 2018-07-08
   EDIT : 2020-06-04
@@ -204,6 +212,7 @@ WHY CRYPTO
     p '...the problem with hierarchies is that people stack up at the bottom and that they tilt toward tyranny across time'.
 
 WHY PRIVACY
+  TITL : Why privacy
   BREF : test
   HEAD : 2014-05-30_12-00
   DATE : 2019-06-04
@@ -281,6 +290,7 @@ TOOLS I USE
     p I used Mac OSX so Safari is the best UX and best integrated browser but they have resently broken all extentions ability to exist. Brave seems to be the next best option in terms of the forfront of web tech, usability, privacy and open source. I also considered Firefox.
 
 WHY HOME
+  TITL : Why home
   BREF : reasoning
   TAGS : why
   HEAD : 2014-05-30_12-00
@@ -304,6 +314,7 @@ WHY HOME
     p https://mastodon.social/@zensaiyuki/102683452946911475
 
 SOUL FOOD
+  TITL : Soul food
   TAGS : art, why
   BREF : importance of values
   HEAD : 2019-04-13_07-01
@@ -322,6 +333,7 @@ SOUL FOOD
     p Generic advice I guess, but felt very genuine.
 
 TIME
+  TITL : Time
   BREF : importance of values
   HEAD : 2018-07-05_12-02
   TYPE : notes
@@ -330,8 +342,9 @@ TIME
     p Test
 
 LOGGING 2019
+  TITL : Logging 2019
+  DESC : Thoughts in review on time tracking during 2019. What went well, what didn't and what to try in 2020.
   BREF : Looking back
-  TISA : Thoughts in review on time tracking during 2019. What went well, what didn't and what to try in 2020.
   LINK
     - {link page log 'Info on logging'}
   TAGS : home
@@ -379,6 +392,7 @@ LOGGING 2019
     p Track meditation
 
 GOALS IN 2019
+  TITL : Goals in 2019
   BREF : Looking forward 
   TAGS : home
   DATE : 2019-01-04
@@ -402,6 +416,7 @@ GOALS IN 2019
     p Meditate
 
 CRYSTAL
+  TITL : Crystal
   HEAD : 2019-04-13_07-01
   TYPE : notes
   PUBL : false
@@ -411,6 +426,7 @@ CRYSTAL
     p microphone, speaker, timing device, electrical generation
 
 CHANGE MINDS
+  TITL : Change minds
   TAGS : env
   DATE : 2019-06-18
   BREF : Why pollute?
@@ -432,6 +448,7 @@ CHANGE MINDS
     p "Stop obsessing over your environmental 'sins.' Fight the oil and gas industry instead." - {link ext recycleDontCare}
 
 PLASTIC OCEAN
+  TITL : Plastic ocean
   TAGS : env
   HEAD : 2019-04-07_15-07
   DATE : 2019-06-08
@@ -446,8 +463,9 @@ PLASTIC OCEAN
     p "Stop obsessing over your environmental 'sins.' Fight the oil and gas industry instead."  {link ext recycleDontCare}
     p If you have a hose spraying water everywhere getting things undesirably wet, do you try to catch every drop of water or turn the hose off?
 
-SENSORY DEPREVATION FLOAT
-  BREF : sensory deprevation tank
+SENSORY DEPREVATION
+  TITL : Sensory deprevation
+  BREF : float tank
   TAGS : life
   DATE : 2014-11-19
   HEAD : 2014-11-19_19-00
@@ -474,8 +492,9 @@ SENSORY DEPREVATION FLOAT
     p I want to do it again soon.
 
 HUMANE CALM
+  TITL : Humane calm
+  DESC : Notes on importance of values in tech
   TAGS : design, ux
-  TISA : Notes on importance of values in tech
   BREF : importance of values
   HEAD : 2019-04-13_07-01
   TYPE : notes
@@ -536,6 +555,7 @@ HUMANE CALM
     i 2020-08-26_11-24
 
 GIBBS FARM
+  TITL : Gibbs Farm
   TYPE : blog
   PUBL : false
   BODY
@@ -543,6 +563,7 @@ GIBBS FARM
     p http://gibbsfarm.org.nz/
 
 GAME TOURISM
+  TITL : Game tourism
   TYPE : thoughts
   PUBL : false
   BODY 
@@ -550,20 +571,23 @@ GAME TOURISM
     p "Played @panoramical. Forgot about my tea. My tea is cold and this game is awesome." https://twitter.com/kormyen/status/644872926068518912
 
 HOBBITON
+  TITL : Hobbiton
   TYPE : blog
   PUBL : false
   BODY
     p photos
 
 DOTS
+  TITL : Dots
   TYPE : notes
   PUBL : false
   BODY
     p Yayoi Kusama https://twitter.com/kormyen/status/641913580359516160
 
 PRESERVING MYSTERY
+  TITL : Preserving mystery
+  DESC : Notes on mystery in games
   BREF : Frog Fractions
-  TISA : Notes on mystery in games
   TAGS : gamedev
   TYPE : notes
   HEAD : 2016-02-14_00-02
@@ -615,8 +639,9 @@ PRESERVING MYSTERY
     y z2g_0QQRjYY
 
 DRAGON SPEECH
+  TITL : Dragon speech
+  DESC : Notes on dragon speech talk
   BREF : Chris Crawford
-  TISA : Notes on dragon speech talk
   TAGS : gamedev
   TYPE : notes
   HEAD : 2014-04-20_14-59
@@ -644,8 +669,9 @@ DRAGON SPEECH
     p “A truly good dream needs a lifetime to resolve.”
 
 GAME MARKETING 2014
+  TITL : Game marketing 2014
+  DESC : Notes on indie game marketing lecture by Emmy Jonassen
   BREF : Emmy Jonassen lecture
-  TISA : Notes on indie game marketing lecture by Emmy Jonassen
   TAGS : gamedev
   TYPE : notes
   HEAD : 2014-03-10_00-01
@@ -782,10 +808,10 @@ GAME MARKETING 2014
     p Awesome presentation and valuable tips and info.
     p We will put it to good use.
 
-VR
-  NAME : VR
+VR in 2014
+  TITL : VR in 2014
+  DESC : Thoughts on VR
   BREF : Thoughts on VR
-  TISA : Thoughts on VR
   TAGS : gamedev, research, vr
   TYPE : thoughts
   HEAD : 2014-06-11_00-01
@@ -838,8 +864,9 @@ VR
     p I think there is a big potential for {link thought neurotech} integration. You already have something on your head anyway, why not seamlessly introduce biometrics and brainwave monitoring?
 
 NEUROTECH
+  TITL : Neurotech
+  DESC : Thoughts on neurotech after an explanation and guided demo, testing various apps and examples.
   BREF : Thoughts on neurotech
-  TISA : Thoughts on neurotech after an explanation and guided demo, testing various apps and examples.
   TAGS : gamedev, research
   TYPE : thoughts
   HEAD : 2014-04-12_00-02
@@ -877,8 +904,9 @@ NEUROTECH
     i 2020-07-28_01-03
 
 MESSENGER MUSTS
+  TITL : Messenger musts
+  DESC : An article I wrote for {link project sylo} about important must haves for a messenger application
   BREF : What to look for in a messenger
-  TISA : An article I wrote for {link project sylo} about important must haves for a messenger application
   TAGS : research
   TYPE : thoughts
   HEAD : 2016-02-14_00-02
@@ -921,8 +949,9 @@ MESSENGER MUSTS
     p stuff
 
 JOURNEY
+  TITL : Journey
+  DESC : Thoughts on Journey
   BREF : Thoughts on Journey
-  TISA : Thoughts on Journey
   TAGS : gamedev
   TYPE : thoughts
   HEAD : 2012-11-17_00-01
@@ -995,8 +1024,9 @@ JOURNEY
     i 2012-11-17_00-04
 
 VEGETABLES
+  TITL : Vegetables
+  DESC : test
   BREF : Thoughts on vegetables
-  TISA : test
   TAGS : research
   TYPE : thoughts
   HEAD : 2012-11-17_00-01
@@ -1195,9 +1225,9 @@ VEGETABLES
     p References:
 
 ISO 8601
-  NAME : ISO 8601
+  TITL : ISO 8601
+  DESC : Notes on ISO 8601
   BREF : Superior date
-  TISA : Notes on ISO 8601
   TAGS : 
   TYPE : thoughts
   HEAD : 2020-08-08_02-37
@@ -1214,8 +1244,9 @@ ISO 8601
     i 2016-04-07_00-01
 
 VAN??
+  TITL : Van??
+  DESC : test
   BREF : test
-  TISA : test
   TAGS : 
   TYPE : thoughts
   HEAD : 2018-01-20_12-00
@@ -1439,8 +1470,9 @@ VAN??
     p See what happens.
 
 SWORDY EA RELEASE!
+  TITL : Swordy EA release
+  DESC : test
   BREF : swordy-is-out-in-early-access
-  TISA : test
   TAGS : 
   TYPE : thoughts
   HEAD : 2018-01-20_12-00
@@ -1560,8 +1592,9 @@ SWORDY EA RELEASE!
     p [Official website](http://swordygame.com)
 
 VR 2
+  TITL : VR 2
+  DESC : test
   BREF : test
-  TISA : test
   TAGS : 
   TYPE : thoughts
   HEAD : 2018-01-20_12-00
@@ -1596,8 +1629,9 @@ VR 2
     p They are building the new peripherals as they build their three VR games.
 
 VAN INSULATION
+  TITL : Van insulation
+  DESC : test
   BREF : test
-  TISA : test
   TAGS : 
   TYPE : thoughts
   HEAD : 2018-01-20_12-00
@@ -1623,8 +1657,9 @@ VAN INSULATION
     p Video above showing reflectix, then rigid foam board. Fabric fibers in frames and gaps.
 
 FLOW
+  TITL : Flow
+  DESC : test
   BREF : test
-  TISA : test
   TAGS : 
   TYPE : thoughts
   HEAD : 2018-01-20_12-00
@@ -1637,8 +1672,9 @@ FLOW
     p Flow as a state of meditation
 
 MIGW AND PAX 14
+  TITL : MIGW and PAX 2014
+  DESC : test
   BREF : unite-gcap-and-pax-aus
-  TISA : test
   TAGS : gamedev
   TYPE : thoughts
   HEAD : 2018-01-20_12-00
@@ -1835,8 +1871,9 @@ MIGW AND PAX 14
     p **TOTAL: $6000**
 
 3D MATHS
+  TITL : 3D Maths
+  DESC : notes on game maths
   BREF : notes on game maths
-  TISA : notes on game maths
   TAGS : gamedev
   TYPE : notes
   HEAD : 2018-01-20_12-00
@@ -1855,6 +1892,7 @@ MIGW AND PAX 14
     p Convert "float upDot = hit.normal.y" as up is +y and gravity -y into gravity arbiitrary: "float upDot = Vector3.Dot(upAxis, hit.normal)";
 
 LEVEL DESIGN
+  TITL : Level design
   LINK
       - {link ext dungeonMap}
   BODY
@@ -1882,8 +1920,9 @@ LEVEL DESIGN
     p daily level design sketches
 
 END GAME NOTES
+  TITL : End game notes
+  DESC : Notes on "Endgame" design
   TYPE : notes
-  TISA : Notes on "Endgame" design
   HEAD : 
   DATE : 2022-09-12
   EDIT : 

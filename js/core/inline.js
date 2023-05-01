@@ -34,7 +34,7 @@ function Inline()
         }
         else if (func == 'project' || func == 'post')
         {
-            result += `/${func}s/${name.replace(/ /g, `-`)}`;
+            result += `/${func}s/${name.replace(/ /g, `-`).toLowerCase()}`;
         }
 
         return result;

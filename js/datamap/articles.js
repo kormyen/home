@@ -17,11 +17,7 @@ function Articles()
       let element = tempDb[keys[k]];
 
       element.KEY = keys[k];
-
-      if (element.NAME == undefined)
-      {
-        element.NAME = parent.capitalizeFirstLetter(keys[k]);
-      }
+      element.NAME = keys[k];
 
       // Body HTML
       element.HtmlBody = runelike.parse(element.BODY);
@@ -32,13 +28,13 @@ function Articles()
       // Article HTML
       if (element.PUBL == "true")
       {
-        element.HtmlArticle = function(location)
+        element.HtmlArticle = function()
         {
-          let result = `<a href='${inline.getInternalUrl(location, keys[k].toLowerCase())}' class='article noDecoration'>`;
+          let result = `<a href='${inline.getInternalUrl('post', keys[k].toLowerCase())}' class='article noDecoration'>`;
           result += `<div class="img-gradient">`;
           result += `<img src='media/small/${element.media.file}' class='articleImg articleBlackAndWhite radiusNormal'></img>`;
           result += `</div>`;
-          result += `<span class='fontSizeSmall colorMain marginTopNormal articleTitle'>${element.NAME}</span>
+          result += `<span class='fontSizeSmall colorMain marginTopNormal articleTitle'>${element.TITL}</span>
             </a>`;
 
           return result;
@@ -101,6 +97,7 @@ function Articles()
 
   this.get = function(query)
   {
+    query = query.replaceAll('-', ' ');
     for (let k = 0; k < this.db.length; k++)
     {
       if (this.db[k].KEY == query.toUpperCase())
