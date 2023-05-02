@@ -24,11 +24,44 @@ SEEKERS
   BREF : gamified infrastructure
   SECT : 4
   BODY
+    t Gamified decentralised infrastructure NFT
     p The Seekers project is a NFT project of loveable robots with the utility of enabling their owner activate them to run a web3 node. The Seeker nodes contribute to a decentralised network for private offchain communications.
-    p I am the Creative Director on the Seekers project, proposing the intial concept and working with the design, development and production team to deliver.
+    / TLDR; The Seeker NFT represents DRM to run a decentralised communications server and earn SYLO token in exchange for providing services to the decentralised communications network.
+    i 2022-03-27_09-05
+    p For the public sale mint event it was explained that Seekers were in danger from attack by 'God & Goblins' who wanted to melt them down for parts to build a portal.
+    p The Seekers NFT mint was a first of it's kind "community-determined supply" (AFAIK).
+    p There were 50,000 Seekers that could potentially be minted, but each second that the mint event took, Seekers were lost to the Goblin attack. 
+    p {image 2022-06-25_11-40 il} {image 2022-06-25_11-42 ir}
+    p Surprisingly it sold out in just over an minutes.
+    p On 2022-03-27: 47,895 Seekers were rescued at a mint cost of around 0.09 ETH each.
+    i 2022-03-23_11-09
+    p In a second round, the 'Gods & Goblins' project tempted Seeker holders to sacrifice their Seekers to finish the portal. 10,498 were burned in exchange for Amulets, leaving 37,397 Seekers remaining.
+    i 2023-01-13_15-30
+    p {image 2023-03-30_14-12 il} {image 2023-02-23_11-00 ir}
+    t My role
+    p I was the Creative Director on the Seekers project, proposing the intial concept, ideation, spreadsheet trait distribution, initial partnership reach outs and communication, and working with the design, development and production team to deliver.
     p Seekers are created by {link project Sylo} but we worked closely with the amazing team at Non-Fungible Labs of {link ext flufWorldHome}.
-    p The Seekers NFT mint was a first of it's kind "community-determined supply" where the initial supply was set at 50,000 which reduced every second as the Seekers were under attack by Goblins. The mint sold out in 77 minutes which meant the community saved a total of 47,895 Seekers.
-    p Seekers has been the most fun I've had on any project and I look forward to continuing to see it evolve.
+    p {image 2022-09-20_10-59 il} {image 2022-09-20_10-58 ir}
+    p {image 2022-09-20_10-57 il} {image 2022-06-25_11-41 ir}
+    p {image 2022-09-13_10-50 il} {image 2022-08-18_13-58 ir}
+    i 2022-09-20_10-56
+    t Backgrounds
+    p I provided a lot of (but not all of) the ideation, art direction and feedback for the Seekers backgrounds to a team of extremely talented artists who built them in Unreal Engine.
+    p A good example is my faviourite location: the Mushroom Forest which is inspired by a photo I took of New Zealand native Entoloma hochstetteri mushroom on Mount Hobson, Great Barrier Island... and of course Fluf World 'mycelium'... and Alice in Wonderland...
+    p {image 2019-04-15_16-25 il} {image 2022-08-05_15-32 ir}
+    p The direction for many of the Seekers backgrounds was "seeking" deeper points of interest in locations of the {link ext flufworldscenes 'Fluf World scenes'}.
+    t Partnerships
+    p It was incredible reaching out to potential partners and finding that; not only had they heard of Seekers, but they also responded, and also were keen to work together.
+    p Most incredible has been working with the teams at Walker World, Wilder World and Weta.
+    i 2023-05-02_19-01
+    p {image 2022-04-26_04-57 il} {image 2022-07-12_10-04 ir}
+    t Building
+    p It's been exciting working with Futureverse. I really enjoying seeing this universe expand.
+    i 2023-03-22_18-02
+    p The release of Buzzies expanded the area below the Mushroom Forest into Crystal Falls.
+    p We have a lot of progress that has happened behind closed doors waiting to be released on Futureverse's 'The Root Network' blockchain. I can't wait for these projects to be released.
+    i 2023-04-12_16-11
+    p Seekers has been the most fun I've had on any project and I look forward to continuing to see it deliver and evolve further.
   LINK
     - {link ext seekersHome}
     - {link ext seekersOpensea}
@@ -55,7 +88,7 @@ SYLO
 
 HOME
   TITL : Home
-  DESC : A portfolio, time tracker and exocortex.
+  DESC : A portfolio and exocortex.
   TAGS : ux, ui, webdev, portfolio, js, design, programming
   BREF : this website
   BORN : 2006
@@ -63,17 +96,17 @@ HOME
   EDIT
     - 2023-04-23 Added 'Weathering Software Winder' and 2023 version
   BODY
-    p Home is a portfolio, time tracker and exocortex.
+    p Home is a portfolio and exocortex.
     p Since I was young I have chipped away at an unfinishable amorphous website that has reborn every few years.
     p "...our small digital fires we keep alight at night." {link ext phil}
     t 2023
-    p I rewrote the 2019 version to remove the 2019's overly complicated "build" process. It previously ran a headless browser to visit each "single page application" page and save it as a flat html file which I didn't like but seemed the simplest way at the time to turn the JS SPA site into non-JS HTML and control the exact URLs.
-    p The new left it as a javascript "single page application", not ideal but a simplification. I found the build thing a nagging anti-inspiration.
+    p I rewrote the 2019 version to remove the 2019's overly complicated "build" process. It previously ran a headless browser to visit each "single page application" page and save it as a flat html file which I didn't like but seemed the simplest way at the time to turn the JS SPA site into non-JS HTML and control the exact URLs...
+    p The new version left it as a javascript "single page application", not ideal but a simplification. I found the build process a nagging anti-inspiration and stumbling block for continuing to add content.
     p The rewrite was inspired by stumbling upon this article {link ext devSpaRoute} which explained with vanilla JS how to control routing, history and address bar content which I could not figure out in 2019.
     t 2019
     i 2019-07-09_21-13
-    p The 2019 version was inspired by {link ext neauoire} with a focus on simplicity and minimalism in structure it is hopefully some form of foundational base to build upon into time.
-    p At the very least with it's use of a human-readable data database; it's content should be portable between future website versions and long term. Simple to archive. 
+    p The 2019 version was inspired by {link ext neauoire} with a focus on simplicity and minimalism in it's structure and core content setup. It is hopefully some form of foundational base to build upon into time.
+    p At the very least with it's use of a human-readable data database; it's content should be portable between future website versions and long term, and simple to archive. 
     t Philosophy: "Long Now"
     p An attempt at simplicity to help survive as {link ext techDegrades}.
     p I found this quote and term {link ext longSite} on {link ext gwern} an inspiration in this regard:
@@ -463,7 +496,7 @@ TOILET
   TITL : Composting Toilet
   DESC : A home made composting toilet.
   TAGS : physical, offgrid, woodwork
-  BREF : shit bucket
+  BREF : poop bucket
   SECT : 1, 6
   EDIT : 
     - 2020-08-28
@@ -479,7 +512,7 @@ TOILET
     p The main negative is there is more work involved than just pushing a button.
     p "...a technology that is simpler in design will tend to be simpler to construct and repair, but will tend to require greater skill to use..." - {link ext omickDesign}
     2 What's involved
-    p All it really comes down to is decorating a bucket to make it more comfortable and socially acceptable: put it in a box!
+    p All it really comes down to is decorating a bucket to make it more comfortable and socially acceptable to poop in: put it in a box!
     p You can have a semi-portable box like mine, or build it into your bathroom. Express your box creativity.
     p Having a urine seperator is a highly recommended addition. By keeping 1s and 2s seperate I think it's not technically "sewerage"... but what that means to you is that it doesn't smell so bad, or fill so fast.
     i 2020-08-27_13-30

@@ -1,11 +1,11 @@
 ## REWRITE
-- Add photo lightbox
 - Make htaccess thing work
 
 ## FIX
 - Weird offset in photo list
 - change project lens to manual featured items
 - Fix social icons missing from medium width
+- Fix weird small text p paragraph content after double images
 
 ## REFACTOR
 - Unify all db data to have same page items (articles, projects, pages all have BREF, TITL, META etc)

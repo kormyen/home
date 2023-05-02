@@ -136,7 +136,8 @@ svg {
 .subtleLink {
   text-decoration: none;
   color: var(--color-primary);
-  padding: var(--size-columnPaddingSmall);
+  padding-top: var(--size-columnPaddingSmall);
+  padding-bottom: var(--size-columnPaddingSmall);
   border-radius: var(--size-radiusSmall);
 }
 .subtleLink:hover {
