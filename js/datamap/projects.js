@@ -24,7 +24,12 @@ function Projects()
       if (element.TAGS)
       {
         element.TAGS = element.TAGS.split(', ');
-        element.TAGS.sort();
+        element.TAGS.sort(function(a,b) {
+          a = a.toLowerCase();
+          b = b.toLowerCase();
+          if( a == b) return 0;
+          return a < b ? -1 : 1;
+        });
       }
 
       // Body HTML
@@ -69,6 +74,10 @@ function Projects()
           imageUrl = this.app.media.getByDate(DEFAULTIMAGE);
         }
         let titleText = element.TITL;
+        if (element.BREF)
+        {
+          titleText += ': ' + element.BREF;
+        }
         let tagsArray = [];
         if (element.TAGS)
         {

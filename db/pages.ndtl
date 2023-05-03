@@ -9,18 +9,12 @@ INDEX
     - 2023-04-25: New intro
   BODY
     2 {link page hamish 'Hamish'} is an Experience Designer
-    / Hello, I'm {link page hamish 'Hamish MacDonald'}.
-    3 Recent {link page projects} of {stat projectsTotal}
-    b projectsLens
-    / Other recent {link page projects} of {stat projectsTotal}
-    / projectsLensReccent
+    3 Featured {link page projects} of {stat projectsTotal}
+    b projectsLens seekers memex swordy
     3 Recent {link page photos} of {stat photosTotal}
     b photosLens
     3 Recent {link page posts} of {stat postsTotal}
     b postsLens
-    / thoughts
-    / notes
-    / blogs
 
 HAMISH
   TITL : Hamish

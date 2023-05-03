@@ -22,8 +22,8 @@ LOG
 SEEKERS
   TITL : Seekers
   DESC : A NFT project of loveable customisable robots with the utility of unlocking gamified decentralised comms infrastructure.
-  TAGS : crypto, design
-  BREF : gamified infrastructure
+  TAGS : crypto, design, character
+  BREF : gamified nodes
   SECT : 4
   BODY
     t Gamified decentralised infrastructure NFT
@@ -173,7 +173,7 @@ HOME
 MORT
   TITL : Mort
   DESC : Character design assignment.
-  TAGS : design
+  TAGS : design, character
   BREF : rar
   SECT : 4
   BORN : 2010-07-30
@@ -353,7 +353,7 @@ FPVMOD
 CORE
   TITL : Core
   DESC : An input receiver and output commander for the VNS Tiny House IoT power system.
-  TAGS : code, electronics, time
+  TAGS : code, electronics
   BREF : power core
   UNDR : VNS
   SECT : 3
@@ -367,7 +367,7 @@ CORE
 CONTROL
   TITL : Control
   DESC : A custom control panel with switches and dimmer.
-  TAGS : code, electronics, time
+  TAGS : code, electronics
   BREF : control panel
   SECT : 1, 2, 3, 4
   UNDR : VNS
@@ -383,7 +383,7 @@ CONTROL
 POWER
   TITL : Power
   DESC : A power distribution unit for an IoT system.
-  TAGS : code, electronics, time
+  TAGS : code, electronics
   BREF : power unit
   UNDR : VNS
   SECT : 1, 2, 3
@@ -423,7 +423,7 @@ LIGHTBOX
 SWORDY
   TITL : Swordy
   DESC : A physics based local-multiplayer fighting game.
-  TAGS : code, design, game, Unity3D
+  TAGS : code, design, game, unity
   BREF : physics brawler
   SECT : 3, 4, 7
   BODY
@@ -464,7 +464,7 @@ VAN
 WHALEBUS
   TITL : Whalebus
   DESC : A 48 hour game jam "what do we do now?" themed toy.
-  TAGS : code, design, game, Unity3D
+  TAGS : code, design, game, unity
   BREF : spam toy
   SECT : 3, 4
   BODY
@@ -503,7 +503,7 @@ PORTFOLIO
 WARP
   TITL : Warp
   DESC : "VR JAM 2013" entry for Oculus developer kit V1.
-  TAGS : design, game, programming, Unity3D, VR
+  TAGS : design, game, programming, unity, vr
   BREF : VR JAM 2013
   SECT : 3, 4
   BODY

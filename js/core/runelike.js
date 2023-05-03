@@ -179,12 +179,19 @@ function Runelike()
             }
             else if (stash.rune.tag == 'block')
             {
-                const func = stash.a[0];
+                const data = stash.a[0].split(' ');
+                const func = data[0];
 
                 result += acc;
                 if (func == 'projectsLens')
                 {
-                    result += parent.templateIndex.componentLens('focusContainer', parent.templateFocusLens.getContent());
+                    let featuredProjs = [];
+                    for (let i = 1; i < data.length; i++) 
+                    {
+                        featuredProjs.push(data[i]);
+                    }
+                    console.log(featuredProjs.length);
+                    result += parent.templateIndex.componentLens('focusContainer', parent.templateFocusLens.getContent(featuredProjs));
                 }
                 else if (func == 'photosLens')
                 {

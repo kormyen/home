@@ -23,7 +23,12 @@ function Articles()
       if (element.TAGS)
       {
         element.TAGS = element.TAGS.split(', ');
-        element.TAGS.sort();
+        element.TAGS.sort(function(a,b) {
+          a = a.toLowerCase();
+          b = b.toLowerCase();
+          if( a == b) return 0;
+          return a < b ? -1 : 1;
+        });
       }
 
       // Body HTML
@@ -47,6 +52,10 @@ function Articles()
           let linkUrl = inline.getInternalUrl('post', keys[k].toLowerCase());
           let imageUrl = element.media.pathRelativeSmall;
           let titleText = element.TITL;
+          if (element.BREF)
+          {
+            titleText += ': ' + element.BREF;
+          }
           let tagsArray = element.TAGS;
           return parent.template.articleCard(linkUrl, imageUrl, titleText, tagsArray);
         }

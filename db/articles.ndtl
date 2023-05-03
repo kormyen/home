@@ -2,7 +2,7 @@ var ARTICLES = `
 VISITING RABBITS
   TITL : Visiting rabbits
   DESC : How I met the Hundred Rabbits; Rekka, Devine and Pino - the floating art studio
-  BREF : The journey to meet the people of the internet
+  BREF : people of the internet
   TAGS : sailing, life
   TYPE : blog
   HEAD : 2017-11-05_17-53
@@ -81,7 +81,7 @@ QUEST
 HORIZON
   TITL : Horizon
   DESC : 
-  BREF : A 2nd boat
+  BREF : get boat 2
   TAGS : sailing, life
   TYPE : blog
   HEAD : 2019-03-23_19-27
@@ -405,7 +405,7 @@ DRAGON SPEECH
 GAME MARKETING 2014
   TITL : Game marketing 2014
   DESC : Notes on indie game marketing lecture by Emmy Jonassen
-  BREF : Emmy Jonassen lecture
+  BREF : lecture
   TAGS : gamedev, research
   TYPE : notes
   HEAD : 2014-03-10_00-01
@@ -545,7 +545,7 @@ GAME MARKETING 2014
 VR in 2014
   TITL : VR in 2014
   DESC : Thoughts on VR
-  BREF : Thoughts on VR
+  BREF : thoughts on vr
   TAGS : gamedev, research, vr
   TYPE : thoughts
   HEAD : 2014-06-11_00-01
@@ -600,7 +600,7 @@ VR in 2014
 NEUROTECH
   TITL : Neurotech
   DESC : Thoughts on neurotech after an explanation and guided demo, testing various apps and examples.
-  BREF : Thoughts on neurotech
+  BREF : thoughts on neurotech
   TAGS : gamedev, research
   TYPE : thoughts
   HEAD : 2014-04-12_00-02
@@ -640,7 +640,7 @@ NEUROTECH
 JOURNEY
   TITL : Journey
   DESC : Thoughts on Journey
-  BREF : Thoughts on Journey
+  BREF : the best game
   TAGS : game, life
   TYPE : thoughts
   HEAD : 2012-11-17_00-01
@@ -715,7 +715,7 @@ JOURNEY
 ISO 8601
   TITL : ISO 8601
   DESC : Notes on ISO 8601
-  BREF : Superior date
+  BREF : superior date
   TAGS : time
   TYPE : thoughts
   HEAD : 2020-08-08_02-37
