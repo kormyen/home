@@ -26,7 +26,7 @@ SEEKERS
   BREF : gamified nodes
   SECT : 4
   BODY
-    t Gamified decentralised infrastructure NFT
+    t Gamified decentralised infrastructure NFTs
     p The Seekers project is a NFT project of loveable robots with the utility of enabling their owner activate them to run a web3 node. The Seeker nodes contribute to a decentralised network for private offchain communications.
     / TLDR; The Seeker NFT represents DRM to run a decentralised communications server and earn SYLO token in exchange for providing services to the decentralised communications network.
     i 2022-03-27_09-05
@@ -199,7 +199,7 @@ SKUL
   TITL : Skul
   DESC : A minecraft sculpture.
   TAGS : game, art
-  BREF : monument
+  BREF : voxel monument
   SECT : 4
   BORN : 2015-08-12
   BODY
@@ -354,7 +354,7 @@ CORE
   TITL : Core
   DESC : An input receiver and output commander for the VNS Tiny House IoT power system.
   TAGS : code, electronics
-  BREF : power core
+  BREF : simple IOT server
   UNDR : VNS
   SECT : 3
   BODY
@@ -368,7 +368,7 @@ CONTROL
   TITL : Control
   DESC : A custom control panel with switches and dimmer.
   TAGS : code, electronics
-  BREF : control panel
+  BREF : keypad panel
   SECT : 1, 2, 3, 4
   UNDR : VNS
   BODY
@@ -384,7 +384,7 @@ POWER
   TITL : Power
   DESC : A power distribution unit for an IoT system.
   TAGS : code, electronics
-  BREF : power unit
+  BREF : IOT PDU
   UNDR : VNS
   SECT : 1, 2, 3
   BODY
@@ -437,7 +437,7 @@ VAN
   TITL : Van
   DESC : A mobile stealth tiny house.
   TAGS : electronics, offgrid, physical
-  BREF : tiny house
+  BREF : stealth campervan
   SECT : 1, 2, 3, 4, 6, 7
   BODY
     i 2018-01-20_12-00
@@ -580,7 +580,7 @@ SOLARSAILS
   TITL : Solarsails
   DESC : A solarpunk themecamp
   TAGS : offgrid, physical
-  BREF : solar family
+  BREF : sun family
   SECT : 1, 2, 4
   BODY
     p To me Solarsails is a solarpunk themecamp made of bamboo, repurposed junk, solar panels and optimism.

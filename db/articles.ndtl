@@ -22,7 +22,7 @@ VISITING RABBITS
 SAILING LESSON
   TITL : Sailing lesson
   DESC : Sailing lesson with a cyber hobo
-  BREF : with a cyber hobo
+  BREF : with a cyberhobo
   TAGS : sailing, life
   TYPE : blog
   HEAD : 2019-01-19_15-53
@@ -111,8 +111,8 @@ HORIZON
     p {link ext alexey 'Alexey'} also made a video of a trip on Horizon. 
     y Yf6xADq_nQw
 
-17 INDIEDEV LESSONS
-  TITL : 17 indiedev lessons
+17 INDIEDEV GAMEDEV LESSONS
+  TITL : 17 indiedev gamedev lessons
   DESC : Notes on "17 lessons learned" in indie gamedev
   TAGS : gamedev, research
   TYPE : notes
@@ -182,7 +182,7 @@ GAME DESIGN NOTES
 LOGGING 2018
   TITL : Logging 2018
   DESC : Thoughts in review on time tracking during 2018. What went well, what didn't and what to try in 2019.
-  BREF : Looking back
+  BREF : looking back
   TAGS : time, research, life
   DATE : 2019-01-04
   EDIT : 2020-06-22
@@ -545,7 +545,7 @@ GAME MARKETING 2014
 VR in 2014
   TITL : VR in 2014
   DESC : Thoughts on VR
-  BREF : thoughts on vr
+  BREF : presence
   TAGS : gamedev, research, vr
   TYPE : thoughts
   HEAD : 2014-06-11_00-01
@@ -600,7 +600,7 @@ VR in 2014
 NEUROTECH
   TITL : Neurotech
   DESC : Thoughts on neurotech after an explanation and guided demo, testing various apps and examples.
-  BREF : thoughts on neurotech
+  BREF : initiation
   TAGS : gamedev, research
   TYPE : thoughts
   HEAD : 2014-04-12_00-02
