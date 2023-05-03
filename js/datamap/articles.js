@@ -34,8 +34,8 @@ function Articles()
           result += `<div class="img-gradient">`;
           result += `<img src='media/small/${element.media.file}' class='articleImg articleBlackAndWhite radiusNormal'></img>`;
           result += `</div>`;
-          result += `<span class='fontSizeSmall colorMain marginTopNormal articleTitle'>${element.TITL}</span>
-            </a>`;
+          result += `<span class='fontSizeSmall colorMain marginTopNormal articleTitle'>${element.TITL}</span>`;
+          result += `</a>`;
 
           return result;
         }

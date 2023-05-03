@@ -124,6 +124,19 @@ function Runelike()
                 }
                 result += `</p>`;
             }
+            else if (stash.rune.tag == 'quote')
+            {
+                result += `${acc}<p class='fontSizeSmall marginTopNormal marginBottomNormal colorSecondary'>`;
+                for (let i = 0; i < stash.a.length; i++)
+                {
+                    if (i > 0)
+                    {
+                        result += `<br><br>`;
+                    }
+                    result += `${parent.inline.parse(stash.a[i])}`;
+                }
+                result += `</p>`;
+            }
             else if (stash.rune.tag == 'bullet')
             {
                 result += `${acc}<p class='fontSizeSmall marginTopNormal marginBottomNormal colorSecondary'>`;

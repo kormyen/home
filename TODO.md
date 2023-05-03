@@ -1,7 +1,9 @@
 ## REWRITE
-- Make htaccess thing work
+- Add tags to post card
+- Add links to posts
 
 ## FIX
+- Fix Opengraph/twitter meta cards don't work with SPA 
 - Weird offset in photo list
 - change project lens to manual featured items
 - Fix social icons missing from medium width
@@ -9,7 +11,7 @@
 
 ## REFACTOR
 - Unify all db data to have same page items (articles, projects, pages all have BREF, TITL, META etc)
-- Build database tree Home.pages[0].pages[0]
+- Build database tree Home.pages[0].subPages[0]
 - TITL not needed? Set homepage name in CONFIG.
 
 ## BUGS

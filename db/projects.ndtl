@@ -9,6 +9,8 @@ LOG
   BODY
     p Log is a time tracker.
     p "What gets measured gets done."
+    p I built this project in 2018 after {link post visiting-rabbits}. I was inspired by {link ext neauoire} and their tracker {link ext horaire}.
+    p I found it a useful learning project, and personal life experiment as a lens on productivity. I detailed what went well and what didn't in this post: {link post logging-2018}
     p {tracker project percentages}
     p {tracker sector percentages}
     p {tracker lastUpdateText}
@@ -100,9 +102,32 @@ HOME
     p Since I was young I have chipped away at an unfinishable amorphous website that has reborn every few years.
     p "...our small digital fires we keep alight at night." {link ext phil}
     t 2023
-    p I rewrote the 2019 version to remove the 2019's overly complicated "build" process. It previously ran a headless browser to visit each "single page application" page and save it as a flat html file which I didn't like but seemed the simplest way at the time to turn the JS SPA site into non-JS HTML and control the exact URLs...
-    p The new version left it as a javascript "single page application", not ideal but a simplification. I found the build process a nagging anti-inspiration and stumbling block for continuing to add content.
+    p I rewrote the 2019 version to remove the 2019's overly complicated, manually set up "build" process. It previously ran a headless browser ("Puppeteer") to visit each "single page application" (SPA) page and save it as a flat html file which I didn't like but seemed the simplest way at the time to turn the JS SPA site into non-JS HTML and control the exact URLs through folders and index.html files...
+    p The rewrite left it as a javascript "single page application". I found the build process a nagging anti-inspiration and stumbling block for continuing to add content...
     p The rewrite was inspired by stumbling upon this article {link ext devSpaRoute} which explained with vanilla JS how to control routing, history and address bar content which I could not figure out in 2019.
+    p Somehow I forgot the lesson from 2019 that JavaScript Single Page Applications and Search Engine Optimisation don’t mix.
+    t JS SPA + SEO
+    p Webcrawlers (like Google, Facebook, Opengraph, Twitter) don't work with SPAs - they don't run the JavaScript to update the metadata, so it doesn't exist... so they don't get preview pics, titles, descriptions etc.
+    p I've decided to leave it as is for now, and fix it later - I'm very uninterested in solving this, and it doesn't matter that much because I'm not selling anything. I'll fix it later.
+    p The options to fix it:
+    - Re-write with Next.js 
+    p Next.js (tooling and configutation for React, with additional structure, features and optimisations) with "prerendering" (at build time), plus React (front-end JavaScript UI library), plus Babel.js (toolchain for compiling JSX to JS). 
+    p This seems like the industry standard setup, and would probably be logical research career-wise... but seems convoluted "There Was an Old Lady Who Swallowed a Fly" style. 
+    - Custom manual build with Puppeteer
+    p This is what I made previously. Here is an example explainer.
+    p Example explainer for what I did before: {link ext puppetprerenderer}
+    p This seems convoluted, to build an app that runs a whole browser that loads all your pages and saves them as flat HTML files... This is also what services like {link ext prerenderio} do.
+    - User-Agent based proxy for only Webcrawlers
+    p This seems like a industry work-around for SPAs; redirect only webcrawler traffic to flat HTML, but continue to serve the JS SPA to humans.
+    p It would use something like {link ext useragentrender} to detect webcrawlers, then if detected send them {link ext prerenderio} data instead of the live app.
+    p This seems OK but seems a bit fragile / a work around and is a paid service. The nice thing though is that it keeps the user facing setup simple: exactly the JS SPA.
+    - Custom website builder app in Node.js
+    p Remake the JS SPA instead so that it just builds flat html files and folder structure. This isn't possible as is with browser style JS, as that can’t save the files and create folders.
+    p This is a bit convoluted but kinda cool in that I could start adding editor features to the Node.js app... but that is a rabbit hole.
+    - Custom website builder app in Deno
+    p Same as above but a bigger re-write into TypeScript and the "new Node.js (Deno)". More work, but nicererer.
+    - A different custom website builder
+    p Same as above but a different language like {link ext neauoire}'s awesome {link ext xxiivvoscean} but probably something less esoteric.
     t 2019
     i 2019-07-09_21-13
     p The 2019 version was inspired by {link ext neauoire} with a focus on simplicity and minimalism in it's structure and core content setup. It is hopefully some form of foundational base to build upon into time.

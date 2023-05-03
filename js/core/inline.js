@@ -86,7 +86,11 @@ function Inline()
                     const fullText = split[i];
                     const linkChunks = fullText.split(' ');
                     const func = linkChunks[1];
-                    const pageName = linkChunks[2];
+
+                    const urlName = linkChunks[2];
+                    const textName = urlName.replace('-', ' ');
+                    const queryName = textName.toUpperCase();
+
                     let optionalLabel = '';
                     if (linkChunks[3] != undefined)
                     {
@@ -96,10 +100,10 @@ function Inline()
                     if (func == "project" || func == "page" || func == "post")
                     {
                         // INTERNAL LINK
-                        const url = parent.getInternalUrl(func, pageName);
-                        const label = (optionalLabel == '') ? pageName : optionalLabel;
+                        const url = parent.getInternalUrl(func, urlName);
+                        const label = (optionalLabel == '') ? textName : optionalLabel;
 
-                        if ((func == "project") && (this.projects.get(pageName) == undefined))
+                        if ((func == "project") && (this.projects.get(queryName) == undefined))
                         {
                             // Requested project link but no project... so no link for you!
                             lineResult += `${label}`;

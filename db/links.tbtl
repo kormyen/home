@@ -147,8 +147,13 @@ seekersTwitter     Seekers Twitter                                           htt
 seekersDiscord     Seekers Discord                                           http://discord.gg/seekers
 flufWorldHome      Fluf World                                                https://fluf.world
 weatherSoftware    Weathering Software Winter                                https://guide.handmade-seattle.com/c/2022/weathering-software-winter/
-devSpaRoute        Single Page Application Routing Using... URL              https://dev.to/thedevdrawer/single-page-application-routing-using-hash-or-url-9jh
+devSpaRoute        Single Page Application Routing Using... URLs             https://dev.to/thedevdrawer/single-page-application-routing-using-hash-or-url-9jh
 ccbyncsa4          CC BY-NC-SA 4.0                                           https://creativecommons.org/licenses/by-nc-sa/4.0/
 starwall           @starwall                                                 https://radical.town/@starwall
 flufworldscenes    Fluf World Sounds and Scenes Collection                   https://opensea.io/collection/fluf-world-scenes-and-sounds
+puppetprerenderer  Custom Puppeteer pre-renderer for SPAs                    https://medium.com/front-end-weekly/building-a-pre-renderer-for-spas-108f956f8b
+prerenderio        Prerender.io                                              https://prerender.io/
+useragentrender    Vercel: User-Agent Based Rendering                        https://edge-user-agent-based-rendering.vercel.app/
+xxiivvoscean       Static site builder written in Uxntal                     https://github.com/XXIIVV/oscean
+horaire            Horaire                                                   https://wiki.xxiivv.com/site/horaire.html
 `

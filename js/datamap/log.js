@@ -132,7 +132,7 @@ function Log()
     // console.log(hourOrderedProj);
 
     let result = ``;
-    result += "Hamish has recently dedicated time to ";
+    result += "Hamish has last dedicated time to ";
 
     // COPIED FROM FOCUS
     // Limit to recent logs
@@ -205,7 +205,7 @@ function Log()
   this.sectPercStats = function()
   {
     let result = ``;
-    result += "This time has been  ";
+    result += "This time was been  ";
 
     // Limit to recent logs
     let recentLogs = [];
