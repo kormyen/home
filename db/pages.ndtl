@@ -97,5 +97,7 @@ POSTS
   HEAD : 2019-04-21_17-02
   PRNT : INDEX
   BODY
+    p "Have you tried writing down everything you know about everything?" - {link ext neauoire}
+    p
     b postsAll
 `
