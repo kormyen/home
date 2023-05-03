@@ -16,21 +16,23 @@ function App()
 	this.templateLensPhotos = new TemplateLensPhotos();
 	this.templateLensPosts = new TemplateLensPosts();
 	this.templateLensFocus = new TemplateLensFocus();
+	this.templateTags = new TemplateTags();
+	this.templateArticle = new TemplateArticle(this.templateTags);
 
 	this.log.install(SHELL, this.inline);
 	this.inline.install(this.media, this.links, this.log, this.projects, this.templateLensPhotos, this.templateLensPosts, this.focus);
 	this.runelike.install(this.inline, this.media, this.projects, this.articles, this.templateLensPhotos, this.templateLensPosts, this.templateLensFocus);
-	this.projects.install(PROJECTS, this.media, this.log, this.runelike, this.inline);
+	this.projects.install(PROJECTS, this.media, this.log, this.runelike, this.inline, this.templateArticle);
 	this.templateLensFocus.install(this.log, this.projects);
 
 	this.templateLensPhotos.install(this.media);
-	this.articles.install(ARTICLES, this.media, this.runelike, this.inline);
+	this.articles.install(ARTICLES, this.media, this.runelike, this.inline, this.templateArticle);
 	this.templateLensPosts.install(this.articles);
 	this.pages.install(PAGES, this.runelike, this.inline);
 
 	this.main = document.querySelector('main');
-	this.header = new Header();
-	this.header.install(document.querySelector('header'));
+	this.templateHeader = new TemplateHeader();
+	this.templateHeader.install(this.templateTags, document.querySelector('header'));
 	
 	// this.thoughts = new Thoughts();
 	// this.thoughts.install(this.articles);

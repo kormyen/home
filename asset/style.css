@@ -6,7 +6,8 @@
   --color-background: #000;
 
   --size-mainWidth: 80em;
-  --size-columnPaddingSmall: 3px; /* Connected elements */
+  --size-columnPaddingSubtle: 3px; /* Connected elements */
+  --size-columnPaddingSmall: 6px; /* Connected elements */
   --size-columnPaddingNormal: 10px; /* Connected elements */
   --size-columnPaddingMedium: 20px; /* Asscoaited elements */
   --size-columnPaddingLarge: 40px; /* Seperate elements */
@@ -106,8 +107,11 @@ header {
 header:hover .photoInfoContainer {
   display: flex;
 }
-.photoInfoItem {
-  padding: var(--size-columnPaddingNormal);
+.metadataItem {
+  color: var(--color-primary);
+  padding: var(--size-columnPaddingSmall);
+  padding-left: var(--size-columnPaddingNormal);
+  padding-right: var(--size-columnPaddingNormal);
   border-width: 1px;
   border-style: solid;
   border-color: var(--color-tertiary);
@@ -118,7 +122,7 @@ header:hover .photoInfoContainer {
   align-items: center;
   border-radius: var(--size-radiusNormal);
 }
-.photoInfoIcon {
+.metadataItemIcon {
   height: 1em;
   width: 1em;
   color: #FFFFFF;
@@ -136,8 +140,8 @@ svg {
 .subtleLink {
   text-decoration: none;
   color: var(--color-primary);
-  padding-top: var(--size-columnPaddingSmall);
-  padding-bottom: var(--size-columnPaddingSmall);
+  padding-top: var(--size-columnPaddingSubtle);
+  padding-bottom: var(--size-columnPaddingSubtle);
   border-radius: var(--size-radiusSmall);
 }
 .subtleLink:hover {
@@ -148,7 +152,7 @@ svg {
 .subtleLinkDisabled {
   text-decoration: none;
   color: var(--color-secondary);
-  padding: var(--size-columnPaddingSmall);
+  padding: var(--size-columnPaddingSubtle);
   border-radius: var(--size-radiusSmall);
 }
 
@@ -380,14 +384,6 @@ svg {
   flex-direction: column; /* Position label below image */
   position: relative;
 }
-.article .articleTitle {
-  position: absolute;
-  bottom: var(--size-columnPaddingMedium);
-  left: var(--size-columnPaddingMedium);
-}
-.article:hover .articleTitle {
-  display: none;
-}
 .article:hover .articleBlackAndWhite {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%) brightness(100%);
@@ -451,6 +447,30 @@ svg {
 .article:hover .img-gradient::after
 {
   background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0));
+}
+
+.articleContent {
+  position: absolute;
+  bottom: var(--size-columnPaddingMedium);
+  left: var(--size-columnPaddingMedium);
+  right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-columnPaddingNormal);
+  align-items: flex-start;
+}
+.article:hover .articleContent {
+  left: auto;
+  right: var(--size-columnPaddingMedium);
+}
+.article .articleContent .metadataItem {
+  display: none;
+}
+.article:hover .articleContent .metadataItem {
+  display: block;
+}
+.article:hover .articleContent .articleTitle {
+  display: none;
 }
 
 .trippleArticleContainer .article {

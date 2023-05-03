@@ -3,7 +3,7 @@ VISITING RABBITS
   TITL : Visiting rabbits
   DESC : How I met the Hundred Rabbits; Rekka, Devine and Pino - the floating art studio
   BREF : The journey to meet the people of the internet
-  TAGS : sailing
+  TAGS : sailing, life
   TYPE : blog
   HEAD : 2017-11-05_17-53
   DATE : 2019-07-14
@@ -23,7 +23,7 @@ SAILING LESSON
   TITL : Sailing lesson
   DESC : Sailing lesson with a cyber hobo
   BREF : with a cyber hobo
-  TAGS : sailing
+  TAGS : sailing, life
   TYPE : blog
   HEAD : 2019-01-19_15-53
   DATE : 2019-07-14
@@ -50,7 +50,7 @@ QUEST
   TITL : Quest
   DESC : The search for a first boat
   BREF : get boat
-  TAGS : sailing
+  TAGS : sailing, life
   TYPE : blog
   HEAD : 2019-03-03_10-13
   DATE : 2019-07-14
@@ -82,7 +82,7 @@ HORIZON
   TITL : Horizon
   DESC : 
   BREF : A 2nd boat
-  TAGS : sailing
+  TAGS : sailing, life
   TYPE : blog
   HEAD : 2019-03-23_19-27
   DATE : 2019-07-14
@@ -114,7 +114,7 @@ HORIZON
 17 INDIEDEV LESSONS
   TITL : 17 indiedev lessons
   DESC : Notes on "17 lessons learned" in indie gamedev
-  TAGS : gamedev
+  TAGS : gamedev, research
   TYPE : notes
   HEAD : 2020-08-16_14-33
   DATE : 2014-07-25
@@ -153,7 +153,7 @@ HORIZON
 GAME DESIGN NOTES
   TITL : Engine, wheels, road
   DESC : Notes on Rami Ismail pillars of game design
-  TAGS : gamedev
+  TAGS : gamedev, research
   TYPE : notes
   HEAD : 2020-08-16_14-33
   DATE : 2020-09-24
@@ -183,7 +183,7 @@ LOGGING 2018
   TITL : Logging 2018
   DESC : Thoughts in review on time tracking during 2018. What went well, what didn't and what to try in 2019.
   BREF : Looking back
-  TAGS : home
+  TAGS : time, research, life
   DATE : 2019-01-04
   EDIT : 2020-06-22
   CHNG : 1
@@ -230,7 +230,7 @@ LOGGING 2018
 SENSORY DEPREVATION
   TITL : Sensory deprevation
   BREF : float tank
-  TAGS : life
+  TAGS : life, research
   DATE : 2014-11-19
   HEAD : 2014-11-19_19-00
   TYPE : blog
@@ -258,7 +258,7 @@ SENSORY DEPREVATION
 HUMANE CALM
   TITL : Humane calm
   DESC : Notes on importance of values in tech
-  TAGS : design, ux
+  TAGS : design, research
   BREF : importance of values
   HEAD : 2019-04-13_07-01
   TYPE : notes
@@ -322,7 +322,7 @@ PRESERVING MYSTERY
   TITL : Preserving mystery
   DESC : Notes on mystery in games
   BREF : Frog Fractions
-  TAGS : gamedev
+  TAGS : gamedev, research
   TYPE : notes
   HEAD : 2016-02-14_00-02
   DATE : 2016-02-14
@@ -376,7 +376,7 @@ DRAGON SPEECH
   TITL : Dragon speech
   DESC : Notes on dragon speech talk
   BREF : Chris Crawford
-  TAGS : gamedev
+  TAGS : gamedev, research
   TYPE : notes
   HEAD : 2014-04-20_14-59
   DATE : 2014-04-20
@@ -406,7 +406,7 @@ GAME MARKETING 2014
   TITL : Game marketing 2014
   DESC : Notes on indie game marketing lecture by Emmy Jonassen
   BREF : Emmy Jonassen lecture
-  TAGS : gamedev
+  TAGS : gamedev, research
   TYPE : notes
   HEAD : 2014-03-10_00-01
   DATE : 2014-03-10
@@ -641,7 +641,7 @@ JOURNEY
   TITL : Journey
   DESC : Thoughts on Journey
   BREF : Thoughts on Journey
-  TAGS : gamedev
+  TAGS : game, life
   TYPE : thoughts
   HEAD : 2012-11-17_00-01
   DATE : 2012-11-17
@@ -716,7 +716,7 @@ ISO 8601
   TITL : ISO 8601
   DESC : Notes on ISO 8601
   BREF : Superior date
-  TAGS : 
+  TAGS : time
   TYPE : thoughts
   HEAD : 2020-08-08_02-37
   DATE : 2016-04-07

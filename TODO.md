@@ -1,5 +1,4 @@
 ## REWRITE
-- Add tags to post card
 - Add links to posts
 
 ## FIX
@@ -11,6 +10,7 @@
 
 ## REFACTOR
 - Unify all db data to have same page items (articles, projects, pages all have BREF, TITL, META etc)
+- Treat all projects, articles, photos? the same (same 'article' HTML and content requirements)
 - Build database tree Home.pages[0].subPages[0]
 - TITL not needed? Set homepage name in CONFIG.
 
@@ -81,3 +81,8 @@
 - Add new photos
 - Add sketches
 - Add source image compression on build
+
+
+## The ultimate system
+- csv instead of indental
+- markdown instead of runelike

@@ -4,12 +4,14 @@ function Projects()
 {
   this.db = null;
   this.sectors = {};
+  this.template;
   const parent = this;
   this.dbLength;
 
-  this.install = function(data, media, log, runelike, inline)
+  this.install = function(data, media, log, runelike, inline, template)
   {
     this.db = new Indental(data).parse();
+    this.template = template;
 
     // Parse project db into usable format
     const keys = Object.keys(this.db);
@@ -19,6 +21,11 @@ function Projects()
     {
       let element = this.db[keys[k]];
       element.NAME = keys[k].toLowerCase();
+      if (element.TAGS)
+      {
+        element.TAGS = element.TAGS.split(', ');
+        element.TAGS.sort();
+      }
 
       // Body HTML
       element.HtmlBody = runelike.parse(element.BODY);
@@ -38,17 +45,30 @@ function Projects()
       // Article HTML
       element.HtmlArticle = function()
       {
-        let result = `<a href='${inline.getInternalUrl('project', element.NAME)}' class='article noDecoration'>`;
-        if (element.media.length > 0)
+        let linkUrl = inline.getInternalUrl('project', element.NAME);
+        let imageUrl = '';
+        if (element.HEAD)
         {
-          result += `<div class="img-gradient">`;
-          result += `<img src='media/small/${element.media[0].file}' class='articleImg articleBlackAndWhite radiusNormal'></img>`;
-          result += `</div>`;
+          // Manually set image
+          imageUrl = media.getByDate(element.HEAD).pathRelativeSmall;
         }
-        result += `<span class='fontSizeSmall colorMain marginTopNormal articleTitle'>${parent.capitalizeFirstLetter(element.TITL)}<span id='articleDesc'>: ${element.BREF}</span></span>
-          </a>`;
-
-        return result;
+        else if (element.media.length > 0)
+        {
+          // Get best project overview image
+          imageUrl = element.media[0].pathRelativeSmall;
+        }
+        else
+        {
+          // Use default image
+          imageUrl = this.app.media.getByDate(DEFAULTIMAGE);
+        }
+        let titleText = element.TITL;
+        let tagsArray = [];
+        if (element.TAGS)
+        {
+          tagsArray = element.TAGS;
+        }
+        return parent.template.articleCard(linkUrl, imageUrl, titleText, tagsArray)
       }
 
       // Stats

@@ -2,7 +2,7 @@ var PROJECTS = `
 LOG
   TITL : Log
   DESC : A simple time tracker built in vanilla js.
-  TAGS : productivity, time tracker, data visualisation, webdev, js, design, programming
+  TAGS : code, design, js, time
   BREF : time tracker
   DATE : 2018-07-12 onward
   SECT : 7
@@ -22,7 +22,7 @@ LOG
 SEEKERS
   TITL : Seekers
   DESC : A NFT project of loveable customisable robots with the utility of unlocking gamified decentralised comms infrastructure.
-  TAGS : ux, ui, seekers, nft, design
+  TAGS : crypto, design
   BREF : gamified infrastructure
   SECT : 4
   BODY
@@ -73,7 +73,7 @@ SEEKERS
 SYLO
   TITL : Sylo
   DESC : A platform for decentralized apps and communication.
-  TAGS : ux, ui, design, decentralision, communication
+  TAGS : crypto, design
   BREF : web3 comms
   SECT : 4
   BODY
@@ -91,7 +91,7 @@ SYLO
 HOME
   TITL : Home
   DESC : A portfolio and exocortex.
-  TAGS : ux, ui, webdev, portfolio, js, design, programming
+  TAGS : code, design, js, web
   BREF : this website
   BORN : 2006
   SECT : 3, 4, 7
@@ -173,7 +173,7 @@ HOME
 MORT
   TITL : Mort
   DESC : Character design assignment.
-  TAGS : character, design
+  TAGS : design
   BREF : rar
   SECT : 4
   BORN : 2010-07-30
@@ -198,7 +198,7 @@ MORT
 SKUL
   TITL : Skul
   DESC : A minecraft sculpture.
-  TAGS : game, sculpture, art
+  TAGS : game, art
   BREF : monument
   SECT : 4
   BORN : 2015-08-12
@@ -214,7 +214,7 @@ SKUL
 SSS
   TITL : SSS
   DESC : A Steampunk iOS theme.
-  TAGS : ux, ui, design
+  TAGS : design
   BREF : steampunk theme
   SECT : 4
   BORN : 2009-09-07
@@ -229,7 +229,7 @@ SSS
 MEMEX
   TITL : Memex
   DESC : A bookmarks and notes tool to help with storage and overview.
-  TAGS : ux, ui, webdev, js, design, research, programming
+  TAGS : code, design, js, web
   BREF : note archive
   SECT : 3, 4, 7
   BORN : 2018-07-14
@@ -255,7 +255,7 @@ MEMEX
 MEGAMEX
   TITL : Megamex
   DESC : A tool for overviewing similarities and beauty of megalithic sites
-  TAGS : history, research
+  TAGS : research, time
   BREF : catalog megaliths
   SECT : 7
   BORN : 2018-09-30
@@ -268,7 +268,7 @@ MEGAMEX
 ARDUSAMBER
   TITL : Ardusamber
   DESC : Arduino experiements with Neauoire's time format Neralie.
-  TAGS : arduino, programming, time, clock, arvelie, neralie, electronics
+  TAGS : code, electronics, time
   BREF : neralie & arvelie
   SECT : 3
   BORN : 2018-05-15
@@ -299,7 +299,7 @@ ARDUSAMBER
 DASTIME
   TITL : Dastime
   DESC : A clock design.
-  TAGS : arduino, programming, time, clock, hardware
+  TAGS : code, electronics, time
   BREF : dasein time
   SECT : 3, 4
   BORN : 2018-07-05
@@ -341,7 +341,7 @@ DASTIME
 FPVMOD
   TITL : FPVMOD
   DESC : Modified FPV drone display (Eachine VR006) with recording and larger swappable battery.
-  TAGS : drone, hardware, mod, electronics
+  TAGS : electronics
   BREF : display++
   TISA : a modified fpv drove display
   SECT : 1
@@ -353,7 +353,7 @@ FPVMOD
 CORE
   TITL : Core
   DESC : An input receiver and output commander for the VNS Tiny House IoT power system.
-  TAGS : arduino, programming, electronics, hardware
+  TAGS : code, electronics, time
   BREF : power core
   UNDR : VNS
   SECT : 3
@@ -367,7 +367,7 @@ CORE
 CONTROL
   TITL : Control
   DESC : A custom control panel with switches and dimmer.
-  TAGS : arduino, programming, electronics, hardware
+  TAGS : code, electronics, time
   BREF : control panel
   SECT : 1, 2, 3, 4
   UNDR : VNS
@@ -383,7 +383,7 @@ CONTROL
 POWER
   TITL : Power
   DESC : A power distribution unit for an IoT system.
-  TAGS : arduino, programming, electronics, hardware
+  TAGS : code, electronics, time
   BREF : power unit
   UNDR : VNS
   SECT : 1, 2, 3
@@ -397,7 +397,7 @@ POWER
 CRUCIFIX
   TITL : Crucifix
   DESC : A boardwalk pathway.
-  TAGS : physical, woodwork
+  TAGS : physical, wood
   BREF : boardwalk
   SECT : 1
   BODY
@@ -408,7 +408,7 @@ CRUCIFIX
 LIGHTBOX
   TITL : Lightbox
   DESC : A minimal vanilla JS lightbox lib.
-  TAGS : webdev, js, programming
+  TAGS : web, js, code
   BREF : image zoom
   SECT : 3, 4
   BODY
@@ -423,7 +423,7 @@ LIGHTBOX
 SWORDY
   TITL : Swordy
   DESC : A physics based local-multiplayer fighting game.
-  TAGS : gamedev, Unity3D, design, programming
+  TAGS : code, design, game, Unity3D
   BREF : physics brawler
   SECT : 3, 4, 7
   BODY
@@ -436,7 +436,7 @@ SWORDY
 VAN
   TITL : Van
   DESC : A mobile stealth tiny house.
-  TAGS : physical, mod, offgrid
+  TAGS : electronics, offgrid, physical
   BREF : tiny house
   SECT : 1, 2, 3, 4, 6, 7
   BODY
@@ -464,7 +464,7 @@ VAN
 WHALEBUS
   TITL : Whalebus
   DESC : A 48 hour game jam "what do we do now?" themed toy.
-  TAGS : gamedev, Unity3D, design, programming
+  TAGS : code, design, game, Unity3D
   BREF : spam toy
   SECT : 3, 4
   BODY
@@ -485,7 +485,7 @@ WHALEBUS
 PORTFOLIO
   TITL : Portfolio
   DESC : A minimal portfolio website.
-  TAGS : ux, ui, webdev, portfolio, js, design, programming
+  TAGS : code, design, web
   BREF : work showcase
   SECT : 3, 4
   BODY
@@ -503,7 +503,7 @@ PORTFOLIO
 WARP
   TITL : Warp
   DESC : "VR JAM 2013" entry for Oculus developer kit V1.
-  TAGS : gamedev, Unity3D, design, programming, VR
+  TAGS : design, game, programming, Unity3D, VR
   BREF : VR JAM 2013
   SECT : 3, 4
   BODY
@@ -520,7 +520,7 @@ WARP
 TOILET
   TITL : Composting Toilet
   DESC : A home made composting toilet.
-  TAGS : physical, offgrid, woodwork
+  TAGS : offgrid, physical, wood
   BREF : poop bucket
   SECT : 1, 6
   EDIT : 
@@ -579,7 +579,7 @@ TOILET
 SOLARSAILS
   TITL : Solarsails
   DESC : A solarpunk themecamp
-  TAGS : physical, offgrid
+  TAGS : offgrid, physical
   BREF : solar family
   SECT : 1, 2, 4
   BODY
@@ -649,7 +649,7 @@ SOLARSAILS
 SHELF
   TITL : Shelf
   DESC : wooden cornershelf and heat vent
-  TAGS : physical, woodwork
+  TAGS : physical, wood
   BREF : overengineered
   SECT : 6
   UNDR : Van

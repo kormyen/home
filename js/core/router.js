@@ -65,17 +65,17 @@ function Router(app)
         // Set header content
         if (pageData.HEAD)
         {
-            app.header.setImage(app.media.getByDate(pageData.HEAD));
+            app.templateHeader.setImage(app.media.getByDate(pageData.HEAD));
         }
         else if (pageData.media && pageData.media.length > 0)
         {
             // Header automatically set by best photo of it
-            app.header.setImage(pageData.media[0]);
+            app.templateHeader.setImage(pageData.media[0]);
         }
         else
         {
             // Missing header pic!
-            app.header.setEmpty();
+            app.templateHeader.setEmpty();
         }
 
         let htmlContent = ``;

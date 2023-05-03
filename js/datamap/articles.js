@@ -4,11 +4,13 @@ function Articles()
 {
   this.db = [];
   this.sectors = {};
+  this.template;
   const parent = this;
 
-  this.install = function(data, media, runelike, inline)
+  this.install = function(data, media, runelike, inline, template)
   {
     let tempDb = new Indental(data).parse();
+    this.template = template;
 
     // Parse project db into usable format
     const keys = Object.keys(tempDb);
@@ -18,6 +20,11 @@ function Articles()
 
       element.KEY = keys[k];
       element.NAME = keys[k];
+      if (element.TAGS)
+      {
+        element.TAGS = element.TAGS.split(', ');
+        element.TAGS.sort();
+      }
 
       // Body HTML
       element.HtmlBody = runelike.parse(element.BODY);
@@ -30,14 +37,11 @@ function Articles()
       {
         element.HtmlArticle = function()
         {
-          let result = `<a href='${inline.getInternalUrl('post', keys[k].toLowerCase())}' class='article noDecoration'>`;
-          result += `<div class="img-gradient">`;
-          result += `<img src='media/small/${element.media.file}' class='articleImg articleBlackAndWhite radiusNormal'></img>`;
-          result += `</div>`;
-          result += `<span class='fontSizeSmall colorMain marginTopNormal articleTitle'>${element.TITL}</span>`;
-          result += `</a>`;
-
-          return result;
+          let linkUrl = inline.getInternalUrl('post', keys[k].toLowerCase());
+          let imageUrl = element.media.pathRelativeSmall;
+          let titleText = element.TITL;
+          let tagsArray = element.TAGS;
+          return parent.template.articleCard(linkUrl, imageUrl, titleText, tagsArray);
         }
 
         // Sidebar HTML

@@ -2,19 +2,33 @@
 
 function Image(data)
 {
-  this.desc         = data.description;
-  this.date         = data.date;
-  this.dateShort    = data.date.split('_')[0];;
-  this.proj         = data.proj;
+  this.desc              = data.description;
+  this.date              = data.date;
+  this.dateShort         = data.date.split('_')[0];;
+  this.proj              = data.proj;
 
-  this.file         = data.date+'.'+data.ext;
-  this.pathRelative = '/'+MEDIAFOLDER+'/'+this.file;
-  this.pathAbsolute = DOMAIN+this.pathRelative;
+  this.file              = data.date+'.'+data.ext;
+  this.pathRelative      = '/'+MEDIAFOLDER+'/'+this.file;
+  this.pathRelativeSmall = '/'+MEDIAFOLDERSMALL+'/'+this.file;
+  this.pathAbsolute      = DOMAIN+this.pathRelative;
 
-  this.author       = data.author;
-  this.country      = data.country;
-  this.location     = data.location;
-  this.area         = data.area;
+  this.author            = data.author;
+  this.country           = data.country;
+  this.location          = data.location;
+  this.area              = data.area;
+  this.locationArray     = [];
+  if (this.location)
+  {
+    this.locationArray.push(this.location);
+  }
+  if (this.area)
+  {
+    this.locationArray.push(this.area);
+  }
+  if (this.country)
+  {
+    this.locationArray.push(this.country);
+  }
 
   this.parseBinary = function(value)
   {
