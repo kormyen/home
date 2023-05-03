@@ -1,9 +1,6 @@
-## REWRITE
-- Add links to posts
-
 ## FIX
 - Fix Opengraph/twitter meta cards don't work with SPA 
-- Weird offset in photo list
+- Weird offset in photo page list
 - change project lens to manual featured items
 - Fix social icons missing from medium width
 - Fix weird small text p paragraph content after double images

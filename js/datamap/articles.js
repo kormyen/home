@@ -29,6 +29,13 @@ function Articles()
       // Body HTML
       element.HtmlBody = runelike.parse(element.BODY);
 
+      // LINKS
+      if (element.LINK)
+      {
+        element.HtmlBody += runelike.parse(['2 Links']);
+        element.HtmlBody += runelike.parse(element.LINK);
+      }
+
       // Media
       element.media = media.getByDate(element.HEAD);
  
@@ -57,15 +64,6 @@ function Articles()
         if (element.TISA != null)
         {
           element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">${inline.parse(element.TISA)}</p>`;
-        }
-
-        // LINKS
-        if (element.LINK)
-        {
-          for (let l = 0; l < element.LINK.length; l++)
-          {
-            element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">${inline.parse(element.LINK[l].substr(2))}</p>`;
-          }
         }
       }
 

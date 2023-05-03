@@ -429,9 +429,9 @@ SWORDY
   BODY
     p GIFs and images of development: {link ext swordyDevAlbum}
   LINK
-    > {link ext swordyHomepage}
-    > {link ext swordySteam}
-    > {link ext frogshark}
+    - {link ext swordyHomepage}
+    - {link ext swordySteam}
+    - {link ext frogshark}
 
 VAN
   TITL : Van

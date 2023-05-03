@@ -29,6 +29,12 @@ function Projects()
 
       // Body HTML
       element.HtmlBody = runelike.parse(element.BODY);
+      // LINKS
+      if (element.LINK)
+      {
+        element.HtmlBody += runelike.parse(['2 Links']);
+        element.HtmlBody += runelike.parse(element.LINK);
+      }
 
       // Media
       element.media = media.filterByProject(media.db, element.NAME);
@@ -140,15 +146,6 @@ function Projects()
       if (projLogStats && projLogStats.hoursTotal > 0)
       {
         element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">${ projLogStats.hoursTotal } hours since ${ stringAgeBorn }</p>`;
-      }
-
-      // LINKS
-      if (element.LINK)
-      {
-        for (let l = 0; l < element.LINK.length; l++)
-        {
-          element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">${inline.parse(element.LINK[l].substr(2))}</p>`;
-        }
       }
 
 			element.HtmlSidebar += `</div>`; // sidebar
