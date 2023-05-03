@@ -1,5 +1,8 @@
 ## Add
 - projects/articles page tags and dates
+- Better content for Sylo proj
+- Better content for Swordy proj
+- home page photo arcticle card should work with lightbox
 
 ## FIX
 - Fix Opengraph/twitter meta cards don't work with SPA 
