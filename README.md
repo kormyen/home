@@ -27,6 +27,13 @@ See [to do list](TODO.md)
 ## Dev
 
 **Install**
+Install GIT LFS
+```
+brew install git-lfs
+git lfs install
+```
+
+Set up repo
 ```
 git clone git@github.com:kormyen/home.git
 cd home/server

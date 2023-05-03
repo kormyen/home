@@ -1,8 +1,25 @@
+## Add
+- projects/articles page tags and dates
+- Better content for Sylo proj
+- Better content for Swordy proj
+- home page photo arcticle card should work with lightbox
+
+## FIX
+- Fix Opengraph/twitter meta cards don't work with SPA 
+- Weird offset in photo page list
+- Fix social icons missing from medium width
+- Fix weird small text p paragraph content after double images
+
+## REFACTOR
+- Unify all db data to have same page items (articles, projects, pages all have BREF, TITL, META etc)
+- Treat all projects, articles, photos? the same (same 'article' HTML and content requirements)
+- Build database tree Home.pages[0].subPages[0]
+- TITL not needed? Set homepage name in CONFIG.
+
 ## BUGS
 - BUG: exactly 1280px width screen causes weird sidebar indent. not 1279 with down or 1281 up, exactly 1280 only.
 
 ## Next release
-- set meta OG images and descriptions for all project/photo/post/projects/photos/about/log etc pages
 - add meta titles to pages based on page title
 - add /now page 
 
@@ -44,6 +61,7 @@
 - Him
 
 ## To do improvements
+- Add "related posts", pick one the viewer hasn't seen yet (history)
 - Sort projects by date or importance
 - Put type icons on links
 - Add BREF or TISA to article cards to hint more about article content
@@ -65,3 +83,8 @@
 - Add new photos
 - Add sketches
 - Add source image compression on build
+
+
+## The ultimate system
+- csv instead of indental
+- markdown instead of runelike

@@ -1,0 +1,159 @@
+var LINKS = `
+NAME               LABEL                                                     URL                                                                                                        END
+neauoire           Neauoire                                                  https://wiki.xxiivv.com
+rekka              Rekka                                                     https://kokorobot.ca/
+rabbits            Hundred Rabbits                                           https://100r.co/
+pino               Pino                                                      https://100r.co/pages/pino.html
+dominic            Dominic Tarr                                              https://dominictarr.com
+techDegrades       technology degrades                                       https://www.youtube.com/watch?v=pW-SOdj4Kkk
+phil               Phil James                                                https://shinestrength.xyz
+homeHomepage       Homepage                                                  https://kor.nz
+homeSource         Source                                                    https://github.com/kormyen/home
+memexLive          Live web version                                          https://kormyen.github.io/memex/
+memexSource        Source                                                    https://github.com/kormyen/memex
+100rThemes         Hundredrabbits Themes                                     https://github.com/hundredrabbits/Themes
+ardusamberSource   Source                                                    https://github.com/kormyen/ardusamber
+syloHomepage       Sylo Homepage                                             https://sylo.io
+syloApp            Smart Wallet app                                          https://sylo.io/wallet
+gwernLongSite      Gwern                                                     https://www.gwern.net/About#long-site
+logData            Log's text database                                       https://github.com/kormyen/home/blob/master/site/db/shell.tbtl
+marbles            Jars of Marbles                                           http://www.johnmaxwell.com/blog/dont-lose-your-marbles
+studioSailboat     studio on a sailboat                                      https://www.youtube.com/channel/UCzdg4pZb-viC3EdA1zxRl4A/playlists?view=50&sort=dd&shelf_id=7
+magicians          becoming a magician                                       https://autotranslucence.wordpress.com/2018/03/30/becoming-a-magician/
+longSite           Long Site                                                 https://www.gwern.net/About#long-site
+gwern              Gwern                                                     https://www.gwern.net/
+destructingPaper   Self destructing paper                                    http://web.archive.org/web/20071020051936/http://iq.org/
+piezoele           Piezoelectricity - why hitting crystals makes electricity https://www.youtube.com/watch?v=wcJXA8IqYl8
+capitalismProblem  George Monbiot                                            https://www.monbiot.com/2019/04/30/the-problem-is-capitalism/ 
+whoBusinessEnv     Daniel Quinn                                              https://www.ishmael.org/daniel-quinn/essays/protecting-the-environment-whose-business-is-it/
+masterOurselves    Rachel Carson                                             https://sunbeam.city/@RadioAngel/102278534260627592
+survivalPath       Ursula K. Le Guin                                         https://twitter.com/vectorpoem/status/1137377242600710147
+recycleDontCare    Mary Annaise Heglar                                       https://www.vox.com/the-highlight/2019/5/28/18629833/climate-change-2019-green-new-deal
+brutalQuestion     Adam Curtis                                               https://soundcloud.com/chapo-trap-house/episode-65-teaser-the-brutal-question
+animsent           Animal Sentience Journals                                 https://animalstudiesrepository.org/animsent/
+syloDesigners      The design magicians                                      https://medium.com/sylo-io/the-design-magicians-8fdc355ac3f9
+dastimeSource      Source                                                    https://github.com/kormyen/dastime
+philosophizeThis   Philosophize This                                         http://philosophizethis.org/
+philosophizeDasein Episode 100 – Heidegger pt. 1                             http://philosophizethis.org/heidegger-dasein/
+eleanorNgai        Eleanor Ngai                                              https://www.eleanorngai.com/
+joranKikke         Joran Kikke                                               https://twitter.com/donkeyscience
+webring            Webring                                                   https://webring.xxiivv.com/
+merveillesTown     Merveilles Town                                           https://merveilles.town/@kor
+twitter            Twitter                                                   https://twitter.com/kormyen
+keybase            Keybase                                                   https://keybase.io/kormyen
+github             Github                                                    https://github.com/kormyen
+steam              Steam                                                     https://steamcommunity.com/id/kormyen/
+alexey             Alexey Botkov                                             https://nomand.co
+christo            Christo Blaesche                                          https://christianblaesche.de/
+lightboxSource     Source                                                    https://github.com/kormyen/lightbox
+swordyHomepage     Homepage                                                  http://swordygame.com/
+frogshark          Frogshark                                                 http://frogshark.com/
+swordySteam        Steam                                                     https://store.steampowered.com/app/467900/SWORDY/
+swordyDevAlbum     Swordy Gamedev                                            https://imgur.com/a/Ous6E
+gretaGotlieb       Greta Gotlieb                                             http://gretagotlieb.com/
+vnsControlSource   Source                                                    https://github.com/kormyen/vns/tree/master/CONTROL
+vnsCoreSource      Source                                                    https://github.com/kormyen/vns/tree/master/CORE
+vnsPowerSource     Source                                                    https://github.com/kormyen/vns/tree/master/POWER
+vanillaJs          Vanilla JS                                                http://vanilla-js.com/
+popUpArcade        Pop-up Arcade                                             http://popuparcade.co.nz/
+whalebusDownload   Download                                                  http://globalgamejam.org/2015/games/whalebus
+sarahPortfolio     Sarah Tanfield's Portfolio                                http://sarahtanfield.nz
+sarahSource        Source                                                    https://github.com/sarahtanfield/sarah
+inaturalist        iNaturalist                                               https://www.inaturalist.org/observations/kormyen
+instagram          Instagram                                                 https://www.instagram.com/kormyen/
+linkedin           Linkedin                                                  https://www.linkedin.com/in/kormyen/
+preserveMystery    Preserving a Sense of Discovery in the Age of Spoilers    https://vimeo.com/91436410
+firstFollower      First follower                                            http://www.ted.com/talks/derek_sivers_how_to_start_a_movement
+farlands           Far Lands                                                 http://minecraft.gamepedia.com/Far_Lands
+movingPeople       Moving People                                             http://lieutenantbutterfly.tumblr.com/post/82822703329/moving-people
+frogFractions      Frog Fractions                                            http://twinbeard.com/frog-fractions
+theVoid            The Void                                                  http://minecraft.gamepedia.com/The_Void
+glittermitten      Glittermitten Grove                                       http://store.steampowered.com/app/536890/
+noclipMystery      Rediscovering Mystery                                     https://www.youtube.com/watch?v=z2g_0QQRjYY
+dragonSpeech       Chris Crawford - Dragon Speech                            https://www.youtube.com/watch?v=_04PLBdhqZ4
+gameMarketSource   Source                                                    http://www.indiegamegirl.com/no-budget-marketing/
+gameMarketVideo    Video                                                     http://www.youtube.com/watch?v=SkEQtMP2CuA
+gameMarketSlides   Slides                                                    http://www.indiegamegirl.com/konsoll-2013/
+gameMarketAuthor   Author                                                    https://twitter.com/IndieGameGirl
+gameMarketTrailer  Guacamelee release trailer                                https://www.youtube.com/watch?v=CpHN5_H4b08
+theWitness         The Witness                                               http://the-witness.net/
+jonathanBlow       Jonathan Blow                                             https://twitter.com/Jonathan_Blow
+frogshark3News     Frogshark on TV!                                          https://www.youtube.com/watch?v=Z88sBDwBziA
+vrShift            Michael Abrash                                            https://www.youtube.com/watch?v=G-2dQoeqVVo&t=25m29s
+vrEvolve           Michael Abrash                                            https://www.youtube.com/watch?v=G-2dQoeqVVo&t=26m10s
+vrPresence         Michael Abrash                                            https://www.youtube.com/watch?v=G-2dQoeqVVo&t=7m30s
+vrImmersion        Michael Abrash                                            https://www.youtube.com/watch?v=G-2dQoeqVVo&t=11m26s
+vrDescribe         Michael Abrash                                            https://www.youtube.com/watch?v=G-2dQoeqVVo&t=11m45s
+vrCouldShouldWill  What VR Could, Should, and Will Be within Two Years       https://www.youtube.com/watch?v=G-2dQoeqVVo
+palmerLucky        Palmer Lucky                                              https://www.youtube.com/watch?v=-YCBadIVro8&t=18m45s
+understandComics   Understanding Comics by Scott McCloud                     http://scottmccloud.com/2-print/1-uc/
+sonyPsVr           Project Morpheus: GDC 2014 Presentation                   https://www.youtube.com/watch?v=pWMp_o03qH4
+valveHolodeck      The Valve holodeck experience                             http://cmonteroart.blogspot.co.nz/2014/01/i-was-lucky-enough-to-not-only-attend.html
+vrEyeFramerate     PrionBacon                                                https://www.reddit.com/r/explainlikeimfive/comments/29ypwc/eli5_does_the_human_eye_work_with_a_continuous/
+wikiMotionSick     Wikipedia                                                 https://en.wikipedia.org/wiki/Motion_sickness
+vrDesk             Virtual desk                                              http://www.engadget.com/2014/06/09/bloomberg-vr-terminal-oculus-rift/
+heavyRainAri       Heavy Rain ARI                                            https://www.youtube.com/watch?v=SsQT3mbvVWY
+vrMeetings         VR in person meetings                                     https://www.youtube.com/watch?v=Ghgbycqb92c
+vrLag              ISP using Rift to explain lag                             https://www.youtube.com/watch?v=_fNp37zFn9Q
+vrGenderSwap       Gender swap experiment                                    https://vimeo.com/84150219
+vrSeated           "seated experience"                                       https://www.polygon.com/2014/1/11/5298510/oculus-rift-crystal-cove-intended-as-a-seated-experience
+dmitrySelitskiy    Dmitry Selitskiy                                          mailto:dmitry@thought-wired.com
+thoughtWired       Thought-Wired                                             https://twitter.com/ThoughtWired
+emotiv             Emotiv V1                                                 https://www.emotiv.com/
+neuroskyMindwave   Neurosky Mindwave                                         https://store.neurosky.com/
+brainVizApp        Brainwave Viz App                                         https://play.google.com/store/apps/details?id=com.neurosky.unitythinkgear
+syncReferral       sync.com referral link                                    https://www.sync.com/?_sync_refer=c178eb780
+calmTech           Calm Tech                                                 https://calmtech.com/
+humaneAgenda       New Agenda Lecture                                        https://vimeo.com/332532972
+journeyImmp        "I was born for this" by Immp                             http://kee-naa-puff.deviantart.com/art/I-was-born-for-this-357732391
+journeyFarooky     Journey by Farooky                                        http://farooky.deviantart.com/art/Journey-320480382
+journeyCinematic   Journey cinematic                                         https://www.youtube.com/watch?v=ZOmS50WbDe0
+journeyCinematic2  Journey cinematic                                         https://www.youtube.com/watch?v=tOR782dc-mk
+journeyManiac      Journey by ModestManiac                                   https://www.deviantart.com/modestmaniac/art/Journey-294638332
+journeySpoonfish   Journey by SpoonfishLee                                   http://spoonfishlee.deviantart.com/art/Journey-the-drop-369730001
+journeyLifetime    An entire lifetime                                        http://brutalgamer.com/2012/03/11/journeys-story-is-the-story-of-our-lives/
+journeyWanderer    Wanderer Sarta by Neko Art                                http://neko-art.deviantart.com/art/wanderer-Sarta-338733192
+journeyHero        A heroes journey                                          https://www.youtube.com/watch?v=hOuopA60kqU
+journeyLost        A lost loved one                                          http://portablesoldier.tumblr.com/post/20846896304/journey-a-review-from-the-heart
+journeyRebirth     rebirth, reincarnation                                    http://fuckyeahjourneythegame.tumblr.com/post/19941611643/i-like-to-believe-that-some-of-the-aspects-are
+journeyAfterlife   afterlife, heaven, redemption, limbo                      http://au.ign.com/articles/2012/03/06/journey-behind-the-scenes
+journeyFert        fertilisation                                             https://www.youtube.com/watch?v=fx3imhYJBic
+journeyUniversal   universal appeal                                          https://www.youtube.com/watch?v=hOuopA60kqU
+xkcd1179           relevant XKCD                                             https://xkcd.com/1179/
+wiki8601           Wikipedia: ISO 8601                                       https://en.wikipedia.org/wiki/ISO_8601
+leanPlea           A plea for lean software                                  https://people.inf.ethz.ch/wirth/Articles/LeanSoftware.pdf
+aptivateGuidelines Aptivate Guidelines                                       http://www.aptivate.org/webguidelines
+websiteObesity     Maciej Ceglowski - The Website Obesity Crisis             https://idlewords.com/talks/website_obesity.htm
+rekkaLean          Bandwidth Conservation Society                            https://kokorobot.ca/site/leanerweb.html
+rami17lessons      Lecture video on YouTube                                  https://www.youtube.com/watch?v=fQhPGJQhtak
+vlambeerToolkit    Vlambeer Toolkit and links                                https://www.vlambeer.com/toolkit/
+omickToilet        Omick on composting toilets                               http://www.omick.net/composting_toilets/composting_toilets.htm
+omickDesign        Omick on Design                                           http://www.omick.net/design/design.htm
+omickWhy           Omick Why                                                 http://www.omick.net/why/why.htm
+hackland           Hackland                                                  https://hackland.nz/
+urineSeperator     Free Range Designs Urine Diverter                         https://freerangedesigns.co.uk/products/urine-separator-for-compost-toilet
+kiwiburn           Kiwiburn                                                  https://kiwiburn.com/
+solarpunkTvTropes  TV Tropes                                                 https://tvtropes.org/pmwiki/pmwiki.php/Main/SolarPunk
+solarpunkReference Solarpunk Reference Guide                                 https://medium.com/solarpunks/solarpunk-a-reference-guide-8bcf18871965
+solarpunkManifesto Notes toward a manifesto                                  https://hieroglyph.asu.edu/2014/09/solarpunk-notes-toward-a-manifesto/
+sunbeamCityWiki    Sunbeam City Wiki                                         https://wiki.sunbeam.city/
+movementTut2       Catlike Movement Tutorial #2                              https://catlikecoding.com/unity/tutorials/movement/physics/
+mizizizizPillars   Miziziziz three pillars                                   https://www.youtube.com/watch?v=_gzCoVaojwI
+akSustainDesign    Auckland Building Design Advice                           http://www.aucklanddesignmanual.co.nz/
+dungeonMap         Dungeon Mapping                                           http://www.darkshire.net/jhkim/rpg/dnd/dungeonmaps.html
+seekersHome        Seekers Homepage                                          https://seekers.xyz
+seekersOpensea     Seekers Opensea                                           https://opensea.io/collection/the-seekers
+seekersTwitter     Seekers Twitter                                           https://twitter.com/seekers_xyz
+seekersDiscord     Seekers Discord                                           http://discord.gg/seekers
+flufWorldHome      Fluf World                                                https://fluf.world
+weatherSoftware    Weathering Software Winter                                https://guide.handmade-seattle.com/c/2022/weathering-software-winter/
+devSpaRoute        Single Page Application Routing Using... URLs             https://dev.to/thedevdrawer/single-page-application-routing-using-hash-or-url-9jh
+ccbyncsa4          CC BY-NC-SA 4.0                                           https://creativecommons.org/licenses/by-nc-sa/4.0/
+starwall           @starwall                                                 https://radical.town/@starwall
+flufworldscenes    Fluf World Sounds and Scenes Collection                   https://opensea.io/collection/fluf-world-scenes-and-sounds
+puppetprerenderer  Custom Puppeteer pre-renderer for SPAs                    https://medium.com/front-end-weekly/building-a-pre-renderer-for-spas-108f956f8b
+prerenderio        Prerender.io                                              https://prerender.io/
+useragentrender    Vercel: User-Agent Based Rendering                        https://edge-user-agent-based-rendering.vercel.app/
+xxiivvoscean       Static site builder written in Uxntal                     https://github.com/XXIIVV/oscean
+horaire            Horaire                                                   https://wiki.xxiivv.com/site/horaire.html
+`
