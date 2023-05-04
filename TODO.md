@@ -1,7 +1,3 @@
-## FIX
-- log project page content doesn't load properly
-- home page photo arcticle card should work with lightbox
-
 ## Add
 - projects/articles page tags and dates
 - Better content for Sylo proj

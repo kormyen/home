@@ -138,9 +138,9 @@ function Image(data)
         steps += `../`;
       }
 
-      let result = `<a href='${ steps }media/${ this.date }' class='article'>
+      let result = `<div class='article' onclick="lightbox.load('${ steps }${ this.pathRelative }')">
         <img src='${ steps }media/small/${ this.file }' class='articleImg articleBlackAndWhite ${ imageAlign }radiusNormal' } >
-        </a>`;
+        </div>`;
       return result;
     }
     this.htmlMed     = `<div onclick="lightbox.load('${ this.pathRelative }')"><img src='${ this.pathRelative }' class='widthFit marginTopNormal marginBottomNormal ${ imageAlign }radiusNormal' } ></div>`;
