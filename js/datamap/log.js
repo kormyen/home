@@ -127,21 +127,17 @@ function Log()
 
   this.projPercStats = function()
   {
-    // console.log(this.projects);
-    // let hourOrderedProj = this.projects.sort((a, b) => b.hoursTotal - a.hoursTotal);
-    // console.log(hourOrderedProj);
-
     let result = ``;
     result += "Hamish has last dedicated time to ";
 
-    // COPIED FROM FOCUS
-    // Limit to recent logs
-    let recentLogs = [];
-    let refDate = new Date;
-    refDate.setDate(refDate.getDate()-120);
-    let refDateString = refDate.getTime();
-
     let logs = this.external;
+    logs.reverse();
+
+    // Limit to most recent logs (30 days of last logs)
+    let recentLogs = [];
+    let refDate = logs[0].dateObj;
+    refDate.setDate(refDate.getDate() - 30);
+    let refDateString = refDate.getTime();
 
     let index = 0;
     while(index < logs.length)
@@ -167,10 +163,14 @@ function Log()
             count += log.hour;
           }
         );
-        hourTotals.push({ proj: category[0].proj, hours: count });
-        totalHours += count;
+        if (category[0].proj && category[0].proj != '')
+        {
+          hourTotals.push({ proj: category[0].proj, hours: count });
+          totalHours += count;
+        }
       }
     );
+
     
     hourTotals.sort((a, b) => b.hours - a.hours);
 
@@ -207,13 +207,13 @@ function Log()
     let result = ``;
     result += "This time was been  ";
 
-    // Limit to recent logs
-    let recentLogs = [];
-    let refDate = new Date;
-    refDate.setDate(refDate.getDate()-120); // Two months ago
-    let refDateString = refDate.getTime();
-
     let logs = this.external;
+
+    // Limit to most recent logs (30 days of last logs)
+    let recentLogs = [];
+    let refDate = logs[0].dateObj;
+    refDate.setDate(refDate.getDate() - 30);
+    let refDateString = refDate.getTime();
 
     let index = 0;
     while(index < logs.length)

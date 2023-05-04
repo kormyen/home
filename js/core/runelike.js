@@ -190,7 +190,6 @@ function Runelike()
                     {
                         featuredProjs.push(data[i]);
                     }
-                    console.log(featuredProjs.length);
                     result += parent.templateIndex.componentLens('focusContainer', parent.templateFocusLens.getContent(featuredProjs));
                 }
                 else if (func == 'photosLens')
