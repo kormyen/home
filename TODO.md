@@ -1,14 +1,18 @@
+## FIX
+- log project page content doesn't load properly
+- home page photo arcticle card should work with lightbox
+
 ## Add
 - projects/articles page tags and dates
 - Better content for Sylo proj
 - Better content for Swordy proj
-- home page photo arcticle card should work with lightbox
+- Update README
 
 ## FIX
+- Fix weird small text p paragraph content after double images
 - Fix Opengraph/twitter meta cards don't work with SPA 
 - Weird offset in photo page list
 - Fix social icons missing from medium width
-- Fix weird small text p paragraph content after double images
 
 ## REFACTOR
 - Unify all db data to have same page items (articles, projects, pages all have BREF, TITL, META etc)

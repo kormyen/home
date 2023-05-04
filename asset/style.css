@@ -152,7 +152,8 @@ svg {
 .subtleLinkDisabled {
   text-decoration: none;
   color: var(--color-secondary);
-  padding: var(--size-columnPaddingSubtle);
+  padding-top: var(--size-columnPaddingSubtle);
+  padding-bottom: var(--size-columnPaddingSubtle);
   border-radius: var(--size-radiusSmall);
 }
 
