@@ -138,14 +138,14 @@ function Image(data)
         steps += `../`;
       }
 
-      let result = `<div class='article' onclick="lightbox.load('${ steps }${ this.pathRelative }')">
+      let result = `<div class='article zoomable' onclick="lightbox.load('${ steps }${ this.pathRelative }')">
         <img src='${ steps }media/small/${ this.file }' class='articleImg articleBlackAndWhite ${ imageAlign }radiusNormal' } >
         </div>`;
       return result;
     }
-    this.htmlMed     = `<div onclick="lightbox.load('${ this.pathRelative }')"><img src='${ this.pathRelative }' class='widthFit marginTopNormal marginBottomNormal ${ imageAlign }radiusNormal' } ></div>`;
-    this.htmlMedL    = `<div onclick="lightbox.load('${ this.pathRelative }')"><img src='${ this.pathRelative }' class='elementHalfLeft'></div>`;
-    this.htmlMedR    = `<div onclick="lightbox.load('${ this.pathRelative }')"><img src='${ this.pathRelative }' class='elementHalfRight'></div>`;
+    this.htmlMed     = `<div  class='zoomable' onclick="lightbox.load('${ this.pathRelative }')")><img src='${ this.pathRelative }' class='widthFit marginTopNormal marginBottomNormal ${ imageAlign }radiusNormal' } ></div>`;
+    this.htmlMedL    = `<div class='zoomable' onclick="lightbox.load('${ this.pathRelative }')"><img src='${ this.pathRelative }' class='elementHalfLeft'></div>`;
+    this.htmlMedR    = `<div class='zoomable' onclick="lightbox.load('${ this.pathRelative }')"><img src='${ this.pathRelative }' class='elementHalfRight'></div>`;
   }
 
   this.roughDatediff = function(first, second)

@@ -8,12 +8,13 @@
   display: none;
   align-items: center;
   font-size: 0;
+  cursor: zoom-out;
 }
 .lightbox-close {
   z-index: 300;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.8);
+  background-color: var(--color-background);
   cursor: zoom-out;
 }
 .lightbox-container {
@@ -27,8 +28,9 @@
   z-index: 400;
 }
 .lightbox-img {
-  max-height: 80vh;
-  max-width: 90vw;
+  object-fit: contain;
+  height: 100vh;
+  width: 100vw;
 }
 .lightbox-imgContainer {
   position: relative;
@@ -52,7 +54,7 @@
 }
 @media only screen and (max-width: 768px) {
   .lightbox-img {
-    max-height: 80vh;
+    max-height: 100vh;
     max-width: 100vw;
   }
   .topRadius {

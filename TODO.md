@@ -11,6 +11,7 @@
 - Fix social icons missing from medium width
 
 ## REFACTOR
+- Remove 'sidebar' stuff from articles and projects
 - Unify all db data to have same page items (articles, projects, pages all have BREF, TITL, META etc)
 - Treat all projects, articles, photos? the same (same 'article' HTML and content requirements)
 - Build database tree Home.pages[0].subPages[0]

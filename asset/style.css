@@ -399,7 +399,9 @@ svg {
   min-height: var(--size-sectionHeightMin);
   max-height: var(--size-sectionHeightMax);
   padding: 0;
-  cursor: pointer;
+}
+.zoomable {
+  cursor: zoom-in;
 }
 
 .articleBlackAndWhite {

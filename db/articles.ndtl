@@ -29,8 +29,7 @@ SAILING LESSON
   DATE : 2019-07-14
   CHNG : 0
   PUBL : true
-  EDIT
-    - 2023-05-04
+  EDIT : 2023-05-04
   BODY
     p My now close friend {link ext dominic 'Dominic Tarr'} offered to give Sasha and I a sailing lesson. He later told me that he knew his track record of sailing students converting to sailboat owners is a high percentage... I agreed to a day sail.
     p {link ext dominic 'Dominic'} describes himself as a "cyberhobo" and is probably the most interesting person I know. He seems {link ext magicians 'like a magician'} to me. I very much appreciate his teaching, patience and stories.
@@ -159,7 +158,6 @@ GAME DESIGN NOTES
   TYPE : notes
   HEAD : 2020-08-16_14-33
   DATE : 2020-09-24
-  EDIT : 
   CHNG : 0
   PUBL : true
   LINK

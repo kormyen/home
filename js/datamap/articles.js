@@ -5,12 +5,14 @@ function Articles()
   this.db = [];
   this.sectors = {};
   this.template;
+  this.templateTags;
   const parent = this;
 
-  this.install = function(data, media, runelike, inline, template)
+  this.install = function(data, media, runelike, inline, template, templateTags)
   {
     let tempDb = new Indental(data).parse();
     this.template = template;
+    this.templateTags = templateTags;
 
     // Parse project db into usable format
     const keys = Object.keys(tempDb);
@@ -30,9 +32,37 @@ function Articles()
           return a < b ? -1 : 1;
         });
       }
+      if (element.EDIT)
+      {
+        element.EDIT = element.EDIT.split(', ');
+        element.EDIT.sort();
+      }
+
+      // DATE
+      element.HtmlBody = ``;
+
+      let dateText = ``;
+      if (element.EDIT)
+      {
+        dateText += 'Updated ' + element.EDIT[0] + '. ';
+      }
+      if (element.DATE)
+      {
+        dateText += 'Posted ' + element.DATE + '.';
+      }
+      if (dateText != '')
+      {
+        element.HtmlBody += this.templateTags.tagsItemText(ICON_TIME, dateText);
+      }
+
+      // TAGS
+      if (element.TAGS)
+      {
+        element.HtmlBody += this.templateTags.tagsItemArray(ICON_TAG, element.TAGS);
+      }
 
       // Body HTML
-      element.HtmlBody = runelike.parse(element.BODY);
+      element.HtmlBody += runelike.parse(element.BODY);
 
       // LINKS
       if (element.LINK)

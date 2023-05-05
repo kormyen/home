@@ -21,7 +21,7 @@ function Lightbox()
     this.black = document.createElement('div');
     this.black.className = this.prefix + '-close';
     this.main.appendChild(this.black);
-    this.addEvent(this.black, 'click', function(){ lightbox.close(); });
+    this.addEvent(this.main, 'click', function(){ lightbox.close(); });
 
     this.container = document.createElement('div');
     this.container.className = this.prefix + '-container';

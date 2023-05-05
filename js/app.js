@@ -26,7 +26,7 @@ function App()
 	this.templateLensFocus.install(this.log, this.projects);
 
 	this.templateLensPhotos.install(this.media);
-	this.articles.install(ARTICLES, this.media, this.runelike, this.inline, this.templateArticle);
+	this.articles.install(ARTICLES, this.media, this.runelike, this.inline, this.templateArticle, this.templateTags);
 	this.templateLensPosts.install(this.articles);
 	this.pages.install(PAGES, this.runelike, this.inline);
 
