@@ -1,20 +1,19 @@
 ## Add
-- projects/articles page tags and dates
 - Better content for Sylo proj
 - Better content for Swordy proj
 - Update README
 
 ## FIX
+- External links don't work?
 - Fix weird small text p paragraph content after double images
 - Fix Opengraph/twitter meta cards don't work with SPA 
-- Weird offset in photo page list
+- Fix spacing under tags for all articles and project pages
+- Weird offset in photo page list (switch between home/projects/photos repeat)
 - Fix social icons missing from medium width
 
 ## REFACTOR
-- Remove 'sidebar' stuff from articles and projects
 - Unify all db data to have same page items (articles, projects, pages all have BREF, TITL, META etc)
 - Treat all projects, articles, photos? the same (same 'article' HTML and content requirements)
-- Build database tree Home.pages[0].subPages[0]
 - TITL not needed? Set homepage name in CONFIG.
 
 ## BUGS

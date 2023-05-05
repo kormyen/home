@@ -48,6 +48,8 @@ function Router(app)
             if (path1 == 'PROJECTS')
             {
                 let pageData = app.projects.get(path2);
+                console.log(path2);
+                console.log(pageData);
                 pageData.PRNT = path1;
                 displayPage(pageData);
             }

@@ -440,7 +440,7 @@ VAN
   BREF : stealth campervan
   SECT : 1, 2, 3, 4, 6, 7
   BODY
-    i 2018-01-20_12-00
+    i 2019-12-24_04-57
     t Sub-projects
     p Rust repair and paint (forever)
     p Maintenance (forever)
@@ -657,4 +657,21 @@ SHELF
     i 2020-08-30_17-40
     i 2020-08-30_13-43
     i 2020-08-29_21-44
+
+SUN QUEST
+  TITL : Sun Quest
+  DESC : DIY solarpanel mount for SV Quest
+  TAGS : physical, wood, electronics, offgrid
+  BREF : boat sun power
+  SECT : 1, 2, 6, 8
+  HEAD : 2022-01-11_13-38
+  BODY
+    p Sarah and I decided to become "river scum": live aboard Quest in the Tāmaki Estuary, near the Panmure Yacht and Boating Club on the pile moorings.
+    p In order to do so we needed to install a solar system so that we had power!
+    p Below are some WIP photos and the final shot.
+    p {image 2021-12-04_22-30 il} {image 2021-12-04_22-31 ir}
+    p {image 2021-12-04_22-32 il} {image 2021-12-04_22-33 ir}
+    p The photos above is of solarpanels that I installed on Quest.
+    i 2022-01-11_13-38
+    p The completed solarpanels mounted!
 `

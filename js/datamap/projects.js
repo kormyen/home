@@ -138,6 +138,7 @@ function Projects()
 
   this.get = function(query)
   {
+    query = query.replaceAll('-', ' ');
     return this.db[query.toUpperCase()];
   }
 
