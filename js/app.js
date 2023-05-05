@@ -13,6 +13,11 @@ function App()
 	this.articles = new Articles();
 	this.pages = new Pages();
 
+	this.isoString = function(dateData)
+	{
+		return dateData.toISOString().split('T')[0];
+	}
+
 	this.templateLensPhotos = new TemplateLensPhotos();
 	this.templateLensPosts = new TemplateLensPosts();
 	this.templateLensFocus = new TemplateLensFocus();
@@ -22,7 +27,7 @@ function App()
 	this.log.install(SHELL, this.inline);
 	this.inline.install(this.media, this.links, this.log, this.projects, this.templateLensPhotos, this.templateLensPosts, this.focus);
 	this.runelike.install(this.inline, this.media, this.projects, this.articles, this.templateLensPhotos, this.templateLensPosts, this.templateLensFocus);
-	this.projects.install(PROJECTS, this.media, this.log, this.runelike, this.inline, this.templateArticle);
+	this.projects.install(PROJECTS, this.media, this.log, this.runelike, this.inline, this.templateArticle, this.templateTags, this);
 	this.templateLensFocus.install(this.log, this.projects);
 
 	this.templateLensPhotos.install(this.media);

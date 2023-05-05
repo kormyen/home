@@ -35,24 +35,26 @@ function Articles()
       if (element.EDIT)
       {
         element.EDIT = element.EDIT.split(', ');
-        element.EDIT.sort();
+        element.EDIT.sort(function(a,b) 
+        {
+          return a > b ? -1 : 1;
+        });
       }
 
       // DATE
       element.HtmlBody = ``;
+      element.HtmlBody += `<div class='infoContainer'>`;
 
-      let dateText = ``;
+      // UPDATED
       if (element.EDIT)
       {
-        dateText += 'Updated ' + element.EDIT[0] + '. ';
+        element.HtmlBody += this.templateTags.tagsItemText(ICON_EDIT, 'Updated ' + element.EDIT[0]);
       }
+
+      // POSTED
       if (element.DATE)
       {
-        dateText += 'Posted ' + element.DATE + '.';
-      }
-      if (dateText != '')
-      {
-        element.HtmlBody += this.templateTags.tagsItemText(ICON_TIME, dateText);
+        element.HtmlBody += this.templateTags.tagsItemText(ICON_TIME, 'Posted ' + element.DATE);
       }
 
       // TAGS
@@ -60,6 +62,7 @@ function Articles()
       {
         element.HtmlBody += this.templateTags.tagsItemArray(ICON_TAG, element.TAGS);
       }
+      element.HtmlBody += `</div>`;
 
       // Body HTML
       element.HtmlBody += runelike.parse(element.BODY);
@@ -89,27 +92,6 @@ function Articles()
           let tagsArray = element.TAGS;
           return parent.template.articleCard(linkUrl, imageUrl, titleText, tagsArray);
         }
-
-        // Sidebar HTML
-        element.HtmlSidebar = ``;
-        element.HtmlSidebar += `<div class='sidebar marginBottomLarge'>`;
-        element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">Posted: ${element.DATE}</p>`;
-
-        if (element.EDIT != null)
-        {
-          element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">Edited: ${element.EDIT}</p>`;
-        }
-
-        if (element.TISA != null)
-        {
-          element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">${inline.parse(element.TISA)}</p>`;
-        }
-      }
-
-			element.HtmlSidebar += `</div>`; // sidebar
-
-      if (element.PUBL == "true")
-      {
         this.db.push(element);
       }
     }

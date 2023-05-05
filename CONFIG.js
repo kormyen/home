@@ -9,3 +9,5 @@ ICON_TIME = 'clock-solid';
 ICON_PHOTOGRAOHER = 'camera-solid';
 ICON_PERSON = `user-solid`;
 ICON_LOCATION = 'location-dot-solid';
+ICON_EDIT = `pen-solid`;
+ICON_LOG = `record-vinyl-solid`

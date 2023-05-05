@@ -79,6 +79,7 @@ PROJECTS
   HEAD : 2011-11-25_12-00
   PRNT : INDEX
   BODY
+    p 
     b projectsAll
 
 PHOTOS
@@ -88,6 +89,7 @@ PHOTOS
   HEAD : 2018-05-03_12-00
   PRNT : INDEX
   BODY
+    p 
     b photosAll
 
 POSTS

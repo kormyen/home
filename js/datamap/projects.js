@@ -5,13 +5,17 @@ function Projects()
   this.db = null;
   this.sectors = {};
   this.template;
+  this.templateTags;
+  this.utils;
   const parent = this;
   this.dbLength;
 
-  this.install = function(data, media, log, runelike, inline, template)
+  this.install = function(data, media, log, runelike, inline, template, templateTags, utils)
   {
     this.db = new Indental(data).parse();
     this.template = template;
+    this.templateTags = templateTags;
+    this.utils = utils;
 
     // Parse project db into usable format
     const keys = Object.keys(this.db);
@@ -32,8 +36,50 @@ function Projects()
         });
       }
 
+      if (element.EDIT)
+      {
+        element.EDIT = element.EDIT.split(', ');
+        element.EDIT.sort(function(a,b) 
+        {
+          return a > b ? -1 : 1;
+        });
+      }
+
       // Body HTML
-      element.HtmlBody = runelike.parse(element.BODY);
+      element.HtmlBody = ``;
+
+      // DATE
+      element.HtmlBody += `<div class='infoContainer'>`;
+
+      // UPDATED
+      if (element.EDIT)
+      {
+        element.HtmlBody += this.templateTags.tagsItemText(ICON_EDIT, 'Updated ' + element.EDIT[0]);
+      }
+
+      // POSTED
+      if (element.DATE)
+      {
+        element.HtmlBody += this.templateTags.tagsItemText(ICON_TIME, 'Posted ' + element.DATE);
+      }
+
+      // TAGS
+      if (element.TAGS)
+      {
+        element.HtmlBody += this.templateTags.tagsItemArray(ICON_TAG, element.TAGS);
+      }
+
+      // LOGS
+      let projLogStats = log.projects[element.NAME];
+      if (projLogStats && projLogStats.hoursTotal > 0)
+      {
+        element.HtmlBody += this.templateTags.tagsItemText(ICON_LOG, projLogStats.hoursTotal + 'h logged (' + utils.isoString(projLogStats.dateFirst) + ' to ' +  utils.isoString(projLogStats.dateLast) + ')');;
+      }
+
+      element.HtmlBody += `</div>`;
+
+      element.HtmlBody += runelike.parse(element.BODY);
+
       // LINKS
       if (element.LINK)
       {
@@ -85,79 +131,6 @@ function Projects()
         }
         return parent.template.articleCard(linkUrl, imageUrl, titleText, tagsArray)
       }
-
-      // Stats
-      let dateFirst;
-      let dateLast;
-      let projLogStats = log.projects[element.NAME];
-      if (projLogStats)
-      {
-        // this project has log entries!
-        // element.LOGS = projLogs;
-        
-        dateFirst = projLogStats.dateFirst;
-        dateLast = projLogStats.dateLast;
-
-        // Sectors
-        element.sectors = projLogStats.sectors;
-        const sectorKeys = Object.keys(element.sectors);
-        sectorKeys.forEach(sk =>
-          {
-            if (!this.sectors[sk])
-            {
-              this.sectors[sk] = 0;
-            }
-            this.sectors[sk]++;
-          });
-      }
-
-      // Sidebar HTML
-      element.HtmlSidebar = ``;
-      element.HtmlSidebar += `<div class='sidebar marginBottomLarge'>`;
-			element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">${parent.capitalizeFirstLetter(element.TITL)} is ${element.TISA}</p>`;
-
-      // DATE
-      const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
-        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
-      ];
-      let stringAge = ``;
-      let stringAgeBorn = ``;
-      if (dateFirst && dateLast)
-      {
-        stringAgeBorn = `${dateFirst.getFullYear()} ${monthNames[dateFirst.getMonth()]}`;
-      }
-
-      if (element.BORN)
-      {
-        stringAge += element.BORN;
-        if (dateLast)
-        {
-          stringAge += ` - ${dateLast.getFullYear()}`
-        }
-      }
-      else if (dateFirst && dateLast)
-      {
-        if (dateFirst.getFullYear() == dateLast.getFullYear())
-        {
-          stringAge = `${stringAgeBorn} - ${monthNames[dateLast.getMonth()]}`
-        }
-        else
-        {
-          stringAge = `${stringAgeBorn} - ${dateLast.getFullYear()} ${monthNames[dateLast.getMonth()]}`
-        }
-      }
-      
-      if (stringAge != ``)
-      {
-        element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">${stringAge}</p>`;
-      }
-
-      if (projLogStats && projLogStats.hoursTotal > 0)
-      {
-        element.HtmlSidebar += `<p class="fontSizeSmall colorSecondary marginBottomMedium">${ projLogStats.hoursTotal } hours since ${ stringAgeBorn }</p>`;
-      }
-
-			element.HtmlSidebar += `</div>`; // sidebar
 
       this.db[keys[k]] = element;
     }

@@ -25,6 +25,7 @@ SEEKERS
   DESC : A NFT project of loveable customisable robots with the utility of unlocking gamified decentralised comms infrastructure.
   TAGS : crypto, design, character
   BREF : gamified nodes
+  DATE : 2023-05-05
   SECT : 4
   BODY
     t Gamified decentralised infrastructure NFTs
@@ -96,8 +97,7 @@ HOME
   BREF : this website
   BORN : 2006
   SECT : 3, 4, 7
-  EDIT
-    - 2023-04-23 Added 'Weathering Software Winder' and 2023 version
+  EDIT : 2023-04-23, 2023-05-03
   BODY
     p Home is a portfolio and exocortex.
     p Since I was young I have chipped away at an unfinishable amorphous website that has reborn every few years.
@@ -273,8 +273,7 @@ ARDUSAMBER
   BREF : neralie & arvelie
   SECT : 3
   BORN : 2018-05-15
-  EDIT
-    - 2019-07-03 Created project page
+  EDIT : 2019-07-03
   BODY
     p This project for me was playing with and learning Arduino basics and thinking about time.
     p Building this lead me toward designing {link project dastime}.
@@ -524,10 +523,7 @@ TOILET
   TAGS : offgrid, physical, wood
   BREF : poop bucket
   SECT : 1, 6
-  EDIT : 
-    - 2020-08-28
-    - 2020-08-27
-    - 2021-04-24
+  EDIT : 2020-08-28, 2020-08-27, 2021-04-24
   BODY
     p When people say "composting toilet" what they really mean is "shitting in a bucket" - but it's nicer than most people who haven't used one think. It's surprising how many people just write-off the idea before they realise it's actually all good. 
     p I made this composting toilet with a deadline for {link ext kiwiburn} to serve as our {link project solarsails 'Solarsails'} themecamp toilet, with the intention for it to then live in my {link project van 'vanlife home'}.
