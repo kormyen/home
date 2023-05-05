@@ -125,7 +125,7 @@ function Image(data)
         steps += `../`;
       }
 
-      let result = `<div class='article' onclick="lightbox.load('${ steps }${ this.pathRelative }')">
+      let result = `<div class='article zoomable' onclick="lightbox.load('${ steps }${ this.pathRelative }')">
         <img src='${ steps }media/small/${ this.file }' class='articleImg ${ imageAlign }radiusNormal' }>
         </div>`;
       return result;
