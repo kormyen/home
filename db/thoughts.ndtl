@@ -200,12 +200,12 @@ JS SPAS AND SEO
   DESC : A rant and notes to self on JavaScript Single Page Applications and Search Engine Optimisation (or lack there of)
   TAGS : web
   HEAD : 2017-05-12_12-01
-  TYPE : note
+  TYPE : thought
   DATE : 2023-05-06
   BODY
     2 JS SPA + SEO
     p Webcrawlers (like Google, Facebook, Opengraph, Twitter) don't work with SPAs - they don't run the JavaScript to update the metadata, so it doesn't exist... so they don't get preview pics, titles, descriptions etc.
-    p The options to fix it:
+    p The options to fix it AFAIK:
     2 Re-write with Next.js 
     p Next.js (tooling and configutation for React, with additional structure, features and optimisations) with "prerendering" (at build time), plus React (front-end JavaScript UI library), plus Babel.js (toolchain for compiling JSX to JS). 
     p This seems like the industry standard setup, and would probably be logical research career-wise... but seems convoluted "There Was an Old Lady Who Swallowed a Fly" style. 
