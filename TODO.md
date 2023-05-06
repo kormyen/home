@@ -1,10 +1,8 @@
 ## Add
 - Better content for Sylo proj
 - Better content for Swordy proj
-- Update README
 
 ## FIX
-- External links don't work?
 - Fix weird small text p paragraph content after double images
 - Fix Opengraph/twitter meta cards don't work with SPA 
 - Fix spacing under tags for all articles and project pages

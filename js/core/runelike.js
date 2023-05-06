@@ -82,6 +82,10 @@ function Runelike()
                 for (let i = 0; i < stash.a.length; i++)
                 {
                     let imageData = parent.media.getByDate(stash.a[i]);
+                    if (!imageData)
+                    {
+                        console.warn('Cannot find media item: ' + stash.a[i])
+                    }
                     result += `${acc} ${imageData.htmlMed}`;
                 }
             }

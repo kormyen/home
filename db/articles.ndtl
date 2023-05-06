@@ -741,8 +741,8 @@ ISO 8601
 
 BUG STONES
   TITL : Bug stones
-  DESC : 
-  BREF : irl idle game
+  DESC : A game with a stranger through painted rocks on a post.
+  BREF : strange
   TAGS : life
   TYPE : blog
   HEAD : 2022-07-22_14-23
@@ -773,4 +773,105 @@ BUG STONES
     i 2022-07-22_10-01
     p Two days later there was a flower stone in place of the yellow ladybug…
     i 2022-07-22_14-23
+
+LONG SITE
+  TITL : Long site
+  BREF : Why home
+  TAGS : notes
+  HEAD : 2023-05-06_18-31
+  TYPE : thoughts
+  PUBL : true
+  DATE : 2023-05-06
+  BODY
+    2 Philosophy of the "Long Now"
+    p An attempt at simplicity to help survive as {link ext techDegrades}.
+    - "the people who knew how to do this are no longer here". Examples: {link ext antikythera} and {link ext rongorongo} from {link ext eventEverything}
+    - "the technology that makes this work no longer works". Examples: {link ext leftPadIncident} from {link ext humansInSoftware}
+    p 
+    p I found this quote and term {link ext longSite} on {link ext gwern} an inspiration in this regard:
+    p "The Internet is self destructing paper. A place where anything written is soon destroyed by rapacious competition and the only preservation is to forever copy writing from sheet to sheet faster than they can burn..." Julian Assange  ({link ext destructingPaper}, 5 December 2006)
+    p This above thinking for me is entirely insprired by {link ext neauoire 'Devine'} and {link ext rekka} of {link ext rabbits} who I met in Whangarei and travelled to Wellington with.
+    p This talk {link ext weatherSoftware} goes into their rationale and inspiration for technology that is simple, easy to edit and easy to maintain.
+    2 Clock of the Long Now
+    y w9uM6BBKfO8
+    p This is an inspiring project from 'The Long Now Foundation' to create a clock that will last 10,000 years.
+    p 
+    p https://mxb.dev/blog/the-css-mindset/
+    p https://anewdigitalmanifesto.com/
+    p https://small-tech.org/about/#non-colonial
+  LINK
+    - {link ext jamieTannaWhy}
+    - {link ext oneBigFlukeWhy}
+    - {link ext snarfedWhy}
+    - {link ext indiewebWhy}
+    - {link ext longSite}
+    - {link ext clockUpdate}
+
+CODE SIMPLE
+  TITL : Code simple
+  BREF : do more
+  DESC : A rant on simplicity, processes and people
+  TAGS : notes
+  HEAD : 2018-03-07_12-00
+  TYPE : thoughts
+  PUBL : true
+  DATE : 2023-05-06
+  BODY
+    p Products ends up better when people are empowered to contribute… through simplicity.
+    p “Programs must be written for people to read, and only incidentally for machines to execute” - Harold Abelson
+    p Why? "...we’ve established that computers and computer code are veritably saturated with human touch, human voices, and human thought. Software cannot be divorced from the human structures that create it, and for us, that structure is capitalism." - {link ext humansInSoftware}
+    p
+    p The best code is the least code, the best code is the simplest code: the fastest to read, understand it and improve it. 
+    p “I apologize for such a long letter - I didn't have time to write a short one.” - Mark Twain
+    p You don’t need to show off professional coding skills, multiple classes interacting, multiple software design patterns… when it can be solved with a single simple script with a single function.
+    p The product ends up better when designers (or anyone on the team) can (if they want to) easily read and tweak code. When developers can instantly grok and fix/rewrite functionality. This is only possible with a focus on simplicity and what best empowers everyone on the team.
+    p When things are simple, everyone can do more. Less time is wasted.
+    p There is still absolutely need for documentation, reviews, guard rails, clean maintainable well architected code.
+    p 
+    p When code architecture is simpler, it really just enables us to do more. To make a better product.
+    p 
+    p “You want to be really deliberate about how and when you take on complexity.”
+    p “We can’t solve complexity, but we can build better software.”
+    p “It never gets easier, you just go faster.”
+    p Source: {link ext whyCantSimple}
+    p 
+    p Simpler code lets us to more, better!
+
+JS SPAS AND SEO
+  TITL : JS SPAs and SEO
+  DESC : A rant and notes to self on JavaScript Single Page Applications and Search Engine Optimisation (or lack there of)
+  TAGS : notes, web
+  HEAD : 2017-05-12_12-01
+  TYPE : notes
+  PUBL : true
+  DATE : 2023-05-06
+  BODY
+    2 JS SPA + SEO
+    p Webcrawlers (like Google, Facebook, Opengraph, Twitter) don't work with SPAs - they don't run the JavaScript to update the metadata, so it doesn't exist... so they don't get preview pics, titles, descriptions etc.
+    p The options to fix it:
+    2 Re-write with Next.js 
+    p Next.js (tooling and configutation for React, with additional structure, features and optimisations) with "prerendering" (at build time), plus React (front-end JavaScript UI library), plus Babel.js (toolchain for compiling JSX to JS). 
+    p This seems like the industry standard setup, and would probably be logical research career-wise... but seems convoluted "There Was an Old Lady Who Swallowed a Fly" style. 
+    2 Custom manual build with Puppeteer
+    p This is what I made previously. Here is an example explainer.
+    p Example explainer for what I did before: {link ext puppetprerenderer}
+    p This seems convoluted, to build an app that runs a whole browser that loads all your pages and saves them as flat HTML files... This is also what services like {link ext prerenderio} do.
+    2 User-Agent based proxy for only Webcrawlers
+    p This seems like a industry work-around for SPAs; redirect only webcrawler traffic to flat HTML, but continue to serve the JS SPA to humans.
+    p It would use something like {link ext useragentrender} to detect webcrawlers, then if detected send them {link ext prerenderio} data instead of the live app.
+    p This seems OK but seems a bit fragile / a work around and is a paid service. The nice thing though is that it keeps the user facing setup simple: exactly the JS SPA.
+    2 Custom website builder app in Node.js
+    p Remake the JS SPA instead so that it just builds flat html files and folder structure. This isn't possible as is with browser style JS, as that can’t save the files and create folders.
+    p This is a bit convoluted but kinda cool in that I could start adding editor features to the Node.js app... but that is a rabbit hole.
+    2 Custom website builder app in Deno
+    p Same as above but a bigger re-write into TypeScript and the "new Node.js (Deno)". More work, but nicererer.
+    - A different custom website builder
+    p Same as above but a different language like {link ext neauoire}'s awesome {link ext xxiivvoscean} but probably something less esoteric.
+    2 Don't
+    p I've decided to leave it as is for now, and maybe fix it later - I'm very uninterested in solving this problem! It doesn't matter that much because I'm not selling anything.
+    p
+    p "It seemed that most of the new methods involved setting up elaborate systems to automate parts of the work. This is fine for particularly complicated and large projects, but setting up the system and maintaining it seemed to be more effort for an experienced person on a small project than doing the work without it."
+    p "Instead of changing my tools or workflow, I change my design. It’s like designing a house so it’s easy to build, instead of setting up cranes typically used for skyscrapers."
+    p - {link ext everythingEasy}
+    p Admittedly I'm not exactly following the principles of those quotes but they ring true. Instead of "avoid the complexity altogether with a more clever plan", I'm just doing the first step for now.
 `

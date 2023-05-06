@@ -1,7 +1,5 @@
 function Tablatal(data)
 {
-  console.log('Tablatal');
-  console.log(data);
   this.data = data;
 
   this.parse = function(type)

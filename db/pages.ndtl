@@ -15,6 +15,9 @@ INDEX
     b photosLens
     3 Recent {link page posts} of {stat postsTotal}
     b postsLens
+    / thoughts
+    / notes
+    / blogs
 
 HAMISH
   TITL : Hamish

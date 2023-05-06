@@ -1102,37 +1102,6 @@ SOUL FOOD
     p "Stick to what matters"
     p Generic advice I guess, but felt very genuine.
 
-WHY HOME
-  TITL : Why home
-  BREF : reasoning
-  TAGS : why
-  HEAD : 2014-05-30_12-00
-  TYPE : thoughts
-  PUBL : false
-  BODY
-    2 Philosophy: "Long Now"
-    p An attempt at simplicity to help survive as {link ext techDegrades}.
-    p I found this quote and term {link ext longSite} on {link ext gwern} an inspiration in this regard:
-    p "The Internet is self destructing paper. A place where anything written is soon destroyed by rapacious competition and the only preservation is to forever copy writing from sheet to sheet faster than they can burn..." Julian Assange  ({link ext destructingPaper}, 5 December 2006)
-    p In reference to above - the way the site is built is to allow the actual content to be easy to move around (text database), copy (human readable) and store (easily accessed standard files), while the visual display of it may change.
-    p This above thinking for me is entirely insprired by {link ext neauoire 'Devine'} and {link ext rekka} of {link ext rabbits} who I met in Whangarei and travelled to Wellington with.
-    p This talk {link ext weatherSoftware} goes into their rationale and inspiration for technology that is simple, easy to edit and easy to maintain.
-    p https://www.jvt.me/posts/2019/07/22/why-website/
-    p https://www.onebigfluke.com/2012/07/focusing-on-positives-why-i-have-my-own.html 
-    p https://snarfed.org/2012-07-25_why_i_have_my_own_web_site
-    p https://indieweb.org/why
-    p https://www.gwern.net/About#long-site
-    p https://blog.jse.li/posts/software/
-    p https://zen-of-programming.com/design/
-    p https://zen-of-programming.com/
-    p https://practicaltypography.com/
-    p https://brutalist-web.design/
-    p https://frankchimero.com/blog/2015/the-webs-grain/
-    p https://mxb.dev/blog/the-css-mindset/
-    p https://anewdigitalmanifesto.com/
-    p https://small-tech.org/about/#non-colonial
-    p https://mastodon.social/@zensaiyuki/102683452946911475
-
 TOOLS I USE 2020
   NAME : Tools I use
   BREF : Things I use
@@ -1140,7 +1109,6 @@ TOOLS I USE 2020
   TYPE : notes
   DATE : 2020-06-03
   EDIT : 2020-06-04
-  CHNG : 2
   PUBL : false
   BODY
     p I recognize that using open source, privacy focused tools is important. If not for my current self, then my potential future self, protestors, journalists, and refugees.

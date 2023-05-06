@@ -512,9 +512,7 @@ svg {
 }
 
 .sidebarContainer {
-  z-index: 1000;
-  height: calc(100% - var(--size-header-normal));
-  max-height: 100%;
+  height: calc(100% - var(--size-header-normal)); /* this makes sticky work */
   position: absolute;
   margin-top: var(--size-columnPaddingLarge);
 }

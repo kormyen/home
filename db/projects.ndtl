@@ -105,58 +105,37 @@ HOME
   BREF : this website
   BORN : 2006
   SECT : 3, 4, 7
-  EDIT : 2023-04-23, 2023-05-03
+  EDIT : 2023-04-23, 2023-05-03, 2023-05-06
   BODY
     p Home is a portfolio and exocortex.
     p Since I was young I have chipped away at an unfinishable amorphous website that has reborn every few years.
-    p "...our small digital fires we keep alight at night." {link ext phil}
-    t 2023
+    p "...our small digital fires we keep alight at night." - {link ext phil}
+    2 Why have your own website?
+    - "Having a website is about having a permanent space on the Web to call your own, and for others to find you on. It's not just about having somewhere you can blog, but it's somewhere that others can come back to. Social media platforms can come and go, but it's more likely you'd keep your domain name active, especially if you're starting to use it for email. As a bare minimum, you could just use your website as a holding page that links through to your other media profiles. That way you get the benefits of email and can update your website in the future if you feel a change of heart." - {link ext jamieTannaWhy}
+    - "1. Having a home. 2. Expressing myself 3. Internet citizenship" - {link ext oneBigFlukeWhy}
+    2 2023
+    i 2023-05-06_13-44
     p I rewrote the 2019 version to remove the 2019's overly complicated, manually set up "build" process. It previously ran a headless browser ("Puppeteer") to visit each "single page application" (SPA) page and save it as a flat html file which I didn't like but seemed the simplest way at the time to turn the JS SPA site into non-JS HTML and control the exact URLs through folders and index.html files...
     p The rewrite left it as a javascript "single page application". I found the build process a nagging anti-inspiration and stumbling block for continuing to add content...
     p The rewrite was inspired by stumbling upon this article {link ext devSpaRoute} which explained with vanilla JS how to control routing, history and address bar content which I could not figure out in 2019.
     p Somehow I forgot the lesson from 2019 that JavaScript Single Page Applications and Search Engine Optimisation don’t mix.
-    t JS SPA + SEO
-    p Webcrawlers (like Google, Facebook, Opengraph, Twitter) don't work with SPAs - they don't run the JavaScript to update the metadata, so it doesn't exist... so they don't get preview pics, titles, descriptions etc.
-    p I've decided to leave it as is for now, and fix it later - I'm very uninterested in solving this, and it doesn't matter that much because I'm not selling anything. I'll fix it later.
-    p The options to fix it:
-    - Re-write with Next.js 
-    p Next.js (tooling and configutation for React, with additional structure, features and optimisations) with "prerendering" (at build time), plus React (front-end JavaScript UI library), plus Babel.js (toolchain for compiling JSX to JS). 
-    p This seems like the industry standard setup, and would probably be logical research career-wise... but seems convoluted "There Was an Old Lady Who Swallowed a Fly" style. 
-    - Custom manual build with Puppeteer
-    p This is what I made previously. Here is an example explainer.
-    p Example explainer for what I did before: {link ext puppetprerenderer}
-    p This seems convoluted, to build an app that runs a whole browser that loads all your pages and saves them as flat HTML files... This is also what services like {link ext prerenderio} do.
-    - User-Agent based proxy for only Webcrawlers
-    p This seems like a industry work-around for SPAs; redirect only webcrawler traffic to flat HTML, but continue to serve the JS SPA to humans.
-    p It would use something like {link ext useragentrender} to detect webcrawlers, then if detected send them {link ext prerenderio} data instead of the live app.
-    p This seems OK but seems a bit fragile / a work around and is a paid service. The nice thing though is that it keeps the user facing setup simple: exactly the JS SPA.
-    - Custom website builder app in Node.js
-    p Remake the JS SPA instead so that it just builds flat html files and folder structure. This isn't possible as is with browser style JS, as that can’t save the files and create folders.
-    p This is a bit convoluted but kinda cool in that I could start adding editor features to the Node.js app... but that is a rabbit hole.
-    - Custom website builder app in Deno
-    p Same as above but a bigger re-write into TypeScript and the "new Node.js (Deno)". More work, but nicererer.
-    - A different custom website builder
-    p Same as above but a different language like {link ext neauoire}'s awesome {link ext xxiivvoscean} but probably something less esoteric.
-    t 2019
+    p Blogumentation on {link post js-spas-and-seo}
+    2 2019
     i 2019-07-09_21-13
-    p The 2019 version was inspired by {link ext neauoire} with a focus on simplicity and minimalism in it's structure and core content setup. It is hopefully some form of foundational base to build upon into time.
-    p At the very least with it's use of a human-readable data database; it's content should be portable between future website versions and long term, and simple to archive. 
-    t Philosophy: "Long Now"
-    p An attempt at simplicity to help survive as {link ext techDegrades}.
-    p I found this quote and term {link ext longSite} on {link ext gwern} an inspiration in this regard:
-    p "The Internet is self destructing paper. A place where anything written is soon destroyed by rapacious competition and the only preservation is to forever copy writing from sheet to sheet faster than they can burn..." Julian Assange  ({link ext destructingPaper}, 5 December 2006)
-    p In reference to above - the way the site is built is to allow the actual content to be easy to move around (text database), copy (human readable) and store (easily accessed standard files), while the visual display of it may change.
+    p The way the site is built is to allow the actual content to be easy to move around (text database), copy (human readable) and store (easily accessed standard files), while the visual display of it may change.
     p This above thinking for me is entirely insprired by {link ext neauoire 'Devine'} and {link ext rekka} of {link ext rabbits} who I met in Whangarei and travelled to Wellington with.
-    p This talk {link ext weatherSoftware} goes into their rationale and inspiration for technology that is simple, easy to edit and easy to maintain.
-    t 2018
+    p They showed me the concept of {link post long-now}
+    p With a focus on simplicity and minimalism in it's structure and core content setup. It is hopefully some form of foundational base to build upon into time.
+    p At the very least with it's use of a human-readable data database; it's content should be portable between future website versions and long term, and simple to archive. 
+    2 2018
     p {image 2018-10-15_12-00 il} {image 2018-10-15_12-01 ir} 
     p Visualising my experiements with time tracking for self productivity gamification.
     p It had two pages, one an overview of all data with a graph and statistics, the other being a day by day journal of tasks.
-    t 2014
+    2 2014
     i 2017-02-01_12-00
     p Basically a placeholder business card as a website while I worked on other things. 
     p I added written articles, thoughts and notes for a while, then removed them.
-    t 2010
+    2 2010
     i 2010-01-01_12-00
     p {image 2010-01-01_12-01 il} Portfolio site for university work. I still really like this version.
     p This site was built with Adobe Flash - a long dead interaction and animation software for web that people like to complain about (performance and security). I found Flash really quite nice to build things with.
@@ -165,13 +144,13 @@ HOME
     p 2nd displays a cliche M.C. Escher optical illusion inspired Counter-Strike map for University Game Design class.
     p 3rd is a Counter-Strike multiplayer map for University Game Design class.
     p 4th is a simple university interactive project of a flying airship inside a birdcage built in Unity3D.
-    t 2009
+    2 2009
     p Portfolio site for university work.
     i 2009-10-01_12-00
-    t 2007
+    2 2007
     p Basically just playing around with goth aesthetic design and learning php, html, css, javascript in the background.
     i 2007-12-27_12-00
-    t 2006
+    2 2006
     p This was a massively overscopped portfolio, blog, article website with a chat box, featured art and an interactive flash based interior exploration mini-game barely started (just below the header), it was going to show a character for each user currently viewing the website at the same time as you or something.
     p I created everything in the screenshot except the heart with the grey shell, the fonts and the banner adverts at the bottom of the page.
     i 2007-01-24_12-00
@@ -437,7 +416,6 @@ SWORDY
   BODY
     p GIFs and images of development: {link ext swordyDevAlbum}
   LINK
-    - {link ext swordyHomepage}
     - {link ext swordySteam}
     - {link ext frogshark}
 
