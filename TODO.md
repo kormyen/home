@@ -2,6 +2,7 @@
 - Better content for Sylo proj
 - Better content for Swordy proj
 - 404 page
+- Add tags for photos
 
 ## BUGS
 - Fix weird small text p paragraph content after double images

@@ -2,7 +2,7 @@ var NOTES = `
 17 INDIEDEV GAMEDEV LESSONS
   TITL : 17 indiedev gamedev lessons
   DESC : Notes on "17 lessons learned" in indie gamedev
-  TAGS : gamedev, research
+  TAGS : game, research
   TYPE : note
   HEAD : 2020-08-16_14-33
   DATE : 2014-07-25
@@ -39,7 +39,7 @@ var NOTES = `
 GAME DESIGN NOTES
   TITL : Engine, wheels, road
   DESC : Notes on Rami Ismail pillars of game design
-  TAGS : gamedev, research
+  TAGS : game, research
   TYPE : note
   HEAD : 2020-08-16_14-33
   DATE : 2020-09-24
@@ -128,7 +128,7 @@ PRESERVING MYSTERY
   TITL : Preserving mystery
   DESC : Notes on mystery in games
   BREF : Frog Fractions
-  TAGS : gamedev, research
+  TAGS : game, research
   TYPE : note
   HEAD : 2016-02-14_00-02
   DATE : 2016-02-14
@@ -181,7 +181,7 @@ DRAGON SPEECH
   TITL : Dragon speech
   DESC : Notes on dragon speech talk
   BREF : Chris Crawford
-  TAGS : gamedev, research
+  TAGS : game, research
   TYPE : note
   HEAD : 2014-04-20_14-59
   DATE : 2014-04-20
@@ -210,7 +210,7 @@ GAME MARKETING 2014
   TITL : Game marketing 2014
   DESC : Notes on indie game marketing lecture by Emmy Jonassen
   BREF : lecture
-  TAGS : gamedev, research
+  TAGS : game, research
   TYPE : note
   HEAD : 2014-03-10_00-01
   DATE : 2014-03-10
@@ -358,15 +358,16 @@ ISO 8601
   BODY
     p Bringing you the latest in news from 1988.
     p The International Organization for Standardization (ISO) created a date and time standard called "ISO 8601" it defines the date to be represented as YYYY-MM-DD.
-    p I have personally used (most often with builds or photo folders etc) a similar format YYYYMMDD or YYYY_MM_DD as it orders in correct chronological order in "alphabetical sorting" (default file browser behavior).
-    p Finding this "ISO 8601" standard was a cool find for me, and I will use it from now on...
+    p I have personally used (most often with builds or photo folders etc) a similar format YYYY-MM-DD as it orders in correct chronological order in "alphabetical sorting" (default file browser behavior).
+    p Finding this "ISO 8601" standard was a cool find for me, and I will use it from now on.
+    p I've been using this format when I need hours and minutes: YYYY-MM-DD_HH-MM which is wrong/not-official, but it feels cleaner and simplier to me than the official: YYYY-MM-DD'T'HH:MM:SS.SSSZ.
     p As always there is a {link ext xkcd1179}:
     i 2016-04-07_00-01
 
 LONG SITE
   TITL : Long site
   BREF : Why home
-  TAGS : notes
+  TAGS : research, time
   HEAD : 2023-05-06_18-31
   TYPE : note
   DATE : 2023-05-06

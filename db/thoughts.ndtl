@@ -3,7 +3,7 @@ VR in 2014
   TITL : VR in 2014
   DESC : Thoughts on VR
   BREF : presence
-  TAGS : gamedev, research, vr
+  TAGS : game, research, vr
   TYPE : thought
   HEAD : 2014-06-11_00-01
   DATE : 2014-06-11
@@ -57,7 +57,7 @@ NEUROTECH
   TITL : Neurotech
   DESC : Thoughts on neurotech after an explanation and guided demo, testing various apps and examples.
   BREF : initiation
-  TAGS : gamedev, research
+  TAGS : game, research
   TYPE : thought
   HEAD : 2014-04-12_00-02
   DATE : 2014-04-12
@@ -170,7 +170,7 @@ CODE SIMPLE
   TITL : Code simple
   BREF : do more
   DESC : A rant on simplicity, processes and people
-  TAGS : notes
+  TAGS : code
   HEAD : 2018-03-07_12-00
   TYPE : thought
   DATE : 2023-05-06
@@ -198,7 +198,7 @@ CODE SIMPLE
 JS SPAS AND SEO
   TITL : JS SPAs and SEO
   DESC : A rant and notes to self on JavaScript Single Page Applications and Search Engine Optimisation (or lack there of)
-  TAGS : notes, web
+  TAGS : web
   HEAD : 2017-05-12_12-01
   TYPE : note
   DATE : 2023-05-06

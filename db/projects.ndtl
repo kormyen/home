@@ -2,7 +2,7 @@ var PROJECTS = `
 LOG
   TITL : Log
   DESC : A simple time tracker built in vanilla js.
-  TAGS : code, design, js, time
+  TAGS : code, design, time, web
   BREF : time tracker
   DATE : 2018-07-12
   SECT : 7
@@ -24,7 +24,7 @@ LOG
 SEEKERS
   TITL : Seekers
   DESC : A NFT project of loveable customisable robots with the utility of unlocking gamified decentralised comms infrastructure.
-  TAGS : crypto, design, character
+  TAGS : character, crypto, design, game
   BREF : gamified nodes
   DATE : 2023-05-05
   SECT : 4
@@ -105,7 +105,7 @@ SYLO
 HOME
   TITL : Home
   DESC : A portfolio and exocortex.
-  TAGS : code, design, js, web
+  TAGS : code, design, web
   BREF : this website
   DATE : 2006-01-01
   SECT : 3, 4, 7
@@ -225,7 +225,7 @@ SSS
 MEMEX
   TITL : Memex
   DESC : A bookmarks and notes tool to help with storage and overview.
-  TAGS : code, design, js, web
+  TAGS : code, design, web
   BREF : note archive
   SECT : 3, 4, 7
   DATE : 2018-07-14
@@ -266,7 +266,7 @@ MEGAMEX
 ARDUSAMBER
   TITL : Ardusamber
   DESC : Arduino experiements with Neauoire's time format Neralie.
-  TAGS : code, electronics, time
+  TAGS : code, electronics, time, physical
   BREF : neralie & arvelie
   SECT : 3
   DATE : 2018-05-15
@@ -297,7 +297,7 @@ ARDUSAMBER
 DASTIME
   TITL : Dastime
   DESC : A clock design.
-  TAGS : code, electronics, time
+  TAGS : code, electronics, time, physical
   BREF : dasein time
   SECT : 3, 4
   DATE : 2018-07-05
@@ -340,7 +340,7 @@ DASTIME
 FPVMOD
   TITL : FPVMOD
   DESC : Modified FPV drone display (Eachine VR006) with recording and larger swappable battery.
-  TAGS : electronics
+  TAGS : electronics, physical
   BREF : display++
   TISA : a modified fpv drove display
   SECT : 1
@@ -353,7 +353,7 @@ FPVMOD
 CORE
   TITL : Core
   DESC : An input receiver and output commander for the VNS Tiny House IoT power system.
-  TAGS : code, electronics
+  TAGS : code, electronics, physical
   BREF : simple IOT server
   UNDR : VNS
   SECT : 3
@@ -369,7 +369,7 @@ CORE
 CONTROL
   TITL : Control
   DESC : A custom control panel with switches and dimmer.
-  TAGS : code, electronics
+  TAGS : code, electronics, physical
   BREF : keypad panel
   SECT : 1, 2, 3, 4
   UNDR : VNS
@@ -387,7 +387,7 @@ CONTROL
 POWER
   TITL : Power
   DESC : A power distribution unit for an IoT system.
-  TAGS : code, electronics
+  TAGS : code, electronics, physical
   BREF : IOT PDU
   UNDR : VNS
   SECT : 1, 2, 3
@@ -416,7 +416,7 @@ CRUCIFIX
 LIGHTBOX
   TITL : Lightbox
   DESC : A minimal vanilla JS lightbox lib.
-  TAGS : web, js, code
+  TAGS : web, code
   BREF : image zoom
   SECT : 3, 4
   TYPE : project
@@ -521,7 +521,7 @@ PORTFOLIO
 WARP
   TITL : Warp
   DESC : "VR JAM 2013" entry for Oculus developer kit V1.
-  TAGS : design, game, programming, unity, vr
+  TAGS : design, game, code, unity, vr
   BREF : VR JAM 2013
   SECT : 3, 4
   TYPE : project
