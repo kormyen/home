@@ -5,19 +5,17 @@ function Inline()
     this.log = null;
     this.projects = null;
     this.photos = null;
-    this.posts = null;
-    this.focus = null;
+    this.articles = null;
     const parent = this;
 
-    this.install = function(media, links, log, projects, photos, posts, focus)
+    this.install = function(media, links, log, projects, photos, articles)
     {
         this.media = media;
         this.links = links;
         this.log = log;
         this.projects = projects;
         this.photos = photos;
-        this.posts = posts;
-        this.focus = focus;
+        this.articles = articles;
     }
 
     this.getInternalUrl = function(func, name)
@@ -140,7 +138,7 @@ function Inline()
                     }
                     else if (func == "postsTotal")
                     {
-                        lineResult += this.posts.getCount();
+                        lineResult += this.articles.getCount();
                     }
                 }
                 else if (chunk == 'year')

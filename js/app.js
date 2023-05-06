@@ -14,20 +14,17 @@ function App()
 	this.pages = new Pages();
 
 	this.templateLensPhotos = new TemplateLensPhotos();
-	this.templateLensPosts = new TemplateLensPosts();
-	this.templateLensFocus = new TemplateLensFocus();
+	this.templateLensArticles = new TemplateLensFocus();
 	this.templateTags = new TemplateTags();
 	this.templateArticle = new TemplateArticle(this.templateTags);
 
 	this.log.install(SHELL, this.inline);
-	this.inline.install(this.media, this.links, this.log, this.projects, this.templateLensPhotos, this.templateLensPosts, this.focus);
-	this.runelike.install(this.inline, this.media, this.projects, this.articles, this.templateLensPhotos, this.templateLensPosts, this.templateLensFocus);
+	this.inline.install(this.media, this.links, this.log, this.projects, this.templateLensPhotos, this.articles);
+	this.runelike.install(this.inline, this.media, this.projects, this.articles, this.templateLensPhotos, this.templateLensArticles);
 	this.projects.install(PROJECTS, this.media, this.log, this.runelike, this.inline, this.templateArticle, this.templateTags);
-	this.templateLensFocus.install(this.log, this.projects);
 
 	this.templateLensPhotos.install(this.media);
 	this.articles.install(ARTICLES, this.media, this.log, this.runelike, this.inline, this.templateArticle, this.templateTags);
-	this.templateLensPosts.install(this.articles);
 	this.pages.install(PAGES, this.runelike, this.inline);
 
 	this.main = document.querySelector('main');

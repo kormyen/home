@@ -4,9 +4,8 @@ function Runelike()
     this.media = null;
     this.projects = null;
     this.articles = null;
-    this.templatePhotosLens = null;
-    this.templatePostsLens = null;
-    this.templateFocusLens = null;
+    this.templateLensPhotos = null;
+    this.templateLensArticles = null;
 	this.templateIndex = new TemplateIndex();
 	this.templateCards = new TemplateCards();
     const parent = this;
@@ -26,15 +25,14 @@ function Runelike()
         '/': { tag: 'comment' }
     }
 
-    this.install = function(inline, media, projects, articles, templatePhotosLens, templatePostsLens, templateFocusLens)
+    this.install = function(inline, media, projects, articles, templateLensPhotos, templateLensArticles)
     {
         this.inline = inline;
         this.media = media;
         this.projects = projects;
         this.articles = articles;
-        this.templatePhotosLens = templatePhotosLens;
-        this.templatePostsLens = templatePostsLens;
-        this.templateFocusLens = templateFocusLens;
+        this.templateLensPhotos = templateLensPhotos;
+        this.templateLensArticles = templateLensArticles;
     }
 
     this.parse = function(lines = [])
@@ -189,20 +187,26 @@ function Runelike()
                 result += acc;
                 if (func == 'projectsLens')
                 {
-                    let featuredProjs = [];
+                    let featured = [];
                     for (let i = 1; i < data.length; i++) 
                     {
-                        featuredProjs.push(data[i]);
+                        featured.push(parent.projects.get(data[i].toUpperCase()));
                     }
-                    result += parent.templateIndex.componentLens('focusContainer', parent.templateFocusLens.getContent(featuredProjs));
+                    result += parent.templateIndex.componentLens('focusContainer', parent.templateLensArticles.getContent(featured));
                 }
                 else if (func == 'photosLens')
                 {
-                    result += parent.templateIndex.componentLens('photosContainer', parent.templatePhotosLens.getContent());
+                    result += parent.templateIndex.componentLens('photosContainer', parent.templateLensPhotos.getContent());
                 }
                 else if (func == 'postsLens')
                 {
-                    result += parent.templateIndex.componentLens('postsContainer', parent.templatePostsLens.getContent());
+                    let all = parent.articles.getAll();
+                    let featured = [];
+                    for (let i = 0; i < Math.min(3, all.length); i++) 
+                    {
+                        featured.push(all[i]);
+                    }
+                    result += parent.templateIndex.componentLens('postsContainer', parent.templateLensArticles.getContent(featured));
                 }
                 else if (func == 'projectsAll')
                 {
