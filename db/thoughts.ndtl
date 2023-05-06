@@ -1,0 +1,280 @@
+var THOUGHTS = `
+VR in 2014
+  TITL : VR in 2014
+  DESC : Thoughts on VR
+  BREF : presence
+  TAGS : gamedev, research, vr
+  TYPE : thought
+  HEAD : 2014-06-11_00-01
+  DATE : 2014-06-11
+  BODY
+    p "VR has the potential to be one of the biggest platform shifts ever and you can be on the leading edge of that." - {link ext vrShift}
+    p With the sense of “presence” in the virtual world, interacting with another person brings a new level of connection and wonder in virtual space.
+    p "Multiplayer is amazing in VR" - {link ext palmerLucky}
+    p Forget uncanny valley for a moment, ignore the dreary march toward realism, even just mapping positional movement and rotation of a person’s head is distinctly, recognizably human. Two cubes (players) are able to tell that they are both human, interact and communicate with just that alone.
+    i 2014-06-11_00-02
+    p Above comic panel from {link ext understandComics}.
+    p Non-default communication systems that encourage, emotional expression, the emergence of new, player created, in-game languages and efficient co-operative and competitive – sometimes deceptive – communicative behavior have a massive potential.
+    p Exploring imaginative worlds together with friends, *actual* “social” games with the "presence" of each other will be amazing.
+    p The Facebook purchase was a stomach drop, an unexpected sour taste. It could have been inevitable and unavoidable since the venture capital relationship. We can look on the bright side with the increased chance of mass adoption, lower cost of product, easier R&D. The thought that if VR is what we hope, if Oculus succeeds beyond what we expect, knowing a company like Facebook is leading things is just heart breaking.
+    p - Competition is good.
+    p - VR is not Oculus.
+    p - Oculus is VR.
+    i 2014-06-11_00-03
+    p Sony’s Project Morpheus is a massive win. They have the ability to bring VR to the mainstream, push innovation, make things “just work” for the consumer. Long term though, I do have a lot of concerns for them.
+    p "First VR hardware is going to evolve rapidly on the PC as you can already see happening with the Rift. While the consoles, if they even support VR will remain static for years. Second, there are going to be far more hardware and software developers figuring out how to do awesome VR on the PC than on the consoles, and they will be much free-er to experiment. Third, VR needs as much processing power as it can get, remember we are talking about stereo rendering at 95 hertz, and a high end PC is already much more powerful than consoles, with the gap due to increase for years to come. And because of power and heat constraints PCs will always be far more powerful than mobile." - {link ext vrEvolve}
+    p {link ext sonyPsVr 'Sony are extremely inspiring in that they seem to have the right mindset.'}
+    p - “VR is a medium, not a peripheral
+    p - *Presence is the killer app*
+    p - Games are only one type of content
+    p - Emotion is amplified
+    p - The experience is social
+    p - It is for everyone”
+    p “...so that when NASA makes it to a new place, people with PS4 at home can feel like they’re right with them.”
+    p Hardware limits push for less focus on graphics. *Presence is priority*. Where once we expected to be more than happy with head tracking and screens in front of our eyes, we realize we need perfection like never before. Lag means motion sickness. Unintended movements, bad calibration, camera jumps are actually physically bad. Resolution so close to your eyes so obviously needs increasing.
+    p "The key to presence is convincing perceptual systems that operate at a low level, well below our conscious awareness that they are perceiving reality." - {link ext vrPresence}
+    p "Immersion means you feel surrounded by the virtual world. Presence means you feel in, the virtual world." - {link ext vrImmersion}
+    p "Trying to describe presence is bound to come up short. You can only really understand it by experiencing it but I will give it a shot. Presence is when; even though you know you’re in a demo room and there is nothing really there, you can’t help reaching out to try to touch a cube. When you automatically duck your head to avoid a pipe that is dangling from the ceiling. When you feel uneasy because there is a huge block hanging over your head. When your unwilling to step off a ledge. Its taking off the head mounted display and being disoriented to find yourself back in reality. Its more than just looking at some place interesting, its flipping the switch that makes you believe, deep in your lizard brain, that you are some place interesting. Presence is one of the most powerful experiences you can have outside reality precisely because it operates by engaging along many of the same channels as reality. For many people presence is simply magic." - {link ext vrDescribe}
+    p Just watch Michael Abrash’s {link ext vrCouldShouldWill 'What VR Could, Should, and Almost Certainly Will Be within Two Years'}
+    p {link ext valveHolodeck} from Steam Dev Days.
+    i 2014-06-11_00-01
+    p The good news is, the technology is nearly ready.
+    p The exciting thing is that lot still to learn.
+    p There seems to be a push for “360 degree video”, which sounds cool but I have a lot of concerns… The majority of motion sickness comes from your brain believing its actually moving in virtual space, but it receiving contradictory physical stimulus – the opposite reasoning but same effect as car sickness.
+    p *“Kinesthetic dissonance”*
+    p "…then there’s one huge change in our vision that occurs every few seconds that causes everything to be black: blinking. Luckily, our brain is quite smart and ignores the lack of signals from our eyes when we blink so we never notice our vision getting obscured by our eyelids. Likewise, when you turn your head, it never seems like the quick panning blur effect in movies because your brain knows that your complete vision will be shifting. It ignores a lot of the visual data when your head is moving and it prepares to show you new information once your head has stopped. If there is any disconnect between the motion you feel and the motion you see, your brain can get confused and this is the main cause of motion sickness." - {link ext vrEyeFramerate}
+    p If an actor, or camera man is jumping around, running or moving where you don’t intend; it could be bad. There are things to work out...
+    p "Motion sickness or kinetosis, also known as travel sickness, is a condition in which a disagreement exists between visually perceived movement and the vestibular system’s sense of movement. Depending on the cause, it can also be referred to as seasickness, car sickness, simulation sickness or airsickness." - {link ext wikiMotionSick}
+    p Virtual cinema screens while seemingly unimaginative, could actually be amazing in certain situations like for long plane trips. Feel as though you have left your cramped seat and escape to a complete virtual cinema just for you.
+    p Virtual School trips to the actual places of study. Virtual reality educational experiences.
+    p {link ext vrDesk} like {link ext heavyRainAri}?
+    p {link ext vrMeetings}
+    p {link ext vrLag}
+    p {link ext vrGenderSwap}
+    p I think there is a big potential for {link thought neurotech} integration. You already have something on your head anyway, why not seamlessly introduce biometrics and brainwave monitoring?
+
+NEUROTECH
+  TITL : Neurotech
+  DESC : Thoughts on neurotech after an explanation and guided demo, testing various apps and examples.
+  BREF : initiation
+  TAGS : gamedev, research
+  TYPE : thought
+  HEAD : 2014-04-12_00-02
+  DATE : 2014-04-12
+  EDIT : 2020-07-28
+  LINK
+    - {link ext dmitrySelitskiy}
+    - {link ext thoughtWired}
+    - {link ext emotiv}
+    - {link ext neuroskyMindwave}
+    - {link ext brainVizApp}
+  BODY
+    i 2014-04-12_00-01
+    p Dmitry Selitskiy from Thought Wired showed us some sweet Neurotech.
+    i 2014-04-12_00-03
+    p See Alexey in the GIF moving the cube on the screen with his thoughts.
+    p The experience is clumsy but it does work! Awesome to see.
+    p Currently training the user is an issue. Its a perfect UX design opportunity and a lot of game potential for a seamless training experience that adapts to the user. Ideally the user would learn through doing, while at the same time the system would be looking for thought pattern in the background.
+    p 
+    i 2020-08-24_12-38
+    p Psychonauts training school VR!?
+    p 
+    p Dmitry said the main applications currently are about control, monitoring and determining mental state.
+    p He said that there are two real user groups of neurotech – complete beginners and experts. First time users would really need complete training from the basics ideally from within the app if you’re building one.
+    p 
+    p Neurotech seems to be in a similar boat to VR in terms of mass adoption and development. However it has a bit of a more difficult a task with its slower time before the user can do what they intend. The user needs to learn how to use the hardware while at the same time the hardware needs to learn the user’s brainwave patterns.
+    p 
+    p There isn’t really any formalized good practice around developing for it, and no real platform to abstract away dealing with the different hardware – which is exactly what Thought-Wired are working on.
+    p 
+    p Definitely check it out if you get a chance!
+    p I don’t think its a question of “if” this technology will be widely used, its a question of “when” and what it will look like then.
+    p 
+    p Looking forward to seeing this technology, and Thought-Wired’s platform develop.
+    i 2020-07-28_01-03
+
+JOURNEY
+  TITL : Journey
+  DESC : Thoughts on Journey
+  BREF : the best game
+  TAGS : game
+  TYPE : thought
+  HEAD : 2012-11-17_00-01
+  DATE : 2012-11-17
+  EDIT : 2020-08-01
+  BODY
+    p *Image (header): {link ext journeyImmp}
+    p 
+    p I wrote this a couple of weeks after Journey released, but didn’t post this anywhere until now Nov 2012. 
+    p These are my opinions and thoughts on Journey. 
+    p Warning: **SPOILERS!**
+    p 
+    i 2012-11-17_00-07
+    p Image (above): Unknown Journey fan art
+    p 
+    p To me Journey is an experience that cannot be put into words but I will try anyway!
+    p I love this game.
+    p The human element makes it what it is. Every person you meet is different. Every action and reaction. The bonds and experiences, or lack there of. All with someone you don’t even know the name of. Every journey is different because of the human element.
+    p - Discovering how to fly forever together for the first time. I cannot explain how this felt, we celebrated in the sky.
+    p - Trying to teach someone to fly forever the first time was a massive struggle, trying to communicate how with such a limited and mis-interpretable language. I decided I was determined to teach this companion. The moment they understood, and we could fly though the dessert celebrating was intense. Most rewarding experience in gaming I have ever had.
+    p - Realizing the other was trying to draw something in the snow… a heart. Amazing. Then co-op heart chain drawing our way to the light, hilarious.
+    p - Celebration dancing, singing and meditation in the final climb. Game chills.
+    p - Being wrapped in a companions scarf. Heartwarming.
+    p - The language. Learning to speak to each other. Beginning with associating sound patterns with certain actions. Advancing from there. Very very simple of course (yes, no, come here, look look look look, thanks…), context based and body language dependant, but a shared language none the less. It’s amazing when someone begins to understand and starts chirping intelligently back.
+    p - The game design is clever, amazing, level and world design inspiring, sound design subliminally and consciously beautiful, visual style breathtaking, story open and deep, an experience of emotional peaks and pitfalls. A masterpiece.
+    i 2012-11-17_00-03
+    p Image (above): {link ext journeyFarooky}
+    p 
+    p My current perception of the story of the world of Journey:
+    
+    p - {link ext journeyCinematic 'In the beginning there was peace, energy and balance'}.
+    p - Life came to the land.
+    p - They learned how to harvest the “cloth” energy.
+    p - They built a civilization on this energy.
+    p - “Harvesting” more and more.
+    p - {link ext journeyCinematic2 'A war started over this power struggle of energy between two factions of the white ones'}.
+    p - They created powerful weapons of destruction
+    p - They battled, and destroyed everything.
+    p - Many passed.
+    p - The great civilization was lost.
+    p - The hero’s journey begins.
+    p - New hope in a land of regret.
+    p 
+    i 2012-11-17_00-05
+    p {link ext journeyManiac}
+    p 
+    p A cycle of energy. “Everything is made from the same energy.” The cloth energy. The white ones are a visualization of the true form, at peace in the light of the mountain. The white ones are the red avatars evolution. The red avatars are formed from the cloth energy, by collecting glyphs - other avatars, other energy you merge and journey together. The cloth creatures are the red characters afterlife. The red characters are the light glyphs (at the “end” you shoot out and return to beginning in the form of a gylph). The light glyphs are the white light. The white light is made of the white mist. The white mist at the end is your voice - your symbol when you “sing”, the energy. The white mist is the snow. The snow is the sand. The buildings are made from compacted sand and stone. Everything is made of the same energy. The buildings are tombs for the dead (repurposed or built for?). When people die, they turn into the living cloth creatures. The more influence, the more spiritual power they had when they died the bigger the cloth creature they will be. (Example: See the whale’s tomb in the tower; the picto-glyph depicts a funeral of a person of importance. The glyph states the tombs purpose. The tomb is the funeral ceremony room depicted. The whale’s origin is this tomb. The whale is the king’s new form.). The war leviathans are transformed armored cloth whales, or powered by cloth energy. The houses / the “cover” / cages throughout the game are fallen leviathan remains. By singing you rescue the magic carpets and cloth cards from being trapped within.
+    p 
+    i 2012-11-17_00-02
+    p Image (above): {link ext journeySpoonfish}
+    p 
+    p Cloth. Creature. Walker. Rock. Sand. Building. Dust. Snow. Voice. Energy. Glowing symbols. White one.
+    p Red to white.
+    p Six levels. Six totems at the end of levels. Six white ones.
+    p Short game length - “Life is short”. You lose your cloak at the end - “In the end material wealth means nothing”. No glorified extravagant ending cut scene - “It’s the journey, not the destination.”
+    p Thatgamecompany’s evolution through the games - flow (micro organism, water), flower (organic life, nature, grass, wind, earth, city), journey (bipedal being, sand, life, companion, transcendence).
+    i 2012-11-17_00-08
+    p It could be said that Journey contains symbolism from probably all spiritual belief systems. Tombs, remembrance, influence in the afterlife, heaven, angels, judgement, ascension, reincarnation, cycle, karma,  oneness.
+    p Many metaphors, references and experiences can be perceived. {link ext journeyLifetime}, outward views of the human race, perils of technology, animal testing, war commentary, {link ext journeyHero}, {link ext journeyLost}, {link ext journeyRebirth}, {link ext journeyAfterlife}, warnings, religion, enlightenment, companionship, love, {link ext journeyFert}, universal appeal - {link ext journeyUniversal 'peace, children, innocence, nature, love, the sense of flight'}.
+    i 2012-11-17_00-06
+    p Image (above): {link ext journeyWanderer}
+    p I have completed eleven journeys, silently watched over eleven, and will return to it again in time.
+    p 
+    p Thank you thatgamecompany for an amazing experience.
+    p 
+    p Thank you everyone I’ve journeyed with so far: Wadatokxxx, wakanabisenxxx, northfacexxx, protosxxx, bkchickenxxx, silverfang2xxx, megalomupxxx, warbuck8xxx, drakxx, cwk4xx, sparrxx, seedholxxx, succuxxx, feraldixxx, bluesnoxxx, wiredcolxxx, arashikkoOxxx, signabc-1xxx, neogoldxxx, tovxx, fukeoyxxx, sasakuxxxx.
+    p 
+    p Image (below): Journey by Izzarra
+    i 2012-11-17_00-04
+
+CODE SIMPLE
+  TITL : Code simple
+  BREF : do more
+  DESC : A rant on simplicity, processes and people
+  TAGS : notes
+  HEAD : 2018-03-07_12-00
+  TYPE : thought
+  DATE : 2023-05-06
+  BODY
+    p Products ends up better when people are empowered to contribute… through simplicity.
+    p “Programs must be written for people to read, and only incidentally for machines to execute” - Harold Abelson
+    p Why? "...we’ve established that computers and computer code are veritably saturated with human touch, human voices, and human thought. Software cannot be divorced from the human structures that create it, and for us, that structure is capitalism." - {link ext humansInSoftware}
+    p
+    p The best code is the least code, the best code is the simplest code: the fastest to read, understand it and improve it. 
+    p “I apologize for such a long letter - I didn't have time to write a short one.” - Mark Twain
+    p You don’t need to show off professional coding skills, multiple classes interacting, multiple software design patterns… when it can be solved with a single simple script with a single function.
+    p The product ends up better when designers (or anyone on the team) can (if they want to) easily read and tweak code. When developers can instantly grok and fix/rewrite functionality. This is only possible with a focus on simplicity and what best empowers everyone on the team.
+    p When things are simple, everyone can do more. Less time is wasted.
+    p There is still absolutely need for documentation, reviews, guard rails, clean maintainable well architected code.
+    p 
+    p When code architecture is simpler, it really just enables us to do more. To make a better product.
+    p 
+    p “You want to be really deliberate about how and when you take on complexity.”
+    p “We can’t solve complexity, but we can build better software.”
+    p “It never gets easier, you just go faster.”
+    p Source: {link ext whyCantSimple}
+    p 
+    p Simpler code lets us to more, better!
+
+JS SPAS AND SEO
+  TITL : JS SPAs and SEO
+  DESC : A rant and notes to self on JavaScript Single Page Applications and Search Engine Optimisation (or lack there of)
+  TAGS : notes, web
+  HEAD : 2017-05-12_12-01
+  TYPE : note
+  DATE : 2023-05-06
+  BODY
+    2 JS SPA + SEO
+    p Webcrawlers (like Google, Facebook, Opengraph, Twitter) don't work with SPAs - they don't run the JavaScript to update the metadata, so it doesn't exist... so they don't get preview pics, titles, descriptions etc.
+    p The options to fix it:
+    2 Re-write with Next.js 
+    p Next.js (tooling and configutation for React, with additional structure, features and optimisations) with "prerendering" (at build time), plus React (front-end JavaScript UI library), plus Babel.js (toolchain for compiling JSX to JS). 
+    p This seems like the industry standard setup, and would probably be logical research career-wise... but seems convoluted "There Was an Old Lady Who Swallowed a Fly" style. 
+    2 Custom manual build with Puppeteer
+    p This is what I made previously. Here is an example explainer.
+    p Example explainer for what I did before: {link ext puppetprerenderer}
+    p This seems convoluted, to build an app that runs a whole browser that loads all your pages and saves them as flat HTML files... This is also what services like {link ext prerenderio} do.
+    2 User-Agent based proxy for only Webcrawlers
+    p This seems like a industry work-around for SPAs; redirect only webcrawler traffic to flat HTML, but continue to serve the JS SPA to humans.
+    p It would use something like {link ext useragentrender} to detect webcrawlers, then if detected send them {link ext prerenderio} data instead of the live app.
+    p This seems OK but seems a bit fragile / a work around and is a paid service. The nice thing though is that it keeps the user facing setup simple: exactly the JS SPA.
+    2 Custom website builder app in Node.js
+    p Remake the JS SPA instead so that it just builds flat html files and folder structure. This isn't possible as is with browser style JS, as that can’t save the files and create folders.
+    p This is a bit convoluted but kinda cool in that I could start adding editor features to the Node.js app... but that is a rabbit hole.
+    2 Custom website builder app in Deno
+    p Same as above but a bigger re-write into TypeScript and the "new Node.js (Deno)". More work, but nicererer.
+    - A different custom website builder
+    p Same as above but a different language like {link ext neauoire}'s awesome {link ext xxiivvoscean} but probably something less esoteric.
+    2 Don't
+    p I've decided to leave it as is for now, and maybe fix it later - I'm very uninterested in solving this problem! It doesn't matter that much because I'm not selling anything.
+    p
+    p "It seemed that most of the new methods involved setting up elaborate systems to automate parts of the work. This is fine for particularly complicated and large projects, but setting up the system and maintaining it seemed to be more effort for an experienced person on a small project than doing the work without it."
+    p "Instead of changing my tools or workflow, I change my design. It’s like designing a house so it’s easy to build, instead of setting up cranes typically used for skyscrapers."
+    p - {link ext everythingEasy}
+    p Admittedly I'm not exactly following the principles of those quotes but they ring true. Instead of "avoid the complexity altogether with a more clever plan", I'm just doing the first step for now.
+
+LOGGING 2018
+  TITL : Logging
+  DESC : Thoughts in review on time tracking during 2018. What went well, what didn't and what to try in 2019.
+  BREF : 2018
+  TAGS : time, research
+  DATE : 2019-01-04
+  EDIT : 2020-06-22
+  HEAD : 2018-07-05_12-00
+  TYPE : thoughts
+  BODY
+    p Between 2018-07-12 and 2018-12-31 I logged 937 hours, tracked over 181 days, meaning 5.2 hours of output per day on average, or 36.4 hours per week averaged out.
+    p 76% of days were vegetarian.
+    p 7% of days were in nature.
+    p 28% of days we social.
+    p 15% of days included exercise.
+    p Sector split: code (244h), visual (242h), carpentry (179h), physical (133h), electronics (80h), research (53h) and misc (6h).
+    p The majority of work was dedicated to Van (32%), Contract (26%) and Web (23%) categories.
+    p The biggest projects were {link project sylo} (248h), {link project memex} (154h), {link project bench} (105h), {link project solar} (85h),  {link project log} (51h), {link project garage} (46h), {link project insulation} (45h), {link project core} (34h), {link project crucifix} (28h), {link project fan} (25h) and {link project megamex} (21h).
+    3 Logging Benefits
+    p The gamified mental nagging to keep or improve desired statistics over time helped me to keep work hours higher and meat consumption lower.
+    p A benefit of entering logs regularly is the recognition of passing time. As opposed to the feeling of blurred days, weeks, months.
+    p Viewing the dashboard statistics is satisfying. Like quantification, acknowledgment of long-term desirable time use.
+    2 Improvements
+    3 Simplification
+    p Too many statistics tracked means adding logs takes more effort than needed, and thus is more likely to procrastinate and skip. The 'Flow' field ("Did I enter a flow state?") is not all that useful and will be removed. More stats should be removed...
+    3 Vege gaming
+    p I am finding that binary vegetarian/omnivore logging encourages increased meat consumption during a non-vegetarian-day since there is no log difference between a single portion vs gluttony. I will change the binary switch to a meat-portion-count per entry.
+    3 Feelings
+    p I have a nagging feeling that percentage values for 'mood', 'health' and 'energy' do not feel they adequately represent 'feeling', but I am not sure how useful that is to track long term. I could add a word each day for feeling but not sure that the added effort it would add for logs match the benefit. Even a word obviously won't be adequate for representing contradictory or multiplistic feelings.
+    3 Better vis and insights
+    p Need visualization for social, exercise days and better visualization for sectors, difficulty, efficiency, interest, learned, mood, health, energy. Probably an averaged line graph with scatter points. Adding combined stats (like Neauoire) as comparisons between sectors, categories and or projects could lead to insights.
+    3 Phone log access
+    p Since I have been working in Auckland and living in van I have not been using my laptop everyday, which is currently the sole logging station. I've ended up not logging for several days, then having to catch up - the longest stretch being 11 days. I did not miss any important data but this is not a good habit. Would be nice to have a simple way to append to log from my phone.
+    3 Date system change
+    p I much prefer Neauoire's Desamber date system but it makes things take a step extra for working things out. In an effort to reduce complexity I will change to a more standard date format. Eg: "2019-01-01". I still intend to use Desamber display on the front end.
+    3 Image tags
+    p Change image inclusion to format like Megamex with separate file for images with tags. Add names of people in photo etc.
+    3 Split
+    p It could make sense for this logging system to be split into two systems for example 'output' (concrete work) and 'input' (social activities, intake and self improvement).
+    3 Considerations:
+    p Track takeout meals
+    p Track alcohol
+    p Track fruit/vege portions
+    p Track gym visits
+    p Track meditation
+`

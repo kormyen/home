@@ -3,7 +3,7 @@ INDEX
   TITL : Home
   DESC : Hamish MacDonald - Experience Designer
   HEAD : 2019-04-15_15-36
-  TAGS : Hamish MacDonald, kormyen, design, projects, photos, posts
+  TAGS : Hamish MacDonald, kormyen, design, projects, photos
   EDIT 
     - 2023-04-22: Update structure to runlike
     - 2023-04-25: New intro
@@ -13,12 +13,13 @@ INDEX
     b projectsLens seekers memex swordy
     3 Recent {link page photos} of {stat photosTotal}
     b photosLens
-    3 Recent {link page posts} of {stat postsTotal}
-    b postsLens
+    3 Recent {link page thoughts} of {stat thoughtsTotal}
+    b thoughtsLens
+    3 Recent {link page notes} of {stat notesTotal}
+    b notesLens
+    3 Recent {link page blogs} of {stat blogsTotal}
+    b blogsLens
     / art
-    / thoughts
-    / notes
-    / blogs
 
 HAMISH
   TITL : Hamish
@@ -35,7 +36,7 @@ HAMISH
     i 2017-05-12_12-01
     t Who?
     p Born, raised and currently lives in Auckland, New Zealand.
-    p Lives offgrid with {link ext sarahPortfolio 'Sarah Tanfield'} aboard a small {link post quest 'sailboat'} and a {link project van 'stealth campervan'}.
+    p Lives offgrid with {link ext sarahPortfolio 'Sarah Tanfield'} aboard a small {link blog quest 'sailboat'} and a {link project van 'stealth campervan'}.
     p Generalist, designer, gamedev, webdev, maker of things.
     p Passionate about self reliance, offgrid systems, privacy, art for liberation, incrementalism of self and reduction of harm.
     p Received a Bachelor of Design from AUT in Auckland, New Zealand, focusing on digital design, games and experiences.
@@ -62,7 +63,7 @@ HAMISH
     t Research
     - Dasein -  {link project Dastime}, {link project Memex}, {link project Home}
     - Productivity - {link project Log}
-    - Solarpunk - {link post Sailing}, {link project Solarsails}, {link project Toilet}
+    - Solarpunk - {link blog Sailing}, {link project Solarsails}, {link project Toilet}
     t Alias
     p Kormyen
     - Literal: "Kor" tr.(Tau) Air (pilot). "M'yen" tr.(Tau) unforseen.
@@ -79,7 +80,7 @@ HAMISH
 PROJECTS
   TITL : Projects
   DESC : Digital, design, art, hardware, web3, physical, gamedev, electronics. 
-  TAGS : Hamish MacDonald, kormyen, design, projects, photos, posts
+  TAGS : Hamish MacDonald, kormyen, projects
   HEAD : 2011-11-25_12-00
   PRNT : INDEX
   BODY
@@ -96,14 +97,32 @@ PHOTOS
     p 
     b photosAll
 
-POSTS
-  TITL : Posts
-  DESC : Articles, thoughts and notes
-  TAGS : Hamish MacDonald, kormyen, posts, articles, thoughts, notes
+THOUGHTS
+  TITL : Thoughts
+  DESC : Thoughts on things
+  TAGS : Hamish MacDonald, kormyen, articles, thoughts
+  HEAD : 2019-04-21_17-02
+  PRNT : INDEX
+  BODY
+    b thoughtsAll
+
+NOTES
+  TITL : Notes
+  DESC : Notes on things
+  TAGS : Hamish MacDonald, kormyen, articles, notes
   HEAD : 2019-04-21_17-02
   PRNT : INDEX
   BODY
     p "Have you tried writing down everything you know about everything?" - {link ext neauoire}
-    p
-    b postsAll
+    p 
+    b notesAll
+
+BLOGS
+  TITL : Blogs
+  DESC : Blogs
+  TAGS : Hamish MacDonald, kormyen, blog
+  HEAD : 2019-04-21_17-02
+  PRNT : INDEX
+  BODY
+    b blogsAll
 `

@@ -1,0 +1,173 @@
+var BLOGS = `
+VISITING RABBITS
+  TITL : Visiting rabbits
+  DESC : How I met the Hundred Rabbits; Rekka, Devine and Pino - the floating art studio
+  BREF : people of the internet
+  TAGS : sailing
+  TYPE : blog
+  HEAD : 2017-11-05_17-53
+  DATE : 2019-07-14
+  BODY
+    p {image 2017-11-05_17-53 il} Sailing myself was not really even a consideration until I started watching the Hundred Rabbits {link ext studioSailboat} vlogs where they seemed to go quickly from zero sailing experience to international travel.
+    p I met Devine and Rekka and their boat Pino in Whangarei after they sailed to New Zealand from California. 
+    p {link ext pino} is a 10 meter Yamaha33 1982 masthead sloop fiberglass sailboat.
+    p Devine introduced me to a shared workshop and tool library called "Hackland" in Auckland and thus to it's expanding Ephemeral Yacht Club including {link ext joranKikke}, Helena, {link ext dominic}, Courtney and Lu.
+    i 2018-05-20_16-01
+    p Around this time the same Aunt Karen asked me if I plan to sail, I said "no, the ocean is scary" or something similarly dismissive in response but her question stayed with me.
+    p My vanlife experiences let me see that tiny homes are perfectly acceptable. A sense of adventure and becoming a "sum of those closest to you" nudged me toward actually deciding to "learn how to sail in the future"... "I'll buy a boat in five years".
+    p While working on {link project sylo} I became good friends with Sasha who was very keen to learn sailing. I introduced him to {link ext joranKikke 'Joran'} and {link ext dominic 'Dominic'}.
+
+SAILING LESSON
+  TITL : Sailing lesson
+  DESC : Sailing lesson with a cyber hobo
+  BREF : with a cyberhobo
+  TAGS : sailing
+  TYPE : blog
+  HEAD : 2019-01-19_15-53
+  DATE : 2019-07-14
+  EDIT : 2023-05-04
+  BODY
+    p My now close friend {link ext dominic 'Dominic Tarr'} offered to give Sasha and I a sailing lesson. He later told me that he knew his track record of sailing students converting to sailboat owners is a high percentage... I agreed to a day sail.
+    p {link ext dominic 'Dominic'} describes himself as a "cyberhobo" and is probably the most interesting person I know. He seems {link ext magicians 'like a magician'} to me. I very much appreciate his teaching, patience and stories.
+    p {image 2019-01-19_11-59 il} {image 2019-01-19_12-12 ir} 
+    p In saying that his self built folding dinghy is an experience in which if you can bail faster than the water flows then in everything will be fine. It is the first test to see if you are ready to board Cleo.
+    i 2019-01-19_12-13
+    p We slowly sailed to Browns Island from Mission Bay. We swam ashore and hiked the small Windows XP landscape, enjoying the 360 degree view of Auckland city, Rangitoto Island and the Hauraki Gulf. It's feels as if it is very literally a picnic island.
+    i 2019-01-19_15-46
+    i 2019-01-19_16-28
+    p We decided that instead of sailing back, we would sail to Waiheke Island stay a night and sail home in the morning.
+    p The two day lesson gave Sasha and I a good all round taste from low wind sailing, sunny windy sailing, and strong wind rainy sailing.
+    i 2019-01-20_12-00
+    p Sasha eventually convinced me over several weeks "why wait, sail now" - to split the costs of a yacht and learn together... Which eventuated in {link blog get-quest}... and {link blog get-horizon}.
+    p I do not regret learning to sail what so ever.
+    p It sounds cliché but once I started sailing around Auckland's Gulf Harbour I finally understood Auckland's "City of Sails" motto. 
+    p It is stunningly beautiful.
+
+GET QUEST
+  TITL : Get Quest
+  DESC : The search for a first boat
+  BREF : boat one
+  TAGS : sailing
+  TYPE : blog
+  HEAD : 2019-03-03_10-13
+  DATE : 2019-07-14
+  EDIT : 2022-05-05
+  BODY
+    p My friend Sasha and I looked at ten boats within a week. Eventually getting a feel for what prices boats seem to be selling for in Auckland.
+    p We also viewed a boat {link blog get-horizon 'Horizon'} which was on auction which we never thought we would be able to afford, we were just curious what the next class of boats was like.
+    i 2019-07-08_18-13
+    2 Quest
+    p We eventually settled on buying Quest with the help of {link ext joranKikke 'Joran'} who gave her an inspection and us the go ahead.
+    p Sailing her to Auckland from Jamieson Bay was our first mission. An eight hour sail.
+    i 2019-03-02_07-34
+    p We did a couple of small test sails on days prior, to build our confidence and be able to quickly turn back if anything went wrong.
+    p On our first attempt we got all the way into the Hauraki Gulf over half way before the waves and wind picked up more than we were comfortable dealing with. Being blown around (too much sail), with fairly large waves.
+    i 2019-02-23_12-40
+    p Below is the unedited sunset view on the way back. By this point (though defeated) we were calm, drinking tea and enjoying the surreal setting light.
+    i 2019-02-23_19-43
+    p On our second attempt we brought along my friend {link ext alexey}, and did the trip over two days, stopping off at Rakino Island.
+    i 2019-03-02_08-41
+    i 2019-03-03_15-00
+    p {link ext alexey 'Alexey'} took some amazing photos and also made a video.
+    y AThaJHPu1xc
+    p We kept Quest on a mooring in Stanley bay which we thought was an amazing location. It turns out to be a terrible location. Rocky with harbour waves and constant passing boat wakes. Completely unsuitable for doing anything other than leaving immediately.
+    i 2019-03-03_19-17
+    i 2019-07-08_23-31
+    p Above are pictures of Stanley Bay.
+    p We have since moved Quest to a calm pile mooring in Panmure.
+    i 2019-03-12_12-04
+
+GET HORIZON
+  TITL : Get Horizon
+  DESC : Talking about the process of aquiring SV Horizon
+  BREF : boat two
+  TAGS : sailing
+  TYPE : blog
+  HEAD : 2019-03-23_19-27
+  DATE : 2019-07-14
+  BODY
+    p My friend Sasha and I actually only owned {link blog get-quest 'Quest'} around a week before Horizon's Trademe auction ended and we purchased her for a cheap price... {link project horizon-leaks 'because she had a leak!'}
+    p The photo below is the first and what we thought the last time we saw Horizon. We expected her to be much more expensive.
+    p Horizon's leak had stopped after sitting on her new mooring home for a while so we thought we might have got away with a crazy deal. It wasn't until sailing to Great Barrier Island one time and hearing the bilge pumps going that we thought we might be in deeper than we hoped. We ended up being totally fine, with only a slow weep. We learned a whole lot {link project horizon-leaks 'going through the process of fixing the leak'} with a lot of help from many at the Panmure Yacht and Boating club.
+    i 2019-02-17_12-00
+    i 2019-04-06_13-29
+    i 2019-04-14_16-43
+    i 2019-04-07_13-59
+    i 2019-03-16_19-02
+    i 2019-03-17_16-08
+    p I had awesome adventures with some awesome people aboard - sailing the Auckland Waitemata Harbour in New Zealand.
+    i 2019-04-13_15-00
+    p {image 2019-03-10_13-14 il} {image 2019-03-16_19-10 ir}
+    p {image 2019-04-16_18-19 ir} {image 2019-03-16_19-06 il}
+    p {image 2019-04-07_18-47 ir} {image 2019-05-25_16-42 il}
+    p {image 2019-04-16_06-59 ir} {image 2019-04-14_10-47 il}
+    p {image 2019-05-25_16-38 ir} {image 2019-03-30_16-29 il}
+    i 2019-04-15_15-01
+    i 2019-04-16_08-03
+    i 2019-05-25_16-37
+    i 2019-03-23_13-03
+    p {link ext alexey 'Alexey'} also made a video of a trip on Horizon. 
+    y Yf6xADq_nQw
+    p Pic of Sasha and I rennovating Horizon's interior in 2019
+    i 2019-06-30_15-19
+
+SENSORY DEPREVATION
+  TITL : Sensory deprevation
+  BREF : float tank
+  TAGS : research
+  DATE : 2014-11-19
+  HEAD : 2014-11-19_19-00
+  TYPE : blog
+  BODY
+    p To call it "awesome" is the wrong word. Its relaxing, weightless, nothingness, surreal.
+    p It was funny going in, at the counter were two mid 20s Russian dudes and a trainee lady. Seemed like the whole time there was an unspoken joke in the room. "How did you hear about isolation tanks?", "The internet..." "Joe Rogan?" "Probably".
+    p They said they owe of lot of business to him. 
+    p The explanation of instructions was also funny as I had already watched quite a few isolation tank guides / do / don'ts. He covered every remaining question I had left, so didn't ask anything.
+    p He explained three floats are better as most people spend the first one just getting used to it. Beyond just up-selling he was probably correct. I'd recommend any "introduction package" of three or so too.
+    p Everything was spa / new age / massage parlor relaxation center-eske in the room. "You don't need to bring anything. Everything you need is here." Completely private room with the giant alien space pod tank, a shower, toilet, basin, cleaning products, towel. Needed to shower, wash hair, cover cuts, and wear ear plugs.
+    p Getting in was uncomfortable. Voluntary naked bathing in claustrophobic alien womb. 
+    p The water was salty. Very salty. 
+    p I turned off the light.
+    p It took a while to find a comfortable position. It took a while for the air to heat up and disappear between the surface and salt.
+    p It was a good place to think. I know the intention, or at least mine was to "be here now", to be silent but the nothingness was peaceful. I reflected, meditated as such. Thought about about life, about the last weeks, months years. How things are going with me, and the others around me.
+    p It was easy to imagine and visualize.
+    p There were visuals if you wanted them, the waves of closed eyes. Inner and intentional it felt like, but perhaps not.
+    p I counted breaths and played in this space of waves and silence for what felt like not enough time.
+    p I'd love to have a tank at home to meditate and relax in for longer periods of time.
+    p Too soon the bird-song-wave-breeze-music vibrated through the water to signal the time is up. 
+    p The experience was slightly disappointing but amazing, uncomfortable but incredibly relaxing.
+    p I want to do it again soon.
+
+BUG STONES
+  TITL : Bug stones
+  DESC : A game with a stranger through painted rocks on a post.
+  BREF : strange
+  TYPE : blog
+  HEAD : 2022-07-22_14-23
+  DATE : 2023-05-06
+  BODY
+    p Near where I live there are some old mossy wooden posts marking a boundary.
+    p One day I noticed that there were two little painted ladybug stones on one of the posts…
+    p {image 2022-07-21_22-34 il} {image 2022-07-21_22-35 ir}
+    p I decided to take one, and see what would happen…
+    i 2022-07-21_22-38
+    p The next day, there were two ladybugs on the post again…
+    i 2022-07-21_22-41
+    p I took another ladybug for an adventure…
+    i 2022-07-21_22-47
+    p The next day, again there were two ladybug stones on the post.
+    p Again one joined my ladybug stone family. I had three ladybug stones.
+    i 2022-07-21_22-49
+    p This continued for a few days…
+    p I had a six ladybug stone family…
+    p The next day, when there were two ladybugs on the post again…
+    p I placed five of the six in my care in a ladybug meeting circle…
+    i 2022-07-21_22-58
+    p I talked with friends about painting the ladybug stone with me to a yellow ladybug, before returning it too…
+    p Weirdly… by chance (a car was coming) my partner noticed a large yellow ladybug stone just across the road… how many more are there?
+    i 2022-07-22_10-00
+    p I placed the big yellow ladybug in the summoning circle.
+    i 2022-07-22_10-01
+    p Two days later there was a flower stone in place of the yellow ladybug…
+    i 2022-07-22_14-23
+`

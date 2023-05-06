@@ -1,0 +1,398 @@
+var NOTES = `
+17 INDIEDEV GAMEDEV LESSONS
+  TITL : 17 indiedev gamedev lessons
+  DESC : Notes on "17 lessons learned" in indie gamedev
+  TAGS : gamedev, research
+  TYPE : note
+  HEAD : 2020-08-16_14-33
+  DATE : 2014-07-25
+  EDIT : 2020-06-04
+  LINK
+    - {link ext rami17lessons}
+    - {link ext vlambeerToolkit}
+  BODY
+    y fQhPGJQhtak
+    p These are the points from the video above - Rami Ismail's Gamelab 2015 lecture "17 lessons I learned while running a chaotic game studio".
+    p Lesson 1: "Why" is the biggest question.
+    p Lesson 2: Design is communication.
+    p Lesson 3: Be a little less normal.
+    p Lesson 4: Give more than you take.
+    p Lesson 5: Honesty helps make better games.
+    p Be prepared for surprise game pitching.
+    p Take business seriously.
+    p Lesson 6: Don't take business seriously.
+    p Lesson 7 
+    p Lesson 8: I'm a fraud & so are you.
+    p Lesson 9: Motivation is the most important thing we have.
+    p Lesson 10: Ideas are cheap.
+    p Lesson 11: Failure is good.
+    p Lesson 12: An industry is people.
+    p Lesson 13: Everything is a remix.
+    p Lesson 14: Your game can talk to you, too.
+    p Lesson 15: Don't rely on patterns.
+    p Lesson 16: The world is out there.
+    p Lesson 17: You can't make the game in your head.
+    p Lesson 18: Don't define things for others.
+    p Lesson 19: Decide, don't accept.
+    p Lesson 20: Go on already.
+
+GAME DESIGN NOTES
+  TITL : Engine, wheels, road
+  DESC : Notes on Rami Ismail pillars of game design
+  TAGS : gamedev, research
+  TYPE : note
+  HEAD : 2020-08-16_14-33
+  DATE : 2020-09-24
+  LINK
+    - {link ext mizizizizPillars}
+  BODY
+    2 Action progression loop
+    p - Three pillars "engine, wheel and road"
+    y https://www.youtube.com/watch?v=_gzCoVaojwI
+    2 1st pillar 
+    p "The engine"
+    p BASE GAME LOOP: Something fun and do it over and over. 
+    p Eg: Balancing a ping pong ball. FPS: Point and shoot. Platformer: Run and jump. Number accumulation: XP or high score.
+    2 2nd pillar 
+    p "The wheel"
+    p PROGRESSION: A sense of progression. Same base loop but progression. Feels rewarding.
+    p Eg: Upgrades after waves. Getting better high scores. Running track faster than last time. Running further.
+    p Eg: Running. Base look is moving legs, feels fun to go fast. Progression feels rewarding - getting better, faster over years of practice. 
+    2 3rd pillar 
+    p "The road"
+    p DIFFICULTY CURVE: Game gets harder the more you play. Complexity increases, difficulty increases, more challenges. Up until final test of all things learned to complete the game.
+
+HUMANE CALM
+  TITL : Humane calm
+  DESC : Notes on importance of values in tech
+  TAGS : design, research
+  BREF : values
+  HEAD : 2019-04-13_07-01
+  TYPE : note
+  DATE : 2018-07-20
+  EDIT : 2020-08-26
+  LINK
+    - {link ext calmTech}
+    - {link ext humaneAgenda}
+    - {link ext websiteObesity}
+    - {link ext omickDesign}
+  BODY
+    p "Calm technology", "lean web" and simple living. 
+    p "Ockham's Razor as Applied to Technology", or rather "The right amount of technology is the minimum needed to solve the problem".
+    q "An interface is humane if it is responsive to human needs and considerate of human frailties." - Jef Raskin
+    p The goal is technology that respects humans and time.
+    p
+    v 332532972
+    p 
+    2 Calm Technology:
+    q Technology should require the smallest possible amount of attention
+    q Technology should inform and create calm
+    q Technology should make use of the periphery
+    q Technology should amplify the best of technology and the best of humanity
+    q Technology can communicate, but doesn’t need to speak
+    q Technology should work even when it fails
+    q The right amount of technology is the minimum needed to solve the problem
+    q Technology should respect social norms
+    p
+    2 Lean web
+    p These principles applied to websites relate to the {link ext websiteObesity} lecture
+    i 2020-08-24_16-13
+    p A website food pyramid should primarily be worthy content, some images, a bit of css, then javascript only if you need it.
+    p When in reality most websites currently consist of the below:
+    q "A base layer of HTML
+    q A huge pile of crap
+    q On top of it all, a whole mess of surveillance scripts."
+    i 2020-08-24_16-14
+    q “The real problem of humanity is the following: we have paleolithic emotions; medieval institutions; and god-like technology. And it is terrifically dangerous, and it is now approaching a point of crisis overall.” Until we understand ourselves, “until we answer those huge questions of philosophy that the philosophers abandoned a couple of generations ago — Where do we come from? Who are we? Where are we going?—rationally,” we’re on very thin ground. Edward Osborne Wilson
+    p 
+    2 Simple living
+    p These principles applied to the simplication of design process and simple living are explored in {link ext omickDesign} and {link ext omickWhy}.
+    p They could have built a mold and vacuum sealed a custom fibreglass lid... or built an auto closing hinge... or built an underground pantry box away from creatures etc. Instead they used a barrel and tied a piece of bent metal on top... which has served them well for 15 years.
+    p I am very guilty of over complicating things, so it's a lesson/reminder to me.
+    p 
+    q "When comparing technologies that perform the same function, a technology that is simpler in design will tend to be simpler to construct and repair, but will tend to require greater skill to use, whereas a technology that requires less skill to use will tend to be more complex in design and more complex to construct and repair."
+    p 
+    q "How important is the perceived need that this design is addressing? 
+    q Is it really a need? 
+    q If so, what is the simplest way in which it can be met? 
+    q What are the trade-offs between simplicity of design and convenience of use?
+    q Does the form of a design reflect its function in an aesthetically pleasing way? 
+    q Does the design address the need in ways that tend to make my life more free or more encumbered? 
+    q More integrated with the local environment or less so? 
+    q What is the environmental and economic and social justice impact of the materials used? 
+    q Is this design versatile - can it serve multiple purposes? 
+    q Is it simple enough to be easily replicated?
+    i 2020-08-26_11-24
+
+PRESERVING MYSTERY
+  TITL : Preserving mystery
+  DESC : Notes on mystery in games
+  BREF : Frog Fractions
+  TAGS : gamedev, research
+  TYPE : note
+  HEAD : 2016-02-14_00-02
+  DATE : 2016-02-14
+  EDIT : 2016-12-01, 2017-02-01, 2020-07-27
+  LINK
+    - {link ext preserveMystery}
+  BODY
+    v 91436410
+    p Make players wonder.
+    p Make players ask questions.
+    p 
+    p Hint at rather than describe the game world.
+    p No disappointing answers.
+    p Wonder and mystery is more interesting than disappointing answers.
+    p Let the audience fill in the gaps.
+    p Don’t answer everything. Be abstract.
+    p 
+    p Storytellers: “Show, don’t tell”.
+    p Games: “Don’t even show”.
+    p 
+    q "A cool thing that can be missed makes the world feel more like a real place and less like a clockwork puzzle constructed purely for the benefit of the player."
+    p 
+    p Not everyone has to see everything. “Exclusion is a strength”.
+    p Create “pockets of communities” that feel like they’re in the know with others when the find things out.
+    p 
+    q "This continuous breaking of experience, through the ‘false ceiling’ Jim Crawford (Frog Factions) cites as a necessity for mystery, in the age of video game walk-throughs and the culture of ‘looking it up’ online." - {link ext movingPeople 'Phil James'}
+    p 
+    p This provides an emotional spike, perceived as the “peak” of experience, then throttle it into overdrive.
+    p 
+    p Have an advocate – the "{link ext firstFollower}".
+    p 
+    p Encourage community involvement – people sharing stories. Puzzles too hard to solve on your own, require collective knowledge.
+    p 
+    i 2016-02-14_00-03
+    q “The Minecraft {link ext farlands}" were the area that formed the “edge” of the “infinite” map in versions prior to Beta 1.8. When players made it to the Far Lands, they would experience an excessive drop in framerate and the terrain would be severely distorted… From here on, lighting does not work... attempting to walk onto them would cause the player to die in {link ext theVoid}.
+    p
+    i 2016-02-14_00-01
+    p Definitely play {link ext frogFractions} if you haven’t. Don't look up trailers or reviews just trust me. Give it 15 minutes, you'll know when it happens.
+    p
+    3 Edit (2016-12)
+    p If this and/or Frog Fractions interests you play {link ext glittermitten}. 
+    p Same deal: no trailers, no reviews: discovery~.
+    p 
+    3 Edit (2017-02)
+    p Crowdfunded video game documentary producer Noclip released {link ext noclipMystery 'Rediscovering Mystery - Noclip Documentary (feat. Jonathan Blow / Derek Yu / Jim Crawford)'}. It's worth watching.
+    q "In this special feature about video game mysteries, we talk to Jonathan Blow (The Witness / Braid), Derek Yu (Spelunky) and Jim Crawford (Frog Fractions) about the games that inspired wonder in us as children, and the fight to keep player discovery alive."
+    y z2g_0QQRjYY
+
+DRAGON SPEECH
+  TITL : Dragon speech
+  DESC : Notes on dragon speech talk
+  BREF : Chris Crawford
+  TAGS : gamedev, research
+  TYPE : note
+  HEAD : 2014-04-20_14-59
+  DATE : 2014-04-20
+  LINK
+    - {link ext dragonSpeech}
+  BODY
+    y _04PLBdhqZ4
+    p We are an interactive species.
+    p Interaction is wired into us.
+    p All higher animals learn by playing, by interacting.
+    p Kittens “play” fighting / sneaking up on each other are training and learning.
+    p
+    p Most of our knowledge now is mass media. Theory delivered to many.
+    p Classrooms, lectures, movies, tv.
+    p 
+    p Art is just a way of communicating ideas.
+    p 
+    p One on one interaction is a much better communication method.
+    p Lecture (mass media) is efficiency.
+    p 
+    p Every artist through history has had to sacrifice effectiveness for efficiency. Until now. Computer game. Mass interaction.
+    p 
+    p “A truly good dream needs a lifetime to resolve.”
+
+GAME MARKETING 2014
+  TITL : Game marketing 2014
+  DESC : Notes on indie game marketing lecture by Emmy Jonassen
+  BREF : lecture
+  TAGS : gamedev, research
+  TYPE : note
+  HEAD : 2014-03-10_00-01
+  DATE : 2014-03-10
+  LINK
+    - {link ext gameMarketSource}
+    - {link ext gameMarketVideo}
+    - {link ext gameMarketSlides}
+    - {link ext gameMarketAuthor}
+  BODY
+    p Notes from {link ext gameMarketVideo 'Konsoll 2013: Marketing Indie Games on a $0 Budget'}
+    q “Emmy Jonassen: To become a successful indie game developer, you must first become a successful indie game marketer. Trouble is, for many indies, marketing doesn’t come naturally or fit the indie budget.”
+    p
+    p #1 Trailer video
+    p #2 Screen-shots
+    p #3 Press Release
+    p #4 Landing Page
+    p #5 Development Blog
+    p 
+    3 Trailer video
+    p – Keep it short (90 seconds or less)
+    p – 3 to 5 seconds to capture attention at the start
+    p – Music and SFX very important to video
+    p – Show game-play
+    p – Add review text etc if possible
+    p – End with next steps (where to buy, website etc)
+    p Example: {link ext gameMarketTrailer}
+    p 
+    3 Screenshots
+    p – High resolution
+    p – Excellent composition
+    p – Well lit
+    p – Engaging scene
+    p Example: {link ext theWitness} by {link ext jonathanBlow}
+    p 
+    3 Press release
+    p – Press don’t like to write
+    p – Your press release will be used, cut and pasted
+    p – First paragraph most important
+    p – First paragraph must grab attention
+    p – First paragraph must contain all important info
+    p – “Use quotes”
+    p – Company and contact info
+    p – Send with screen-shots and trailer video
+    p – Use in-text hyper-links
+    p Example: Dajabon Games, Boston
+    p 
+    3 Landing page 
+    p (The game’s web-page)
+    p – Purpose: convert visitors to customers
+    p – Remove all navigation
+    p – Grabbing headline (only text that will be read by majority)
+    p – Social sharing icons
+    p – Strong call to-action button (most important – the action you want visitors to do)
+    p – Trailer video
+    p – Screen shots
+    p – Testimonials / reviews
+    p – Contact and press kit buttons or links
+    p 
+    3 Development blog
+    p – Companies with dev blog bring in 55% more traffic on average
+    p – Post x1 per week minimum
+    p – Use images
+    p – Link from home page
+    p – RSS feed
+    p – Email subscription
+    p – Social subscription
+    p – Social sharing buttons
+    p – Promotion at posts end
+    p 
+    3 Next
+    p Reach out to press
+    p – Research publications you should be on
+    p – Research publications you want to be on
+    p – Record in a spreadsheet list
+    p – Categorize publications into three tiers based on traffic
+    p 
+    p Find writer’s contact info
+    p – Visit each publication’s site on list
+    p – Search the websites for “Editorial Staff” link
+    p – Take all information and add to spreadsheet
+    p 
+    p Get in touch
+    p – Create email template to intro yourself and game
+    p – Customize template per site, per game
+    p – ANSWER “why would my readers give a shit?”
+    p 
+    p Thank you notes! Very important
+    p 
+    p Keep in touch
+    p – Maintain relationships with media
+    p – Social media
+    p – Comment on their articles
+    p 
+    3 Build adoring fanbase
+    p Make your game easy to discover
+    p – Set up social media channels and post daily (Twitter, Facebook, LinkdIn, Google+)
+    p – Become active in forums, blogs, and other relevant sites
+    p – Participate in game jams and other events
+    p – Get involved with the local development community
+    p – Start a crowdfunder
+    p 
+    p Covert visitors into fans with content
+    p – Give tips
+    p – Game and company updates
+    p – Data and other insights, experiences (share research)
+    p – Opinion pieces
+    p – Interesting articles
+    p – Random or funny post (personality)
+    p 
+    p Nurture your relationship with fans
+    p – Respond to comments and questions in a timely and personalized way
+    p – Initiate and engage in discussion
+    p – Thank fans privately and publicly
+    p – Ask for and incorporate fan input
+    p – Respond to criticism in a thankful and professional way
+    p 
+    3 Q&A
+    p “How early is too early?”
+    p – Put together a road map.
+    p 
+    p “Old screen shots?”
+    p – Keep in touch with press.
+    p 
+    p Smaller publicity is valuable. Networking.
+    p 
+    p Treat bad press like a troll
+    p – Respond directly, privately initially
+    p – Request more feed back to understand what they didn’t like
+    p – Respect them
+    p 
+    p Thank you Emmy Jonassen!
+    p Awesome presentation and valuable tips and info.
+    p We will put it to good use.
+
+ISO 8601
+  TITL : ISO 8601
+  DESC : Notes on ISO 8601
+  BREF : superior date
+  TAGS : time
+  TYPE : note
+  HEAD : 2020-08-08_02-37
+  DATE : 2016-04-07
+  LINK 
+    - {link ext wiki8601}
+  BODY
+    p Bringing you the latest in news from 1988.
+    p The International Organization for Standardization (ISO) created a date and time standard called "ISO 8601" it defines the date to be represented as YYYY-MM-DD.
+    p I have personally used (most often with builds or photo folders etc) a similar format YYYYMMDD or YYYY_MM_DD as it orders in correct chronological order in "alphabetical sorting" (default file browser behavior).
+    p Finding this "ISO 8601" standard was a cool find for me, and I will use it from now on...
+    p As always there is a {link ext xkcd1179}:
+    i 2016-04-07_00-01
+
+LONG SITE
+  TITL : Long site
+  BREF : Why home
+  TAGS : notes
+  HEAD : 2023-05-06_18-31
+  TYPE : note
+  DATE : 2023-05-06
+  BODY
+    2 Philosophy of the "Long Now"
+    p An attempt at simplicity to help survive as {link ext techDegrades}.
+    - "the people who knew how to do this are no longer here". Examples: {link ext antikythera} and {link ext rongorongo} from {link ext eventEverything}
+    - "the technology that makes this work no longer works". Examples: {link ext leftPadIncident} from {link ext humansInSoftware}
+    p 
+    p I found this quote and term {link ext longSite} on {link ext gwern} an inspiration in this regard:
+    p "The Internet is self destructing paper. A place where anything written is soon destroyed by rapacious competition and the only preservation is to forever copy writing from sheet to sheet faster than they can burn..." Julian Assange  ({link ext destructingPaper}, 5 December 2006)
+    p This above thinking for me is entirely insprired by {link ext neauoire 'Devine'} and {link ext rekka} of {link ext rabbits} who I met in Whangarei and travelled to Wellington with.
+    p This talk {link ext weatherSoftware} goes into their rationale and inspiration for technology that is simple, easy to edit and easy to maintain.
+    2 Clock of the Long Now
+    y w9uM6BBKfO8
+    y zeDW0PPZ-_c
+    p This is an inspiring project from 'The Long Now Foundation' to create a clock that will last 10,000 years.
+    p 
+    p https://mxb.dev/blog/the-css-mindset/
+    p https://anewdigitalmanifesto.com/
+    p https://small-tech.org/about/#non-colonial
+  LINK
+    - {link ext jamieTannaWhy}
+    - {link ext oneBigFlukeWhy}
+    - {link ext snarfedWhy}
+    - {link ext indiewebWhy}
+    - {link ext longSite}
+    - {link ext clockUpdate}
+`

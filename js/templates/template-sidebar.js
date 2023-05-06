@@ -16,7 +16,9 @@ function TemplateSidebar()
     // result += this.doPageLabel('Home', pageName == 'Home');
     result += this.doPageLabel('Projects', pageName == 'Projects');
     result += this.doPageLabel('Photos', pageName == 'Photos');
-    result += this.doPageLabel('Posts', pageName == 'Posts');
+    result += this.doPageLabel('Thoughts', pageName == 'Thoughts');
+    result += this.doPageLabel('Notes', pageName == 'Notes');
+    result += this.doPageLabel('Blogs', pageName == 'Blogs');
     result += this.doPageLabel('Hamish', pageName == 'Hamish');
     result += `
       <div id="sidebarSocial">

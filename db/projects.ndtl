@@ -10,8 +10,8 @@ LOG
   BODY
     p Log is a time tracker.
     p "What gets measured gets done."
-    p I built this project in 2018 after {link post visiting-rabbits}. I was inspired by {link ext neauoire} and their tracker {link ext horaire}.
-    p I found it a useful learning project, and personal life experiment as a lens on productivity. I detailed what went well and what didn't in this post: {link post logging-2018}
+    p I built this project in 2018 after {link blog visiting-rabbits}. I was inspired by {link ext neauoire} and their tracker {link ext horaire}.
+    p I found it a useful learning project, and personal life experiment as a lens on productivity. I detailed what went well and what didn't in this post: {link blog logging-2018}
     2 Stats
     p {tracker project percentages}
     p {tracker sector percentages}
@@ -124,12 +124,12 @@ HOME
     p The rewrite left it as a javascript "single page application". I found the build process a nagging anti-inspiration and stumbling block for continuing to add content...
     p The rewrite was inspired by stumbling upon this article {link ext devSpaRoute} which explained with vanilla JS how to control routing, history and address bar content which I could not figure out in 2019.
     p Somehow I forgot the lesson from 2019 that JavaScript Single Page Applications and Search Engine Optimisation don’t mix.
-    p Blogumentation on {link post js-spas-and-seo}
+    p Blogumentation on {link thoughts js-spas-and-seo}
     2 2019
     i 2019-07-09_21-13
     p The way the site is built is to allow the actual content to be easy to move around (text database), copy (human readable) and store (easily accessed standard files), while the visual display of it may change.
     p This above thinking for me is entirely insprired by {link ext neauoire 'Devine'} and {link ext rekka} of {link ext rabbits} who I met in Whangarei and travelled to Wellington with.
-    p They showed me the concept of {link post long-now}
+    p They showed me the concept of {link notes long-now}
     p With a focus on simplicity and minimalism in it's structure and core content setup. It is hopefully some form of foundational base to build upon into time.
     p At the very least with it's use of a human-readable data database; it's content should be portable between future website versions and long term, and simple to archive. 
     2 2018
@@ -527,7 +527,7 @@ WARP
   TYPE : project
   DATE : 2013-01-01
   BODY
-    p Warp is a {link post VR-in-2014} experiment built by {link ext alexey} (artist, animator) and I for the Oculus VR jam 2013. 
+    p Warp is a {link thoughts VR-in-2014} experiment built by {link ext alexey} (artist, animator) and I for the Oculus VR jam 2013. 
     p We mostly focused on trying to make a VR experience that anyone could play (just headset and standard controller) and not feel sick.
     p We played it quite safe (read: boring) in terms of gameplay but spent a lot of time focusing on the feel, the experience, visual aesthetic and usability in this early time for VR. 
     p The concept would have worked if expanded upon for sure.

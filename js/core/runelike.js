@@ -3,7 +3,9 @@ function Runelike()
     this.inline = null;
     this.media = null;
     this.projects = null;
-    this.articles = null;
+    this.blogs = null;
+    this.thoughts = null;
+    this.notes = null;
     this.templateLensPhotos = null;
     this.templateLensArticles = null;
 	this.templateIndex = new TemplateIndex();
@@ -25,12 +27,14 @@ function Runelike()
         '/': { tag: 'comment' }
     }
 
-    this.install = function(inline, media, projects, articles, templateLensPhotos, templateLensArticles)
+    this.install = function(inline, media, projects, blogs, thoughts, notes, templateLensPhotos, templateLensArticles)
     {
         this.inline = inline;
         this.media = media;
         this.projects = projects;
-        this.articles = articles;
+        this.blogs = blogs;
+        this.thoughts = thoughts;
+        this.notes = notes;
         this.templateLensPhotos = templateLensPhotos;
         this.templateLensArticles = templateLensArticles;
     }
@@ -198,15 +202,35 @@ function Runelike()
                 {
                     result += parent.templateIndex.componentLens('photosContainer', parent.templateLensPhotos.getContent());
                 }
-                else if (func == 'postsLens')
+                else if (func == 'blogsLens')
                 {
-                    let all = parent.articles.getAll();
+                    let all = parent.blogs.getAll();
                     let featured = [];
                     for (let i = 0; i < Math.min(3, all.length); i++) 
                     {
                         featured.push(all[i]);
                     }
-                    result += parent.templateIndex.componentLens('postsContainer', parent.templateLensArticles.getContent(featured));
+                    result += parent.templateIndex.componentLens('blogsContainer', parent.templateLensArticles.getContent(featured));
+                }
+                else if (func == 'thoughtsLens')
+                {
+                    let all = parent.thoughts.getAll();
+                    let featured = [];
+                    for (let i = 0; i < Math.min(3, all.length); i++) 
+                    {
+                        featured.push(all[i]);
+                    }
+                    result += parent.templateIndex.componentLens('thoughtsContainer', parent.templateLensArticles.getContent(featured));
+                }
+                else if (func == 'notesLens')
+                {
+                    let all = parent.notes.getAll();
+                    let featured = [];
+                    for (let i = 0; i < Math.min(3, all.length); i++) 
+                    {
+                        featured.push(all[i]);
+                    }
+                    result += parent.templateIndex.componentLens('notessContainer', parent.templateLensArticles.getContent(featured));
                 }
                 else if (func == 'projectsAll')
                 {
@@ -216,9 +240,17 @@ function Runelike()
                 {
                     result += parent.templateCards.componentList(parent.media.filterPhotos(parent.media.db));
                 }
-                else if (func == 'postsAll')
+                else if (func == 'blogsAll')
                 {
-                    result += parent.templateCards.componentList(parent.articles.getAll(), 'posts');
+                    result += parent.templateCards.componentList(parent.blogs.getAll(), 'posts');
+                }
+                else if (func == 'thoughtsAll')
+                {
+                    result += parent.templateCards.componentList(parent.thoughts.getAll(), 'posts');
+                }
+                else if (func == 'notesAll')
+                {
+                    result += parent.templateCards.componentList(parent.notes.getAll(), 'posts');
                 }
             }
             else if (stash.rune.tag == 'comment')

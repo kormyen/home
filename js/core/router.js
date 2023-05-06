@@ -51,9 +51,21 @@ function Router(app)
                 pageData.PRNT = path1;
                 displayPage(pageData);
             }
-            else if (path1 == 'POSTS')
+            else if (path1 == 'THOUGHTS')
             {
-                let pageData = app.articles.get(path2);
+                let pageData = app.thoughts.get(path2);
+                pageData.PRNT = path1;
+                displayPage(pageData);
+            }
+            else if (path1 == 'NOTES')
+            {
+                let pageData = app.notes.get(path2);
+                pageData.PRNT = path1;
+                displayPage(pageData);
+            }
+            else if (path1 == 'BLOGS')
+            {
+                let pageData = app.blogs.get(path2);
                 pageData.PRNT = path1;
                 displayPage(pageData);
             }

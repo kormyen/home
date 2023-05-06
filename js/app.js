@@ -10,7 +10,9 @@ function App()
 	this.runelike = new Runelike();
 
 	this.projects = new Articles();
-	this.articles = new Articles();
+	this.thoughts = new Articles();
+	this.notes = new Articles();
+	this.blogs = new Articles();
 	this.pages = new Pages();
 
 	this.templateLensPhotos = new TemplateLensPhotos();
@@ -19,25 +21,20 @@ function App()
 	this.templateArticle = new TemplateArticle(this.templateTags);
 
 	this.log.install(SHELL, this.inline);
-	this.inline.install(this.media, this.links, this.log, this.projects, this.templateLensPhotos, this.articles);
-	this.runelike.install(this.inline, this.media, this.projects, this.articles, this.templateLensPhotos, this.templateLensArticles);
+	this.inline.install(this.media, this.links, this.log, this.projects, this.templateLensPhotos, this.blogs, this.thoughts, this.notes);
+	this.runelike.install(this.inline, this.media, this.projects, this.blogs, this.thoughts, this.notes, this.templateLensPhotos, this.templateLensArticles);
 	this.projects.install(PROJECTS, this.media, this.log, this.runelike, this.inline, this.templateArticle, this.templateTags);
 
 	this.templateLensPhotos.install(this.media);
-	this.articles.install(ARTICLES, this.media, this.log, this.runelike, this.inline, this.templateArticle, this.templateTags);
+	this.thoughts.install(THOUGHTS, this.media, this.log, this.runelike, this.inline, this.templateArticle, this.templateTags);
+	this.notes.install(NOTES, this.media, this.log, this.runelike, this.inline, this.templateArticle, this.templateTags);
+	this.blogs.install(BLOGS, this.media, this.log, this.runelike, this.inline, this.templateArticle, this.templateTags);
 	this.pages.install(PAGES, this.runelike, this.inline);
 
 	this.main = document.querySelector('main');
 	this.templateHeader = new TemplateHeader();
 	this.templateHeader.install(this.templateTags, document.querySelector('header'));
 	
-	// this.thoughts = new Thoughts();
-	// this.thoughts.install(this.articles);
-	// this.notes = new Notes();
-	// this.notes.install(this.articles);
-	// this.blogs = new Blogs();
-	// this.blogs.install(this.articles);
-
 	this.nav = new Nav();
 	this.nav.install(this.inline);
 

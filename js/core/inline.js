@@ -5,17 +5,21 @@ function Inline()
     this.log = null;
     this.projects = null;
     this.photos = null;
-    this.articles = null;
+    this.blogs = null;
+    this.thoughts = null;
+    this.notes = null;
     const parent = this;
 
-    this.install = function(media, links, log, projects, photos, articles)
+    this.install = function(media, links, log, projects, photos, blogs, thoughts, notes)
     {
         this.media = media;
         this.links = links;
         this.log = log;
         this.projects = projects;
         this.photos = photos;
-        this.articles = articles;
+        this.blogs = blogs;
+        this.thoughts = thoughts;
+        this.notes = notes;
     }
 
     this.getInternalUrl = function(func, name)
@@ -37,7 +41,7 @@ function Inline()
                 result += `/${name.toLowerCase()}`;
             }
         }
-        else if (func == 'project' || func == 'post')
+        else if (func == 'project' || func == 'thought' || func == 'note' || func == 'blog')
         {
             result += `/${func}s/${name.replace(/ /g, `-`).toLowerCase()}`;
         }
@@ -95,7 +99,7 @@ function Inline()
                         optionalLabel = fullText.split("'")[1]; 
                     }
                     
-                    if (func == "project" || func == "page" || func == "post")
+                    if (func == "project" || func == "page" || func == "thoughts" || func == "notes" || func == "blog")
                     {
                         // INTERNAL LINK
                         const url = parent.getInternalUrl(func, urlName);
@@ -136,9 +140,17 @@ function Inline()
                     {
                         lineResult += this.photos.getCount();
                     }
-                    else if (func == "postsTotal")
+                    else if (func == "blogsTotal")
                     {
-                        lineResult += this.articles.getCount();
+                        lineResult += this.blogs.getCount();
+                    }
+                    else if (func == "thoughtsTotal")
+                    {
+                        lineResult += this.thoughts.getCount();
+                    }
+                    else if (func == "notesTotal")
+                    {
+                        lineResult += this.notes.getCount();
                     }
                 }
                 else if (chunk == 'year')
