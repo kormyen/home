@@ -107,7 +107,7 @@ function Image(data)
     imageAlign = "photoAlignV90 ";
   }
 
-  if (data.ext == 'mov')
+  if (data.ext == 'mov' || data.ext == 'mp4')
   {
     this.htmlMed = `
       <video width='100%' controls class='widthFit marginTopNormal marginBottomNormal radiusNormal'>

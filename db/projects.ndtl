@@ -665,13 +665,84 @@ SUN QUEST
   BREF : boat sun power
   SECT : 1, 2, 6, 8
   HEAD : 2022-01-11_13-38
+  DATE : 2023-05-05
   BODY
     p Sarah and I decided to become "river scum": live aboard Quest in the Tāmaki Estuary, near the Panmure Yacht and Boating Club on the pile moorings.
     p In order to do so we needed to install a solar system so that we had power!
-    p Below are some WIP photos and the final shot.
-    p {image 2021-12-04_22-30 il} {image 2021-12-04_22-31 ir}
-    p {image 2021-12-04_22-32 il} {image 2021-12-04_22-33 ir}
-    p The photos above is of solarpanels that I installed on Quest.
+    p This was done around 2021-12-04.
+    t The mounting
+    p I made the mounts from a base of wood. These are obviously simple.. but takes way longer than you'd think, as on a boat everything is curved in every direction.
+    p {image 2021-12-04_22-30 il} {image 2021-12-04_22-33 ir}
+    p These wood bits I then coated in epoxy and painted with boat exterior paint. 
+    p {image 2021-12-04_22-32 il} {image 2021-12-04_22-31 ir}
+    p To connect both the panels to the mounts, and that all to the boat I used quite thick, quite long bolts that go all the way from the panel frames, through the wooden mounts, through the boat deck. So the way the panels are connected is very strong.
+    p I expect the solarpanel glass and plastic would break out before the mounting came off if the boat capsized or something.
     i 2022-01-11_13-38
-    p The completed solarpanels mounted!
+    p The completed mounted and panels!
+    t Solarpanels
+    p The real limitation for solar power on a small boat is having enough deck space for the panels and accounting for constant shade from the mast and lines.
+    p For these panels we just picked the biggest ones we could fit in the space: Two 160W panels.
+    t Wires through hull
+    i 2023-05-06_01-31
+    p For the solarpanel cables to get to the charge controller inside the boat I used a 'Scanstrut DS-MULTI' which I'd use again. 
+    p They have a stainless steel back and front plates that sandwhich thick rubber which you can push your cables through.
+    p It's a bit expensive but feels very well built.
+    p I positioned this so that it's fully under a panel, so likely to receive minimal water from rain or splashes.
+    i 2022-01-17_10-11
+    t Charge Controller
+    i 2023-05-06_01-26
+    p I've used EPEVER Tracer-BNs in my van and they have done well, and are cheaper than other bigger name brands. 
+    p This time I found that EPEVER have a water proof Charge Controller range 'TracerBP' (MPPT) so I went with that. It seems fully sealed for water which is great. It's not that I expect it to get wet inside the boat, but it is insurance/hope for the worst case and also hopefully better durability with the extremely wet and salty air.
+    p I got two 15A ones - one for each solar panel, for a bit of redundency.
+    p The charge controllers connect to 'EPEVER MT50' screens.
+
+HORIZON LEAKS
+  TITL : Horizon Leaks
+  DESC : To fix a leaking boat
+  TAGS : physical, wood
+  BREF : Oh no
+  SECT : 1, 6, 8
+  HEAD : 2019-11-02_18-50
+  DATE : 2023-05-06
+  BODY
+    p Horizon's Trademe auction ended and we purchased her for a cheap price... because she had a leak!
+    p The leak had stopped after sitting on her new mooring home for a while so we thought we might have got away with a crazy deal.
+    p We also found a few loose fittings and thought those might have been the cause of the leak.
+    p It wasn't until sailing to Great Barrier Island one time (we had a couple of times before that already) and the bilge pump going every 10 minutes that we thought we might be in deeper than we hoped.
+    p We learned a whole lot going through the process of fixing the leak with a lot of help from many at the Panmure Yacht and Boating club.
+    p I found it a bit stressful at the time but we ended up being totally fine..
+    p The bright side of this ordeal was meeting all the helpful boaties around the Panmure yard. Most people were interested to see what is going on with our excavation and offering advice.
+    - Dave (and dog!): is a super helpful engineer guy.
+    - Steve: PYBC's new yard manager always grumpy but ready to give advice. Steinlager, never Steinlager Pure.
+    - Ceri Lily: is a retired wooden boat builder. He lead the repairs, and instructed Sasha and I as his terrible junior boat builders.
+    - Rick: and his wife are a lovely couple, often around the club, often fixing boats!
+    i 2019-11-02_18-50
+    p Horizon hauled out, ready to start the fixing.. with a helper: Christo!
+    p I always find it surprising seeing yachts out of the water, just how much bigger they feel. In the water Horizon feels like a medium sized boat... out of the water she feels like a three story building.
+    i 2019-12-05_14-57
+    p The image above shows the problem. Water drips seeping out of Horizon's hull... from tiny cracks in the fibreglass.
+    p It was immeditely clear this was it, water just kept slowly dripping out non-stop.
+    p This didn't look bad at all! However we were not totally out of the woods, because we didn't know how long this leak had been going on, and Horizon is wood under the fibreglass so we could have rot!
+    p Horizon hull is made with multiple layers of kauri plywood planking, with an outermost layer of fibreglass under the paint and antifoul. This is called "Glass on Ply".
+    p The fibreglass layer on the hull seemed quite thin, and had a couple of tiny cracks in this higher stress area where the keel connects to the hull.
+    p The next step was to start digging... to investigate how bad the problem is. If the leak had been a problem for many years, and water travelled in far, it could have rotted a lot of wood... who knows! Let's see!
+    i 2019-12-05_14-58
+    p Sasha digging out wet and rotten wood from Horizon, exploring how far the damage goes...
+    p We thought it was a bit worse than it actually was, but a lot of the exposed wood here was just wet and not rotten.
+    i 2019-11-02_18-51
+    p This shows the rotted wood cut out in only one area, and Helena helping to dry out the wet wood before we can fibreglass Horizon back up.
+    p The damage ended up being not too bad, only rotten badly in one small area which we cut out with the advice and guidance of Ceri.
+    p Once chopped out we left Horizon to dry out for several weeks, with occasional help of heatguns.
+    p {image 2019-12-12_21-00 il} {image 2019-12-12_12-01 ir}
+    p Above is the finished fibreglass repair. Again with the help of Ceri who instructed us.
+    p He took care of replacing the chunk of cut out rotten wood, replacing wood for wood.
+    p Then he helped us how to lay out several layers of very thick fibreglass, on top of a much bigger rounded fillet made of thickened epoxy. This repair meant that Horizon was much more strong than she was.
+    i 2019-12-09_11-19
+    p Above shows the finished fibreglass repair not undercoated with paint.
+    i 2019-12-09_11-20
+    p Since Horizon was out of the water we took care of a few other maintenance tasks too like repainting the propeller with 'Prop Speed'. This is a gel-like paint which helps keep the propeller clean, as barnicles have trouble growing on it.
+    i 2019-12-09_19-07
+    p This shows Sasha and Jason painting antifoul on top of Horizon's finished repair, the final step.
+    i 2019-12-12_21-05
+    p Horizon back in the water, no longer sinking!
 `
