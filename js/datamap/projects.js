@@ -3,19 +3,23 @@
 function Projects()
 {
   this.db = null;
-  this.sectors = {};
   this.template;
   this.templateTags;
-  this.utils;
   const parent = this;
   this.dbLength;
 
-  this.install = function(data, media, log, runelike, inline, template, templateTags, utils)
+  this.isoString = function(dateData)
+	{
+		return dateData.toISOString().split('T')[0];
+	}
+
+  this.install = function(data, media, log, runelike, inline, template, templateTags)
   {
     this.db = new Indental(data).parse();
+    console.log(typeof(this.db))
+
     this.template = template;
     this.templateTags = templateTags;
-    this.utils = utils;
 
     // Parse project db into usable format
     const keys = Object.keys(this.db);
@@ -73,7 +77,7 @@ function Projects()
       let projLogStats = log.projects[element.NAME];
       if (projLogStats && projLogStats.hoursTotal > 0)
       {
-        element.HtmlBody += this.templateTags.tagsItemText(ICON_LOG, projLogStats.hoursTotal + 'h logged (' + utils.isoString(projLogStats.dateFirst) + ' to ' +  utils.isoString(projLogStats.dateLast) + ')');;
+        element.HtmlBody += this.templateTags.tagsItemText(ICON_LOG, projLogStats.hoursTotal + 'h logged (' + this.isoString(projLogStats.dateFirst) + ' to ' +  this.isoString(projLogStats.dateLast) + ')');;
       }
 
       element.HtmlBody += `</div>`;
@@ -156,22 +160,5 @@ function Projects()
   {
       string = string.toLowerCase();
       return string.charAt(0).toUpperCase() + string.slice(1);
-  }
-
-  this.getStats = function()
-  {
-    let result = ``;
-
-    const keys = Object.keys(this.sectors);
-    for (let k = 0; k < keys.length; k++)
-    {
-      const element = keys[k];
-      if (this.sectors[element] > 1)
-      {
-        result += `${this.sectors[element]}  ${element}<br>`;
-      }
-    }
-
-    return result;
   }
 }

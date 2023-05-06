@@ -24,6 +24,7 @@ function Indental(data)
       var key = line.content.toUpperCase()
       h[key] = type ? new type(key,format(line)) : format(line)
     }
+
     return h
   }
 

@@ -4,8 +4,9 @@ LOG
   DESC : A simple time tracker built in vanilla js.
   TAGS : code, design, js, time
   BREF : time tracker
-  DATE : 2018-07-12 onward
+  DATE : 2018-07-12
   SECT : 7
+  TYPE : project
   BODY
     p Log is a time tracker.
     p "What gets measured gets done."
@@ -27,6 +28,7 @@ SEEKERS
   BREF : gamified nodes
   DATE : 2023-05-05
   SECT : 4
+  TYPE : project
   BODY
     t Gamified decentralised infrastructure NFTs
     p The Seekers project is a NFT project of loveable robots with the utility of enabling their owner activate them to run a web3 node. The Seeker nodes contribute to a decentralised network for private offchain communications.
@@ -86,6 +88,8 @@ SYLO
   TAGS : crypto, design
   BREF : web3 comms
   SECT : 4
+  TYPE : project
+  DATE : 2019-06-14
   BODY
     p Sylo is a platform for decentralized applications and communication with a focus on privacy and respect. User run incentized network infrastructure, decentralized applications and decentralized finance.
     p Sylo has a focus on bringing crypto to everyday people - putting people in control of their digital money, digital assets, communications privacy, and making the tools that make it all run; fun and easy to use.
@@ -103,9 +107,10 @@ HOME
   DESC : A portfolio and exocortex.
   TAGS : code, design, js, web
   BREF : this website
-  BORN : 2006
+  DATE : 2006-01-01
   SECT : 3, 4, 7
   EDIT : 2023-04-23, 2023-05-03, 2023-05-06
+  TYPE : project
   BODY
     p Home is a portfolio and exocortex.
     p Since I was young I have chipped away at an unfinishable amorphous website that has reborn every few years.
@@ -164,7 +169,8 @@ MORT
   TAGS : design, character
   BREF : rar
   SECT : 4
-  BORN : 2010-07-30
+  DATE : 2010-07-30
+  TYPE : project
   BODY
     p {image 2007-09-04_12-00 ir} I created Mort for a character design asignment for university. 
     p I referenced and borrowed from the styles of 'Johnny the Homicidal Maniac', 'Invader Zim', 'Lazy Muffin (Yotam Perel)' and 'Domo-Kun'.
@@ -189,7 +195,8 @@ SKUL
   TAGS : game, art
   BREF : voxel monument
   SECT : 4
-  BORN : 2015-08-12
+  DATE : 2015-08-12
+  TYPE : project
   BODY
     p One of several medium scale Minecraft things.
     p This was made on a public but unlisted vanilla multiplayer Minecraft server running on a home PC.
@@ -205,7 +212,8 @@ SSS
   TAGS : design
   BREF : steampunk theme
   SECT : 4
-  BORN : 2009-09-07
+  DATE : 2009-09-07
+  TYPE : project
   BODY
     p I created this theme using a jail broken iPhone 3GS by ripping existing 'Cydia' (3rd party app store) downloaded themes and manually replacing the image parts/text files from slices of my steampunk theme design.
     p The theme entirely worked and the four screenshots below are screenshots from the device itself.
@@ -220,8 +228,9 @@ MEMEX
   TAGS : code, design, js, web
   BREF : note archive
   SECT : 3, 4, 7
-  BORN : 2018-07-14
+  DATE : 2018-07-14
   UNDR : Home
+  TYPE : project
   LINK
     - {link ext memexLive}
     - {link ext memexSource}
@@ -246,7 +255,8 @@ MEGAMEX
   TAGS : research, time
   BREF : catalog megaliths
   SECT : 7
-  BORN : 2018-09-30
+  DATE : 2018-09-30
+  TYPE : project
   BODY
     p I started a project of cataloging all the megalithic sites hoping to add tags of similar construction techniques, themes and details but I very quickly realised that there are many many many more amazing ancient megalithic sites than I imagined.
     p Did you know there are 44 large pyramids in Egypt for starters?
@@ -259,8 +269,9 @@ ARDUSAMBER
   TAGS : code, electronics, time
   BREF : neralie & arvelie
   SECT : 3
-  BORN : 2018-05-15
+  DATE : 2018-05-15
   EDIT : 2019-07-03
+  TYPE : project
   BODY
     p This project for me was playing with and learning Arduino basics and thinking about time.
     p Building this lead me toward designing {link project dastime}.
@@ -289,7 +300,8 @@ DASTIME
   TAGS : code, electronics, time
   BREF : dasein time
   SECT : 3, 4
-  BORN : 2018-07-05
+  DATE : 2018-07-05
+  TYPE : project
   BODY
     p I started this after being inspired by {link ext neauoire}'s time formats and my experimenting with them in {link project ardusamber}.
     i 2018-07-05_12-03
@@ -332,7 +344,8 @@ FPVMOD
   BREF : display++
   TISA : a modified fpv drove display
   SECT : 1
-  BORN : 2018-03-20
+  DATE : 2018-03-20
+  TYPE : project
   BODY
     p I added a recording module using tutorials online. Also replaced the internal battery with a external battery slot so that it is swappable and larger.  
     i 2018-03-20_12-00
@@ -344,6 +357,8 @@ CORE
   BREF : simple IOT server
   UNDR : VNS
   SECT : 3
+  TYPE : project
+  DATE : 2018-08-23_12-00
   BODY
     p Node.js app running on Raspberry Pi Zero W
     p Receives input from web UI and/or {link project control} panel(s), sends commands to {link project power}
@@ -358,12 +373,14 @@ CONTROL
   BREF : keypad panel
   SECT : 1, 2, 3, 4
   UNDR : VNS
+  TYPE : project
+  DATE : 2018-10-18
   BODY
     p Made a custom control panel for a tiny house IoT system with switches and a dimmer for lights and fans.
     p Arduino Nano connected to {link project core} via USB
     p Sends button and potentiometer inputs to {link project core}
-    i 2018-08-19-12-00
-    i 2018-10-18-12-00
+    i 2018-08-19_12-00
+    i 2018-10-18_12-00
   LINK
     - {link ext vnsControlSource}
     
@@ -374,6 +391,8 @@ POWER
   BREF : IOT PDU
   UNDR : VNS
   SECT : 1, 2, 3
+  TYPE : project
+  DATE : 2018-10-18
   BODY
     p Arduino Mega 2560 connected to {link project core} via USB
     p Receives input from {link project core} and controls power sent to lights, fans etc
@@ -386,7 +405,9 @@ CRUCIFIX
   DESC : A boardwalk pathway.
   TAGS : physical, wood
   BREF : boardwalk
-  SECT : 1
+  SECT : 1, 6
+  TYPE : project
+  DATE : 2018-10-14
   BODY
     i 2018-10-14_12-00
     i 2018-10-14_12-01
@@ -398,6 +419,8 @@ LIGHTBOX
   TAGS : web, js, code
   BREF : image zoom
   SECT : 3, 4
+  TYPE : project
+  DATE : 2018-11-02
   BODY
     p Minimal {link ext vanillaJs} library for making simple full-sized image viewer "lightbox" views for images on a website.  
     p I mostly seperated it as a library as a test of what is involved. 
@@ -413,6 +436,8 @@ SWORDY
   TAGS : code, design, game, unity
   BREF : physics brawler
   SECT : 3, 4, 7
+  TYPE : project
+  DATE : 2016-01-0
   BODY
     p GIFs and images of development: {link ext swordyDevAlbum}
   LINK
@@ -425,6 +450,8 @@ VAN
   TAGS : electronics, offgrid, physical
   BREF : stealth campervan
   SECT : 1, 2, 3, 4, 6, 7
+  TYPE : project
+  DATE : 2017-09-30
   BODY
     i 2019-12-24_04-57
     t Sub-projects
@@ -454,6 +481,8 @@ WHALEBUS
   TAGS : code, design, game, unity
   BREF : spam toy
   SECT : 3, 4
+  TYPE : project
+  DATE : 2015-01-26
   BODY
     p 48 hour game jam "what do we do now?" themed toy.
     i 2015-01-26_12-01
@@ -475,6 +504,8 @@ PORTFOLIO
   TAGS : code, design, web
   BREF : work showcase
   SECT : 3, 4
+  TYPE : project
+  DATE : 2020-05-18
   BODY
     p I built a portfolio website for Sarah Tanfield - a New Zealand book binder and package maker.
     p It uses {link project lightbox} for full screen views of photos which got me to add features for text description and next/prev buttons.
@@ -493,6 +524,8 @@ WARP
   TAGS : design, game, programming, unity, vr
   BREF : VR JAM 2013
   SECT : 3, 4
+  TYPE : project
+  DATE : 2013-01-01
   BODY
     p Warp is a {link post VR-in-2014} experiment built by {link ext alexey} (artist, animator) and I for the Oculus VR jam 2013. 
     p We mostly focused on trying to make a VR experience that anyone could play (just headset and standard controller) and not feel sick.
@@ -511,7 +544,9 @@ TOILET
   TAGS : offgrid, physical, wood
   BREF : poop bucket
   SECT : 1, 6
+  TYPE : project
   EDIT : 2020-08-28, 2020-08-27, 2021-04-24
+  DATE : 2019-01-01
   BODY
     p When people say "composting toilet" what they really mean is "shitting in a bucket" - but it's nicer than most people who haven't used one think. It's surprising how many people just write-off the idea before they realise it's actually all good. 
     p I made this composting toilet with a deadline for {link ext kiwiburn} to serve as our {link project solarsails 'Solarsails'} themecamp toilet, with the intention for it to then live in my {link project van 'vanlife home'}.
@@ -526,7 +561,7 @@ TOILET
     p Having a urine seperator is a highly recommended addition. By keeping 1s and 2s seperate I think it's not technically "sewerage"... but what that means to you is that it doesn't smell so bad, or fill so fast.
     i 2020-08-27_13-30
     p I got {link ext urineSeperator 'this one'} from "Free Range Designs". It's expensive for a piece of plastic but works perfectly. Maybe there are similar 3D-print-able alternatives online.
-    i 2020-01-20-16-03
+    i 2020-01-20_16-03
     p Instead of flushing with water you keep the solids dry with sawdust, dry soil, dry coffee grounds, pet cage sawdust or similar. 
     i 2020-01-22_12-46
     p For the themecamp we got a big container of sawdust for free from a wood mill on the drive down. {link ext dominic 'Dominic'} and I asked at the office and they said "help yourself".
@@ -537,7 +572,7 @@ TOILET
     2 Too long didn't read
     p - Seperate 1s and 2s (urine diverter).
     p - Make 2s dry. (sawdust-like flush medium, air flow fan with pipe outside, poop/medium tumbler/mixer)
-    i 2020-01-20-16-04
+    i 2020-01-20_16-04
     2 My setup
     p - The box lid has a toilet seat attached on it. 
     p - The lid where the seat is attached has a hinge so the bucket can be removed.
@@ -550,7 +585,7 @@ TOILET
     p Other sites likely have good building guides if you are looking to make a box for your bucket.
     p Everyone in our camp seemed to prefer this toilet over the Portaloos. Maybe that doesn't say much.
     2 Afterward
-    i 2020-01-28-00-21
+    i 2020-01-28_00-21
     p My friend Emma took our buckets after Kiwiburn and turned them into compost. 
     p Here she is in her completely standard gardening attire.
     i 2020-01-29_10-51
@@ -566,6 +601,8 @@ SOLARSAILS
   TAGS : offgrid, physical
   BREF : sun family
   SECT : 1, 2, 4
+  TYPE : project
+  DATE : 2020-01-27
   BODY
     p To me Solarsails is a solarpunk themecamp made of bamboo, repurposed junk, solar panels and optimism.
     p Solarsails is a big group effort of twenty or so friends, I am just a small part. I have generally provided cargo transport, solar power from my {link project van}, a composting {link project toilet} lights and misc building help.
@@ -637,6 +674,8 @@ SHELF
   BREF : overengineered
   SECT : 6
   UNDR : Van
+  TYPE : project
+  DATE : 2019-01-01
   BODY
     p This monstrosity is a corner shelf in the corner of my van bed. It is mainly a box to hold the diesel powered heater vent near and pointed at the bed. I extended this box to make use of the corner space for storage.
     p I also added USB charging points hidden at the top of the main shelf.
@@ -653,6 +692,7 @@ SUN QUEST
   SECT : 1, 2, 6, 8
   HEAD : 2022-01-11_13-38
   DATE : 2023-05-05
+  TYPE : project
   BODY
     p Sarah and I decided to become "river scum": live aboard Quest in the Tāmaki Estuary, near the Panmure Yacht and Boating Club on the pile moorings.
     p In order to do so we needed to install a solar system so that we had power!
@@ -691,6 +731,7 @@ HORIZON LEAKS
   SECT : 1, 6, 8
   HEAD : 2019-11-02_18-50
   DATE : 2023-05-06
+  TYPE : project
   BODY
     p Horizon's Trademe auction ended and we purchased her for a cheap price... because she had a leak!
     p The leak had stopped after sitting on her new mooring home for a while so we thought we might have got away with a crazy deal.

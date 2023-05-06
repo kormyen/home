@@ -9,6 +9,7 @@
 - Fix Opengraph/twitter meta cards don't work with SPA 
 - Fix spacing under tags for all articles and project pages
 - Fix social icons missing from medium width
+- Scaling page width on project/article list page makes right side column wider in medium width size
 
 ## REFACTOR
 - Unify all db data to have same page items (articles, projects, pages all have BREF, TITL, META etc)

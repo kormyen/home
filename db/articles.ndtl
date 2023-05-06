@@ -4,10 +4,10 @@ VISITING RABBITS
   DESC : How I met the Hundred Rabbits; Rekka, Devine and Pino - the floating art studio
   BREF : people of the internet
   TAGS : sailing, life
-  TYPE : blog
+  TYPE : post
+  TYP2 : blog
   HEAD : 2017-11-05_17-53
   DATE : 2019-07-14
-  CHNG : 0
   BODY
     p {image 2017-11-05_17-53 il} Sailing myself was not really even a consideration until I started watching the Hundred Rabbits {link ext studioSailboat} vlogs where they seemed to go quickly from zero sailing experience to international travel.
     p I met Devine and Rekka and their boat Pino in Whangarei after they sailed to New Zealand from California. 
@@ -24,7 +24,8 @@ SAILING LESSON
   DESC : Sailing lesson with a cyber hobo
   BREF : with a cyberhobo
   TAGS : sailing, life
-  TYPE : blog
+  TYPE : post
+  TYP2 : blog
   HEAD : 2019-01-19_15-53
   DATE : 2019-07-14
   EDIT : 2023-05-04
@@ -50,14 +51,15 @@ QUEST
   DESC : The search for a first boat
   BREF : get boat
   TAGS : sailing, life
-  TYPE : blog
+  TYPE : post
+  TYP2 : blog
   HEAD : 2019-03-03_10-13
   DATE : 2019-07-14
   EDIT : 2022-05-05
   BODY
     p My friend Sasha and I looked at ten boats within a week. Eventually getting a feel for what prices boats seem to be selling for in Auckland.
     p We also viewed a boat {link post horizon 'Horizon'} which was on auction which we never thought we would be able to afford, we were just curious what the next class of boats was like.
-    i 2019-07-08-18-13
+    i 2019-07-08_18-13
     2 Quest
     p We eventually settled on buying Quest with the help of {link ext joranKikke 'Joran'} who gave her an inspection and us the go ahead.
     p Sailing her to Auckland from Jamieson Bay was our first mission. An eight hour sail.
@@ -84,7 +86,8 @@ HORIZON
   DESC : 
   BREF : get boat 2
   TAGS : sailing, life
-  TYPE : blog
+  TYPE : post
+  TYP2 : blog
   HEAD : 2019-03-23_19-27
   DATE : 2019-07-14
   BODY
@@ -117,7 +120,8 @@ HORIZON
   TITL : 17 indiedev gamedev lessons
   DESC : Notes on "17 lessons learned" in indie gamedev
   TAGS : gamedev, research
-  TYPE : notes
+  TYPE : post
+  TYP2 : notes
   HEAD : 2020-08-16_14-33
   DATE : 2014-07-25
   EDIT : 2020-06-04
@@ -154,7 +158,8 @@ GAME DESIGN NOTES
   TITL : Engine, wheels, road
   DESC : Notes on Rami Ismail pillars of game design
   TAGS : gamedev, research
-  TYPE : notes
+  TYPE : post
+  TYP2 : notes
   HEAD : 2020-08-16_14-33
   DATE : 2020-09-24
   LINK
@@ -183,9 +188,9 @@ LOGGING 2018
   TAGS : time, research, life
   DATE : 2019-01-04
   EDIT : 2020-06-22
-  CHNG : 1
   HEAD : 2018-07-05_12-00
-  TYPE : blog
+  TYPE : post
+  TYP2 : blog
   BODY
     p Between 2018-07-12 and 2018-12-31 I logged 937 hours, tracked over 181 days, meaning 5.2 hours of output per day on average, or 36.4 hours per week averaged out.
     p 76% of days were vegetarian.
@@ -229,7 +234,8 @@ SENSORY DEPREVATION
   TAGS : life, research
   DATE : 2014-11-19
   HEAD : 2014-11-19_19-00
-  TYPE : blog
+  TYPE : post
+  TYP2 : blog
   BODY
     p To call it "awesome" is the wrong word. Its relaxing, weightless, nothingness, surreal.
     p It was funny going in, at the counter were two mid 20s Russian dudes and a trainee lady. Seemed like the whole time there was an unspoken joke in the room. "How did you hear about isolation tanks?", "The internet..." "Joe Rogan?" "Probably".
@@ -256,7 +262,8 @@ HUMANE CALM
   TAGS : design, research
   BREF : importance of values
   HEAD : 2019-04-13_07-01
-  TYPE : notes
+  TYPE : post
+  TYP2 : notes
   DATE : 2018-07-20
   EDIT : 2020-08-26
   LINK
@@ -308,7 +315,7 @@ HUMANE CALM
     q Does the design address the need in ways that tend to make my life more free or more encumbered? 
     q More integrated with the local environment or less so? 
     q What is the environmental and economic and social justice impact of the materials used? 
-    q Is this design versatile--can it serve multiple purposes? 
+    q Is this design versatile - can it serve multiple purposes? 
     q Is it simple enough to be easily replicated?
     i 2020-08-26_11-24
 
@@ -317,7 +324,8 @@ PRESERVING MYSTERY
   DESC : Notes on mystery in games
   BREF : Frog Fractions
   TAGS : gamedev, research
-  TYPE : notes
+  TYPE : post
+  TYP2 : notes
   HEAD : 2016-02-14_00-02
   DATE : 2016-02-14
   EDIT : 2016-12-01, 2017-02-01, 2020-07-27
@@ -370,7 +378,8 @@ DRAGON SPEECH
   DESC : Notes on dragon speech talk
   BREF : Chris Crawford
   TAGS : gamedev, research
-  TYPE : notes
+  TYPE : post
+  TYP2 : notes
   HEAD : 2014-04-20_14-59
   DATE : 2014-04-20
   LINK
@@ -399,7 +408,8 @@ GAME MARKETING 2014
   DESC : Notes on indie game marketing lecture by Emmy Jonassen
   BREF : lecture
   TAGS : gamedev, research
-  TYPE : notes
+  TYPE : post
+  TYP2 : notes
   HEAD : 2014-03-10_00-01
   DATE : 2014-03-10
   LINK
@@ -538,7 +548,8 @@ VR in 2014
   DESC : Thoughts on VR
   BREF : presence
   TAGS : gamedev, research, vr
-  TYPE : thoughts
+  TYPE : post
+  TYP2 : thoughts
   HEAD : 2014-06-11_00-01
   DATE : 2014-06-11
   BODY
@@ -592,7 +603,8 @@ NEUROTECH
   DESC : Thoughts on neurotech after an explanation and guided demo, testing various apps and examples.
   BREF : initiation
   TAGS : gamedev, research
-  TYPE : thoughts
+  TYPE : post
+  TYP2 : thoughts
   HEAD : 2014-04-12_00-02
   DATE : 2014-04-12
   EDIT : 2020-07-28
@@ -631,7 +643,8 @@ JOURNEY
   DESC : Thoughts on Journey
   BREF : the best game
   TAGS : game, life
-  TYPE : thoughts
+  TYPE : post
+  TYP2 : thoughts
   HEAD : 2012-11-17_00-01
   DATE : 2012-11-17
   EDIT : 2020-08-01
@@ -705,7 +718,8 @@ ISO 8601
   DESC : Notes on ISO 8601
   BREF : superior date
   TAGS : time
-  TYPE : thoughts
+  TYPE : post
+  TYP2 : thoughts
   HEAD : 2020-08-08_02-37
   DATE : 2016-04-07
   LINK 
@@ -723,7 +737,8 @@ BUG STONES
   DESC : A game with a stranger through painted rocks on a post.
   BREF : strange
   TAGS : life
-  TYPE : blog
+  TYPE : post
+  TYP2 : blog
   HEAD : 2022-07-22_14-23
   DATE : 2023-05-06
   BODY
@@ -757,7 +772,8 @@ LONG SITE
   BREF : Why home
   TAGS : notes
   HEAD : 2023-05-06_18-31
-  TYPE : thoughts
+  TYPE : post
+  TYP2 : thoughts
   DATE : 2023-05-06
   BODY
     2 Philosophy of the "Long Now"
@@ -771,6 +787,7 @@ LONG SITE
     p This talk {link ext weatherSoftware} goes into their rationale and inspiration for technology that is simple, easy to edit and easy to maintain.
     2 Clock of the Long Now
     y w9uM6BBKfO8
+    y zeDW0PPZ-_c
     p This is an inspiring project from 'The Long Now Foundation' to create a clock that will last 10,000 years.
     p 
     p https://mxb.dev/blog/the-css-mindset/
@@ -790,7 +807,8 @@ CODE SIMPLE
   DESC : A rant on simplicity, processes and people
   TAGS : notes
   HEAD : 2018-03-07_12-00
-  TYPE : thoughts
+  TYPE : post
+  TYP2 : thoughts
   DATE : 2023-05-06
   BODY
     p Products ends up better when people are empowered to contribute… through simplicity.
@@ -818,7 +836,8 @@ JS SPAS AND SEO
   DESC : A rant and notes to self on JavaScript Single Page Applications and Search Engine Optimisation (or lack there of)
   TAGS : notes, web
   HEAD : 2017-05-12_12-01
-  TYPE : notes
+  TYPE : post
+  TYP2 : notes
   DATE : 2023-05-06
   BODY
     2 JS SPA + SEO

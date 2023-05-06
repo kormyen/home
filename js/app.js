@@ -9,14 +9,9 @@ function App()
 	this.inline = new Inline();
 	this.runelike = new Runelike();
 
-	this.projects = new Projects();
+	this.projects = new Articles();
 	this.articles = new Articles();
 	this.pages = new Pages();
-
-	this.isoString = function(dateData)
-	{
-		return dateData.toISOString().split('T')[0];
-	}
 
 	this.templateLensPhotos = new TemplateLensPhotos();
 	this.templateLensPosts = new TemplateLensPosts();
@@ -27,11 +22,11 @@ function App()
 	this.log.install(SHELL, this.inline);
 	this.inline.install(this.media, this.links, this.log, this.projects, this.templateLensPhotos, this.templateLensPosts, this.focus);
 	this.runelike.install(this.inline, this.media, this.projects, this.articles, this.templateLensPhotos, this.templateLensPosts, this.templateLensFocus);
-	this.projects.install(PROJECTS, this.media, this.log, this.runelike, this.inline, this.templateArticle, this.templateTags, this);
+	this.projects.install(PROJECTS, this.media, this.log, this.runelike, this.inline, this.templateArticle, this.templateTags);
 	this.templateLensFocus.install(this.log, this.projects);
 
 	this.templateLensPhotos.install(this.media);
-	this.articles.install(ARTICLES, this.media, this.runelike, this.inline, this.templateArticle, this.templateTags);
+	this.articles.install(ARTICLES, this.media, this.log, this.runelike, this.inline, this.templateArticle, this.templateTags);
 	this.templateLensPosts.install(this.articles);
 	this.pages.install(PAGES, this.runelike, this.inline);
 
