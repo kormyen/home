@@ -8,7 +8,6 @@ VISITING RABBITS
   HEAD : 2017-11-05_17-53
   DATE : 2019-07-14
   CHNG : 0
-  PUBL : true
   BODY
     p {image 2017-11-05_17-53 il} Sailing myself was not really even a consideration until I started watching the Hundred Rabbits {link ext studioSailboat} vlogs where they seemed to go quickly from zero sailing experience to international travel.
     p I met Devine and Rekka and their boat Pino in Whangarei after they sailed to New Zealand from California. 
@@ -28,8 +27,6 @@ SAILING LESSON
   TYPE : blog
   HEAD : 2019-01-19_15-53
   DATE : 2019-07-14
-  CHNG : 0
-  PUBL : true
   EDIT : 2023-05-04
   BODY
     p My now close friend {link ext dominic 'Dominic Tarr'} offered to give Sasha and I a sailing lesson. He later told me that he knew his track record of sailing students converting to sailboat owners is a high percentage... I agreed to a day sail.
@@ -57,8 +54,6 @@ QUEST
   HEAD : 2019-03-03_10-13
   DATE : 2019-07-14
   EDIT : 2022-05-05
-  CHNG : 0
-  PUBL : true
   BODY
     p My friend Sasha and I looked at ten boats within a week. Eventually getting a feel for what prices boats seem to be selling for in Auckland.
     p We also viewed a boat {link post horizon 'Horizon'} which was on auction which we never thought we would be able to afford, we were just curious what the next class of boats was like.
@@ -92,8 +87,6 @@ HORIZON
   TYPE : blog
   HEAD : 2019-03-23_19-27
   DATE : 2019-07-14
-  CHNG : 1
-  PUBL : true
   BODY
     p My friend Sasha and I actually only owned {link post quest 'Quest'} around a week before Horizon's Trademe auction ended and we purchased her for a cheap price... because she had a leak!
     p The photo below is the first and what we thought the last time we saw Horizon. We expected her to be much more expensive.
@@ -128,8 +121,6 @@ HORIZON
   HEAD : 2020-08-16_14-33
   DATE : 2014-07-25
   EDIT : 2020-06-04
-  CHNG : 0
-  PUBL : true
   LINK
     - {link ext rami17lessons}
     - {link ext vlambeerToolkit}
@@ -166,8 +157,6 @@ GAME DESIGN NOTES
   TYPE : notes
   HEAD : 2020-08-16_14-33
   DATE : 2020-09-24
-  CHNG : 0
-  PUBL : true
   LINK
     - {link ext mizizizizPillars}
   BODY
@@ -197,7 +186,6 @@ LOGGING 2018
   CHNG : 1
   HEAD : 2018-07-05_12-00
   TYPE : blog
-  PUBL : true
   BODY
     p Between 2018-07-12 and 2018-12-31 I logged 937 hours, tracked over 181 days, meaning 5.2 hours of output per day on average, or 36.4 hours per week averaged out.
     p 76% of days were vegetarian.
@@ -242,7 +230,6 @@ SENSORY DEPREVATION
   DATE : 2014-11-19
   HEAD : 2014-11-19_19-00
   TYPE : blog
-  PUBL : true
   BODY
     p To call it "awesome" is the wrong word. Its relaxing, weightless, nothingness, surreal.
     p It was funny going in, at the counter were two mid 20s Russian dudes and a trainee lady. Seemed like the whole time there was an unspoken joke in the room. "How did you hear about isolation tanks?", "The internet..." "Joe Rogan?" "Probably".
@@ -272,7 +259,6 @@ HUMANE CALM
   TYPE : notes
   DATE : 2018-07-20
   EDIT : 2020-08-26
-  PUBL : true
   LINK
     - {link ext calmTech}
     - {link ext humaneAgenda}
@@ -335,7 +321,6 @@ PRESERVING MYSTERY
   HEAD : 2016-02-14_00-02
   DATE : 2016-02-14
   EDIT : 2016-12-01, 2017-02-01, 2020-07-27
-  PUBL : true
   LINK
     - {link ext preserveMystery}
   BODY
@@ -388,7 +373,6 @@ DRAGON SPEECH
   TYPE : notes
   HEAD : 2014-04-20_14-59
   DATE : 2014-04-20
-  PUBL : true
   LINK
     - {link ext dragonSpeech}
   BODY
@@ -418,7 +402,6 @@ GAME MARKETING 2014
   TYPE : notes
   HEAD : 2014-03-10_00-01
   DATE : 2014-03-10
-  PUBL : true
   LINK
     - {link ext gameMarketSource}
     - {link ext gameMarketVideo}
@@ -558,7 +541,6 @@ VR in 2014
   TYPE : thoughts
   HEAD : 2014-06-11_00-01
   DATE : 2014-06-11
-  PUBL : true
   BODY
     p "VR has the potential to be one of the biggest platform shifts ever and you can be on the leading edge of that." - {link ext vrShift}
     p With the sense of “presence” in the virtual world, interacting with another person brings a new level of connection and wonder in virtual space.
@@ -614,7 +596,6 @@ NEUROTECH
   HEAD : 2014-04-12_00-02
   DATE : 2014-04-12
   EDIT : 2020-07-28
-  PUBL : true
   LINK
     - {link ext dmitrySelitskiy}
     - {link ext thoughtWired}
@@ -654,7 +635,6 @@ JOURNEY
   HEAD : 2012-11-17_00-01
   DATE : 2012-11-17
   EDIT : 2020-08-01
-  PUBL : true
   BODY
     p *Image (header): {link ext journeyImmp}
     p 
@@ -728,7 +708,6 @@ ISO 8601
   TYPE : thoughts
   HEAD : 2020-08-08_02-37
   DATE : 2016-04-07
-  PUBL : true
   LINK 
     - {link ext wiki8601}
   BODY
@@ -747,7 +726,6 @@ BUG STONES
   TYPE : blog
   HEAD : 2022-07-22_14-23
   DATE : 2023-05-06
-  PUBL : true
   BODY
     p Near where I live there are some old mossy wooden posts marking a boundary.
     p One day I noticed that there were two little painted ladybug stones on one of the posts…
@@ -780,7 +758,6 @@ LONG SITE
   TAGS : notes
   HEAD : 2023-05-06_18-31
   TYPE : thoughts
-  PUBL : true
   DATE : 2023-05-06
   BODY
     2 Philosophy of the "Long Now"
@@ -814,7 +791,6 @@ CODE SIMPLE
   TAGS : notes
   HEAD : 2018-03-07_12-00
   TYPE : thoughts
-  PUBL : true
   DATE : 2023-05-06
   BODY
     p Products ends up better when people are empowered to contribute… through simplicity.
@@ -843,7 +819,6 @@ JS SPAS AND SEO
   TAGS : notes, web
   HEAD : 2017-05-12_12-01
   TYPE : notes
-  PUBL : true
   DATE : 2023-05-06
   BODY
     2 JS SPA + SEO

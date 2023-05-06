@@ -78,22 +78,19 @@ function Articles()
       element.media = media.getByDate(element.HEAD);
  
       // Article HTML
-      if (element.PUBL == "true")
+      element.HtmlArticle = function()
       {
-        element.HtmlArticle = function()
+        let linkUrl = inline.getInternalUrl('post', keys[k].toLowerCase());
+        let imageUrl = element.media.pathRelativeSmall;
+        let titleText = element.TITL;
+        if (element.BREF)
         {
-          let linkUrl = inline.getInternalUrl('post', keys[k].toLowerCase());
-          let imageUrl = element.media.pathRelativeSmall;
-          let titleText = element.TITL;
-          if (element.BREF)
-          {
-            titleText += ': ' + element.BREF;
-          }
-          let tagsArray = element.TAGS;
-          return parent.template.articleCard(linkUrl, imageUrl, titleText, tagsArray);
+          titleText += ': ' + element.BREF;
         }
-        this.db.push(element);
+        let tagsArray = element.TAGS;
+        return parent.template.articleCard(linkUrl, imageUrl, titleText, tagsArray);
       }
+      this.db.push(element);
     }
 
     // Sort by date
@@ -109,7 +106,7 @@ function Articles()
 
     for (let k = 0; k < this.db.length; k++)
     {
-      if ((this.db[k].PUBL == "true") && (this.db[k].TYPE == query))
+      if (this.db[k].TYPE == query)
       {
         results.push(this.db[k]);
       }

@@ -2,11 +2,12 @@
 - Better content for Sylo proj
 - Better content for Swordy proj
 
-## FIX
+## BUGS
 - Fix weird small text p paragraph content after double images
+- Weird offset in photo page list (switch between home/projects/photos repeat)
+- BUG: exactly 1280px width screen causes weird sidebar indent. not 1279 with down or 1281 up, exactly 1280 only.
 - Fix Opengraph/twitter meta cards don't work with SPA 
 - Fix spacing under tags for all articles and project pages
-- Weird offset in photo page list (switch between home/projects/photos repeat)
 - Fix social icons missing from medium width
 
 ## REFACTOR
@@ -14,11 +15,7 @@
 - Treat all projects, articles, photos? the same (same 'article' HTML and content requirements)
 - TITL not needed? Set homepage name in CONFIG.
 
-## BUGS
-- BUG: exactly 1280px width screen causes weird sidebar indent. not 1279 with down or 1281 up, exactly 1280 only.
-
 ## Next release
-- add meta titles to pages based on page title
 - add /now page 
 
 ## Images needed
@@ -43,7 +40,6 @@
 - why crypto
 - why privacy
 - why home
-- time
 - crystal
 - change minds
 - game tourism

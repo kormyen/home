@@ -494,7 +494,7 @@ WARP
   BREF : VR JAM 2013
   SECT : 3, 4
   BODY
-    p Warp is a {link post VR} experiment built by {link ext alexey} (artist, animator) and I for the Oculus VR jam 2013. 
+    p Warp is a {link post VR-in-2014} experiment built by {link ext alexey} (artist, animator) and I for the Oculus VR jam 2013. 
     p We mostly focused on trying to make a VR experience that anyone could play (just headset and standard controller) and not feel sick.
     p We played it quite safe (read: boring) in terms of gameplay but spent a lot of time focusing on the feel, the experience, visual aesthetic and usability in this early time for VR. 
     p The concept would have worked if expanded upon for sure.
@@ -507,6 +507,7 @@ WARP
 TOILET
   TITL : Composting Toilet
   DESC : A home made composting toilet.
+  HEAD : 2020-01-18_18-27
   TAGS : offgrid, physical, wood
   BREF : poop bucket
   SECT : 1, 6
@@ -514,7 +515,6 @@ TOILET
   BODY
     p When people say "composting toilet" what they really mean is "shitting in a bucket" - but it's nicer than most people who haven't used one think. It's surprising how many people just write-off the idea before they realise it's actually all good. 
     p I made this composting toilet with a deadline for {link ext kiwiburn} to serve as our {link project solarsails 'Solarsails'} themecamp toilet, with the intention for it to then live in my {link project van 'vanlife home'}.
-    i 2020-01-18_18-27
     p Above is my composting toilet just completed - still in the {link ext hackland} workshop.
     2 Why
     p The big benefit is it's cheap, simple, turns waste into compost, and reduces water use (good for off-grid, mobile homes and boats).

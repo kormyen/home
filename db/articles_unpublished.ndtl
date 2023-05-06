@@ -6,8 +6,6 @@ FIRST SAIL
   TYPE : blog
   HEAD : 2017-01-12_17-40
   DATE : 2019-07-14
-  CHNG : 0
-  PUBL : false
   BODY
     p {image 2017-01-12_17-40 ir} My first sailing experience was with my Aunt Karen, Uncle Peter, my Dad and two crazy cousins Lara and Chloe in Australia for a week around 1999. 
     p I don't recall specifically where we went, but I cherish the memories of adventuring:
@@ -24,8 +22,6 @@ END GAME NOTES
   HEAD : 
   DATE : 2022-09-12
   EDIT : 
-  CHNG : 0
-  PUBL : false
   BODY
     p Phases: Discovery, Onboarding, Scaffolding, Endgame.
     2 Endgame Examples
@@ -60,7 +56,6 @@ END GAME NOTES
 
 LEVEL DESIGN
   TITL : Level design
-  PUBL : false
   LINK
       - {link ext dungeonMap}
   BODY
@@ -96,7 +91,6 @@ LEVEL DESIGN
   HEAD : 2018-01-20_12-00
   DATE : 2020-09-04
   EDIT : 
-  PUBL : false
   BODY
     2 Dot product
     p Vector3.Dot(vector1, vector2)
@@ -117,7 +111,6 @@ MIGW AND PAX 14
   HEAD : 2018-01-20_12-00
   DATE : 2014-12-05
   EDIT : 2017-01-31
-  PUBL : false
   BODY
     p [![Danny (left) and Alexey (right) and Melbourne CBD.](/content/images/2017/01/IMG_20141028_091143.jpg#small)](/content/images/2017/01/IMG_20141028_091143.jpg)
     p Melbourne is beautiful. Nice architecture, people, street art. The developer community is really good. It seems well supported, big and well organized.
@@ -315,7 +308,6 @@ FLOW
   TYPE : thoughts
   HEAD : 2018-01-20_12-00
   DATE : 2017-04-12
-  PUBL : false
   BODY
     p Diectic shift
     p https://www.youtube.com/watch?v=SFqnZ-nh4XM
@@ -330,7 +322,6 @@ VAN INSULATION
   TYPE : thoughts
   HEAD : 2018-01-20_12-00
   DATE : 2017-02-04
-  PUBL : false
   BODY
     p The [Build A Green RV - Install Insulation](http://www.buildagreenrv.com/design-and-build-information-for-camper-vans/install-insulation/#Vapor_Barriers) page is the best resource I have found for Insulation information.
     p 
@@ -359,7 +350,6 @@ VR 2
   HEAD : 2018-01-20_12-00
   DATE : 2017-01-25
   EDIT : 2017-02-15
-  PUBL : false
   BODY
     p http://www.independent.co.uk/life-style/gadgets-and-tech/news/computer-simulation-world-matrix-scientists-elon-musk-artificial-intelligence-ai-a7347526.html
     p 
@@ -396,7 +386,6 @@ SWORDY EA RELEASE!
   HEAD : 2018-01-20_12-00
   DATE : 2016-07-22
   EDIT : 2017-01-19, 2017-02-01
-  PUBL : false
   BODY
     p We did it! Swordy is up [on Steam Early Access](http://store.steampowered.com/app/467900)!
     p 
@@ -518,7 +507,6 @@ VAN??
   HEAD : 2018-01-20_12-00
   DATE : 2017-01-10
   EDIT : 2017-02-01, 2017-02-10
-  PUBL : false
   BODY
     p This article is about the whys, hows and whats of my \"Van Life\" experiment - to live in a van!
     p 
@@ -744,7 +732,6 @@ VEGETABLES
   HEAD : 2012-11-17_00-01
   DATE : 2016-02-14
   EDIT : 2017-01-31
-  PUBL : false
   BODY
     p {link ext animsent}
     p https://www.theguardian.com/environment/2020/jun/19/why-you-should-go-animal-free-arguments-in-favour-of-meat-eating-debunked-plant-based
@@ -944,7 +931,6 @@ MESSENGER MUSTS
   TYPE : thoughts
   HEAD : 2016-02-14_00-02
   DATE : 2020-07-28
-  PUBL : false
   BODY
     p Apps like Telegram, Facebook Messenger and Whatsapp claim privacy and are great at PR -  they hit key metrics in specific ways, letting people believe they are respecting privacy while failing their user's in deliberate technical ways.
     p Here is what to look for in a messenger:
@@ -984,7 +970,6 @@ MESSENGER MUSTS
 GIBBS FARM
   TITL : Gibbs Farm
   TYPE : blog
-  PUBL : false
   BODY
     p https://imgur.com/gallery/4uqtY
     p http://gibbsfarm.org.nz/
@@ -992,7 +977,6 @@ GIBBS FARM
 GAME TOURISM
   TITL : Game tourism
   TYPE : thoughts
-  PUBL : false
   BODY 
     p steam screenshots
     p "Played @panoramical. Forgot about my tea. My tea is cold and this game is awesome." https://twitter.com/kormyen/status/644872926068518912
@@ -1000,14 +984,12 @@ GAME TOURISM
 HOBBITON
   TITL : Hobbiton
   TYPE : blog
-  PUBL : false
   BODY
     p photos
 
 DOTS
   TITL : Dots
   TYPE : notes
-  PUBL : false
   BODY
     p Yayoi Kusama https://twitter.com/kormyen/status/641913580359516160
 
@@ -1018,7 +1000,6 @@ PLASTIC OCEAN
   DATE : 2019-06-08
   TYPE : notes
   BREF : documentary
-  PUBL : false
   BODY
     p The Plastic Ocean documentary screening was good. I liked the sustainable building it was showed in even more though haha. Had some cool non-toxic-plastic (ironic?) double layered roof with pressured gas in between as insulation etc.
     p The plastic thing to me is a government/regulation problem (ban all non-compostable packaging ("bio-degradable-plastic" is bullshit - it doesn't ever "break down" it just "breaks apart")) but I guess education needs to permeate far enough into societies first in order for that to happen.
@@ -1033,7 +1014,6 @@ CHANGE MINDS
   DATE : 2019-06-18
   BREF : Why pollute?
   TYPE : thoughts
-  PUBL : false
   BODY
     p How to stop the problem of polution?
     p Whos job is it to protect the environment?
@@ -1053,7 +1033,6 @@ CRYSTAL
   TITL : Crystal
   HEAD : 2019-04-13_07-01
   TYPE : notes
-  PUBL : false
   BODY
     p Quartz clock and Piezoelectricity
     p ref {link ext piezoele}
@@ -1066,7 +1045,6 @@ GOALS IN 2019
   DATE : 2019-01-04
   HEAD : 2019-02-23_19-43
   TYPE : blog
-  PUBL : false
   BODY
     2 Goals for life:
     p Art for liberation - deliberate art, engineering and research toward escape from societal traps.
@@ -1089,7 +1067,6 @@ SOUL FOOD
   BREF : importance of values
   HEAD : 2019-04-13_07-01
   TYPE : notes
-  PUBL : false
   BODY
     p "Soul Food and the importance of values for creative survival" was a presentation by Raymond McGrath at Chromacon (a New Zealand arts festival) in 2019.
     p Wow ok. That talk was amazing. An illustrator talking about doing work for love, work that makes you happy.
@@ -1109,7 +1086,6 @@ TOOLS I USE 2020
   TYPE : notes
   DATE : 2020-06-03
   EDIT : 2020-06-04
-  PUBL : false
   BODY
     p I recognize that using open source, privacy focused tools is important. If not for my current self, then my potential future self, protestors, journalists, and refugees.
     p I list these to share things I think are good, and in hopes someone has suggestions of improvement, or as benefit to others.
@@ -1157,7 +1133,6 @@ WHY PRIVACY
   DATE : 2019-06-04
   EDIT : 2020-06-04
   TYPE : thoughts
-  PUBL : false
   BODY
     p Why is privacy important?
     p "I've got nothing to hide"
@@ -1183,7 +1158,6 @@ WHY CRYPTO
   TYPE : thoughts
   DATE : 2018-07-08
   EDIT : 2020-06-04
-  PUBL : false
   BODY
     p I feel like trustless and transparent systems are an answer to tyranny/greed/corruption and inequality.
     p Idealistically fairer and longer term solutions that are hard to corrupt due to transparency.

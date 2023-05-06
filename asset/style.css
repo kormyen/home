@@ -94,7 +94,7 @@ header {
 }
 .infoContainer {
   margin-right: var(--size-columnPaddingLarge);
-  margin-bottom: var(--size-columnPaddingNormal);
+  margin-bottom: var(--size-columnPaddingLarge);
   display: flex;
   flex-direction: row;
   gap: var(--size-columnPaddingNormal);
