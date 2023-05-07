@@ -410,9 +410,8 @@ HOME TO DO LIST
     - /uses page https://marcjenkins.co.uk/uses/
     p 
     2 Fix bugs
-    - Fix weird small text p paragraph content after double images
-    - Weird offset in photo page list (switch between home/projects/photos repeat)
-    - Exactly 1280px width screen causes weird sidebar indent. not 1279 with down or 1281 up, exactly 1280 only.
+    - Weird position offset in photo page list (switch between home/projects/photos repeat)
+    - At exactly 1280px width screen causes weird sidebar indent. not 1279 with down or 1281 up, exactly 1280 only.
     - Fix Opengraph/twitter meta cards don't work {link thought js-spas-and-seo 'with SPA'} 
     - Fix social icons missing from medium width
     - Scaling page width on project/article list page makes right side column wider in medium width size
