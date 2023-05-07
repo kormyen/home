@@ -137,14 +137,14 @@ function Image(data)
         steps += `../`;
       }
 
-      let result = ``;
-      result += `<div class='article zoomable' onclick="lightbox.load('${ steps }${ this.pathRelative }')">`;
-      result += `<img src='${ steps }media/small/${ this.file }' class='articleImg ${ imageAlign }radiusNormal'`;
-      if (this.desc) { result += ` alt='${this.desc}'`; }
-      result += `>`;
-      result += this.articleContent();
-      result += `</div>`;
-      return result;
+      let resultArticle = ``;
+      resultArticle += `<div class='article zoomable' onclick="lightbox.load('${ steps }${ this.pathRelative }')">`;
+      resultArticle += `<img src='${ steps }media/small/${ this.file }' class='articleImg ${ imageAlign }radiusNormal'`;
+      if (this.desc) { resultArticle += ` alt='${ this.desc }'`; }
+      resultArticle += `>`;
+      resultArticle += this.articleContent();
+      resultArticle += `</div>`;
+      return resultArticle;
     }
 
 
@@ -157,14 +157,14 @@ function Image(data)
         steps += `../`;
       }
 
-      let result = ``;
-      result += `<div class='article zoomable' onclick="lightbox.load('${ steps }${ this.pathRelative }')">`;
-      result += `<img src='${ steps }media/small/${ this.file }' class='articleImg articleBlackAndWhite ${ imageAlign }radiusNormal'`;
-      if (this.desc) { result += ` alt='${this.desc}'`; }
-      result += `>`;
-      result += this.articleContent();
-      result += `</div>`;
-      return result;
+      let resultHtml = ``;
+      resultHtml += `<div class='article zoomable' onclick="lightbox.load('${ steps }${ this.pathRelative }')">`;
+      resultHtml += `<img src='${ steps }media/small/${ this.file }' class='articleImg articleBlackAndWhite ${ imageAlign }radiusNormal'`;
+      if (this.desc) { resultHtml += ` alt='${this.desc}'`; }
+      resultHtml += `>`;
+      resultHtml += this.articleContent();
+      resultHtml += `</div>`;
+      return resultHtml;
     }
     this.htmlMed = ``;
     this.htmlMed += `<div class='zoomable' onclick="lightbox.load('${ this.pathRelative }')")>`;
@@ -174,13 +174,13 @@ function Image(data)
 
     this.htmlMedL = ``;
     this.htmlMedL += `<div class='zoomable' onclick="lightbox.load('${ this.pathRelative }')">`;
-    this.htmlMed += `<img src='${ this.pathRelative }' class='elementHalfLeft'`;
+    this.htmlMedL += `<img src='${ this.pathRelative }' class='elementHalfLeft'`;
     if (this.desc) { this.htmlMedL += ` alt='${this.desc}'`; }
     this.htmlMedL += `></div>`;
     
     this.htmlMedR = ``;
     this.htmlMedR += `<div class='zoomable' onclick="lightbox.load('${ this.pathRelative }')">`;
-    this.htmlMed += `<img src='${ this.pathRelative }' class='elementHalfRight'`;
+    this.htmlMedR += `<img src='${ this.pathRelative }' class='elementHalfRight'`;
     if (this.desc) { this.htmlMedR += ` alt='${this.desc}'`; }
     this.htmlMedR += `></div>`;
   }

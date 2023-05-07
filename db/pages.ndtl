@@ -4,9 +4,7 @@ INDEX
   DESC : Hamish MacDonald - Experience Designer
   HEAD : 2019-04-15_15-36
   TAGS : Hamish MacDonald, kormyen, design, projects, photos
-  EDIT 
-    - 2023-04-22: Update structure to runlike
-    - 2023-04-25: New intro
+  EDIT : 2023-04-22, 2023-04-25
   BODY
     2 {link page hamish 'Hamish'} is an Experience Designer
     3 Featured {link page projects} of {stat projectsTotal}
@@ -20,62 +18,6 @@ INDEX
     3 Recent {link page blogs} of {stat blogsTotal}
     b blogsLens
     / art
-
-HAMISH
-  TITL : Hamish
-  DESC : Who is Hamish?
-  BREF : Who?
-  DATE : 1988 - 2023
-  HEAD : 2019-03-03_15-00
-  TAGS : Hamish MacDonald, kormyen, about
-  PRNT : INDEX
-  EDIT
-    - 2023-04-23 Add contact info, update tools, add brief intro
-    - 2023-04-24 Add bullet points, add more projects to research categories, add Sarah, update reduction of harm definition
-  BODY
-    i 2017-05-12_12-01
-    t Who?
-    p Born, raised and currently lives in Auckland, New Zealand.
-    p Lives offgrid with {link ext sarahPortfolio 'Sarah Tanfield'} aboard a small {link blog quest 'sailboat'} and a {link project van 'stealth campervan'}.
-    p Generalist, designer, gamedev, webdev, maker of things.
-    p Passionate about self reliance, offgrid systems, privacy, art for liberation, incrementalism of self and reduction of harm.
-    p Received a Bachelor of Design from AUT in Auckland, New Zealand, focusing on digital design, games and experiences.
-    p Inspired by crypto since 2013, worked pressionally in web3 since 2018.
-    t Skills
-    - User interface design
-    - User experience design
-    - Web design
-    - Web development
-    - Game design
-    - Game development
-    t Chosen Tools
-    - Figma
-    - Unity3D
-    - C#
-    - HTML / CSS / JS
-    - Deno / TypeScript
-    - Jetbrains Rider
-    - Google Sheets
-    t Goals
-    - Art for liberation - deliberate art, engineering and research towards escape from societal traps.
-    - Incrementalism of self - continuous personal development and frequent re-evaluation.
-    - Reduction of harm - toward long-termism and lessening negative impact to environment and life.
-    t Research
-    - Dasein -  {link project Dastime}, {link project Memex}, {link project Home}
-    - Productivity - {link project Log}
-    - Solarpunk - {link blog Sailing}, {link project Solarsails}, {link project Toilet}
-    t Alias
-    p Kormyen
-    - Literal: "Kor" tr.(Tau) Air (pilot). "M'yen" tr.(Tau) unforseen.
-    - Misinterpreted: Ghost, spirit, soul~
-    i 2015-09-03_12-00
-    p Contact me via email at h@kor.nz or via @kormyen
-  LINK
-    - {link ext twitter}
-    - {link ext merveillesTown 'Mastodon'}
-    - {link ext github}
-    - {link ext instagram}
-    - {link ext linkedin}
 
 PROJECTS
   TITL : Projects
@@ -126,12 +68,67 @@ BLOGS
   BODY
     b blogsAll
 
+HAMISH
+  TITL : Hamish
+  DESC : Who is Hamish?
+  BREF : Who?
+  DATE : 1988 - 2023
+  HEAD : 2019-03-03_15-00
+  TAGS : Hamish MacDonald, kormyen, about
+  PRNT : INDEX
+  EDIT : 2023-04-23, 2023-04-24
+  BODY
+    i 2017-05-12_12-01
+    t Who?
+    p Born, raised and currently lives in Auckland, New Zealand.
+    p Lives offgrid with {link ext sarahPortfolio 'Sarah Tanfield'} aboard a small {link blog quest 'sailboat'} and a {link project van 'stealth campervan'}.
+    p Generalist, designer, gamedev, webdev, maker of things.
+    p Passionate about self reliance, offgrid systems, privacy, art for liberation, incrementalism of self and reduction of harm.
+    p Received a Bachelor of Design from AUT in Auckland, New Zealand, focusing on digital design, games and experiences.
+    p Inspired by crypto since 2013, worked pressionally in web3 since 2018.
+    t Skills
+    - User interface design
+    - User experience design
+    - Web design
+    - Web development
+    - Game design
+    - Game development
+    t Chosen Tools
+    - Figma
+    - Unity3D
+    - C#
+    - HTML / CSS / JS
+    - Deno / TypeScript
+    - Jetbrains Rider
+    - Google Sheets
+    t Goals
+    - Art for liberation - deliberate art, engineering and research towards escape from societal traps.
+    - Incrementalism of self - continuous personal development and frequent re-evaluation.
+    - Reduction of harm - toward long-termism and lessening negative impact to environment and life.
+    t Research
+    - Dasein -  {link project Dastime}, {link project Memex}, {link project Home}
+    - Productivity - {link project Log}
+    - Solarpunk - {link blog Sailing}, {link project Solarsails}, {link project Toilet}
+    t Alias
+    p Kormyen
+    - Literal: "Kor" tr.(Tau) Air (pilot). "M'yen" tr.(Tau) unforseen.
+    - Misinterpreted: Ghost, spirit, soul~
+    i 2015-09-03_12-00
+    p Contact me via email at h@kor.nz or via @kormyen
+  LINK
+    - {link ext twitter}
+    - {link ext merveillesTown 'Mastodon'}
+    - {link ext github}
+    - {link ext instagram}
+    - {link ext linkedin}
+
 NOW
   TITL : Now
   DESC : What I’m focused on now
   TAGS : Hamish MacDonald, kormyen, now
   HEAD : 2022-08-05_15-32
   PRNT : INDEX
+  DATE : 2023-05-08_19-00
   BODY
     2 What I’m focused on now
     p Updated: 2023-05-07
