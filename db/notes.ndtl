@@ -407,6 +407,7 @@ HOME TO DO LIST
     - 404 page
     - Arrange photos list by date
     - /uses page https://marcjenkins.co.uk/uses/
+    - {link project namehere} should give the projects TITL as the label not the namehere
     p 
     2 Fix bugs
     - Weird position offset in photo page list (switch between home/projects/photos repeat)

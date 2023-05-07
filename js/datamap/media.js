@@ -2,15 +2,20 @@
 
 function Media()
 {
-  this.db = [];
+  this.db = new Array();
 
   this.install = function()
   {
     let data = new Tablatal(MEDIA).parse();
     for (var i = 0; i < data.length; i++)
     {
-      this.db[i] = new Image(data[i]);
+      this.db.push(new Image(data[i]));
     }
+
+    this.db.sort(function(a,b) 
+    { 
+      return ((a.date < b.date) ? -1 : ((a.date > b.date) ? 1 : 0));
+    }).reverse();
   }
 
   this.filterWithPerson = function(dataset, name)
@@ -40,7 +45,12 @@ function Media()
 
   this.filterPhotos = function(dataset)
   {
-    return dataset.filter(item => item.photo == true);
+    let results = dataset.filter(item => item.photo == true);
+    // results.sort(function(a,b) 
+    // { 
+    //   return ((a.date < b.date) ? -1 : ((a.date > b.date) ? 1 : 0));
+    // }).reverse();
+    return results;
   }
 
   this.sortByQuality = function(dataset)
