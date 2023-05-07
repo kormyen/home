@@ -83,12 +83,37 @@ function Runelike()
             {
                 for (let i = 0; i < stash.a.length; i++)
                 {
-                    let imageData = parent.media.getByDate(stash.a[i]);
-                    if (!imageData)
+                    let imageNames = stash.a[i].split(' ');
+                    if (imageNames.length == 1)
                     {
-                        console.warn('Cannot find media item: ' + stash.a[i])
+                        let imageData = parent.media.getByDate(stash.a[i]);
+                        if (!imageData)
+                        {
+                            console.warn('Cannot find media item: ' + stash.a[i])
+                        }
+                        result += `${acc} ${imageData.htmlMed}`;
                     }
-                    result += `${acc} ${imageData.htmlMed}`;
+                    else if (imageNames.length == 2)
+                    {
+                        // prev article content
+                        result += `${acc}`;
+
+                        // image left
+                        let imageData1 = parent.media.getByDate(imageNames[0]);
+                        if (!imageData1)
+                        {
+                            console.warn('Cannot find media item: ' + imageNames[0])
+                        }
+                        result += `${imageData1.htmlMedL}`;
+
+                        // image right
+                        let imageData2 = parent.media.getByDate(imageNames[1]);
+                        if (!imageData2)
+                        {
+                            console.warn('Cannot find media item: ' + imageNames[1])
+                        }
+                        result += `${imageData2.htmlMedR}`;
+                    }
                 }
             }
             else if (stash.rune.tag == 'h2')

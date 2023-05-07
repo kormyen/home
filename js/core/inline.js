@@ -174,13 +174,13 @@ function Inline()
 
                         if (param == 'il')
                         {
-                            let imageData = parent.media.getByDate(imageDate);
-                            lineResult += `${imageData.htmlMedL}`;
+                            console.log('il!');
+                            console.log(imageChunks);
                         }
                         else if (param == 'ir')
                         {
-                            let imageData = parent.media.getByDate(imageDate);
-                            lineResult += `${imageData.htmlMedR}`;
+                            console.log('ir!');
+                            console.log(imageChunks);
                         }
                     }
                     else

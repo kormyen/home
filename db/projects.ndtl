@@ -37,7 +37,7 @@ SEEKERS
     p For the public sale mint event it was explained that Seekers were in danger from attack by 'God & Goblins' who wanted to melt them down for parts to build a portal.
     p The Seekers NFT mint was a first of it's kind "community-determined supply" (AFAIK).
     p There were 50,000 Seekers that could potentially be minted, but each second that the mint event took, Seekers were lost to the Goblin attack. 
-    p {image 2022-06-25_11-40 il} {image 2022-06-25_11-42 ir}
+    i 2022-06-25_11-40 2022-06-25_11-42
     p Surprisingly it sold out in just over 77 minutes.
     p On 2022-03-27: 47,895 Seekers were rescued at a mint cost of around 0.09 ETH each.
     i 2022-03-23_11-09
@@ -50,9 +50,9 @@ SEEKERS
     t My role
     p I was the Creative Director on the Seekers project, proposing the intial concept, ideation, spreadsheet trait distribution, initial partnership reach outs and communication, and working with the design, development and production team to deliver.
     p Seekers are created by {link project Sylo} but we worked closely with the amazing team at Non-Fungible Labs of {link ext flufWorldHome}.
-    p {image 2022-09-20_10-59 il} {image 2022-09-20_10-58 ir}
-    p {image 2022-09-20_10-57 il} {image 2022-06-25_11-41 ir}
-    p {image 2022-09-13_10-50 il} {image 2022-08-18_13-58 ir}
+    i 2022-09-20_10-59 2022-09-20_10-58
+    i 2022-09-20_10-57 2022-06-25_11-41
+    i 2022-09-13_10-50 2022-08-18_13-58
     i 2022-09-20_10-56
     p Pre-mint I also worked on a three stage encryption (puzzle) system for Sparky to get to the Seeker fan ("the found") and not be intercepted by the evil Goblins.
     p The puzzle started here: {link ext urgentMessage}
@@ -62,13 +62,13 @@ SEEKERS
     t Backgrounds
     p I provided a lot of (but not all of) the ideation, art direction and feedback for the Seekers backgrounds to a team of extremely talented artists who built them in Unreal Engine.
     p A good example is my faviourite location: the Mushroom Forest which is inspired by a photo I took of New Zealand native Entoloma hochstetteri mushroom on Mount Hobson, Great Barrier Island... and of course Fluf World 'mycelium'... and Alice in Wonderland...
-    p {image 2019-04-15_16-25 il} {image 2022-08-05_15-32 ir}
+    i 2019-04-15_16-25 2022-08-05_15-32
     p The direction for many of the Seekers backgrounds was "seeking" deeper points of interest in locations of the {link ext flufworldscenes 'Fluf World scenes'}.
     t Partnerships
     p It was incredible reaching out to potential partners and finding that; not only had they heard of Seekers, but they also responded, and also were keen to work together.
     p Most incredible has been working with the teams at Walker World, Wilder World and Weta.
     i 2023-05-02_19-01
-    p {image 2022-05-02_17-33 il} {image 2022-07-12_10-04 ir}
+    i 2022-05-02_17-33 2022-07-12_10-04
     t Building
     p It's been exciting working with Futureverse. I really enjoying seeing this universe expand.
     i 2023-03-22_18-02
@@ -133,7 +133,7 @@ HOME
     p With a focus on simplicity and minimalism in it's structure and core content setup. It is hopefully some form of foundational base to build upon into time.
     p At the very least with it's use of a human-readable data database; it's content should be portable between future website versions and long term, and simple to archive. 
     2 2018
-    p {image 2018-10-15_12-00 il} {image 2018-10-15_12-01 ir} 
+    i 2018-10-15_12-00 2018-10-15_12-01
     p Visualising my experiements with time tracking for self productivity gamification.
     p It had two pages, one an overview of all data with a graph and statistics, the other being a day by day journal of tasks.
     2 2014
@@ -142,7 +142,8 @@ HOME
     p I added written articles, thoughts and notes for a while, then removed them.
     2 2010
     i 2010-01-01_12-00
-    p {image 2010-01-01_12-01 il} Portfolio site for university work. I still really like this version.
+    i 2010-01-01_12-01
+    p Portfolio site for university work. I still really like this version.
     p This site was built with Adobe Flash - a long dead interaction and animation software for web that people like to complain about (performance and security). I found Flash really quite nice to build things with.
     p The top section is a mystery-meat-menu in Japanese (for some reason?) with subtitles in English on hover. The {link project mort 'Mort TV'} header background was of a class 'art worm' project for fun, where each person paints the next square after only seeing the directly previous square.
     p The first image below displays Fontana Dam a Half Life 2 map built for University.
@@ -172,19 +173,21 @@ MORT
   DATE : 2010-07-30
   TYPE : project
   BODY
-    p {image 2007-09-04_12-00 ir} I created Mort for a character design asignment for university. 
+    i 2007-09-04_12-00
+    p I created Mort for a character design asignment for university. 
     p I referenced and borrowed from the styles of 'Johnny the Homicidal Maniac', 'Invader Zim', 'Lazy Muffin (Yotam Perel)' and 'Domo-Kun'.
-    p {image 2007-09-04_12-01 il}
+    i 2007-09-04_12-01
     p There was also a 3D model component of this assignment but that turned out terribly. See below for {link ext eleanorNgai}'s amazing 3D Mort fan art.
     i 2009-09-15_12-18
     p Above: The class voluntarily started an 'art worm' project where each person would draw the next sequence square in a horizontal painting after only seeing the previous square. This was my contribution.
     i 2010-09-19_18-30
-    p {image 2009-06-15_10-48 il} Above: Mortzilla sketch for fun
-    p Left: Mortcat pixel art sketch for fun
-    p Below: Mort Halloween jack-o-lantern
+    p Above: Mortzilla sketch for fun
+    i 2009-06-15_10-48
+    p Above: Mortcat pixel art sketch for fun
     i 2011-10-30_20-53
-    p Below: {link ext eleanorNgai}'s amazing 3D Mort fan art.
+    p Above: Mort Halloween jack-o-lantern
     i 2010-07-30_12-01
+    p Above: {link ext eleanorNgai}'s amazing 3D Mort fan art.
     p At some point I made a t-shirt Mort version, but surprisingly not many sold :D
     i 2008-02-02_12-00
     i 2019-07-08_12-00
@@ -267,7 +270,7 @@ ARDUSAMBER
   TITL : Ardusamber
   DESC : Arduino experiements with Neauoire's time format Neralie.
   TAGS : code, electronics, time, physical
-  BREF : neralie & arvelie
+  BREF : homage clock
   SECT : 3
   DATE : 2018-05-15
   EDIT : 2019-07-03
@@ -298,7 +301,7 @@ DASTIME
   TITL : Dastime
   DESC : A clock design.
   TAGS : code, electronics, time, physical
-  BREF : dasein time
+  BREF : custom clock
   SECT : 3, 4
   DATE : 2018-07-05
   TYPE : project
@@ -542,7 +545,6 @@ TOILET
   DESC : A home made composting toilet.
   HEAD : 2020-01-18_18-27
   TAGS : offgrid, physical, wood
-  BREF : poop bucket
   SECT : 1, 6
   TYPE : project
   EDIT : 2020-08-28, 2020-08-27, 2021-04-24
@@ -699,9 +701,9 @@ SUN QUEST
     p This was done around 2021-12-04.
     t The mounting
     p I made the mounts from a base of wood. These are obviously simple.. but takes way longer than you'd think, as on a boat everything is curved in every direction.
-    p {image 2021-12-04_22-30 il} {image 2021-12-04_22-33 ir}
+    i 2021-12-04_22-30 2021-12-04_22-33
     p These wood bits I then coated in epoxy and painted with boat exterior paint. 
-    p {image 2021-12-04_22-32 il} {image 2021-12-04_22-31 ir}
+    i 2021-12-04_22-32 2021-12-04_22-31
     p To connect both the panels to the mounts, and that all to the boat I used quite thick, quite long bolts that go all the way from the panel frames, through the wooden mounts, through the boat deck. So the way the panels are connected is very strong.
     p I expect the solarpanel glass and plastic would break out before the mounting came off if the boat capsized or something.
     i 2022-01-11_13-38
@@ -722,12 +724,12 @@ SUN QUEST
     p This time I found that EPEVER have a water proof Charge Controller range 'TracerBP' (MPPT) so I went with that. It seems fully sealed for water which is great. It's not that I expect it to get wet inside the boat, but it is insurance/hope for the worst case and also hopefully better durability with the extremely wet and salty air.
     p I got two 15A ones - one for each solar panel, for a bit of redundency.
     p The charge controllers connect to 'EPEVER MT50' screens.
+    p I'll write better details and instructions here if anyone asks.
 
 HORIZON LEAKS
   TITL : Horizon Leaks
   DESC : To fix a leaking boat
   TAGS : physical, wood
-  BREF : Oh no
   SECT : 1, 6, 8
   HEAD : 2019-11-02_18-50
   DATE : 2023-05-06
@@ -761,7 +763,7 @@ HORIZON LEAKS
     p This shows the rotted wood cut out in only one area, and Helena helping to dry out the wet wood before we can fibreglass Horizon back up.
     p The damage ended up being not too bad, only rotten badly in one small area which we cut out with the advice and guidance of Ceri.
     p Once chopped out we left Horizon to dry out for several weeks, with occasional help of heatguns.
-    p {image 2019-12-12_21-00 il} {image 2019-12-12_12-01 ir}
+    i 2019-12-12_21-00 2019-12-12_12-01
     p Above is the finished fibreglass repair. Again with the help of Ceri who instructed us.
     p He took care of replacing the chunk of cut out rotten wood, replacing wood for wood.
     p Then he helped us how to lay out several layers of very thick fibreglass, on top of a much bigger rounded fillet made of thickened epoxy. This repair meant that Horizon was much more strong than she was.

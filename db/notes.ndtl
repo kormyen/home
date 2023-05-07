@@ -1,6 +1,6 @@
 var NOTES = `
-17 INDIEDEV GAMEDEV LESSONS
-  TITL : 17 indiedev gamedev lessons
+17 INDIE GAMEDEV LESSONS
+  TITL : 17 indie gamedev lessons
   DESC : Notes on "17 lessons learned" in indie gamedev
   TAGS : game, research
   TYPE : note
@@ -62,11 +62,10 @@ GAME DESIGN NOTES
     p "The road"
     p DIFFICULTY CURVE: Game gets harder the more you play. Complexity increases, difficulty increases, more challenges. Up until final test of all things learned to complete the game.
 
-HUMANE CALM
-  TITL : Humane calm
+HUMANE CALM DESIGN
+  TITL : Humane calm design
   DESC : Notes on importance of values in tech
   TAGS : design, research
-  BREF : values
   HEAD : 2019-04-13_07-01
   TYPE : note
   DATE : 2018-07-20
@@ -127,7 +126,6 @@ HUMANE CALM
 PRESERVING MYSTERY
   TITL : Preserving mystery
   DESC : Notes on mystery in games
-  BREF : Frog Fractions
   TAGS : game, research
   TYPE : note
   HEAD : 2016-02-14_00-02
@@ -180,7 +178,6 @@ PRESERVING MYSTERY
 DRAGON SPEECH
   TITL : Dragon speech
   DESC : Notes on dragon speech talk
-  BREF : Chris Crawford
   TAGS : game, research
   TYPE : note
   HEAD : 2014-04-20_14-59
@@ -209,7 +206,6 @@ DRAGON SPEECH
 GAME MARKETING 2014
   TITL : Game marketing 2014
   DESC : Notes on indie game marketing lecture by Emmy Jonassen
-  BREF : lecture
   TAGS : game, research
   TYPE : note
   HEAD : 2014-03-10_00-01
@@ -348,7 +344,7 @@ GAME MARKETING 2014
 ISO 8601
   TITL : ISO 8601
   DESC : Notes on ISO 8601
-  BREF : superior date
+  BREF : date format
   TAGS : time
   TYPE : note
   HEAD : 2020-08-08_02-37
@@ -366,7 +362,7 @@ ISO 8601
 
 LONG SITE
   TITL : Long site
-  BREF : Why home
+  BREF : why home
   TAGS : research, time
   HEAD : 2023-05-06_18-31
   TYPE : note
@@ -397,9 +393,8 @@ LONG SITE
     - {link ext longSite}
     - {link ext clockUpdate}
 
-HOME TO DO
-  TITL : Home to do
-  BREF : to do list
+HOME TO DO LIST
+  TITL : Home to do list
   TAGS : web
   TYPE : note
   DATE : 2023-05-07
@@ -412,6 +407,7 @@ HOME TO DO
     - 404 page
     - Add tags for photos
     - Arrange photos list by date
+    - /uses page https://marcjenkins.co.uk/uses/
     p 
     2 Fix bugs
     - Fix weird small text p paragraph content after double images
@@ -455,6 +451,7 @@ HOME TO DO
     - flow
     p 
     2 Add missing projects
+    - land PV
     - Flower
     - Him
     p 

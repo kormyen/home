@@ -2,7 +2,6 @@ var THOUGHTS = `
 VR in 2014
   TITL : VR in 2014
   DESC : Thoughts on VR
-  BREF : presence
   TAGS : game, research, vr
   TYPE : thought
   HEAD : 2014-06-11_00-01
@@ -56,7 +55,6 @@ VR in 2014
 NEUROTECH
   TITL : Neurotech
   DESC : Thoughts on neurotech after an explanation and guided demo, testing various apps and examples.
-  BREF : initiation
   TAGS : game, research
   TYPE : thought
   HEAD : 2014-04-12_00-02
@@ -233,9 +231,8 @@ JS SPAS AND SEO
     p Admittedly I'm not exactly following the principles of those quotes but they ring true. Instead of "avoid the complexity altogether with a more clever plan", I'm just doing the first step for now.
 
 LOGGING 2018
-  TITL : Logging
+  TITL : Logging 2018
   DESC : Thoughts in review on time tracking during 2018. What went well, what didn't and what to try in 2019.
-  BREF : 2018
   TAGS : time, research
   DATE : 2019-01-04
   EDIT : 2020-06-22

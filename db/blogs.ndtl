@@ -2,13 +2,13 @@ var BLOGS = `
 VISITING RABBITS
   TITL : Visiting rabbits
   DESC : How I met the Hundred Rabbits; Rekka, Devine and Pino - the floating art studio
-  BREF : people of the internet
   TAGS : sailing
   TYPE : blog
   HEAD : 2017-11-05_17-53
   DATE : 2019-07-14
   BODY
-    p {image 2017-11-05_17-53 il} Sailing myself was not really even a consideration until I started watching the Hundred Rabbits {link ext studioSailboat} vlogs where they seemed to go quickly from zero sailing experience to international travel.
+    i 2017-11-05_17-53
+    p Sailing myself was not really even a consideration until I started watching the Hundred Rabbits {link ext studioSailboat} vlogs where they seemed to go quickly from zero sailing experience to international travel.
     p I met Devine and Rekka and their boat Pino in Whangarei after they sailed to New Zealand from California. 
     p {link ext pino} is a 10 meter Yamaha33 1982 masthead sloop fiberglass sailboat.
     p Devine introduced me to a shared workshop and tool library called "Hackland" in Auckland and thus to it's expanding Ephemeral Yacht Club including {link ext joranKikke}, Helena, {link ext dominic}, Courtney and Lu.
@@ -18,9 +18,8 @@ VISITING RABBITS
     p While working on {link project sylo} I became good friends with Sasha who was very keen to learn sailing. I introduced him to {link ext joranKikke 'Joran'} and {link ext dominic 'Dominic'}.
 
 SAILING LESSON
-  TITL : Sailing lesson
+  TITL : Sailing lesson with a cyberhobo
   DESC : Sailing lesson with a cyber hobo
-  BREF : with a cyberhobo
   TAGS : sailing
   TYPE : blog
   HEAD : 2019-01-19_15-53
@@ -29,7 +28,7 @@ SAILING LESSON
   BODY
     p My now close friend {link ext dominic 'Dominic Tarr'} offered to give Sasha and I a sailing lesson. He later told me that he knew his track record of sailing students converting to sailboat owners is a high percentage... I agreed to a day sail.
     p {link ext dominic 'Dominic'} describes himself as a "cyberhobo" and is probably the most interesting person I know. He seems {link ext magicians 'like a magician'} to me. I very much appreciate his teaching, patience and stories.
-    p {image 2019-01-19_11-59 il} {image 2019-01-19_12-12 ir} 
+    i 2019-01-19_11-59 2019-01-19_12-12
     p In saying that his self built folding dinghy is an experience in which if you can bail faster than the water flows then in everything will be fine. It is the first test to see if you are ready to board Cleo.
     i 2019-01-19_12-13
     p We slowly sailed to Browns Island from Mission Bay. We swam ashore and hiked the small Windows XP landscape, enjoying the 360 degree view of Auckland city, Rangitoto Island and the Hauraki Gulf. It's feels as if it is very literally a picnic island.
@@ -97,11 +96,11 @@ GET HORIZON
     i 2019-03-17_16-08
     p I had awesome adventures with some awesome people aboard - sailing the Auckland Waitemata Harbour in New Zealand.
     i 2019-04-13_15-00
-    p {image 2019-03-10_13-14 il} {image 2019-03-16_19-10 ir}
-    p {image 2019-04-16_18-19 ir} {image 2019-03-16_19-06 il}
-    p {image 2019-04-07_18-47 ir} {image 2019-05-25_16-42 il}
-    p {image 2019-04-16_06-59 ir} {image 2019-04-14_10-47 il}
-    p {image 2019-05-25_16-38 ir} {image 2019-03-30_16-29 il}
+    i 2019-03-10_13-14 2019-03-16_19-10
+    i 2019-04-16_18-19 2019-03-16_19-06
+    i 2019-04-07_18-47 2019-05-25_16-42
+    i 2019-04-16_06-59 2019-04-14_10-47
+    i 2019-05-25_16-38 2019-03-30_16-29
     i 2019-04-15_15-01
     i 2019-04-16_08-03
     i 2019-05-25_16-37
@@ -112,8 +111,7 @@ GET HORIZON
     i 2019-06-30_15-19
 
 SENSORY DEPREVATION
-  TITL : Sensory deprevation
-  BREF : float tank
+  TITL : Sensory deprevation tank
   TAGS : research
   DATE : 2014-11-19
   HEAD : 2014-11-19_19-00
@@ -150,7 +148,7 @@ BUG STONES
   BODY
     p Near where I live there are some old mossy wooden posts marking a boundary.
     p One day I noticed that there were two little painted ladybug stones on one of the posts…
-    p {image 2022-07-21_22-34 il} {image 2022-07-21_22-35 ir}
+    i 2022-07-21_22-34 2022-07-21_22-35
     p I decided to take one, and see what would happen…
     i 2022-07-21_22-38
     p The next day, there were two ladybugs on the post again…
@@ -175,7 +173,7 @@ BUG STONES
     p I accepted the flower and left a smiley
     i 2022-07-21_10-39
     p The next day there was another flower!
-    p {image 2022-07-27_08-40 il} {image 2022-07-27_08-41 ir}
+    i 2022-07-27_08-40 2022-07-27_08-41
     p A few days later there was a new big red ladybug stone
     i 2022-07-28_09-27
     p And underneath was a message: 'Rocks NZ post pic'
