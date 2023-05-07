@@ -5,10 +5,12 @@ LOG
   TAGS : code, design, time, web
   BREF : time tracker
   DATE : 2018-07-12
+  EDIT : 2023-05-08
   SECT : 7
   TYPE : project
   BODY
     p Log is a time tracker.
+    p "The unexamined life is not worth living"
     p "What gets measured gets done."
     p I built this project in 2018 after {link blog visiting-rabbits}. I was inspired by {link ext neauoire} and their tracker {link ext horaire}.
     p I found it a useful learning project, and personal life experiment as a lens on productivity. I detailed what went well and what didn't in this post: {link blog logging-2018}

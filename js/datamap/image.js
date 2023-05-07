@@ -16,6 +16,8 @@ function Image(data)
   this.country           = data.country;
   this.location          = data.location;
   this.area              = data.area;
+  this.templateTags      = new TemplateTags();
+
   this.locationArray     = [];
   if (this.location)
   {
@@ -117,6 +119,16 @@ function Image(data)
   }
   else
   {
+    this.articleContent = function()
+    {
+      let result = ``;
+      result += `<div class='articleContent'>`
+        result += this.templateTags.tagsItemText(ICON_TIME, this.date.split('_')[0]);
+        result += this.templateTags.tagsItemArray(ICON_TAG, this.tags);
+      result += `</div>`;
+      return result;
+    }
+
     this.HtmlArticle = function(stepsBack = 0)
     {
       let steps = ``;
@@ -130,9 +142,13 @@ function Image(data)
       result += `<img src='${ steps }media/small/${ this.file }' class='articleImg ${ imageAlign }radiusNormal'`;
       if (this.desc) { result += ` alt='${this.desc}'`; }
       result += `>`;
+      result += this.articleContent();
       result += `</div>`;
       return result;
     }
+
+
+    // Home index page card
     this.html = function(stepsBack)
     {
       let steps = ``;
@@ -146,21 +162,25 @@ function Image(data)
       result += `<img src='${ steps }media/small/${ this.file }' class='articleImg articleBlackAndWhite ${ imageAlign }radiusNormal'`;
       if (this.desc) { result += ` alt='${this.desc}'`; }
       result += `>`;
+      result += this.articleContent();
       result += `</div>`;
       return result;
     }
     this.htmlMed = ``;
-    this.htmlMed += `<div class='zoomable' onclick="lightbox.load('${ this.pathRelative }')")><img src='${ this.pathRelative }' class='widthFit marginTopNormal marginBottomNormal ${ imageAlign }radiusNormal'`;
+    this.htmlMed += `<div class='zoomable' onclick="lightbox.load('${ this.pathRelative }')")>`;
+    this.htmlMed += `<img src='${ this.pathRelative }' class='widthFit marginTopNormal marginBottomNormal ${ imageAlign }radiusNormal'`;
     if (this.desc) { this.htmlMed += ` alt='${this.desc}'`; }
     this.htmlMed += `></div>`;
 
     this.htmlMedL = ``;
-    this.htmlMedL += `<div class='zoomable' onclick="lightbox.load('${ this.pathRelative }')"><img src='${ this.pathRelative }' class='elementHalfLeft'`;
+    this.htmlMedL += `<div class='zoomable' onclick="lightbox.load('${ this.pathRelative }')">`;
+    this.htmlMed += `<img src='${ this.pathRelative }' class='elementHalfLeft'`;
     if (this.desc) { this.htmlMedL += ` alt='${this.desc}'`; }
     this.htmlMedL += `></div>`;
     
     this.htmlMedR = ``;
-    this.htmlMedR += `<div class='zoomable' onclick="lightbox.load('${ this.pathRelative }')"><img src='${ this.pathRelative }' class='elementHalfRight'`;
+    this.htmlMedR += `<div class='zoomable' onclick="lightbox.load('${ this.pathRelative }')">`;
+    this.htmlMed += `<img src='${ this.pathRelative }' class='elementHalfRight'`;
     if (this.desc) { this.htmlMedR += ` alt='${this.desc}'`; }
     this.htmlMedR += `></div>`;
   }
