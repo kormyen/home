@@ -3,6 +3,7 @@
 - Better content for Swordy proj
 - 404 page
 - Add tags for photos
+- Arrange photos list by date
 
 ## BUGS
 - Fix weird small text p paragraph content after double images
