@@ -133,7 +133,7 @@ function Articles()
         {
           tagsArray = element.TAGS;
         }
-        return parent.template.articleCard(linkUrl, imageUrl, titleText, tagsArray)
+        return parent.template.articleCard(linkUrl, imageUrl, titleText, tagsArray, element.DATE)
       }
       this.db.push(element);
     }

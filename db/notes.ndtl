@@ -417,6 +417,7 @@ HOME TO DO LIST
     - Scaling page width on project/article list page makes right side column wider in medium width size
     p 
     2 Refactor
+    - Create 'articleBody' and articleCard' templates instead of have them in article.js
     - Handle page routing better: parsing pages.ndtl instead of some manual setup.
     - TITL not needed? Set homepage name in CONFIG? Make keys human-case, not uppercase (replace TITL with key).
     - Clean up datamap/image.js

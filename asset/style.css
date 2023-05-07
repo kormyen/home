@@ -469,10 +469,6 @@ svg {
   gap: var(--size-columnPaddingNormal);
   align-items: flex-start;
 }
-.article:hover .articleContent {
-  left: auto;
-  right: var(--size-columnPaddingMedium);
-}
 .article .articleContent .metadataItem {
   display: none;
 }
