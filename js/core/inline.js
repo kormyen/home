@@ -99,7 +99,7 @@ function Inline()
                         optionalLabel = fullText.split("'")[1]; 
                     }
                     
-                    if (func == "project" || func == "page" || func == "thoughts" || func == "notes" || func == "blog")
+                    if (func == "project" || func == "page" || func == "thought" || func == "note" || func == "blog")
                     {
                         // INTERNAL LINK
                         const url = parent.getInternalUrl(func, urlName);

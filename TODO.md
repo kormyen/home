@@ -74,7 +74,6 @@
 - Add image alt text
 - Add identity page https://wiki.xxiivv.com/site/identity.html
 - Add rss support
-- Add lightbox for images
 - Add tags to item cards
 - Add filtering by tags
 - Add new photos

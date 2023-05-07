@@ -1223,4 +1223,32 @@ WFC HEX GRIDS
     p "In the bend-stage, you'd probably use the average length of remaining possibilities as the desired edge length of uncollapsed cells."
     p "Actually. If this works well (and that's a big if) you should be able to do things like LOD-ing the ocean by simply providing big ocean tiles"
     i 2023-04-30_18-59
+
+PINNACLES
+  TITL : Pinnacles
+  DESC : Test
+  BREF : Test
+  TAGS : hike
+  TYPE : blog
+  HEAD : 2016-01-05_12-00
+  DATE : 2023-05-07
+  BODY
+    i 2016-01-05_12-00
+    i 2016-01-07_12-01
+    i 2016-01-07_12-00
+    i 2015-01-13_15-06
+
+BROWNS ISLAND
+  TITL : Browns Island
+  DESC : Test
+  BREF : Test
+  TAGS : hike
+  TYPE : blog
+  HEAD : 2019-01-19_15-56
+  DATE : 2023-05-07
+  BODY
+    i 2019-01-19_16-28
+    i 2019-01-19_15-56
+    i 2019-01-19_15-53
+    i 2019-01-19_15-46
 `
