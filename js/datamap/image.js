@@ -109,11 +109,11 @@ function Image(data)
 
   if (data.ext == 'mov' || data.ext == 'mp4')
   {
-    this.htmlMed = `
-      <video width='100%' controls class='widthFit marginTopNormal marginBottomNormal radiusNormal'>
-        <source src='${ this.pathRelative }' type='video/mp4'>
-      </video>
-    `;
+    this.htmlMed = ``;
+    this.htmlMed += `<video width='100%' controls class='widthFit marginTopNormal marginBottomNormal radiusNormal'>`;
+    this.htmlMed += `<source src='${ this.pathRelative }' type='video/mp4'>`;
+    if (this.desc) { this.htmlMed += `<meta itemprop="description" content="${this.desc}">;` };
+    this.htmlMed += `</video>`;
   }
   else
   {
@@ -125,9 +125,12 @@ function Image(data)
         steps += `../`;
       }
 
-      let result = `<div class='article zoomable' onclick="lightbox.load('${ steps }${ this.pathRelative }')">
-        <img src='${ steps }media/small/${ this.file }' class='articleImg ${ imageAlign }radiusNormal' }>
-        </div>`;
+      let result = ``;
+      result += `<div class='article zoomable' onclick="lightbox.load('${ steps }${ this.pathRelative }')">`;
+      result += `<img src='${ steps }media/small/${ this.file }' class='articleImg ${ imageAlign }radiusNormal'`;
+      if (this.desc) { result += ` alt='${this.desc}'`; }
+      result += `>`;
+      result += `</div>`;
       return result;
     }
     this.html = function(stepsBack)
@@ -138,14 +141,28 @@ function Image(data)
         steps += `../`;
       }
 
-      let result = `<div class='article zoomable' onclick="lightbox.load('${ steps }${ this.pathRelative }')">
-        <img src='${ steps }media/small/${ this.file }' class='articleImg articleBlackAndWhite ${ imageAlign }radiusNormal' } >
-        </div>`;
+      let result = ``;
+      result += `<div class='article zoomable' onclick="lightbox.load('${ steps }${ this.pathRelative }')">`;
+      result += `<img src='${ steps }media/small/${ this.file }' class='articleImg articleBlackAndWhite ${ imageAlign }radiusNormal'`;
+      if (this.desc) { result += ` alt='${this.desc}'`; }
+      result += `>`;
+      result += `</div>`;
       return result;
     }
-    this.htmlMed     = `<div  class='zoomable' onclick="lightbox.load('${ this.pathRelative }')")><img src='${ this.pathRelative }' class='widthFit marginTopNormal marginBottomNormal ${ imageAlign }radiusNormal' } ></div>`;
-    this.htmlMedL    = `<div class='zoomable' onclick="lightbox.load('${ this.pathRelative }')"><img src='${ this.pathRelative }' class='elementHalfLeft'></div>`;
-    this.htmlMedR    = `<div class='zoomable' onclick="lightbox.load('${ this.pathRelative }')"><img src='${ this.pathRelative }' class='elementHalfRight'></div>`;
+    this.htmlMed = ``;
+    this.htmlMed += `<div class='zoomable' onclick="lightbox.load('${ this.pathRelative }')")><img src='${ this.pathRelative }' class='widthFit marginTopNormal marginBottomNormal ${ imageAlign }radiusNormal'`;
+    if (this.desc) { this.htmlMed += ` alt='${this.desc}'`; }
+    this.htmlMed += `></div>`;
+
+    this.htmlMedL = ``;
+    this.htmlMedL += `<div class='zoomable' onclick="lightbox.load('${ this.pathRelative }')"><img src='${ this.pathRelative }' class='elementHalfLeft'`;
+    if (this.desc) { this.htmlMedL += ` alt='${this.desc}'`; }
+    this.htmlMedL += `></div>`;
+    
+    this.htmlMedR = ``;
+    this.htmlMedR += `<div class='zoomable' onclick="lightbox.load('${ this.pathRelative }')"><img src='${ this.pathRelative }' class='elementHalfRight'`;
+    if (this.desc) { this.htmlMedR += ` alt='${this.desc}'`; }
+    this.htmlMedR += `></div>`;
   }
 
   this.roughDatediff = function(first, second)

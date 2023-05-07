@@ -396,4 +396,79 @@ LONG SITE
     - {link ext indiewebWhy}
     - {link ext longSite}
     - {link ext clockUpdate}
+
+HOME TO DO
+  TITL : Home to do
+  BREF : to do list
+  TAGS : web
+  TYPE : note
+  DATE : 2023-05-07
+  HEAD : 2014-05-30_12-00
+  BODY
+    p Below are notes for myself on what to do next for this website: {link project home}.
+    2 Add
+    - Better content for {link project sylo} proj
+    - Better content for {link project swordy} proj
+    - 404 page
+    - Add tags for photos
+    - Arrange photos list by date
+    p 
+    2 Fix bugs
+    - Fix weird small text p paragraph content after double images
+    - Weird offset in photo page list (switch between home/projects/photos repeat)
+    - Exactly 1280px width screen causes weird sidebar indent. not 1279 with down or 1281 up, exactly 1280 only.
+    - Fix Opengraph/twitter meta cards don't work {link thought js-spas-and-seo 'with SPA'} 
+    - Fix social icons missing from medium width
+    - Scaling page width on project/article list page makes right side column wider in medium width size
+    p 
+    2 Refactor
+    - Handle page routing better: parsing pages.ndtl instead of some manual setup.
+    - TITL not needed? Set homepage name in CONFIG? Make keys human-case, not uppercase (replace TITL with key).
+    - Clean up datamap/image.js
+    p 
+    2 Finish articles (images needed)
+    - tools i use (needs image)
+    - first sail (needs image)
+    - crusifix (needs final image)
+    - soul food (needs images)
+    p 
+    2 Finish article (formatting needed)
+    - Sailing projects page
+    - van??
+    - swordy ea release
+    - migw and pax 14
+    p 
+    2 Finish article (needs content)
+    - messenger article
+    - plastic ocean
+    - gibbs farm
+    - why crypto
+    - why privacy
+    - crystal
+    - change minds
+    - game tourism
+    - hobbiton
+    - dots
+    - vegetables
+    - VR 2
+    - van insulation
+    - flow
+    p 
+    2 Add missing projects
+    - Flower
+    - Him
+    p 
+    2 To do features
+    - Add 'filter' view page that shows all content across categories with given tags/person/type/date.
+    - Add "related posts", pick one the viewer hasn't seen yet (history)
+    - handle inline *bold* formatting/declaration
+    - Add identity page https://wiki.xxiivv.com/site/identity.html
+    - Add new photos
+    - Add sketches
+    p 
+    2 Nice to have
+    - Add rss support
+    - Add source image compression on build
+    - csv instead of indental
+    - markdown instead of runelike
 `

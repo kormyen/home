@@ -11,7 +11,7 @@ function Nav()
     {
         let result = ``;
         result += `<p class='fontSizeNormal marginTopLarge marginBottomNormal colorMain nav'>`;
-        result += `<a href='${this.inline.getInternalUrl('page', originPage.NAME.toUpperCase())}' class='subtleLink'>${originPage.TITL}</a>`;
+        //result += `<a href='${this.inline.getInternalUrl('page', originPage.NAME.toUpperCase())}' class='subtleLink'>${originPage.TITL}</a>`;
         result += `<span class='colorSecondary'> / </span>`;
         result += `<a href='${this.inline.getInternalUrl('page', parentPage.NAME.toUpperCase())}' class='subtleLink'>${parentPage.TITL}</a>`;
         result += `<span class='colorSecondary'> / ${child}</span></p>`;
@@ -22,7 +22,7 @@ function Nav()
     {
         let result = ``;
         result += `<p class='fontSizeNormal marginTopLarge marginBottomNormal colorMain nav'>`;
-        result += `<a href='${this.inline.getInternalUrl('page', parent)}' class='subtleLink'>Home</a>`;
+        //result += `<a href='${this.inline.getInternalUrl('page', parent)}' class='subtleLink'>Home</a>`;
         result += `<span class='colorSecondary'> / ${title}</span></p>`;
         return result;
     }

@@ -125,4 +125,21 @@ BLOGS
   PRNT : INDEX
   BODY
     b blogsAll
+
+NOW
+  TITL : Now
+  DESC : What I’m focused on now
+  TAGS : Hamish MacDonald, kormyen, now
+  HEAD : 2022-08-05_15-32
+  PRNT : INDEX
+  BODY
+    2 What I’m focused on now
+    p Updated: 2023-05-07
+    3 Work
+    - Game Design, research, ideation for several {link ext futureverseSite} projects.
+    3 Personal
+    - Working on {link project home 'this website'} again! {link note home-to-do}.
+    3 Reading
+    - 'Colaborative Worldbuilding for Video Games' by Kaitlin Tremblay.
+    i 2023-04-19_13-55
 `

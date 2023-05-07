@@ -6,7 +6,7 @@
 Home is a portfolio and exocortex.
 - JavaScript Single Page Application.
 
-See [to do list](TODO.md)
+See [to do list](https://kor.nz/notes/home-to-do)
 
 ## Dependencies
 - The human-readable data structures [Indental](https://wiki.xxiivv.com/#indental) and [Tablatal](https://wiki.xxiivv.com/#tablatal) created by [Neauoire](http://wiki.xxiivv.com).
