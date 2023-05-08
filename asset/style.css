@@ -98,6 +98,7 @@ header {
   display: flex;
   flex-direction: row;
   gap: var(--size-columnPaddingNormal);
+  flex-wrap: wrap;
 }
 .photoInfoContainer {
   margin-right: var(--size-columnPaddingLarge);
