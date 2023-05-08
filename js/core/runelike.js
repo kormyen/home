@@ -223,6 +223,11 @@ function Runelike()
                     }
                     result += parent.templateIndex.componentLens('focusContainer', parent.templateLensArticles.getContent(featured));
                 }
+                if (func == 'projectsLensRecent')
+                {
+                    let recent = parent.projects.getAll();
+                    result += parent.templateIndex.componentLens('focusContainer', parent.templateLensArticles.getContent(recent));
+                }
                 else if (func == 'photosLens')
                 {
                     result += parent.templateIndex.componentLens('photosContainer', parent.templateLensPhotos.getContent());

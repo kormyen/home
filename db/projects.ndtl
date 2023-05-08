@@ -12,7 +12,7 @@ LOG
     p Log is a time tracker.
     p "The unexamined life is not worth living"
     p "What gets measured gets done."
-    p I built this project in 2018 after {link blog visiting-rabbits}. I was inspired by {link ext neauoire} and their tracker {link ext horaire}.
+    p I built this project in 2018 after {link blog meeting-rabbits}. I was inspired by {link ext neauoire} and their tracker {link ext horaire}.
     p I found it a useful learning project, and personal life experiment as a lens on productivity. I detailed what went well and what didn't in this post: {link blog logging-2018}
     2 Stats
     p {tracker project percentages}

@@ -9,13 +9,15 @@ INDEX
     2 {link page hamish 'Hamish'} is an Experience Designer
     3 Featured {link page projects} of {stat projectsTotal}
     b projectsLens seekers memex swordy
-    3 Recent {link page photos} of {stat photosTotal}
+    3 Updated {link page projects} of {stat projectsTotal}
+    b projectsLensRecent
+    3 Featured {link page photos} of {stat photosTotal}
     b photosLens
-    3 Recent {link page thoughts} of {stat thoughtsTotal}
+    3 Updated {link page thoughts} of {stat thoughtsTotal}
     b thoughtsLens
-    3 Recent {link page notes} of {stat notesTotal}
+    3 Updated {link page notes} of {stat notesTotal}
     b notesLens
-    3 Recent {link page blogs} of {stat blogsTotal}
+    3 Updated {link page blogs} of {stat blogsTotal}
     b blogsLens
     / art
 

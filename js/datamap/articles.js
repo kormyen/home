@@ -48,6 +48,17 @@ function Articles()
         });
       }
 
+      // Latest edit or post date for sorting articles
+      element.DateLatest = ``;
+      if (element.EDIT)
+      {
+        element.DateLatest = element.EDIT[0];
+      }
+      else
+      {
+        element.DateLatest = element.DATE;
+      }
+
       // DATE
       element.HtmlBody = ``;
       element.HtmlBody += `<div class='infoContainer'>`;
@@ -140,7 +151,7 @@ function Articles()
 
     this.db.sort(function(a,b) 
     { 
-      return ((a.DATE < b.DATE) ? -1 : ((a.DATE > b.DATE) ? 1 : 0));
+      return ((a.DateLatest < b.DateLatest) ? -1 : ((a.DateLatest > b.DateLatest) ? 1 : 0));
     }).reverse();
   }
 

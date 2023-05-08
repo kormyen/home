@@ -318,10 +318,11 @@ HOME TO DO LIST
   TYPE : thought
   DATE : 2023-05-07
   HEAD : 2014-05-30_12-00
+  EDIT : 2023-05-09
   BODY
     p Below are notes for myself on what to do next for this website: {link project home}.
+    p 
     2 Add
-    - Order/sort articles by latest update date (only fall back to posted date)
     - Better content for {link project sylo} proj
     - Better content for {link project swordy} proj
     - 404 page

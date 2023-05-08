@@ -1,6 +1,6 @@
 var BLOGS = `
-VISITING RABBITS
-  TITL : Visiting rabbits
+MEETING RABBITS
+  TITL : Meeting rabbits
   DESC : How I met the Hundred Rabbits; Rekka, Devine and Pino - the floating art studio
   TAGS : sailing, friend
   TYPE : blog
@@ -55,20 +55,22 @@ VISITING RABBITS
     p and most recently {link ext weatherSoftware}.
 
 SAILING LESSON
-  TITL : Sailing lesson with a cyberhobo
+  TITL : Cyberhobo sailing lesson
   DESC : Sailing lesson with a cyber hobo
   TAGS : sailing
   TYPE : blog
   HEAD : 2019-01-19_12-13
   DATE : 2019-07-14
-  EDIT : 2023-05-04, 2023-05-08
+  EDIT : 2023-05-04, 2023-05-09
   BODY
     p My now close friend {link ext dominic 'Dominic Tarr'} offered to give a sailing lesson to Sasha and I.
     p He later told me that he knew his track record of sailing students converting to sailboat owners is a high percentage...
     p I agreed to a day sail.
-    p {link ext dominic 'Dominic'} describes himself as a "cyberhobo" and is probably the most interesting person I know. He seems {link ext magicians 'like a magician'} to me. I very much appreciate his teaching, patience and stories.
+    p {link ext dominic 'Dominic'} describes himself on his website as a "cyberhobo" and is probably the most interesting person I know. He seems {link ext magicians 'like a magician'} to me.
+    p I very much appreciate his teaching, patience and stories.
+    p 
     i 2019-01-19_11-59 2019-01-19_12-12
-    p In saying that his self built folding dinghy is an experience in which if you can bail faster than the water flows then in everything will be fine. It is the first test to see if you are ready to board Cleo.
+    p In saying that his self built folding dinghy is an experience. If you can bail faster than the water flows in, then everything will be fine. It is the first test to see if you are ready to board Cleo.
     i 2019-01-19_12-13
     p We slowly sailed to Browns Island from Mission Bay. We swam ashore and hiked the small Windows XP landscape, enjoying the 360 degree view of Auckland city, Rangitoto Island and the Hauraki Gulf. It's feels as if it is very literally a picnic island.
     i 2019-01-19_15-46
@@ -86,6 +88,9 @@ SAILING LESSON
     p Watch them and buy a boat maybe.
     y 4pcT3htGifs
     y EQBDY9yPbhk
+    p He also {link ext dominicTarrImagine 'rebuilt a new boat'}, and built a new dinghy
+    i 2019-10-21_13-33
+    p 
 
 GET QUEST
   TITL : Get Quest
