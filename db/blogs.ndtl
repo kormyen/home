@@ -2,27 +2,64 @@ var BLOGS = `
 VISITING RABBITS
   TITL : Visiting rabbits
   DESC : How I met the Hundred Rabbits; Rekka, Devine and Pino - the floating art studio
-  TAGS : sailing
+  TAGS : sailing, friend
   TYPE : blog
-  HEAD : 2017-11-05_17-53
+  HEAD : 2023-05-08_12-15
   DATE : 2019-07-14
+  EDIT : 2023-05-08
   BODY
+    i 2023-05-08_12-16
+    2 Stalking
+    p I had known of {link ext neauoire} via {link ext phil} via Neauoire's old (much more esoteric) verion of the XXIIVV website.
+    p XXIIVV amazed me, it felt like a lens into living ecosystem, the logs of a inquisitive explorer in an alien solarsystem of timeless gods, visibly dark ultraviolet suns, and surreal abandoned planetary mechanims.
+    p I spent a long time exploring XXIIVV and the inspiring projects.
+    p {link ext neauoire} and partner {link ext rekka} started an art studio on a boat which was also inspiring. I watched all of their video updates with admiration.
+    y HIJodhT0Bow
+    - {link ext hundredRabbitsVid1}
+    - {link ext hundredRabbitsVid2}
+    - {link ext hundredRabbitsVid3}
+    - {link ext hundredRabbitsVid4}
+    - {link ext hundredRabbitsVid5}
+    p 
+    2 Visit
+    p They planned to sail from California to Japan... via New Zealand, and one day posted on Twitter that they were ready for the leg to New Zealand.
+    p I reached out to them.
+    i 2017-02-28_09-46
+    p Conventional wisdom says don't meet strangers from the internet, and also don't meet your heroes.
+    p I was in a rut at that time with a {link project swordy 'failing indie gamedev dream'} and the {link project van} so I think I was looking for a change, friends, inspiration, an adventure.
+    p I went to see them in Whangarei.
+    p I probably over stayed my welcome but I found them incredibly inspiring.
+    p 
+    2 Pino
     i 2017-11-05_17-53
-    p Sailing myself was not really even a consideration until I started watching the Hundred Rabbits {link ext studioSailboat} vlogs where they seemed to go quickly from zero sailing experience to international travel.
-    p I met Devine and Rekka and their boat Pino in Whangarei after they sailed to New Zealand from California. 
-    p {link ext pino} is a 10 meter Yamaha33 1982 masthead sloop fiberglass sailboat.
-    p Devine introduced me to a shared workshop and tool library called "Hackland" in Auckland and thus to it's expanding Ephemeral Yacht Club including {link ext joranKikke}, Helena, {link ext dominic}, Courtney and Lu.
+    p I met {link ext pino} too - is a 10 meter Yamaha33 1982 masthead sloop fiberglass sailboat.
+    p This meeting was definitely a big contributor to my own boat journey ({link blog get-quest}, {link blog get-horizon}).
+    p It was at this point I realised that a yacht is really just like vanlife on the water, but more socially accepted/envied.
+    p "I want to learn how to sail in the future"... "I'll buy a boat in five years" ({link blog get-quest 'it didnt take five years'}).
+    p 
+    2 Hackland
+    p Devine introduced me to a shared workshop and tool library called {link ext hackland} in Auckland and thus to it's expanding Ephemeral Yacht Club including {link ext joranKikke}, Helena, {link ext dominic}, Courtney and Lu.
+    p This connection to Hackland for me turned into a many very important friendships of inspiring people, and a place I hung out at a lot in it's old location.
+    p With these Hackland friends we started {link project solarsails}, and Dominic {link blog sailing-lesson 'taught me to sail'}.
+    p I'm very thankful for this introduction.
+    p 
     i 2018-05-20_16-01
-    p Around this time the same Aunt Karen asked me if I plan to sail, I said "no, the ocean is scary" or something similarly dismissive in response but her question stayed with me.
-    p My vanlife experiences let me see that tiny homes are perfectly acceptable. A sense of adventure and becoming a "sum of those closest to you" nudged me toward actually deciding to "learn how to sail in the future"... "I'll buy a boat in five years".
-    p While working on {link project sylo} I became good friends with Sasha who was very keen to learn sailing. I introduced him to {link ext joranKikke 'Joran'} and {link ext dominic 'Dominic'}.
+    p 
+    2 Wellington
+    p I offered to {link ext 100rVlogWellington 'drive Neauoire and Rek to Wellington for a New Zealand conference called Play by Play'}. I'll write more about this later.
+    p 
+    2 Talks
+    p Here are some of Hundred Rabbits speaking events:
+    y BW32yUEymvU
+    y WY5QwPBOsZY
+    p and most recently {link ext weatherSoftware}.
 
 SAILING LESSON
   TITL : Sailing lesson with a cyberhobo
   DESC : Sailing lesson with a cyber hobo
   TAGS : sailing
   TYPE : blog
-  HEAD : 2019-01-19_15-53
+  HEAD : 2019-01-19_12-13
   DATE : 2019-07-14
   EDIT : 2023-05-04, 2023-05-08
   BODY
@@ -130,8 +167,8 @@ SENSORY DEPREVATION
     p They said they owe of lot of business to him. 
     p The explanation of instructions was also funny as I had already watched quite a few isolation tank guides / do / don'ts. He covered every remaining question I had left, so didn't ask anything.
     p He explained three floats are better as most people spend the first one just getting used to it. Beyond just up-selling he was probably correct. I'd recommend any "introduction package" of three or so too.
-    p Everything was spa / new age / massage parlor relaxation center-eske in the room. "You don't need to bring anything. Everything you need is here." Completely private room with the giant alien space pod tank, a shower, toilet, basin, cleaning products, towel. Needed to shower, wash hair, cover cuts, and wear ear plugs.
-    p Getting in was uncomfortable. Voluntary naked bathing in claustrophobic alien womb. 
+    p Everything was spa / new age / massage parlor relaxation center-eske in the room. "You don't need to bring anything. Everything you need is here." Completely private room with a shower, toilet, basin, cleaning products, towel and alien space pod. Needed to shower, wash hair, cover cuts, and wear ear plugs.
+    p Getting in was uncomfortable: voluntary naked bathing in communal claustrophobic alien womb. 
     p The water was salty. Very salty. 
     p I turned off the light.
     p It took a while to find a comfortable position. It took a while for the air to heat up and disappear between the surface and salt.

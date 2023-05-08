@@ -46,6 +46,9 @@ THOUGHTS
   HEAD : 2019-04-21_17-02
   PRNT : INDEX
   BODY
+    p Thinking, notes and rants on projects, topics and internal content.
+    p "Have you tried writing down everything you know about everything?" - {link ext neauoire}
+    p
     b thoughtsAll
 
 NOTES
@@ -55,8 +58,8 @@ NOTES
   HEAD : 2019-04-21_17-02
   PRNT : INDEX
   BODY
-    p "Have you tried writing down everything you know about everything?" - {link ext neauoire}
-    p 
+    p Notes written or replicated from inspiring or useful external content.
+    p
     b notesAll
 
 BLOGS
@@ -66,6 +69,8 @@ BLOGS
   HEAD : 2019-04-21_17-02
   PRNT : INDEX
   BODY
+    p IRL things I did
+    p 
     b blogsAll
 
 HAMISH
@@ -101,6 +106,7 @@ HAMISH
     - Deno / TypeScript
     - Jetbrains Rider
     - Google Sheets
+    - Arc Browser
     t Goals
     - Art for liberation - deliberate art, engineering and research towards escape from societal traps ('the making money game').
     - Incrementalism of self - continuous personal development and frequent re-evaluation.
@@ -133,7 +139,7 @@ NOW
     2 What I’m focused on now
     p Updated: 2023-05-07
     3 Work
-    - Game Design, research, ideation for several {link ext futureverseSite} projects.
+    - Game design, research, ideation, documentation and planning for several {link ext futureverseSite} projects.
     3 Personal
     - Working on {link project home 'this website'} again! {link note home-to-do-list}.
     3 Reading
