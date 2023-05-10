@@ -323,7 +323,7 @@ HOME TO DO LIST
     p Below are notes for myself on what to do next for this website: {link project home}.
     p 
     2 Add
-    - Clicking a tag or date in homepage article tag breaks the page atm.
+    - Home project makes home nav item unavailable.
     - Better content for {link project sylo} proj
     - Better content for {link project swordy} proj
     - 404 page
@@ -346,8 +346,6 @@ HOME TO DO LIST
     - Clean up datamap/image.js
     p 
     2 Finish articles (images needed)
-    - tools i use (needs image)
-    - first sail (needs image)
     - crusifix (needs final image)
     - soul food (needs images)
     p 
@@ -394,9 +392,8 @@ HOME TO DO LIST
     - Horizontal scroll on homepage lenses
 
 TOOLS I USE 2020
-  TITL : Tools I use
+  TITL : Tools I use 2020
   DESC : 
-  TAGS : time, research
   HEAD : 2019-07-08_23-31
   TYPE : thought
   DATE : 2020-06-03
@@ -439,4 +436,43 @@ TOOLS I USE 2020
     2 Code: Visual Studio Code
     2 Browser: Brave
     p I used Mac OSX so Safari is the best UX and best integrated browser but they have resently broken all extentions ability to exist. Brave seems to be the next best option in terms of the forefront of web tech, usability, privacy and open source. I also considered Firefox.
+
+TOOLS I USE 2023
+  TITL : Tools I use 2023
+  DESC : 
+  HEAD : 2019-09-07_15-30
+  TYPE : thought
+  DATE : 2023-06-03
+  BODY
+    p General
+    - {link ext arcBrowser}: Arc is actually awesome. It has many subtle features that make it feel modern and well designed. Its weird to feel excited about new software, especially a browser. Highly recommend picking it up, especially so if you find yourself in tab hell.
+    p
+    p Design
+    - Figma: Figma is so amazing, but I am 100% expecting Adobe to ruin in within the coming years.
+    p 
+    p Gamedev
+    - Unity3D: Unity has served me well. I truely believe its the best tool for building interactive 3D WebGL experiences. For everything else theres Unreal - which I feel I will have to pick up soon.
+    - Jetbrains Rider: Resharper brings all the nice things to C# dev. Jetbrains made Rider IDE.
+    - C#: Best option for Unity3D stuff.
+    - Google Sheets: Spreadsheets!
+    p
+    p Webdev
+    - HTML / CSS / JS
+    - Visual Studio Code
+    - Deno / TypeScript
+    p
+    p Crypto
+    - Metamask: Ugly but can't beat it.
+    - Ledger: The best software wallet, but terrible hardware UX with nipple buttons - looking to pick up a {link ext ledgerStax} when it's available to purchase.
+    - Keystone: The year 2000 era of hardware wallets has arrived. Best hardware UX (touch screen and camera for QR omg) and cool airgapped system but the device software and app sucks.
+    p
+    p Work
+    - Notion: Terrible UI with infinite querks and frustration. Powerful with a big company of people all using it.
+    - Slack: Same as above, but less.
+    p
+    p Chat
+    - Signal: I'd prefer to change to {link ext sessionApp} but it's already hard to get people to use Signal. When I did try session there were bugs so...
+    p 
+    p Email
+    - Proton mail: best private mail UX I could find.
 `

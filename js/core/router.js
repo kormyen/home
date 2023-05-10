@@ -141,15 +141,23 @@ function Router(app)
         const { target } = e;
         if (!target.matches("a"))
         {
-            if (!target.parentElement.matches("a"))
+            if (!target.parentElement.matches("a") && (target.parentElement.parentElement && !target.parentElement.parentElement.matches("a")))
             {
-                // both clicked item, and it's parent are not links, so don't route.
+                console.log('dont route');
+                // both the clicked item, and it's parent are not links, so don't route.
                 return;
             }
             else
             {
-                // parent of clicked item is a link, we need to update href.
-                e.target.href = e.target.parentElement.href;
+                // parent of clicked item, or parent's parent is a link, we need to update href.
+                if (e.target.parentElement.href)
+                {
+                    e.target.href = e.target.parentElement.href;
+                }
+                else if (e.target.parentElement.parentElement.href)
+                {
+                    e.target.href = e.target.parentElement.parentElement.href;
+                }
             }
         }
         if (lastID == 'ext')

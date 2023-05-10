@@ -272,10 +272,10 @@ ARDUSAMBER
   TITL : Ardusamber
   DESC : Arduino experiements with Neauoire's time format Neralie.
   TAGS : code, electronics, time, physical
-  BREF : homage clock
+  BREF : clock port
   SECT : 3
   DATE : 2018-05-15
-  EDIT : 2019-07-03
+  EDIT : 2019-07-03, 2023-05-10
   TYPE : project
   BODY
     p This project for me was playing with and learning Arduino basics and thinking about time.
@@ -288,6 +288,9 @@ ARDUSAMBER
     p What I love about Neralie is it's simplistic uniformality. 
     p Decimal time makes a lot of sense with our human decimal numeral system and ten fingers. 
     p 10 even hours per day, each with 100 minutes, each with 100 seconds. Opposed to 12 hours, of 60 minutes with 60 seconds of 1000 milliseconds.
+    p The gif below shows how the animation of Neralie time format works. The gif loop repeats a 1 day cycle.
+    p In real life the lines move at a much slower rate, smoother, linear and predictable rate. The best example is the origin site: {link ext natanievTime}.
+    i 2018-06-03_12-00
     t Date (Arvelie)
     p 'The date format is a code ranging from 00A01, or Jan 1st '00 — to 99+02, or Dec 31st '99.'
     p 'The Arvelie Calendar has 26 months of 14 days each.'
