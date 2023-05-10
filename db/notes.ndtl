@@ -359,4 +359,73 @@ ISO 8601
     p I've been using this format when I need hours and minutes: YYYY-MM-DD_HH-MM which is wrong/not-official, but it feels cleaner and simplier to me than the official: YYYY-MM-DD'T'HH:MM:SS.SSSZ.
     p As always there is a {link ext xkcd1179}:
     i 2016-04-07_00-01
+
+WFC HEX GRIDS
+  TITL : WFC hex grids
+  DESC : Collection of quotes and tweets from Oskar Stålberg
+  TAGS : game, research
+  TYPE : note
+  HEAD : 2023-05-04_07-43
+  DATE : 2023-05-09
+  BODY
+    p Quotes from: {link ext oskstaTwitter}
+    p 
+    p https://twitter.com/OskSta/status/1448248658865049605
+    i 2021-10-14_12-26
+    p More talk prep. Gonna have another go at persuading people to cut their tiles along the dual grid instead of the main grid. I genuinely don't understand if this is rare because people don't know about it or if there is some drawback I'm not seeing.
+    i 2021-10-14_12-27
+    p Most gameplay logic (like collision and navigation) should still happen on the main grid. And all object-like sprites, like characters, houses, etc, should also go on the main grid.
+    i 2021-10-14_12-28
+    p The 3 fundamental features of any tile based system are Houses, Rivers and Roads.
+    i 2021-10-14_01-18 2021-10-14_01-19
+    i 2021-10-14_01-20 2021-10-14_01-21
+    p Again. You should definitely keep both concepts around in your code. Most gameplay will still happen on the main grid. The dual grid is mostly for field-like background tilesets
+    i 2021-10-14_01-34
+    p Correction: The 4 fundamental features are Fields, Houses Rivers and Roads. I forgot Fields, which is ironic since that's what the rest of the thread is about. Terrain is a type of Field.
+    p Ironically, according to this typology, the houses in Townscaper are all made of Field, not House.
+    p A long time ago I started a project with tiles on edges, verts and faces of a hex grid. So like a dual grid and a main grid at the same time. I didn't have the skills needed to make it feasible back then, but it's a solid idea that might be worth another go sometime in the future
+    i 2021-10-14_02-44 2021-10-14_02-45
+    i 2021-10-14_02-46
+    p 
+    p https://twitter.com/OskSta/status/1654519799030874116
+    p "Programming with mesh data, triangles/indices/normals always gives me a headache 😵‍💫 idk how OskSta does it.. pen and paper maybe"
+    p "Loads of comments like these"
+    i 2023-05-06_04-13
+    p 
+    p https://twitter.com/OskSta/status/1654401054828638214
+    p "An quaint island being procedurally generated"
+    i 2023-05-05_20-22
+    p
+    p https://twitter.com/OskSta/status/1482346496460828674
+    p "It is, of course, using the procedural mega texture painting I have tweeted about before:"
+    p "I created a dedicated contrast texture system for the lines: an iterative simulation on the triangles that starts random and then tries to make contrasted edges different, and non-contrasted edges similar. A byproduct is a beautiful color gradient that help express connectivity"
+    i 2022-01-16_02-38
+    p "This gives me more control over line opacity, which helps me get rid of the ugly black lines on the house wall corners shown in this previous tweet:"
+    p "Ok, I stumbled on a pretty cool art style now. Here, I'm creating pixel thin lines from contrasts in my procedural normal map. I should probably move to a bespoke contrast texture (to get more deliberate control over the lines). But I gotta say this looks pretty promising."
+    i 2022-01-15_04-28
+    p 
+    p https://twitter.com/OskSta/status/1338825080844021760
+    p "Apropos of nothing, a take on the ancient issue of generating nice triangulated spheres
+    p 1. Random points
+    p 2. Space out the points
+    p 3. Triangulate
+    p 4. Relax using the triangles
+    p Unclear if I'll use this for anything
+    p helpful sources:
+    p https://www.redblobgames.com/x/1842-delaunay-voronoi-sphere/
+    p https://www.newcastle.edu.au/__data/assets/pdf_file/0017/22508/13_A-fast-algorithm-for-constructing-Delaunay-triangulations-in-the-plane.pdf
+    i 2020-12-16_01-35
+    p
+    p "Architecture, Engineering and Construction conference" talk: Oskar Stålberg- Twonscaper- A tour of Townscaper"
+    y sBMnM2-lOPs
+    p
+    p "...here you can see me when I first started thinking about this project like 2 years ago:"
+    y Uxeo9c-PX-w
+    p
+    p "Maybe you could build a WFC where the tiles have variable edge length? Between collapses, you'd bend the grid to fit the placed tiles. If uncollapsed cells are bent too out of shape, you'd just delaunay-flip them and rebuild their internal possibility space."
+    i 2023-04-30_18-22
+    p "This would solve the problem of having to compromise for space too much. So you could just scale an edge to fit a a river, a wall or a cliff between two game tiles without eating up space from the game tiles."
+    p "In the bend-stage, you'd probably use the average length of remaining possibilities as the desired edge length of uncollapsed cells."
+    p "Actually. If this works well (and that's a big if) you should be able to do things like LOD-ing the ocean by simply providing big ocean tiles"
+    i 2023-04-30_18-59
 `

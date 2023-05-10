@@ -323,12 +323,14 @@ HOME TO DO LIST
     p Below are notes for myself on what to do next for this website: {link project home}.
     p 
     2 Add
+    - Clicking a tag or date in homepage article tag breaks the page atm.
     - Better content for {link project sylo} proj
     - Better content for {link project swordy} proj
     - 404 page
     - /uses page https://marcjenkins.co.uk/uses/
     - 'link project namehere' should give the projects TITL as the label not the namehere
     - Add a list (and count?) of all tags in posts/articles on list pages (projects, photos, thoughts, notes, blogs)
+    - make better article font and formating handling, make meta page https://wiki.xxiivv.com/site/meta.html
     p 
     2 Fix bugs
     - Weird position offset in photo page list (switch between home/projects/photos repeat)
@@ -390,4 +392,51 @@ HOME TO DO LIST
     - csv instead of indental
     - markdown instead of runelike
     - Horizontal scroll on homepage lenses
+
+TOOLS I USE 2020
+  TITL : Tools I use
+  DESC : 
+  TAGS : time, research
+  HEAD : 2019-07-08_23-31
+  TYPE : thought
+  DATE : 2020-06-03
+  EDIT : 2020-06-04
+  BODY
+    p I recognize that using open source, privacy focused tools is important. If not for my current self, then my potential future self, protestors, journalists, and refugees.
+    p I list these to share things I think are good, and in hopes someone has suggestions of improvement, or as benefit to others.
+    p I like the idea of being frugal generally, but for the tools I use frequently I want the best possible and have no issue paying a reasonable fee.
+    2 Cloud storage: sync.com
+    p I use cloud storage because I have a large amount of important data than I want to store. I want backups to be automatic because I know from experience that hardware breaks randomly. Backups must be off site as local pockets of reality are destroyed occasionally.
+    p I use sync.com as it is the cheapest, end-to-end-encrypted (E2EE) cloud storage provider that is fairly easy to use. Had no problems so far. Started using it on 2020-06-03.
+    p I've tried running my own self built, self run, self maintianed, server in the past and it's an annoyance I'd like to not spend time on any more.
+    p I am not particually tied to sync.com. Their app and web UX/UI is passable but could be improved. Options are fairly limited however as more well known services will Google Drive and Dropbox data mine your unencrypted files.
+    p If you use {link ext syncReferral 'this link to join'} we will both receive a bonus 1GB of additional storage.
+    p sync.com recomendation - 8/10. Limited actually usable alternative options, does the job well enough.
+    2 Password manager: Bitwarden
+    p I use a password manager so that I can have secure, unique, random, very long passwords for every app and website I use. A password manager makes this easy to manage.
+    p Bitwarden is cheap, open source, multiplatform, fast human support, and supports simple two-factor-authentication (which makes things even more secure).
+    p I have used 1Password and Keypass in the past and both are a mess in different ways. I avoided LastPass as something seemed weird about it.
+    p The biggest win for me is the built in two factor authentication setup (TOTP) which you need to pay the small yearly fee to use. This means there is no need to use Google's Authenticator app. I am aware that there is a security trade off here, but I find it acceptable.
+    p I like that it feels fairly minimal and like it just focuses on doing exactly it's job well, not adding unnessisary skeuomorphic junk like 1password.
+    p I highly recommend Bitwarden - 10/10.
+    2 Messaging: Signal, Wire, Wickr
+    2 Email: Protonmail
+    p Proton mail is open source, privacy focused, encryption-enabling (PGP) and has severs located in Switzerland. I also considered Tutanota and might change to them in future.
+    p Proton mail seems to get the job done well. The feel very slow to update release features on their roadmap where Tutanota seem to be far ahead. I've been waiting for Proton mail's Calendar to release properly for very many months.
+    p Proton mail recommendation 7/10.
+    2 Wallet: Ledger, Exodus, Metamask
+    p Crypto currency is the native currency of the internet. All services have been digitized, open sourced and democratized. Now it is money's turn. It is not fair that unlimited amounts of a country's currency can be generated devaluing hardworking citizen's lifetime of savings and investments.
+    p I use Ledger wallet because I want to securely hold my private keys in a external device. An alternative is Trezor.
+    p For crypto currency that Ledger does not support I use Exodus wallet. Exodus is mostly open source and has a simple user interface while supporting some important assets that Ledger does not.
+    2 Design: Affinity Suite
+    p I used Affinity tools because I hate Adobe with a passion. Adobe has proven that they distrust their customers, leave exploitable surveilance bugs in their DRM, repeatedly have privacy failures and randomly lock down of local use of their software. Affinity are the next best thing. It's a frustrating transition from years of Adobe shortcut muscle memory but Adobe have proven that they cannot be trusted. Alternatives must be suppported.
+    p I would love to support open source alternatives like Gimp but find them painful to use.
+    p The honest reality is that Affinity tools do not yet cover all of the required features of Adobe's suite but I now just Adobe's stuff for the very limited times it is required. Hopefully less and less.
+    p Affinity design still feels weird to use, but I wonder if that is mostly due to Adobe stockholm syndrome 7/10. 
+    2 Design: Figma
+    2 Web development: Responsively
+    2 Notes: Workflowy, Sublime
+    2 Code: Visual Studio Code
+    2 Browser: Brave
+    p I used Mac OSX so Safari is the best UX and best integrated browser but they have resently broken all extentions ability to exist. Brave seems to be the next best option in terms of the forefront of web tech, usability, privacy and open source. I also considered Firefox.
 `
