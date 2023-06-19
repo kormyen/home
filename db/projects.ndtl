@@ -546,7 +546,7 @@ WARP
     p Alexey more recently made these images with the assets from the game. I stole them from his website.
 
 TOILET
-  TITL : Composting Toilet
+  TITL : Composting toilet
   DESC : A home made composting toilet.
   HEAD : 2020-01-18_18-27
   TAGS : offgrid, physical, wood
@@ -692,7 +692,7 @@ SHELF
     i 2020-08-29_21-44
 
 SUN QUEST
-  TITL : Sun Quest
+  TITL : Sun quest
   DESC : DIY solarpanel mount for SV Quest
   TAGS : physical, wood, electronics, offgrid
   BREF : boat power
@@ -734,7 +734,7 @@ SUN QUEST
     p I'll write further install details and instructions here if anyone asks.
 
 HORIZON LEAKS
-  TITL : Horizon Leaks
+  TITL : Horizon leaks
   DESC : To fix a leaking boat
   TAGS : physical, wood
   SECT : 1, 6, 8

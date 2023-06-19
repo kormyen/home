@@ -88,7 +88,7 @@ HAMISH
     i 2017-05-12_12-01
     t Who?
     p Born, raised and currently lives in Auckland, New Zealand.
-    p Lives offgrid with {link ext sarahPortfolio 'Sarah Tanfield'} aboard a small {link blog quest 'sailboat'} and a {link project van 'stealth campervan'}.
+    p Lives offgrid with {link ext sarahPortfolio 'Sarah Tanfield'} aboard a small {link blog get-quest 'sailboat'} and a {link project van 'stealth campervan'}.
     p Generalist, designer, gamedev, webdev, maker of things.
     p Passionate about self reliance, offgrid systems, privacy, art for liberation, incrementalism of self and reduction of harm.
     p Received a Bachelor of Design from AUT in Auckland, New Zealand, focusing on digital design, games and experiences.
@@ -107,7 +107,7 @@ HAMISH
     t Research
     - Dasein -  {link project dastime}, {link project memex}, {link project home}
     - Productivity - {link project log}
-    - Solarpunk - {link blog sailing}, {link project solarsails}, {link project toilet}
+    - Solarpunk - {link blog get-quest}, {link blog get-horizon}, {link project solarsails}, {link project toilet}, {link project sun-quest}
     t Alias
     p Kormyen
     - Literal: "Kor" tr.(Tau) Air (pilot). "M'yen" tr.(Tau) unforseen.

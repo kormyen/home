@@ -331,6 +331,7 @@ HOME TO DO LIST
     - 'link project namehere' should give the projects TITL as the label not the namehere
     - Add a list (and count?) of all tags in posts/articles on list pages (projects, photos, thoughts, notes, blogs)
     - make better article font and formating handling, make meta page https://wiki.xxiivv.com/site/meta.html
+    - Internal link validation tool.
     p 
     2 Fix bugs
     - Weird position offset in photo page list (switch between home/projects/photos repeat)
