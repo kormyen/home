@@ -126,12 +126,12 @@ HOME
     p The rewrite left it as a javascript "single page application". I found the build process a nagging anti-inspiration and stumbling block for continuing to add content...
     p The rewrite was inspired by stumbling upon this article {link ext devSpaRoute} which explained with vanilla JS how to control routing, history and address bar content which I could not figure out in 2019.
     p Somehow I forgot the lesson from 2019 that JavaScript Single Page Applications and Search Engine Optimisation don’t mix.
-    p Blogumentation on {link thoughts js-spas-and-seo}
+    p Blogumentation on {link thought js-spas-and-seo}
     2 2019
     i 2019-07-09_21-13
     p The way the site is built is to allow the actual content to be easy to move around (text database), copy (human readable) and store (easily accessed standard files), while the visual display of it may change.
-    p This above thinking for me is entirely insprired by {link ext neauoire 'Devine'} and {link ext rekka} of {link ext rabbits} who I met in Whangarei and travelled to Wellington with.
-    p They showed me the concept of {link notes long-now}
+    p This above thinking for me is entirely insprired by {link ext neauoire "Devine"} and {link ext rekka} of {link ext rabbits} who I met in Whangarei and travelled to Wellington with.
+    p They showed me the concept of {link note long-now}
     p With a focus on simplicity and minimalism in it's structure and core content setup. It is hopefully some form of foundational base to build upon into time.
     p At the very least with it's use of a human-readable data database; it's content should be portable between future website versions and long term, and simple to archive. 
     2 2018
@@ -535,7 +535,7 @@ WARP
   TYPE : project
   DATE : 2013-01-01
   BODY
-    p Warp is a {link thoughts VR-in-2014} experiment built by {link ext alexey} (artist, animator) and I for the Oculus VR jam 2013. 
+    p Warp is a {link thought VR-in-2014} experiment built by {link ext alexey} (artist, animator) and I for the Oculus VR jam 2013. 
     p We mostly focused on trying to make a VR experience that anyone could play (just headset and standard controller) and not feel sick.
     p We played it quite safe (read: boring) in terms of gameplay but spent a lot of time focusing on the feel, the experience, visual aesthetic and usability in this early time for VR. 
     p The concept would have worked if expanded upon for sure.
@@ -552,7 +552,7 @@ TOILET
   TAGS : offgrid, physical, wood
   SECT : 1, 6
   TYPE : project
-  EDIT : 2020-08-28, 2020-08-27, 2021-04-24
+  EDIT : 2020-08-28, 2020-08-27, 2021-04-24, 2023-05-24
   DATE : 2019-01-01
   BODY
     p When people say "composting toilet" what they really mean is "shitting in a bucket" - but it's nicer than most people who haven't used one think. It's surprising how many people just write-off the idea before they realise it's actually all good. 
@@ -587,8 +587,8 @@ TOILET
     p - The urine bottle sits at the front, in-front of the bucket.
     p - At the bottom of the bucket I put some wood planks cut to the curve of the bucket base so that it cannot move around - so the bucket doesn't move when my van does.
     p Through rushing a bit while building I made the mistake of not getting the urine container before building the box (I had the bucket). I could not find one that fit and decided to cut a hole in the front to fit a larger 10L bottle to suit the camp's 20 members needs.
-    p A 10L bottle is actually large as it's better to empty daily or every second day because the pee actually does start to stink if left to sit. With 20 people using it we went through at least one bottle each day. For a smaller family you likely need 5L or 10L max.
-    p The benefit turned out to be that you can see how full the bottle is from the front/outside of the toilet which is great actually, just maybe not as neat as I intended.
+    p A 10L bottle is actually large as it's better to empty daily or every second day because the pee actually does start to stink if left to sit. With 20 people using it we went through at least one bottle each day. For a smaller family you likely need 2L or 5L maximum, but 10L is fine too.
+    p The benefit turned out to be that you can see how full the bottle is from the front/outside of the toilet which is great actually, just maybe not as neat as I intended. This leaves you not guessing how fill it is, getting it wrong is a gross clean up.
     p Other sites likely have good building guides if you are looking to make a box for your bucket.
     p Everyone in our camp seemed to prefer this toilet over the Portaloos. Maybe that doesn't say much.
     2 Afterward
@@ -598,7 +598,7 @@ TOILET
     i 2020-01-29_10-51
     p There are special things you need to do with this like being very careful with hygiene (mask, gloves etc). I believe you need to compost specifically to reach quite high temperatures (well insulated/covered) in order to kill harmful bacteria, and you need to leave it for a year or so. After that it's good to use as garden compost... definitely check elsewhere for specifics - I have not actually done this process yet personally.
     i 2020-01-29_11-05
-    i 2020-01-29_11-33 
+    i 2020-01-29_11-33
   LINK
     - {link ext omickToilet}
 
@@ -699,29 +699,31 @@ SUN QUEST
   SECT : 1, 2, 6, 8
   HEAD : 2022-01-11_13-38
   DATE : 2023-05-05
+  EDIT : 2023-05-24
   TYPE : project
   BODY
-    p Sarah and I decided to become "river scum": live aboard Quest in the Tāmaki Estuary, near the Panmure Yacht and Boating Club on the pile moorings.
+    p Sarah and I decided to become "river scum" - to live aboard Quest in the Tāmaki Estuary, near the Panmure Yacht and Boating Club on the pile moorings.
     p In order to do so we needed to install a solar system so that we had power!
     p This was done around 2021-12-04.
     t The mounting
     p I made the mounts from a base of wood. These are obviously simple.. but takes way longer than you'd think, as on a boat everything is curved in every direction.
-    i 2021-12-04_22-30 2021-12-04_22-33
-    p These wood bits I then coated in epoxy and painted with boat exterior paint. 
     i 2021-12-04_22-32 2021-12-04_22-31
-    p To connect both the panels to the mounts, and that all to the boat I used quite thick, quite long bolts that go all the way from the panel frames, through the wooden mounts, through the boat deck. So the way the panels are connected is very strong.
-    p I expect the solarpanel glass and plastic would break out before the mounting came off if the boat capsized or something.
+    p These two photos above show the aluminium strips I used to connect the front panel mounts to the existing deck hardware - bolts go through each end of it connecing them.
+    p All of the wood bits I were coated in epoxy and painted with boat exterior paint.
+    i 2021-12-04_22-30 2021-12-04_22-33
+    p On the bow side, to connect both the panels to the mounts and that all to the boat I used quite thick, quite long bolts that go all the way through the panel frames, through the wooden mounts, through the boat deck. This connects the panels very strongly.
+    p I expect the solarpanel glass and aluminium frame would break before the mounting came off if the boat capsized or some other event pulled at them.
     i 2022-01-11_13-38
     p The completed mounted and panels!
     t Solarpanels
     p The real limitation for solar power on a small boat is having enough deck space for the panels and accounting for constant shade from the mast and lines.
-    p For these panels we just picked the biggest ones we could fit in the space: Two 160W panels.
+    p For these panels we just picked the biggest ones we could fit in the space without being too annoyingly large: two 160W panels. 200W or more would fit, but stick out a bit much; risking shins against aluminium frames.
     t Wires through hull
     i 2023-05-06_01-31
     p For the solarpanel cables to get to the charge controller inside the boat I used a 'Scanstrut DS-MULTI' which I'd use again. 
     p They have a stainless steel back and front plates that sandwhich thick rubber which you can push your cables through.
-    p It's a bit expensive but feels very well built.
-    p I positioned this so that it's fully under a panel, so likely to receive minimal water from rain or splashes.
+    p It's a bit expensive but feels very well built and like it really won't ingress water even after a long time. It's also adjustable, it can be unscrewed and cables pulled through if needed, without any mess or clean up (as opposed to silicon on drill holes).
+    p I positioned this so that it's fully under a panel, so it's likely to receive no direct sun and minimal water from rain and splashes.
     i 2022-01-17_10-11
     t Charge Controller
     i 2023-05-06_01-26
@@ -729,7 +731,7 @@ SUN QUEST
     p This time I found that EPEVER have a water proof Charge Controller range 'TracerBP' (MPPT) so I went with that. It seems fully sealed for water which is great. It's not that I expect it to get wet inside the boat, but it is insurance/hope for the worst case and also hopefully better durability with the extremely wet and salty air.
     p I got two 15A ones - one for each solar panel, for a bit of redundency.
     p The charge controllers connect to 'EPEVER MT50' screens.
-    p I'll write better details and instructions here if anyone asks.
+    p I'll write further install details and instructions here if anyone asks.
 
 HORIZON LEAKS
   TITL : Horizon Leaks
@@ -738,6 +740,7 @@ HORIZON LEAKS
   SECT : 1, 6, 8
   HEAD : 2019-11-02_18-50
   DATE : 2023-05-06
+  EDIT : 2023-05-24
   TYPE : project
   BODY
     p Horizon's Trademe auction ended and we purchased her for a cheap price... because she had a leak!
@@ -753,12 +756,12 @@ HORIZON LEAKS
     - Rick: and his wife are a lovely couple, often around the club, often fixing boats!
     i 2019-11-02_18-50
     p Horizon hauled out, ready to start the fixing.. with a helper: Christo!
-    p I always find it surprising seeing yachts out of the water, just how much bigger they feel. In the water Horizon feels like a medium sized boat... out of the water she feels like a three story building.
+    p I always find it surprising seeing yachts out of the water, just how much bigger they feel. In the water Horizon feels like a medium sized boat... out of the water she feels like an abstract three story building.
     i 2019-12-05_14-57
     p The image above shows the problem. Water drips seeping out of Horizon's hull... from tiny cracks in the fibreglass.
-    p It was immeditely clear this was it, water just kept slowly dripping out non-stop.
+    p It was immeditely clear this was it, water just kept slowly dripping out non-stop... then dripping for days.
     p This didn't look bad at all! However we were not totally out of the woods, because we didn't know how long this leak had been going on, and Horizon is wood under the fibreglass so we could have rot!
-    p Horizon hull is made with multiple layers of kauri plywood planking, with an outermost layer of fibreglass under the paint and antifoul. This is called "Glass on Ply".
+    p Horizon hull is made with multiple layers of kauri plywood planking, with an outermost layer of fibreglass under the paint and antifoul. This is called "Glass on Ply" (GOP).
     p The fibreglass layer on the hull seemed quite thin, and had a couple of tiny cracks in this higher stress area where the keel connects to the hull.
     p The next step was to start digging... to investigate how bad the problem is. If the leak had been a problem for many years, and water travelled in far, it could have rotted a lot of wood... who knows! Let's see!
     i 2019-12-05_14-58
@@ -768,14 +771,14 @@ HORIZON LEAKS
     p This shows the rotted wood cut out in only one area, and Helena helping to dry out the wet wood before we can fibreglass Horizon back up.
     p The damage ended up being not too bad, only rotten badly in one small area which we cut out with the advice and guidance of Ceri.
     p Once chopped out we left Horizon to dry out for several weeks, with occasional help of heatguns.
-    i 2019-12-12_21-00 2019-12-12_12-01
-    p Above is the finished fibreglass repair. Again with the help of Ceri who instructed us.
     p He took care of replacing the chunk of cut out rotten wood, replacing wood for wood.
     p Then he helped us how to lay out several layers of very thick fibreglass, on top of a much bigger rounded fillet made of thickened epoxy. This repair meant that Horizon was much more strong than she was.
-    i 2019-12-09_11-19
-    p Above shows the finished fibreglass repair not undercoated with paint.
+    i 2019-12-12_21-00 2019-12-12_12-01
+    p Above is the finished fibreglass repair. Again with the help of Ceri who instructed us.
     i 2019-12-09_11-20
     p Since Horizon was out of the water we took care of a few other maintenance tasks too like repainting the propeller with 'Prop Speed'. This is a gel-like paint which helps keep the propeller clean, as barnicles have trouble growing on it.
+    i 2019-12-09_11-19
+    p Above shows the finished fibreglass repair undercoated with paint.
     i 2019-12-09_19-07
     p This shows Sasha and Jason painting antifoul on top of Horizon's finished repair, the final step.
     i 2019-12-12_21-05

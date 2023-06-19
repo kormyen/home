@@ -8,6 +8,22 @@ Home is a portfolio and exocortex.
 
 See [to do list](https://kor.nz/notes/home-to-do)
 
+## Dev Run
+In Visual Studio Code:
+- right click on `index.html` and choose `Open with Live Server`.
+In Browser:
+- remove `/index.html` from the URL.
+
+## Dev Publish
+In Terminal:
+- `cd` to project directory.
+- `vercel` to upload project.
+
+## Production Publish
+In Terminal:
+- `cd` to project directory.
+- `vercel --prod` to upload project.
+
 ## Dependencies
 - The human-readable data structures [Indental](https://wiki.xxiivv.com/#indental) and [Tablatal](https://wiki.xxiivv.com/#tablatal) created by [Neauoire](http://wiki.xxiivv.com).
 - [vercel](https://vercel.com/download) for server hosting management.
