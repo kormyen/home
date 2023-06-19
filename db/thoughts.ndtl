@@ -323,17 +323,16 @@ HOME TO DO LIST
     p Below are notes for myself on what to do next for this website: {link project home}.
     p 
     2 Add
-    - Home project makes home nav item unavailable.
     - Better content for {link project sylo} proj
     - Better content for {link project swordy} proj
     - 404 page
-    - /uses page https://marcjenkins.co.uk/uses/
-    - 'link project namehere' should give the projects TITL as the label not the namehere
     - Add a list (and count?) of all tags in posts/articles on list pages (projects, photos, thoughts, notes, blogs)
     - make better article font and formating handling, make meta page https://wiki.xxiivv.com/site/meta.html
     - Internal link validation tool.
     p 
     2 Fix bugs
+    - Home project makes home nav item unavailable.
+    - 'link project namehere' should give the projects TITL as the label not the namehere
     - Weird position offset in photo page list (switch between home/projects/photos repeat)
     - At exactly 1280px width screen causes weird sidebar indent. not 1279 with down or 1281 up, exactly 1280 only.
     - Fix Opengraph/twitter meta cards don't work {link thought js-spas-and-seo 'with SPA'} 
@@ -351,7 +350,6 @@ HOME TO DO LIST
     - soul food (needs images)
     p 
     2 Finish article (formatting needed)
-    - Sailing projects page
     - van??
     - swordy ea release
     - migw and pax 14
