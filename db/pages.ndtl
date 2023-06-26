@@ -28,6 +28,7 @@ PROJECTS
   HEAD : 2011-11-25_12-00
   PRNT : INDEX
   BODY
+    p We build the projects and the projects build us.
     p 
     b projectsAll
 

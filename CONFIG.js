@@ -11,3 +11,12 @@ ICON_PERSON = `user-solid`;
 ICON_LOCATION = 'location-dot-solid';
 ICON_EDIT = `pen-solid`;
 ICON_LOG = `record-vinyl-solid`
+
+ICON_HOME = `house-solid`
+ICON_PROJECTS = `tree-solid`
+ICON_PHOTOS = `square-solid`
+ICON_THOUGHTS = `cloud-solid`
+ICON_NOTES = `note-sticky-solid`
+ICON_BLOGS = `message-solid`
+ICON_HAMISH = `user-solid`
+ICON_NOW = `stopwatch-solid`

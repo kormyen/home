@@ -1,9 +1,9 @@
 :root {
-  --color-highlight: #FFF;
-  --color-primary: #EEE;
-  --color-secondary: #999;
-  --color-tertiary: #333;
-  --color-background: #000;
+  --color-highlight: #FFF; /* filter: invert(100%) sepia(19%) saturate(1863%) hue-rotate(179deg) brightness(111%) contrast(101%); */
+  --color-primary: #EEE; /* filter: invert(99%) sepia(6%) saturate(7%) hue-rotate(322deg) brightness(114%) contrast(87%); */
+  --color-secondary: #999; /* filter: invert(64%) sepia(0%) saturate(497%) hue-rotate(160deg) brightness(95%) contrast(89%); */
+  --color-tertiary: #333; /* filter: invert(16%) sepia(0%) saturate(4%) hue-rotate(24deg) brightness(91%) contrast(84%); */
+  --color-background: #000; /* filter: invert(0%) sepia(0%) saturate(7455%) hue-rotate(164deg) brightness(94%) contrast(100%); */ 
 
   --size-mainWidth: 80em;
   --size-columnPaddingSubtle: 3px; /* Connected elements */
@@ -133,12 +133,8 @@ header:hover .photoInfoContainer {
 .metadataItemIcon {
   height: 1em;
   width: 1em;
-  color: #FFFFFF;
   margin-right: var(--size-columnPaddingNormal);
-}
-
-svg {
-  color: #FFFFFF;
+  filter: invert(99%) sepia(6%) saturate(7%) hue-rotate(322deg) brightness(114%) contrast(87%);
 }
 
 .wrapper { /* Setup for forcing the footer to sticky to the bottom of page even if page content is short */
@@ -151,11 +147,16 @@ svg {
   padding-top: var(--size-columnPaddingSubtle);
   padding-bottom: var(--size-columnPaddingSubtle);
   border-radius: var(--size-radiusSmall);
+  display: inline-flex;
+  align-items: center;
 }
 .subtleLink:hover {
   text-decoration: none;
   background-color: var(--color-highlight);
   color: var(--color-background);
+}
+.subtleLink:hover .metadataItemIcon {
+    filter: invert(0%) sepia(0%) saturate(7455%) hue-rotate(164deg) brightness(94%) contrast(100%);
 }
 .subtleLinkDisabled {
   text-decoration: none;
@@ -163,6 +164,9 @@ svg {
   padding-top: var(--size-columnPaddingSubtle);
   padding-bottom: var(--size-columnPaddingSubtle);
   border-radius: var(--size-radiusSmall);
+}
+.subtleLinkDisabled .metadataItemIcon {
+  filter: invert(64%) sepia(0%) saturate(497%) hue-rotate(160deg) brightness(95%) contrast(89%);
 }
 
 
@@ -551,30 +555,6 @@ svg {
     flex-direction: row;
   }
 }
-#sidebarSocial {
-  margin-top: var(--size-columnPaddingMedium);
-  width: 100%;
-  display: none;
-}
-@media screen and (min-width: 80em) { /* MAX WIDTH REACHED */
-  #sidebarSocial {
-    display: block;
-  }
-}
-#sidebarSocial > * {
-  /* margin-left: var(--size-columnPaddingNormal); */
-  /* margin-right: var(--size-columnPaddingNormal); */
-}
-@media only screen and (max-width: 50em) /* MIN WIDTH REACHED */
-{
-  #sidebarSocial {
-    text-align: left;
-  }
-  #sidebarSocial > * {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
 
 .articleSpacer {
   height: 100%;
@@ -685,10 +665,12 @@ svg {
 .socialIcon {
   height: 1.8em;
   width: 1.8em;
-  opacity: 0.7;
+  filter: invert(99%) sepia(6%) saturate(7%) hue-rotate(322deg) brightness(114%) contrast(87%);
+  border-radius: var(--size-radiusSmall);
 }
 .socialIcon:hover {
-  opacity: 1;
+  filter: invert(0%) sepia(0%) saturate(7455%) hue-rotate(164deg) brightness(94%) contrast(100%);
+  background-color: var(--color-highlight);
 }
 @media screen and (min-width: 80em) { /* MAX WIDTH REACHED */
   .socialIcon {
@@ -725,7 +707,6 @@ svg {
   height: 2em;
   white-space: pre-wrap;
 }
-@media only screen and (max-width: 50em) /* MIN WIDTH REACHED */
-{
-  
+#footerSocial {
+  display: flex;
 }
