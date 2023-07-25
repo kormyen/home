@@ -279,7 +279,7 @@ ARDUSAMBER
   TYPE : project
   BODY
     p This project for me was playing with and learning Arduino basics and thinking about time.
-    p Building this lead me toward designing {link project dastime}.
+    p Building this lead me toward designing {link project overview}.
     p The time formats are {link ext neauoire}'s 'Neralie' and 'Arvelie'.
     i 2018-06-04_12-00
     t Time (Neralie)
@@ -302,48 +302,47 @@ ARDUSAMBER
   LINK
     - {link ext ardusamberSource}
 
-DASTIME
-  TITL : Dastime
+OVERVIEW
+  TITL : Overview
   DESC : A clock design.
   TAGS : code, electronics, time, physical
   BREF : custom clock
   SECT : 3, 4
   DATE : 2018-07-05
+  EDIT : 2023-07-25
   TYPE : project
   BODY
-    p I started this after being inspired by {link ext neauoire}'s time formats and my experimenting with them in {link project ardusamber}.
-    i 2018-07-05_12-03
-    p I wanted to design my own clock face that was ideally entirely visual.
+    t 2018
+    p I started this project in July 2018 after being inspired by {link ext neauoire}'s time formats and my experimenting with them in {link project ardusamber}. I began playing with the Overview clock design with DIY hardware Arduino like {link project ardusamber}.
+    i 2018-07-05_12-02
     p I wanted something organic in contrast to {link ext neauoire}'s very digital Neralie. Being mostly nocturnal during this time a thing that bothered me about Neralie was that the fidelity of readability decreased as time approached midnight.
-    p This lead me to wanting Dastime being circular, spherical or somehow even through it's revolutions.
+    p This lead me to wanting the clock to be circular, spherical or somehow even through it's revolutions.
     i 2018-07-05_12-01
-    p During this time I was listening through the whole backlog of the {link ext philosophizeThis} podcast and arrived at {link ext philosophizeDasein} which talks about Phenomenology and Dasein...
     p Dasein "is a form of being that is aware of and must confront such issues as personhood, mortality and the dilemma or paradox of living in relationship with other humans while being ultimately alone with oneself."
     p "Dasein for Heidegger can be a way of being involved with and caring for the immediate world in which one lives, while always remaining aware of the contingent element of that involvement, of the priority of the world to the self, and of the evolving nature of the self itself."
     p "...turning away from the collective world of Them, to face Dasein, one's individuality, one's own limited life-span, one's own being."
     p Those explanations are difficult to parse but to me Dasein means having an understanding of the social, cultural and historic context, origin and byproducts of the things you live under, affect and drive you... then choosing which you want to allow to drive you toward your goals.
-    p In this regard I wanted the clock face to reference to the origins of time, or rather how we beings from planets measure it - the rotation of our home planet producing periods of light and dark in direct view and shade of our home star.
-    i 2018-07-05_12-02
-    p The letters and numbers are there for debugging.
-    p It is a top down view of Earth and the moon looking at the north pole, through to the south pole.
-    p The triangle is your latitude which rotates mimicing Earth's rotation.
-    p The white light on Earth shows the direction of the Sun which tells you roughly how far through the year you are (the Earth orbiting Sol). In the photo above it is 45% of the way through the year.
-    p The position of the triangle as it rotates tells you the time of the day in reference to the direction of the sun light. Directly pointing toward the sun would be noon. In the photo it is nearly midnight.
-    p The light on Earth fills to show the time of month. In the photo it is 53% the way through the month.
-    p The other circle is the moon. The position of it as it orbits Earth tells you the current moon phase. The white light on the moon fills as it approaches the direction of the sun to reflect this (full white would be full moon).
-    p I got this all displaying on Arduino but not animating.
-    p I am happy with the time of day and lunation representations, but I think I can improve the day of month and month of year indications.
-    p I'd consider adding an indication for the day of the week, moon types (blood, blue, super etc), seasons, solstice, and presession.
-    p I would like to return to this project but will probably iterate the design with javascript before completing the Arduino version.
+    p Every time you check your watch; you see a reminder that we are space pirates on a living rock flying through the universe at 200 km per second.
+    p A 24h clock face design that more literally references the origins of how we beings on planets measure time - the rotation of our home planet producing periods of light and dark in direct view and shade of our home star.
+    p The design is a top down flat abstract cross section view of Earth and a view of the moon representing it's current phase.
+    p The triangle is your position on Earth which rotates to show the time mimicing Earth's rotation through a day.
+    p The white light on Earth shows the direction of the Sun which tells you roughly how far through the year you are (the Earth orbiting Sol).
+    p The position of the triangle as it rotates tells you the time of the day in reference to the direction of the sun light. Directly pointing toward the sun would be noon.
+    p The light on Earth shows the sunlight hours, the sunrise and sunset times (along with golden hour, civil twilight, nautical twilight, astrological twilight and night)
+    p The other circle is the moon. The position of it as it orbits Earth (and it's corresponding shape) tells you the current moon phase. The white light on the moon fills as it approaches the opposite side of the sun - as from Earth we see this as a "full moon".
+    p 
+    t 2019
     i 2019-07-10_15-07
-    p Still figuring things out...
-    p Note: Keep Earth light percentage fixed at 50% (true to life), have Saturday, Sunday shade fill bg, have current day full fill bg. Might need day seperation lines, will see. The plus for this setup is the large central space of the clock face is dedicated to day of week and day of month - normal human useful things to know. Logical / banal metaphoric placement - this is important info "on Earth".
-    p Alternately day would be on clock edge from direction of sun. Marker lines from month start to month end showing where sun direction changes. The negative of this option is fitting it in with the moon, and away from the time of day notches/marker. The positive is that it is more true to what the day of week / month is counted via.
-    p Day of the week is Earth spins. Day changes at midnight. Day of week indicator could be within the dark side of Earth.
-    p Percentage of month is Earth orbiting Sol arbirary markers of degrees. Notches at edge of screen.
-    p Put gregorian standard time and date on screen instead of YMDL. Have switch for Neralie/Arvelie.
+    p The image above was a sketch revisiting the thinking for this design in July 2019.
+    p
+    t 2023
+    p I returned to this project intent to build it with Javascript in order to have the quickest iteration time to validate ideas and have it actually animate.
+    p In July 2023 I released 'version 1' with the basic time of day, moon phase, and day of month.
+    p I've also been working on 'version 2' with improved moon phase display, and sunlight hours - the sunrise and sunset times (along with golden hour, civil twilight, nautical twilight, astrological twilight and night).
+    i 2023-07-21_12-00
   LINK
-    - {link ext dastimeSource}
+    - {link ext overviewClockLive}
+    - {link ext overviewSource}
 
 FPVMOD
   TITL : FPVMOD

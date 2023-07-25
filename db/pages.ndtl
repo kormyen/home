@@ -8,7 +8,7 @@ INDEX
   BODY
     2 {link page hamish 'Hamish'} is an Experience Designer
     3 Featured {link page projects} of {stat projectsTotal}
-    b projectsLens seekers memex swordy
+    b projectsLens seekers memex overview
     3 Updated {link page projects} of {stat projectsTotal}
     b projectsLensRecent
     3 Featured {link page photos} of {stat photosTotal}
@@ -106,7 +106,7 @@ HAMISH
     - Incrementalism of self - continuous personal development and frequent re-evaluation.
     - Reduction of harm - toward long-termism and lessening negative impact to environment and life.
     t Research
-    - Dasein -  {link project dastime}, {link project memex}, {link project home}
+    - Dasein -  {link project overview}, {link project memex}, {link project home}
     - Productivity - {link project log}
     - Solarpunk - {link blog get-quest}, {link blog get-horizon}, {link project solarsails}, {link project toilet}, {link project sun-quest}
     t Alias
@@ -128,17 +128,20 @@ NOW
   TAGS : Hamish MacDonald, kormyen, now
   HEAD : 2022-08-05_15-32
   PRNT : INDEX
-  DATE : 2023-05-08_19-00
+  DATE : 2023-05-08
+  EDIT : 2023-07-25
   BODY
     2 What I’m focused on now
-    p Updated: 2023-05-07
-    3 Work
-    - Game design, research, ideation, documentation and planning for several {link ext futureverseSite} projects.
+    p Updated: 2023-07-25
+    3 Work work
+    - Game design, research, ideation and documentation for secret {link ext futureverseSite} projects.
     3 Personal
-    - Working on {link project home 'this website'} again! {link thought home-to-do-list}.
+    - Working on {link project overview 'Overview Clock'} again! See here for the {link ext overviewClockLive 'latest live version'}. Drag left and right to time travel.
+    - Plotting and looking forward to the big trip to the 'land' project in September.
+    - Boat and van maintenance.
+    3 Inspired by
+    - A short podcast on the shared ancient stories behind the 'seven sisters' aka 'Matariki stars' aka 'Pleiades'. {link ext matarikiLink}
     3 Reading
-    - 'Colaborative Worldbuilding for Video Games' by Kaitlin Tremblay.
+    - Still intending to read 'Colaborative Worldbuilding for Video Games' by Kaitlin Tremblay...
     i 2023-04-19_13-55
-  LINK
-    - {link ext derekSilversNow}
 `
