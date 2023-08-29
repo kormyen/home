@@ -288,22 +288,21 @@ LONG SITE
     p 
     2 Philosophy of the "Long Now"
     p An attempt at simplicity to help survive as {link ext techDegrades}.
-    - "the people who knew how to do this are no longer here". Examples: {link ext antikythera} and {link ext rongorongo} from {link ext eventEverything}
-    - "the technology that makes this work no longer works". Examples: {link ext leftPadIncident} from {link ext humansInSoftware}
+    p "the people who knew how to do this are no longer here". Examples: {link ext antikythera} and {link ext rongorongo} from {link ext eventEverything}
+    p "the technology that makes this work no longer works". Examples: {link ext leftPadIncident} from {link ext humansInSoftware}
     p 
     p I found this quote and term {link ext longSite} on {link ext gwern} an inspiration in this regard:
     p "The Internet is self destructing paper. A place where anything written is soon destroyed by rapacious competition and the only preservation is to forever copy writing from sheet to sheet faster than they can burn..." Julian Assange  ({link ext destructingPaper}, 5 December 2006)
-    p This above thinking for me is entirely insprired by {link ext neauoire "Devine"} and {link ext rekka} of {link ext rabbits} who I met in Whangarei and travelled to Wellington with.
+    p This above thinking for me is entirely insprired by {link ext neauoire 'Devine'} and {link ext rekka} of {link ext rabbits} who I met in Whangarei and travelled to Wellington with.
     p This talk {link ext weatherSoftwareVid} and {link ext weatherSoftwareTex} goes into their rationale and inspiration for technology that is simple, easy to edit and easy to maintain.
+    p
+    p "How do we make web content that can last and be maintained for at least 10 years?" from {link ext webDesignedToLast}
     p
     2 Clock of the Long Now
     y w9uM6BBKfO8
+    p 
     y zeDW0PPZ-_c
     p This is an inspiring project from 'The Long Now Foundation' to create a clock that will last 10,000 years.
-    p 
-    p https://mxb.dev/blog/the-css-mindset/
-    p https://anewdigitalmanifesto.com/
-    p https://small-tech.org/about/#non-colonial
   LINK
     - {link ext jamieTannaWhy}
     - {link ext oneBigFlukeWhy}
@@ -311,6 +310,9 @@ LONG SITE
     - {link ext indiewebWhy}
     - {link ext longSite}
     - {link ext clockUpdate}
+    - {link ext webDesignedToLast}
+    - {link ext digitalManifesto}
+    - {link ext nonColonial}
 
 HOME TO DO LIST
   TITL : Home to do list

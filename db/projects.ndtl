@@ -130,7 +130,7 @@ HOME
     2 2019
     i 2019-07-09_21-13
     p The way the site is built is to allow the actual content to be easy to move around (text database), copy (human readable) and store (easily accessed standard files), while the visual display of it may change.
-    p This above thinking for me is entirely insprired by {link ext neauoire "Devine"} and {link ext rekka} of {link ext rabbits} who I met in Whangarei and travelled to Wellington with.
+    p This above thinking for me is entirely insprired by {link ext neauoire 'Devine'} and {link ext rekka} of {link ext rabbits} who I met in Whangarei and travelled to Wellington with.
     p They showed me the concept of {link note long-now}
     p With a focus on simplicity and minimalism in it's structure and core content setup. It is hopefully some form of foundational base to build upon into time.
     p At the very least with it's use of a human-readable data database; it's content should be portable between future website versions and long term, and simple to archive. 
@@ -338,8 +338,9 @@ OVERVIEW
     t 2023
     p I returned to this project intent to build it with Javascript in order to have the quickest iteration time to validate ideas and have it actually animate.
     p In July 2023 I released 'version 1' with the basic time of day, moon phase, and day of month.
+    i 2023-07-06_00-42
     p I've also been working on 'version 2' with improved moon phase display, and sunlight hours - the sunrise and sunset times (along with golden hour, civil twilight, nautical twilight, astrological twilight and night).
-    i 2023-07-21_12-00
+    i 2023-07-26_17-50
   LINK
     - {link ext overviewClockLive}
     - {link ext overviewSource}
@@ -455,7 +456,7 @@ VAN
   TITL : Van
   DESC : A mobile stealth tiny house.
   TAGS : electronics, offgrid, physical
-  BREF : stealth campervan
+  BREF : stealth camper
   SECT : 1, 2, 3, 4, 6, 7
   TYPE : project
   DATE : 2017-09-30
@@ -732,8 +733,8 @@ SUN QUEST
     p The charge controllers connect to 'EPEVER MT50' screens.
     p I'll write further install details and instructions here if anyone asks.
 
-HORIZON LEAKS
-  TITL : Horizon leaks
+HORIZON LEAK
+  TITL : Horizon leak
   DESC : To fix a leaking boat
   TAGS : physical, wood
   SECT : 1, 6, 8
@@ -782,4 +783,66 @@ HORIZON LEAKS
     p This shows Sasha and Jason painting antifoul on top of Horizon's finished repair, the final step.
     i 2019-12-12_21-05
     p Horizon back in the water, no longer sinking!
+
+SUN LAND
+  TITL : Sun land
+  DESC : DIY solar power for land
+  TAGS : physical, electronics, offgrid
+  BREF : PV power
+  SECT : 1, 6, 8
+  HEAD : 2023-01-14_07-45
+  DATE : 2023-08-30
+  EDIT : 
+  TYPE : project
+  BODY
+    p {link ext sarahPortfolio 'Sarah'} and I purchased land yay! To be there we need power...
+    p
+    t The plan
+    p The size of this system was less about {link ext electricalUseEst 'calculating for power requirements'} and more a decent setup within small SUV cargo capacity - to easily get the equipment to its destination.
+    p I considered buying this pre-made {link ext bachKit} but I already had a set of batteries and panels. It made for a good reference set.
+    p This is the system diagram shared below for interest and reference. If I've done anything wrong, let me know.
+    i 2023-08-28_23-38
+    p This is roughly the {link ext barrierPvSheet 'list of equipment with prices'}.
+    i 2023-08-27_22-35
+    p
+    t Ground Screws
+    p I wanted this to be strong to hopefully survive a falling tree impact, heavy rain and/or strong wind. We tried out "ground screws" for this - giant metal screws you screw into the ground for foundation instead of wooden posts in holes full of concrete.
+    p As an alternative to wooden piles in concrete footings, ground screws offer removability, reusability, longer life (rust vs rot), less environmental impact (no concrete), and "quicker" install with no drying time.
+    p 
+    t Electrical Grounding
+    p I found it very weird that electrical diagrams and explainers seem to hardly ever include grounding wiring and explanations on grounding requirements.
+    p Grounding is important for when things go wrong - in the case of a short/fault or a lightning strike. In these cases the electrical danger will be directed to the ground hopefully instead of causing fire.
+    p I assume most system do use, but not many seem to talk about "{link ext groundingWasher 'grounding washers'}", they can be used to electrically tie all of the solar panel frames to their mounting rails, which can then be grounded with the standard grounding rod.
+    p
+    t Electrical Enclosure
+    p I needed a box to put all of the electronics in to keep them safe from the weather as this setup is standalone outside.
+    p Searching around I could only find good cabinets for around $500 which I wasn't keen to pay. Instead I ended up spending about $250 and a bunch of time buiding a DIY one. 
+    p If I were to do it again I'd try to search more for a good pre-constructed one to save some time.
+    p The box I made is good for now, but very cramped - if doing it again, I'd make it bigger.
+    p It basically feels like building a big wooden home computer.
+    p 
+    t Charge Controller
+    p Victron seem to be the gold standard desirable charge controllers. I've had experience with EPEVER with my {link project van 'van'} and {link project sun-quest 'quest'}, they seem to do the same thing cheaper.
+    p The {link ext epeverMt75 'MT75'} monitor is made to work with a charge controller like {link ext epeverXtra 'XTRA3415N'} and also display info and control an inverter like {link ext epeverIPower 'IP3000-41-Plus'}, which is nice.
+    p 
+    t Fuses
+    p I found figuring out the correct fuses in the right places a bit stressful with this being the biggest system I have built so far.
+    p The basic rule is to fuse everything, and use a fuse that is the max amperage that the thing can use/supply.
+    p The fuses exist to disconnect the system if something ever goes wrong, hopefully stopping wiring or other components from causing fire.
+    p The bigger components gennerally have fuse recommendations in their manuals - like the inverter.
+    p 
+    t The Build
+    p I was quite exhausted by the time we got all of the equipment onto the site and life in general.
+    p A good friend Alex K really did a lot of the install work installing up the ground screws and solar panel mounting.
+    i 2023-01-02_16-00
+    p 
+    p I installed the system wiring with tripple checks of fusing and wiring requirements. This is a photo of the installation in progress. I still need to paint it.
+    i 2023-01-04_15-37
+    p 
+    t Testing
+    p I tested the install with success with a "Power Point and Earth Leakage Tester" on the 240v side which checks for grounding, earth leakage and swapped wires.
+    p I also tested the grounding rod ohms with a multi-meter to make sure that it was properly grounding the system.
+    p 
+    p Very happy with the final install, and have no issues so far since January 2023.
+    i 2023-01-14_07-45
 `
