@@ -51,11 +51,11 @@ function App()
 	this.templateSidebar = new TemplateSidebar();
 	this.templateSidebar.install(this.inline);
 
-	this.router = new Router(this);
-
 	this.capitalizeFirstLetter = function(string) 
 	{
 		string = string.toLowerCase();
 		return string.charAt(0).toUpperCase() + string.slice(1);
 	}
+
+	this.router = new Router(this);
 }
