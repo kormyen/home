@@ -1,4 +1,145 @@
 var NOTES = `
+THE ART OF SCREENSHAKE
+  TITL : Gamefeel
+  DESC : Notes on gamefeel
+  TAGS : game, research
+  TYPE : note
+  HEAD : 2024-08-24_21-07
+  DATE : 2024-08-21
+  LINK
+    - {link ext gamefeelBook}
+    - {link ext artOfScreenShake}
+    - {link ext juiceItOrLooseIt}
+    - {link ext allThingsGameFeel}
+    - {link ext washYourwindows}
+    - {link ext deathAnimationSuck}
+  BODY
+    t What is Gamefeel?
+    - Gamefeel is "virtual sensation" - Steve Swink {link ext gamefeelBook}.
+    - Gamefeel gives feedback to player's inputs.
+    - Player experience in interacting with a game on a tactile and kinaesthetic level - "It's about speed, pacing, difficulty, flow and the second to second experience" - {link ext allThingsGameFeel}.
+    - Player feedback in dispelling player expectations, and communication effectively game events effectively to immerse the player.
+    - Player connection in giving everything context and meaning to amplify understanding. Creating your own design language and metaphor in your game.
+    - Making things fun! Motion, tying things together, and making things feel fun. 
+    p 
+    p "Just fill your games with love, and tiny details" - Jan Willem Nijman.
+    p 
+    t Within Context!
+    p Good "gamefeel" is designed to fit within it's game’s context. Gamefeel should enhance the game's design, and fit thematically within the moment rather than simply adding over the top juice effects for the sake of it.
+    p If everything is juicy then nothing is juicy - so focus on what is important to highlight for the player.
+    p 
+    p You have the game and a player.
+    i 2024-08-24_21-36
+    p Step 1 (red) The game goes into the player's head through visuals and sound.
+    p Step 2 (purple) The player puts input into the game.
+    p Step 3 (cyan) The player's inputs make the game change, those changes are communicated to the player.
+    p Step 4 (green) The player considers the changes (ideas, planning, meaning).
+    p Step 5 (yellow) The player inputs those ideas, plans, and meaning into the game and the cycle continues.
+    p 
+    p Gamefeel is Step 3 (cyan) where the game goes back into the player.
+    p Those tiny details should "communication the changes that the player put into the game" - give the player additional feedback, and build toward the feel of the theme.
+    i 2024-08-24_21-37
+    p
+    t Gamefeel aspects by Ashley Gwinnell
+    p INPUT
+    - Inputs events (jump on key down, UI on mouse up so that mouse-out can cancel).
+    - All input should have obvious visible outcomes.
+    - Gamepad joystick deadzones (25% inner deadzone default but ideally customisable).
+    p MOVEMENT
+    - Subtle micro-accelleration (very high acceleration to max speed) feels good.
+    - Principles of motion: squash, stretch, anicipation, exaggeration.
+    - Easing - nice speed changes over time.
+    - Easing Continuity - ease out scale enemies up from zero on spawning.
+    - Easing Movement - walking bounce or waddle with easing.
+    - Easing camera tweens - out, and in-out.
+    - Easing Wobbles - Scale, rotation, delay.
+    - Easing Inputs - easing movement input can help for aligning the feel of the input with crouching or sneaking.
+    - Easing adds personality.
+    - Elasticity, bouciness, overshoot easing (if applicable) add charm to your game.
+    - Easing enables you to create your own recognisable design language and motifs for your game.
+    p WAVEFORMS
+    - Sine, Square, Triagle, Sawtooth waveform patterns can be used for movement, modulation, and generating meshes.
+    p CAMERAS
+    - Player controls and camera controls are often intertwined.
+    - Transitions matter.
+    p SCREENSHAKE
+    - Important to consider why you shake - most cases are to visualize a disturbance of air between the gameplay action and the camera such as explosions. It might be to suggest a character is in a bad way: headaches, tinnitus, loud noises.
+    - Translate Noise - feels retro, and more "static" than an explosion.
+    - Translate Smooth - smooth patterned movement like circular or mobius loop (Periodic functions), stronger in the beginning and weaker at the end (Easing functions).
+    - Rotation Smooth - good when used subtly as it can be diorientating, eased out toward the end so it doesn't abruptly stop.
+    - Axis locked - all motion is meaningful, restricting movement to axis can convey positive action or negative action (password wrong input shake).
+    - Don't shake your UI
+    - Consider less shake.
+    - If local multiplayer you must consider the perception of other players.
+    p PARTICLES
+    - Real random vs curated "random" - often curated looks better.
+    - Gibs and collisions!
+    p TRANSITIONS
+    - Fade to color
+    - Cover screen with squares - feels quite retro. Can be directional with last player movement.
+    - Lines across screen.
+    - Blood dripping like screen wipe (DOOM 1)
+    - Curtains
+    - Dreamy waveyness
+    - Use your imagination
+    - seamless Transitions
+    p TEXT
+    - Subtle ofset movement to give ominous feeling.
+    - Fast delivery speed - excitement or panic
+    - Large font - shouting, singing, ignoring
+    - Small greyed out text - inner monolog or whispering
+    - Shake - spookey, scared, warry
+    - Rainbow effect - happiness, excitement
+    - Colored words - focus
+    - Glitch text - broken, disfunctional
+    - Think through how the text can convey emotions and feelings.
+    p TIPS
+    - Always have something moving on screen
+    - Follow principles of motion, even with UI
+    - Always follow visul heirachy
+    - Be forgiving, make it fluit, make it joyful
+    - Have chain-reactions. Have explosions trigger other explosions.
+    - Attract mode (on no player input)
+    - Use Ik.
+    - Always ask "why?" - if everything is juiced, then nothing is juiced - use these effects deliberately.
+    p RECAP
+    - Make it fun to walk around.
+    - Make it fun to move your cursor over things.
+    - Make it fun to do the most menial action there is!
+    - Make everything fun through motion!
+    p 
+    t Gamefeel implementation example from Jan Willem Nijman
+    p "30 tiny tricks that will make your (2d sidescrolling) action game better" previously named "The art of screenshake" previously named "Gamefeel" by Jan Willem Nijman of Vlambeer at INDIGO 2013.
+    - Basic animations and sound
+    - Lower enemy HP
+    - Higher rate of fire
+    - More enemies
+    - Bigger bullets
+    - Muzzle flash
+    - Less accuracy
+    - Impact effects
+    - Hit animation
+    - Enemy knockback
+    - Permanence (like corpses)
+    - Camera lerp (camera moves lightly ahead where the player is aiming)
+    - Screen Shake (on impactful effects like shots, damage)
+    - Knockback (items like guns cause force of characters)
+    - Sleep (freeze the game for 20ms on moments of impact like damage and death)
+    - Gun delay (carried objects lag and look like the move with weight)
+    - Strafe 
+    - More permanence (like bullets)
+    - More bass (deeper bass sound feels more impactful)
+    - Super Machine Gun (duplicate stuff, it's easy can can feel good like tripple bullets)
+    - Explosions
+    - Faster enemies
+    - More enemies!
+    - Even higher rate of fire
+    - Camera kick (directional screenshake away from impacts like gun fire so it feels like knock back)
+    - Bigger explosions!
+    - Even more permanence (like gibs)
+    - Meaning
+    p It's worth checking out the attached links and references.
+
 17 INDIE GAMEDEV LESSONS
   TITL : 17 indie gamedev lessons
   DESC : Notes on "17 lessons learned" in indie gamedev

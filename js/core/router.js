@@ -102,7 +102,6 @@ function Router(app)
         else if (pageData.PRNT)
         {
             // child page like POST, ARTICLE, PROJECT
-            console.log(app);
             app.templateMeta.display(pageData, app.capitalizeFirstLetter(pageData.PRNT));
             let parentPageData = app.pages.get(pageData.PRNT);
             let originPageData = app.pages.get(parentPageData.PRNT);
